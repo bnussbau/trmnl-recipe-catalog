@@ -1,0 +1,300 @@
+bnussbau-trmnl-austrian-train-departures:
+  name: 'Austrian Train Departures (OEBB)'
+  trmnlp:
+    id: 28271
+    repo: 'https://github.com/bnussbau/trmnl-austrian-train-departures/'
+    zip_url: 'https://github.com/bnussbau/trmnl-austrian-train-departures/archive/d8f175e57d1378541c9b6eff545d4c96a426e29d.zip'
+    version: d8f175e
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/h9zmyi8yt117fehvb1cuw06v0wta'
+  screenshot_url: 'https://github.com/user-attachments/assets/440f3c3e-ee12-4493-b94e-a2cd6e9e61f5'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.13.0
+  author:
+    github: bnussbau
+    name: 'Ben Nussbaum'
+  funding:
+    custom: 'https://usetrmnl.com/?ref=laravel-trmnl'
+    buy_me_a_coffee: bnussbau
+    github: bnussbau
+  author_bio:
+    description: 'Train departures for the Austrian OEBB. Data attribution dbf.finalrewind.org'
+    github_url: 'https://github.com/bnussbau/trmnl-austrian-train-departures/'
+    learn_more_url: 'https://github.com/bnussbau/trmnl-austrian-train-departures/blob/main/README.md'
+bnussbau-trmnl-bookclub-planner:
+  name: 'Book Club Planner'
+  trmnlp:
+    id: 126964
+    repo: 'https://github.com/bnussbau/trmnl-bookclub-planner'
+    zip_url: 'https://github.com/bnussbau/trmnl-bookclub-planner/archive/9aed8822462c1bf5266ad43110c21dd736ff7540.zip'
+    version: 9aed882
+  logo_url: 'https://raw.githubusercontent.com/bnussbau/trmnl-bookclub-planner/refs/heads/main/logo.png'
+  screenshot_url: 'https://github.com/user-attachments/assets/440f3c3e-ee12-4493-b94e-a2cd6e9e61f5'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.13.0
+  author:
+    github: bnussbau
+    name: 'Ben Nussbaum'
+  funding:
+    custom: 'https://usetrmnl.com/?ref=laravel-trmnl'
+    buy_me_a_coffee: bnussbau
+    github: bnussbau
+  author_bio:
+    description: 'Plan your reading and track your progress leading up to your next book club meeting'
+    github_url: 'https://github.com/bnussbau/trmnl-bookclub-planner'
+    learn_more_url: 'https://github.com/bnussbau/trmnl-bookclub-planner/blob/main/README.md'
+bnussbau-trmnl-pollen-forecast-eu:
+  name: 'Pollen Forecast (EU)'
+  trmnlp:
+    id: 56803
+    repo: 'https://github.com/bnussbau/trmnl-pollen-forecast-eu'
+    zip_url: 'https://github.com/bnussbau/trmnl-pollen-forecast-eu/archive/9ae1397cd22b71d51d22a481e3f7986967939b91.zip'
+    version: 9ae1397
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/cmfvfk300uaiyihuonrbhw8rnosi'
+  screenshot_url: 'https://github.com/user-attachments/assets/cc98fc44-c241-4d95-bbd5-4b7caef0a5a6'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.13.0
+  author:
+    github: bnussbau
+    name: 'Ben Nussbaum'
+  funding:
+    custom: 'https://usetrmnl.com/?ref=laravel-trmnl'
+    buy_me_a_coffee: bnussbau
+    github: bnussbau
+  author_bio:
+    description: 'Display your sleeper league matchups by week'
+    github_url: 'https://github.com/bnussbau/trmnl-pollen-forecast-eu'
+    learn_more_url: 'https://github.com/bnussbau/trmnl-pollen-forecast-eu/blob/main/README.md'
+bnussbau-trmnl-sleeper-matchups:
+  name: 'Sleeper Matchups'
+  trmnlp:
+    id: 140922
+    repo: 'https://github.com/bnussbau/trmnl-sleeper-matchups'
+    zip_url: 'https://github.com/bnussbau/trmnl-sleeper-matchups/archive/72c142ca614ae5c6daf63a9daa5425de3541469b.zip'
+    version: 72c142c
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ql8zdbuvf53ypvjinjxbpym4sn5i'
+  screenshot_url: 'https://github.com/user-attachments/assets/a4abd239-0dbb-49e2-9df0-4cba7bcd870c'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.13.0
+  author:
+    github: bnussbau
+    name: 'Ben Nussbaum'
+  funding:
+    custom: 'https://usetrmnl.com/?ref=laravel-trmnl'
+    buy_me_a_coffee: bnussbau
+    github: bnussbau
+  author_bio:
+    description: 'Display your sleeper league matchups by week'
+    github_url: 'https://github.com/bnussbau/trmnl-sleeper-matchups'
+    learn_more_url: 'https://github.com/bnussbau/trmnl-sleeper-matchups/blob/main/README.md'
+bnussbau-trmnl-sleeper-standings:
+  name: 'Sleeper Standings'
+  trmnlp:
+    id: 141171
+    repo: 'https://github.com/bnussbau/trmnl-sleeper-standings'
+    zip_url: 'https://github.com/bnussbau/trmnl-sleeper-standings/archive/a516fac7bdb60d8ce7cc57dcfb9d9910f94d0c5b.zip'
+    version: a516fac
+  logo_url: 'https://raw.githubusercontent.com/bnussbau/trmnl-sleeper-standings/refs/heads/main/logo.png'
+  screenshot_url: 'https://github.com/user-attachments/assets/aa65b249-43b6-400c-abb7-d6ee0e25ec1f'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.13.0
+  author:
+    github: bnussbau
+    name: 'Ben Nussbaum'
+  funding:
+    custom: 'https://usetrmnl.com/?ref=laravel-trmnl'
+    buy_me_a_coffee: bnussbau
+    github: bnussbau
+  author_bio:
+    description: 'Display your sleeper league standings'
+    github_url: 'https://github.com/bnussbau/trmnl-sleeper-standings'
+    learn_more_url: 'https://github.com/bnussbau/trmnl-sleeper-standings/blob/main/README.md'
+bnussbau-trmnl-vienna-metro-departures:
+  name: 'Vienna Metro Departures'
+  trmnlp:
+    id: 98534
+    repo: 'https://github.com/bnussbau/trmnl-vienna-metro-departures'
+    zip_url: 'https://github.com/bnussbau/trmnl-vienna-metro-departures/archive/83da929994ca60cc4f36cae7457f493d6b60977d.zip'
+    version: 83da929
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/h9zmyi8yt117fehvb1cuw06v0wta'
+  screenshot_url: 'https://github.com/user-attachments/assets/cd81f95c-76f4-4886-821c-017b65ca7be8'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.13.0
+  author:
+    github: bnussbau
+    name: 'Ben Nussbaum'
+  funding:
+    custom: 'https://usetrmnl.com/?ref=laravel-trmnl'
+    buy_me_a_coffee: bnussbau
+    github: bnussbau
+  author_bio:
+    description: 'Metro departures for Vienna, Austria. Data attribution data.gv.at'
+    github_url: 'https://github.com/bnussbau/trmnl-vienna-metro-departures'
+    learn_more_url: 'https://github.com/bnussbau/trmnl-vienna-metro-departures/blob/main/README.md'
+stephenyeargin-trmnl-pbs-kids:
+  name: 'PBS Kids'
+  trmnlp:
+    id: 110655
+    repo: 'https://github.com/stephenyeargin/trmnl-pbs-kids'
+    zip_url: 'https://github.com/stephenyeargin/trmnl-pbs-kids/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/0tqsvsthwc0g9im6xmo2vcj9btm0'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: '1'
+      compatibility_note: null
+      min_version: 0.13.0
+  author:
+    github: stephenyeargin
+    name: 'PBS Kids'
+    id: '110655'
+  funding: {  }
+  author_bio:
+    description: '🚸 PBS Kids for TRMNL'
+    homepage: 'https://usetrmnl.com/recipes/110655'
+stephenyeargin-trmnl-pixelfed:
+  name: Pixelfed
+  trmnlp:
+    id: 103958
+    repo: 'https://github.com/stephenyeargin/trmnl-pixelfed'
+    zip_url: 'https://github.com/stephenyeargin/trmnl-pixelfed/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/9eeluw5i22dlxfbhgzb3xjf0nui9'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: '1'
+      compatibility_note: null
+      min_version: 0.13.0
+  author:
+    github: stephenyeargin
+    name: Pixelfed
+    id: '103958'
+  funding: {  }
+  author_bio:
+    description: '📸 Pixelfed for TRMNL'
+    homepage: 'https://usetrmnl.com/recipes/103958'
+sun-defas-departures:
+  name: 'DEFAS Departures'
+  trmnlp:
+    id: 137663
+    repo: 'https://forgejo.sny.sh/sun/TRMNL/src/branch/main/recipes/defas-departures'
+    zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/defas-departures.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: Unlicense
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.13.0
+  author:
+    github: TheLastZombie
+    name: Sunny
+  funding: {  }
+  author_bio:
+    name: Sunny
+    description: 'Professional programmer and designer, among other things.<br>This recipe displays the next departures for stops in Bavaria using the EFA API.'
+    github_url: 'https://github.com/TheLastZombie'
+    learn_more_url: 'https://sny.sh/'
+    email_address: sunny@sny.sh
+sun-film-guide:
+  name: 'German Film Guide'
+  trmnlp:
+    id: 130454
+    repo: 'https://forgejo.sny.sh/sun/TRMNL/src/branch/main/recipes/film-guide'
+    zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/film-guide.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/o8jjf4q5m62lmlqrwtwk7fg7vy6f'
+  screenshot_url: null
+  license: Unlicense
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.13.0
+  author:
+    github: TheLastZombie
+    name: Sunny
+  funding: {  }
+  author_bio:
+    name: Sunny
+    description: 'Professional programmer and designer, among other things.<br>This recipe displays the next departures for stops in Bavaria using the EFA API.'
+    github_url: 'https://github.com/TheLastZombie'
+    learn_more_url: 'https://sny.sh/'
+    email_address: sunny@sny.sh
+sun-weather-graph:
+  name: 'Temperature Graph'
+  trmnlp:
+    id: 141444
+    repo: 'https://forgejo.sny.sh/sun/TRMNL/src/branch/main/recipes/weather-graph'
+    zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/weather-graph.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/jxxda714yzei5v3wm1u1q9rj0i0t'
+  screenshot_url: null
+  license: Unlicense
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.13.0
+  author:
+    github: TheLastZombie
+    name: Sunny
+  funding: {  }
+  author_bio:
+    name: Sunny
+    description: 'Professional programmer and designer, among other things.<br>This recipe displays the next departures for stops in Bavaria using the EFA API.'
+    github_url: 'https://github.com/TheLastZombie'
+    learn_more_url: 'https://sny.sh/'
+    email_address: sunny@sny.sh
+vimwtf-trmnl-lumon-wellness:
+  name: 'Lumon Wellness'
+  trmnlp:
+    id: 102880
+    repo: 'https://github.com/vimwtf/trmnl-lumon-wellness'
+    zip_url: 'https://github.com/vimwtf/trmnl-lumon-wellness/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/vkhoxf2zms9ch5jkhv4i10jywx81'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: '1'
+      compatibility_note: null
+      min_version: 0.13.0
+  author:
+    github: vimwtf
+    name: 'Lumon Wellness'
+    id: '102880'
+  funding: {  }
+  author_bio:
+    description: 'TRMNL plugin to display facts about your Outie'
+    homepage: 'https://usetrmnl.com/recipes/102880'
