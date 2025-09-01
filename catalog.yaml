@@ -73,7 +73,7 @@ bnussbau-trmnl-pollen-forecast-eu:
     buy_me_a_coffee: bnussbau
     github: bnussbau
   author_bio:
-    description: 'Display your sleeper league matchups by week'
+    description: 'Pollen forecast in 11 km resolution for most of Europe. Data by open-meteo.com'
     github_url: 'https://github.com/bnussbau/trmnl-pollen-forecast-eu'
     learn_more_url: 'https://github.com/bnussbau/trmnl-pollen-forecast-eu/blob/main/README.md'
 bnussbau-trmnl-sleeper-matchups:
