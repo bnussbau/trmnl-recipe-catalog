@@ -166,7 +166,7 @@ stephenyeargin-trmnl-pbs-kids:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: '1'
+      compatibility: true
       compatibility_note: null
       min_version: 0.13.0
   author:
@@ -189,7 +189,7 @@ stephenyeargin-trmnl-pixelfed:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: '1'
+      compatibility: true
       compatibility_note: null
       min_version: 0.13.0
   author:
@@ -248,7 +248,7 @@ sun-film-guide:
     liberapay: sun
   author_bio:
     name: Sunny
-    description: 'Displays the next departures for stops in Bavaria using the EFA API.'
+    description: "Displays the current day's movie schedule of any cinema in Germany."
     github_url: 'https://github.com/TheLastZombie'
     learn_more_url: 'https://sny.sh/'
     email_address: sunny@sny.sh
@@ -266,7 +266,7 @@ sun-toki-pona:
     byos_laravel:
       compatibility: true
       compatibility_note: null
-      min_version: 0.13.0
+      min_version: 0.16.1
   author:
     github: TheLastZombie
     name: Sunny
@@ -316,7 +316,7 @@ vimwtf-trmnl-lumon-wellness:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: '1'
+      compatibility: true
       compatibility_note: null
       min_version: 0.13.0
   author:
