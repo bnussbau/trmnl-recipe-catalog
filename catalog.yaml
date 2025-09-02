@@ -154,6 +154,313 @@ bnussbau-trmnl-vienna-metro-departures:
     description: 'Metro departures for Vienna, Austria. Data attribution data.gv.at'
     github_url: 'https://github.com/bnussbau/trmnl-vienna-metro-departures'
     learn_more_url: 'https://github.com/bnussbau/trmnl-vienna-metro-departures/blob/main/README.md'
+danmunoz-trmnl-bvg-transit:
+  name: 'BVG - Berlin Public Transport'
+  trmnlp:
+    id: 39029
+    repo: 'https://github.com/danmunoz/trmnl-bvg-transit'
+    zip_url: 'https://github.com/danmunoz/trmnl-bvg-transit/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: danmunoz
+  funding: {  }
+  author_bio:
+    description: "This is a TRMNL plugin that monitors the status of Berlin's BVG Public transportation."
+erikbuild-trmnl-yolink-temperature:
+  name: 'YoLink Temperature Sensor'
+  trmnlp:
+    id: 93606
+    repo: 'https://github.com/erikbuild/trmnl-yolink-temperature'
+    zip_url: 'https://github.com/erikbuild/trmnl-yolink-temperature/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: erikbuild
+    name: 'YoLink Temperature'
+    id: '93606'
+  funding: {  }
+  author_bio:
+    description: 'Simple TRMNL plugin for grabbing the current state of YoLink temperature sensors.'
+jvdmeij-trmnl-countdowngit:
+  name: Countdown
+  trmnlp:
+    id: null
+    repo: 'https://github.com/jvdmeij/trmnl-countdown.git'
+    zip_url: 'https://github.com/jvdmeij/trmnl-countdown.git/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: jvdmeij
+  funding: {  }
+  author_bio:
+    description: null
+    homepage: null
+jvdmeij-trmnl-crypto-fear-and-greed:
+  name: 'Crypto Fear & Greed Index'
+  trmnlp:
+    id: null
+    repo: 'https://github.com/jvdmeij/trmnl-crypto-fear-and-greed'
+    zip_url: 'https://github.com/jvdmeij/trmnl-crypto-fear-and-greed/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: jvdmeij
+  funding: {  }
+  author_bio:
+    description: null
+    homepage: null
+jvdmeij-trmnl-magic-8-ballgit:
+  name: 'Magic 8 Ball'
+  trmnlp:
+    id: 22689
+    repo: 'https://github.com/jvdmeij/trmnl-magic-8-ball.git'
+    zip_url: 'https://github.com/jvdmeij/trmnl-magic-8-ball.git/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/bcdbyz4ovlu3fjfi6ahulz4u3dkv'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: jvdmeij
+  funding: {  }
+  author_bio: {  }
+jvdmeij-trmnl-winnie-the-pooh:
+  name: 'Winnie the Pooh Quotes'
+  trmnlp:
+    id: 23139
+    repo: 'https://github.com/jvdmeij/trmnl-winnie-the-pooh'
+    zip_url: 'https://github.com/jvdmeij/trmnl-winnie-the-pooh/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/aswnh7tkrpj9h6a6tojjclmp383t'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: jvdmeij
+  funding: {  }
+  author_bio: {  }
+jvdmeij-trmnl-word-clock:
+  name: 'Word Clock'
+  trmnlp:
+    id: 19925
+    repo: 'https://github.com/jvdmeij/trmnl-word-clock'
+    zip_url: 'https://github.com/jvdmeij/trmnl-word-clock/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/r3ps7o2rtof9v1kg8o62a9auo0w5'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: jvdmeij
+  funding: {  }
+  author_bio: {  }
+jvdmeij-trmnl-your-life-in-weeks:
+  name: 'Your Life in Weeks'
+  trmnlp:
+    id: 22415
+    repo: 'https://github.com/jvdmeij/trmnl-your-life-in-weeks'
+    zip_url: 'https://github.com/jvdmeij/trmnl-your-life-in-weeks/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/psxyrrygbgz2ys7q4d7xzxakufs3'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: jvdmeij
+  funding: {  }
+  author_bio: {  }
+monsieurm-trmnl-lastfm:
+  name: LastFM
+  trmnlp:
+    id: 25815
+    repo: 'https://github.com/monsieurm/trmnl-lastfm'
+    zip_url: 'https://github.com/monsieurm/trmnl-lastfm/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.13.0
+  author:
+    github: monsieurm
+  funding: {  }
+  author_bio:
+    description: 'Get LastFM last track listened and other user infos on TRMNL device'
+monsieurm-trmnl-yearinprogress:
+  name: 'Year In Progress'
+  trmnlp:
+    id: 27924
+    repo: 'https://github.com/monsieurm/trmnl-yearinprogress'
+    zip_url: 'https://github.com/monsieurm/trmnl-yearinprogress/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: monsieurm
+  funding: {  }
+  author_bio:
+    description: 'This plug-in shows the progress of the year (dots or bar) on TRMNL device'
+saious119-trmnl-anime-of-the-day:
+  name: 'Anime of the Day'
+  trmnlp:
+    id: 48032
+    repo: 'https://github.com/Saious119/trmnl-anime-of-the-day'
+    zip_url: 'https://github.com/Saious119/trmnl-anime-of-the-day/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: Saious119
+  funding: {  }
+  author_bio:
+    description: 'Gives you a random anime of the day from Anilist'
+schrockwell-trmnl-dsn:
+  name: 'NASA Deep Space Network'
+  trmnlp:
+    id: 9540
+    repo: 'https://github.com/schrockwell/trmnl-dsn'
+    zip_url: 'https://github.com/schrockwell/trmnl-dsn/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.13.0
+  author:
+    github: schrockwell
+    name: 'NASA Deep Space Network'
+    id: '9540'
+  funding: {  }
+  author_bio:
+    description: 'A plugin for TRMNL to monitor Deep Space Network communications'
+schrockwell-trmnl-metar:
+  name: METAR
+  trmnlp:
+    id: 21542
+    repo: 'https://github.com/schrockwell/trmnl-metar'
+    zip_url: 'https://github.com/schrockwell/trmnl-metar/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.13.0
+  author:
+    github: schrockwell
+    name: METAR
+    id: '21542'
+  funding: {  }
+  author_bio:
+    description: 'TRMNL private plugin for weather METARs'
+    homepage: null
+snarfulsolutionsgroup-xkcd:
+  name: XKCD
+  trmnlp:
+    id: 18267
+    repo: 'https://github.com/SnarfulSolutionsGroup/TRMNL-Plugins/blob/main/TRMNL_Comic.md'
+    zip_url: 'https://github.com/SnarfulSolutionsGroup/TRMNL-Plugins/raw/39a8e9119853761319b9ec75834010be3761f638/private_plugin_18267.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.13.0
+  author:
+    name: 'SnarfulSolutionsGroup, Akisame-AI'
+    github: SnarfulSolutionsGroup
+  funding: {  }
+  author_bio:
+    description: 'Daily Comic from xkcd'
+    homepage: null
+sriniketh-trmnl-plugin-whos-that-pokemon:
+  name: "Who's That Pokémon?"
+  trmnlp:
+    id: 27251
+    repo: 'https://github.com/sriniketh/trmnl-plugin-whos-that-pokemon'
+    zip_url: 'https://github.com/sriniketh/trmnl-plugin-whos-that-pokemon/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: Apache-2.0
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.13.0
+  author:
+    github: sriniketh
+  funding: {  }
+  author_bio:
+    description: 'A trmnl plugin that displays a random Pokémon every day '
 stephenyeargin-trmnl-pbs-kids:
   name: 'PBS Kids'
   trmnlp:
@@ -200,6 +507,48 @@ stephenyeargin-trmnl-pixelfed:
   author_bio:
     description: '📸 Pixelfed for TRMNL'
     homepage: 'https://usetrmnl.com/recipes/103958'
+stevekennedyuk-trmnl-tfl-status:
+  name: 'Transport for London (TfL) status messages'
+  trmnlp:
+    id: null
+    repo: 'https://github.com/stevekennedyuk/trmnl-tfl-status'
+    zip_url: 'https://github.com/stevekennedyuk/trmnl-tfl-status/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.13.0
+  author:
+    github: stevekennedyuk
+  funding: {  }
+  author_bio:
+    description: null
+    homepage: null
+subtype-space-trmnl-steam-deals:
+  name: 'Steam Deals of the Day'
+  trmnlp:
+    id: null
+    repo: 'https://github.com/subtype-space/trmnl-steam-deals'
+    zip_url: 'https://github.com/subtype-space/trmnl-steam-deals/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: subtype-space
+  funding: {  }
+  author_bio:
+    description: 'TRMNL Recipe/Plugin for displaying top rated deals on Steam'
+    homepage: null
 sun-defas-departures:
   name: 'DEFAS Departures'
   trmnlp:
