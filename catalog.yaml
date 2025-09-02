@@ -252,6 +252,32 @@ sun-film-guide:
     github_url: 'https://github.com/TheLastZombie'
     learn_more_url: 'https://sny.sh/'
     email_address: sunny@sny.sh
+sun-toki-pona:
+  name: 'Random Toki Pona Word'
+  trmnlp:
+    id: 137228
+    repo: 'https://forgejo.sny.sh/sun/TRMNL/src/branch/main/recipes/toki-pona'
+    zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/toki-pona.zip'
+    version: main
+  logo_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/icons/toki-pona.svg'
+  screenshot_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/previews/toki-pona.png'
+  license: Unlicense
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.13.0
+  author:
+    github: TheLastZombie
+    name: Sunny
+  funding:
+    liberapay: sun
+  author_bio:
+    name: Sunny
+    description: 'Professional programmer and designer, among other things.<br>This recipe displays a random Toki Pona word along with its definition.'
+    github_url: 'https://github.com/TheLastZombie'
+    learn_more_url: 'https://sny.sh/'
+    email_address: sunny@sny.sh
 sun-weather-graph:
   name: 'Temperature Graph'
   trmnlp:
