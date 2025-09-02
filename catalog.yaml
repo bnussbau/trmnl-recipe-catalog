@@ -207,8 +207,8 @@ sun-defas-departures:
     repo: 'https://forgejo.sny.sh/sun/TRMNL/src/branch/main/recipes/defas-departures'
     zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/defas-departures.zip'
     version: main
-  logo_url: null
-  screenshot_url: null
+  logo_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/icons/defas-departures.svg'
+  screenshot_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/previews/defas-departures.png'
   license: Unlicense
   byos:
     byos_laravel:
@@ -232,8 +232,8 @@ sun-film-guide:
     repo: 'https://forgejo.sny.sh/sun/TRMNL/src/branch/main/recipes/film-guide'
     zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/film-guide.zip'
     version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/o8jjf4q5m62lmlqrwtwk7fg7vy6f'
-  screenshot_url: null
+  logo_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/icons/film-guide.svg'
+  screenshot_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/previews/film-guide.png'
   license: Unlicense
   byos:
     byos_laravel:
@@ -257,8 +257,8 @@ sun-weather-graph:
     repo: 'https://forgejo.sny.sh/sun/TRMNL/src/branch/main/recipes/weather-graph'
     zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/weather-graph.zip'
     version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/jxxda714yzei5v3wm1u1q9rj0i0t'
-  screenshot_url: null
+  logo_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/icons/weather-graph.svg'
+  screenshot_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/previews/weather-graph.png'
   license: Unlicense
   byos:
     byos_laravel:
