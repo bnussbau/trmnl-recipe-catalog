@@ -300,7 +300,7 @@ sun-weather-graph:
     liberapay: sun
   author_bio:
     name: Sunny
-    description: 'Displays the next departures for stops in Bavaria using the EFA API.'
+    description: 'Displays a temperature graph for the current day.'
     github_url: 'https://github.com/TheLastZombie'
     learn_more_url: 'https://sny.sh/'
     email_address: sunny@sny.sh
