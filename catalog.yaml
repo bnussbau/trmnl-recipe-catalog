@@ -207,8 +207,8 @@ sun-defas-departures:
     repo: 'https://forgejo.sny.sh/sun/TRMNL/src/branch/main/recipes/defas-departures'
     zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/defas-departures.zip'
     version: main
-  logo_url: null
-  screenshot_url: null
+  logo_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/icons/defas-departures.svg'
+  screenshot_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/previews/defas-departures.png'
   license: Unlicense
   byos:
     byos_laravel:
@@ -218,10 +218,11 @@ sun-defas-departures:
   author:
     github: TheLastZombie
     name: Sunny
-  funding: {  }
+  funding:
+    liberapay: sun
   author_bio:
     name: Sunny
-    description: 'Professional programmer and designer, among other things.<br>This recipe displays the next departures for stops in Bavaria using the EFA API.'
+    description: 'Displays the next departures for stops in Bavaria using the EFA API.'
     github_url: 'https://github.com/TheLastZombie'
     learn_more_url: 'https://sny.sh/'
     email_address: sunny@sny.sh
@@ -232,8 +233,8 @@ sun-film-guide:
     repo: 'https://forgejo.sny.sh/sun/TRMNL/src/branch/main/recipes/film-guide'
     zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/film-guide.zip'
     version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/o8jjf4q5m62lmlqrwtwk7fg7vy6f'
-  screenshot_url: null
+  logo_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/icons/film-guide.svg'
+  screenshot_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/previews/film-guide.png'
   license: Unlicense
   byos:
     byos_laravel:
@@ -243,10 +244,37 @@ sun-film-guide:
   author:
     github: TheLastZombie
     name: Sunny
-  funding: {  }
+  funding:
+    liberapay: sun
   author_bio:
     name: Sunny
-    description: 'Professional programmer and designer, among other things.<br>This recipe displays the next departures for stops in Bavaria using the EFA API.'
+    description: 'Displays the next departures for stops in Bavaria using the EFA API.'
+    github_url: 'https://github.com/TheLastZombie'
+    learn_more_url: 'https://sny.sh/'
+    email_address: sunny@sny.sh
+sun-toki-pona:
+  name: 'Random Toki Pona Word'
+  trmnlp:
+    id: 137228
+    repo: 'https://forgejo.sny.sh/sun/TRMNL/src/branch/main/recipes/toki-pona'
+    zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/toki-pona.zip'
+    version: main
+  logo_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/icons/toki-pona.svg'
+  screenshot_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/previews/toki-pona.png'
+  license: Unlicense
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.13.0
+  author:
+    github: TheLastZombie
+    name: Sunny
+  funding:
+    liberapay: sun
+  author_bio:
+    name: Sunny
+    description: 'Displays a random Toki Pona word along with its definition.'
     github_url: 'https://github.com/TheLastZombie'
     learn_more_url: 'https://sny.sh/'
     email_address: sunny@sny.sh
@@ -257,8 +285,8 @@ sun-weather-graph:
     repo: 'https://forgejo.sny.sh/sun/TRMNL/src/branch/main/recipes/weather-graph'
     zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/weather-graph.zip'
     version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/jxxda714yzei5v3wm1u1q9rj0i0t'
-  screenshot_url: null
+  logo_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/icons/weather-graph.svg'
+  screenshot_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/previews/weather-graph.png'
   license: Unlicense
   byos:
     byos_laravel:
@@ -268,10 +296,11 @@ sun-weather-graph:
   author:
     github: TheLastZombie
     name: Sunny
-  funding: {  }
+  funding:
+    liberapay: sun
   author_bio:
     name: Sunny
-    description: 'Professional programmer and designer, among other things.<br>This recipe displays the next departures for stops in Bavaria using the EFA API.'
+    description: 'Displays the next departures for stops in Bavaria using the EFA API.'
     github_url: 'https://github.com/TheLastZombie'
     learn_more_url: 'https://sny.sh/'
     email_address: sunny@sny.sh
