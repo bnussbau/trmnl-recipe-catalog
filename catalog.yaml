@@ -218,7 +218,8 @@ sun-defas-departures:
   author:
     github: TheLastZombie
     name: Sunny
-  funding: {  }
+  funding:
+    liberapay: sun
   author_bio:
     name: Sunny
     description: 'Professional programmer and designer, among other things.<br>This recipe displays the next departures for stops in Bavaria using the EFA API.'
@@ -243,7 +244,8 @@ sun-film-guide:
   author:
     github: TheLastZombie
     name: Sunny
-  funding: {  }
+  funding:
+    liberapay: sun
   author_bio:
     name: Sunny
     description: 'Professional programmer and designer, among other things.<br>This recipe displays the next departures for stops in Bavaria using the EFA API.'
@@ -268,7 +270,8 @@ sun-weather-graph:
   author:
     github: TheLastZombie
     name: Sunny
-  funding: {  }
+  funding:
+    liberapay: sun
   author_bio:
     name: Sunny
     description: 'Professional programmer and designer, among other things.<br>This recipe displays the next departures for stops in Bavaria using the EFA API.'
