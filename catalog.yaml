@@ -441,6 +441,30 @@ snarfulsolutionsgroup-xkcd:
   author_bio:
     description: 'Daily Comic from xkcd'
     homepage: null
+sourcediver42-trmnl-mobiliteit:
+  name: 'Mobiliteit.lu Checker'
+  trmnlp:
+    id: 129030
+    repo: 'https://github.com/SourceDiver42/trmnl-mobiliteit'
+    zip_url: 'https://github.com/SourceDiver42/trmnl-mobiliteit/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/bcki5mcpxltn0htygiuszen6s17a'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'Remove () in line 52'
+      min_version: null
+  author:
+    github: SourceDiver42
+    name: 'Mobiliteit.lu Checker'
+    id: '129030'
+  funding: {  }
+  author_bio:
+    description: This recipe can be used to show a timetable of a bus stop using the Mobiliteit.lu API.
+    github_url: https://github.com/SourceDiver42/trmnl-mobiliteit
+    email_address: sourcediver42@pm.me
 sriniketh-trmnl-plugin-whos-that-pokemon:
   name: "Who's That Pokémon?"
   trmnlp:
