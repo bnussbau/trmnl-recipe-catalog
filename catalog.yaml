@@ -1301,3 +1301,25 @@ vimwtf-trmnl-lumon-wellness:
   author_bio:
     description: 'TRMNL plugin to display facts about your Outie'
     homepage: 'https://usetrmnl.com/recipes/102880'
+who-would-know-trml-plugin-open-trivia-db:
+  name: 'Open Trivia DB'
+  trmnlp:
+    id: 137500
+    repo: 'https://github.com/who-would-know/trml-plugin-open-trivia-db'
+    zip_url: 'https://github.com/who-would-know/trml-plugin-open-trivia-db/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/2syf8chcu1zwme95329leod7mlaz'
+  screenshot_url: 'https://raw.githubusercontent.com/who-would-know/trml-plugin-open-trivia-db/main/docs/preview-trmnl-open-trivia-db.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.16.1
+  author:
+    github: who-would-know
+  funding: {  }
+  author_bio:
+    description: 'A trmnl plugin for Open Trivia DB'
+    learn_more_url: 'https://opentdb.com'
+    email_address: whowouldknowdev@gmail.com
