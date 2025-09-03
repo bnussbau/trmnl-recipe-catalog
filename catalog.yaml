@@ -326,7 +326,7 @@ monsieurm-trmnl-lastfm:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: true
+      compatibility: false
       compatibility_note: null
       min_version: 0.13.0
   author:
