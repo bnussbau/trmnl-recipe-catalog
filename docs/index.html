@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TRMNL Recipe Catalog</title>
+  <title>Recipe Catalog</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css">
   <style>
     body { background: #f9f9f9; }
@@ -22,13 +22,27 @@
     .search-box { margin: 2em 0; }
     .card-title { margin: 0 0 0.5em 0; }
     .card-meta { color: #888; font-size: 0.95em; margin-bottom: 0.5em; }
-    .card-links a { margin-right: 1em; }
+    .card-links a {
+      margin-right: 1em;
+      color: rgb(248, 101, 75) !important;
+      transition: color 0.2s;
+    }
+    .card-links a:hover {
+      color: rgb(200, 60, 40) !important;
+    }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
 </head>
 <body>
   <div class="container">
-    <h2>TRMNL Recipe Catalog</h2>
+    <h2>Recipe Catalog</h2>
+    <div style="margin-bottom:1.5em;">
+      <p style="font-size:1.1em; color:#555; margin-bottom:0.5em;">
+        A community-driven catalog of public repositories containing recipes for TRMNL.<br>
+        The goal of this project is to collect TRMNLP-compatible recipes in public repositories and make them available as a catalog for BYOS.
+      </p>
+      <a href="https://github.com/bnussbau/trmnl-recipe-catalog/blob/main/CONTRIBUTING.md" class="button" style="background:rgb(248,101,75);color:#fff;border:none;">Add your recipe</a>
+    </div>
     <input class="search-box" type="text" id="search" placeholder="Search by author or title..." style="width:100%;max-width:400px;">
     <div id="cards"></div>
   </div>
@@ -39,20 +53,52 @@
       return jsyaml.load(text);
     }
 
+    function byosLaravelHTML(byos) {
+      if (!byos || !('compatibility' in byos)) return '';
+      let icon = '', text = '';
+      if (byos.compatibility === true) {
+        icon = '✅';
+        text = byos.min_version ? `min version ${byos.min_version}` : '';
+      } else if (byos.compatibility === false) {
+        icon = '❌';
+        text = byos.compatibility_note || '';
+      } else {
+        icon = '❓';
+        text = '';
+      }
+      return `<div style="margin:0.5em 0 0.5em 0;">BYOS Compatibility:<ul><li>byos_laravel <span title="${text}">${icon}</span> ${text}</li></ul></div>`;
+    }
+
     function cardHTML(key, entry) {
+      const byos = entry.byos?.byos_laravel;
+      const logoHTML = entry.logo_url
+        ? `<img class="logo" src="${entry.logo_url}" alt="logo">`
+        : `<span class="logo" style="display:inline-block;width:64px;height:64px;vertical-align:middle;background:#eee;border-radius:6px;">
+            <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"#888\" style=\"width:100%;height:100%;\">
+              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M14.25 6.087c0-.355.186-.676.401-.959.221-.29.349-.634.349-1.003 0-1.036-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959v0a.64.64 0 0 1-.657.643 48.39 48.39 0 0 1-4.163-.3c.186 1.613.293 3.25.315 4.907a.656.656 0 0 1-.658.663v0c-.355 0-.676-.186-.959-.401a1.647 1.647 0 0 0-1.003-.349c-1.036 0-1.875 1.007-1.875 2.25s.84 2.25 1.875 2.25c.369 0 .713-.128 1.003-.349.283-.215.604-.401.959-.401v0c.31 0 .555.26.532.57a48.039 48.039 0 0 1-.642 5.056c1.518.19 3.058.309 4.616.354a.64.64 0 0 0 .657-.643v0c0-.355-.186-.676-.401-.959a1.647 1.647 0 0 1-.349-1.003c0-1.035 1.008-1.875 2.25-1.875 1.243 0 2.25.84 2.25 1.875 0 .369-.128.713-.349 1.003-.215.283-.4.604-.4.959v0c0 .333.277.599.61.58a48.1 48.1 0 0 0 5.427-.63 48.05 48.05 0 0 0 .582-4.717.532.532 0 0 0-.533-.57v0c-.355 0-.676.186-.959.401-.29.221-.634.349-1.003.349-1.035 0-1.875-1.007-1.875-2.25s.84-2.25 1.875-2.25c.37 0 .713.128 1.003.349.283.215.604.401.96.401v0a.656.656 0 0 0 .658-.663 48.422 48.422 0 0 0-.37-5.36c-1.886.342-3.81.574-5.766.689a.578.578 0 0 1-.61-.58v0Z\" />
+            </svg>
+          </span>`;
+      const screenshotPopover = entry.screenshot_url ? `
+        <a href="#" popovertarget="popover-${key}" onclick="event.preventDefault(); document.getElementById('popover-${key}').showPopover();">Screenshot</a>
+        <div id="popover-${key}" popover style="padding:0;max-width:800px;">
+          <img src="${entry.screenshot_url}" alt="Screenshot" style="max-width:100%;display:block;border-radius:8px;">
+        </div>
+      ` : '';
       return `<div class="card">
-        ${entry.logo_url ? `<img class="logo" src="${entry.logo_url}" alt="logo">` : ''}
+        ${logoHTML}
         <div class="card-content">
           <h4 class="card-title">${entry.name || key}</h4>
           <div class="card-meta">
-            <strong>Author:</strong> ${entry.author?.name || entry.author?.github || 'Unknown'}<br>
+            <strong>Author:</strong> ${entry.author?.github || 'Unknown'}<br>
             <strong>License:</strong> ${entry.license || 'Unknown'}
           </div>
+          ${byosLaravelHTML(byos)}
           <div>${entry.author_bio?.description || ''}</div>
           <div class="card-links" style="margin-top:0.5em;">
             ${entry.trmnlp?.repo ? `<a href="${entry.trmnlp.repo}" target="_blank">Repo</a>` : ''}
+            ${entry.trmnlp?.zip_url ? `<a href="${entry.trmnlp.zip_url}" target="_blank">Download ZIP</a>` : ''}
             ${entry.author_bio?.learn_more_url ? `<a href="${entry.author_bio.learn_more_url}" target="_blank">Learn More</a>` : ''}
-            ${entry.screenshot_url ? `<a href="${entry.screenshot_url}" target="_blank">Screenshot</a>` : ''}
+            ${screenshotPopover}
           </div>
         </div>
       </div>`;
