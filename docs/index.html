@@ -105,13 +105,20 @@
       </div>`;
     }
 
+
     function renderCards(data, filter='') {
       const cards = document.getElementById('cards');
       const filterLC = filter.toLowerCase();
-      cards.innerHTML = Object.entries(data)
+      const sortedEntries = Object.entries(data)
+        .sort((a, b) => {
+          const nameA = (a[1].name || '').toLowerCase();
+          const nameB = (b[1].name || '').toLowerCase();
+          return nameA.localeCompare(nameB);
+        });
+      cards.innerHTML = sortedEntries
         .filter(([key, entry]) => {
           const title = (entry.name || '').toLowerCase();
-          const author = ( entry.author?.github || '').toLowerCase();
+          const author = (entry.author?.github || '').toLowerCase();
           return title.includes(filterLC) || author.includes(filterLC);
         })
         .map(([key, entry]) => cardHTML(key, entry)).join('') || '<p>No results found.</p>';
