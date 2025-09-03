@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css">
   <style>
     body { background: #f9f9f9; }
+    input:focus { border-color: rgb(248, 101, 75) !important; }
     .card {
       background: #fff;
       border-radius: 8px;
@@ -110,7 +111,7 @@
       cards.innerHTML = Object.entries(data)
         .filter(([key, entry]) => {
           const title = (entry.name || '').toLowerCase();
-          const author = (entry.author?.name || entry.author?.github || '').toLowerCase();
+          const author = ( entry.author?.github || '').toLowerCase();
           return title.includes(filterLC) || author.includes(filterLC);
         })
         .map(([key, entry]) => cardHTML(key, entry)).join('') || '<p>No results found.</p>';
