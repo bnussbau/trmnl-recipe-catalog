@@ -92,6 +92,30 @@ bnussbau-trmnl-bookclub-planner:
     description: 'Plan your reading and track your progress leading up to your next book club meeting'
     github_url: 'https://github.com/bnussbau/trmnl-bookclub-planner'
     learn_more_url: 'https://github.com/bnussbau/trmnl-bookclub-planner/blob/main/README.md'
+bnussbau-trmnl-opds-shelf:
+  name: 'OPDS Bookshelf'
+  trmnlp:
+    id: 122018
+    repo: 'https://github.com/bnussbau/trmnl-opds-shelf'
+    zip_url: 'https://github.com/bnussbau/trmnl-opds-shelf/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/0mu5mlc9b2e5s5r8er5vg8wcmcb5'
+  screenshot_url: 'https://github.com/user-attachments/assets/460e2723-92dc-4668-ac31-6473fc860b09'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.13.0
+  author:
+    github: bnussbau
+  funding:
+    custom: '["https://usetrmnl.com/?ref=laravel-trmnl"]'
+    buy_me_a_coffee: bnussbau
+    github: bnussbau
+  author_bio:
+    description: 'Visualize an OPDS feed on a TRMNL device.'
+    learn_more_url: 'https://github.com/bnussbau/trmnl-opds-shelf/tree/main#-opds-bookshelf-for-trmnl'
 bnussbau-trmnl-pollen-forecast-eu:
   name: 'Pollen Forecast (EU)'
   trmnlp:
