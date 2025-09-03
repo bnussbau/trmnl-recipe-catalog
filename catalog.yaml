@@ -497,9 +497,9 @@ stephenyeargin-trmnl-adafruit-io:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.13.0
   author:
     github: stephenyeargin
     name: 'Adafruit IO'
@@ -519,9 +519,9 @@ stephenyeargin-trmnl-bcycle:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.13.0
   author:
     github: stephenyeargin
     name: BCycle
@@ -583,7 +583,7 @@ stephenyeargin-trmnl-mnpd-dispatches:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
       min_version: null
   author:
@@ -605,9 +605,9 @@ stephenyeargin-trmnl-nashville-electric-service:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.13.0
   author:
     github: stephenyeargin
   funding: {  }
@@ -626,7 +626,7 @@ stephenyeargin-trmnl-nashville-pollen-aqi:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
       min_version: null
   author:
@@ -648,7 +648,7 @@ stephenyeargin-trmnl-nfd-incidents:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: false
       compatibility_note: null
       min_version: null
   author:
@@ -670,7 +670,7 @@ stephenyeargin-trmnl-nwps-gauges:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
       min_version: null
   author:
@@ -713,8 +713,8 @@ stephenyeargin-trmnl-open-library:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
-      compatibility_note: null
+      compatibility: false
+      compatibility_note: 'Remove Lines 161-163'
       min_version: null
   author:
     github: stephenyeargin
@@ -802,8 +802,11 @@ stephenyeargin-trmnl-tailscale:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
-      compatibility_note: null
+      compatibility: false
+      compatibility_note: |-
+        - Replace polling header
+        Authorization: Bearer {{ tailscale_api_key }}
+        - Some Liquid errors thrown
       min_version: null
   author:
     github: stephenyeargin
@@ -1011,7 +1014,7 @@ transitnownash-trmnl-wego-next-trip:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: false
       compatibility_note: null
       min_version: null
   author:
