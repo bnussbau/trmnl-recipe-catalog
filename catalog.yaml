@@ -485,6 +485,243 @@ sriniketh-trmnl-plugin-whos-that-pokemon:
   funding: {  }
   author_bio:
     description: 'A trmnl plugin that displays a random Pokémon every day '
+stephenyeargin-trmnl-adafruit-io:
+  name: 'Adafruit IO'
+  trmnlp:
+    id: 112643
+    repo: 'https://github.com/stephenyeargin/trmnl-adafruit-io'
+    zip_url: 'https://github.com/stephenyeargin/trmnl-adafruit-io/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ovuxz3sgu7gadboupgo42c9a4tua'
+  screenshot_url: 'https://raw.githubusercontent.com/stephenyeargin/trmnl-adafruit-io/main/assets/screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: stephenyeargin
+    name: 'Adafruit IO'
+  funding: {  }
+  author_bio:
+    description: '👩‍🏭 Adafruit IO for TRMNL'
+    homepage: 'https://usetrmnl.com/recipes/112643'
+stephenyeargin-trmnl-bcycle:
+  name: 'BCycle Station Status'
+  trmnlp:
+    id: 100262
+    repo: 'https://github.com/stephenyeargin/trmnl-bcycle'
+    zip_url: 'https://github.com/stephenyeargin/trmnl-bcycle/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/bh8gvejniqyszoqtkhzkkdu7gwri'
+  screenshot_url: 'https://github.com/stephenyeargin/trmnl-bcycle/raw/main/assets/screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: stephenyeargin
+    name: BCycle
+  funding: {  }
+  author_bio:
+    description: '🚲 BCycle Station Status for TRMNL'
+    homepage: 'https://usetrmnl.com/recipes/100262'
+stephenyeargin-trmnl-matomo:
+  name: 'Matomo Analytics'
+  trmnlp:
+    id: 97234
+    repo: 'https://github.com/stephenyeargin/trmnl-matomo'
+    zip_url: 'https://github.com/stephenyeargin/trmnl-matomo/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/qkgae7cch43048ku01agp18i34pv'
+  screenshot_url: 'https://github.com/stephenyeargin/trmnl-matomo/raw/main/assets/screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: stephenyeargin
+  funding: {  }
+  author_bio:
+    description: '📊 Matomo Analytics for TRMNL'
+    homepage: 'https://usetrmnl.com/recipes/97234'
+stephenyeargin-trmnl-mealviewer:
+  name: 'MealViewer (School Lunch)'
+  trmnlp:
+    id: 133879
+    repo: 'https://github.com/stephenyeargin/trmnl-mealviewer'
+    zip_url: 'https://github.com/stephenyeargin/trmnl-mealviewer/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/0z5x4s8spx97sugw6ph8s5dxl0x5'
+  screenshot_url: 'https://github.com/stephenyeargin/trmnl-mealviewer/raw/main/assets/screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: stephenyeargin
+  funding: {  }
+  author_bio:
+    description: '🍽️ MealViewer Calendar for TRMNL'
+    homepage: 'https://usetrmnl.com/recipes/133879'
+stephenyeargin-trmnl-mnpd-dispatches:
+  name: 'Metro Nashville Police Dept. Active Dispatches'
+  trmnlp:
+    id: 90541
+    repo: 'https://github.com/stephenyeargin/trmnl-mnpd-dispatches'
+    zip_url: 'https://github.com/stephenyeargin/trmnl-mnpd-dispatches/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/sznb5qxrhr0bzf1p5y1ynin85d94'
+  screenshot_url: 'https://github.com/stephenyeargin/trmnl-mnpd-dispatches/raw/main/assets/screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: stephenyeargin
+    name: 'Metro Nashville Police Dept. Active Dispatches'
+  funding: {  }
+  author_bio:
+    description: '🚓 Metro Nashville Police Dept. Active Dispatches for TRMNL'
+    homepage: 'https://usetrmnl.com/recipes/90541'
+stephenyeargin-trmnl-nashville-electric-service:
+  name: 'Nashville Electric Service (NES) Outage Map'
+  trmnlp:
+    id: 112378
+    repo: 'https://github.com/stephenyeargin/trmnl-nashville-electric-service'
+    zip_url: 'https://github.com/stephenyeargin/trmnl-nashville-electric-service/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: 'https://github.com/stephenyeargin/trmnl-nashville-electric-service/raw/main/assets/screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: stephenyeargin
+  funding: {  }
+  author_bio:
+    description: '⚡️ NES Outage Map for TRMNL'
+    homepage: 'https://usetrmnl.com/recipes/112378'
+stephenyeargin-trmnl-nashville-pollen-aqi:
+  name: 'Nashville Pollen & Air Quality'
+  trmnlp:
+    id: 93912
+    repo: 'https://github.com/stephenyeargin/trmnl-nashville-pollen-aqi'
+    zip_url: 'https://github.com/stephenyeargin/trmnl-nashville-pollen-aqi/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/yskr6ur170v3lg66t9spetdd5irn'
+  screenshot_url: 'https://github.com/stephenyeargin/trmnl-nashville-pollen-aqi/raw/main/assets/screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: stephenyeargin
+    name: 'Nashville Pollen & Air Quality'
+  funding: {  }
+  author_bio:
+    description: '🤧 Nashville Pollen & Air Quality for TRMNL'
+    homepage: 'https://usetrmnl.com/recipes/93912'
+stephenyeargin-trmnl-nfd-incidents:
+  name: 'Nashville Fire Department Active Incidents'
+  trmnlp:
+    id: 89850
+    repo: 'https://github.com/stephenyeargin/trmnl-nfd-incidents'
+    zip_url: 'https://github.com/stephenyeargin/trmnl-nfd-incidents/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/4ccuz8j64tvetpglykyo5dqeuii9'
+  screenshot_url: 'https://github.com/stephenyeargin/trmnl-nfd-incidents/raw/main/assets/screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: stephenyeargin
+    name: 'Nashville Fire Department Active Incidents'
+  funding: {  }
+  author_bio:
+    description: '🚒 Nashville Fire Department Active Incidents for TRMNL'
+    homepage: 'https://usetrmnl.com/recipes/89850'
+stephenyeargin-trmnl-nwps-gauges:
+  name: 'NWPS River Gauges'
+  trmnlp:
+    id: 101750
+    repo: 'https://github.com/stephenyeargin/trmnl-nwps-gauges'
+    zip_url: 'https://github.com/stephenyeargin/trmnl-nwps-gauges/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/97qnnuma3bj96bkakg3p90ii4i9u'
+  screenshot_url: 'https://github.com/stephenyeargin/trmnl-nwps-gauges/raw/main/assets/screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: stephenyeargin
+    name: 'NWPS River Gauges'
+  funding: {  }
+  author_bio:
+    description: '💧 National Water Prediction Service Gauges for TRMNL'
+    homepage: 'https://usetrmnl.com/recipes/101750'
+stephenyeargin-trmnl-nyt-best-sellers:
+  name: 'New York Times Best Sellers'
+  trmnlp:
+    id: 121924
+    repo: 'https://github.com/stephenyeargin/trmnl-nyt-best-sellers'
+    zip_url: 'https://github.com/stephenyeargin/trmnl-nyt-best-sellers/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/plbwko513qd2u0smeb0hasnscbtx'
+  screenshot_url: 'https://github.com/stephenyeargin/trmnl-nyt-best-sellers/raw/main/assets/screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: stephenyeargin
+  funding: {  }
+  author_bio:
+    description: '📚 New York Times Best Seller List for TRMNL'
+    homepage: 'https://usetrmnl.com/recipes/121924'
+stephenyeargin-trmnl-open-library:
+  name: 'Open Library'
+  trmnlp:
+    id: 124200
+    repo: 'https://github.com/stephenyeargin/trmnl-open-library'
+    zip_url: 'https://github.com/stephenyeargin/trmnl-open-library/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/xscf8y2jk0qgnipyuwa2wfaguip2'
+  screenshot_url: 'https://github.com/stephenyeargin/trmnl-open-library/raw/main/assets/screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: stephenyeargin
+  funding: {  }
+  author_bio:
+    description: '📚 Open Library for TRMNL'
+    homepage: 'https://usetrmnl.com/recipes/124200'
 stephenyeargin-trmnl-pbs-kids:
   name: 'PBS Kids'
   trmnlp:
@@ -531,6 +768,91 @@ stephenyeargin-trmnl-pixelfed:
   author_bio:
     description: '📸 Pixelfed for TRMNL'
     homepage: 'https://usetrmnl.com/recipes/103958'
+stephenyeargin-trmnl-seatgeek:
+  name: SeatGeek
+  trmnlp:
+    id: 120686
+    repo: 'https://github.com/stephenyeargin/trmnl-seatgeek'
+    zip_url: 'https://github.com/stephenyeargin/trmnl-seatgeek/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/jf5cx7vrvtzlktyu0k76p0qsvp6g'
+  screenshot_url: 'https://github.com/stephenyeargin/trmnl-seatgeek/raw/main/assets/screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: stephenyeargin
+    name: SeatGeek
+  funding: {  }
+  author_bio:
+    description: '🎟️ SeatGeek for TRMNL'
+    homepage: 'https://usetrmnl.com/recipes/120686'
+stephenyeargin-trmnl-tailscale:
+  name: Tailscale
+  trmnlp:
+    id: 108109
+    repo: 'https://github.com/stephenyeargin/trmnl-tailscale'
+    zip_url: 'https://github.com/stephenyeargin/trmnl-tailscale/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/9vshxn08w27klijop6xmdal39fcy'
+  screenshot_url: 'https://github.com/stephenyeargin/trmnl-tailscale/raw/main/assets/screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: stephenyeargin
+  funding: {  }
+  author_bio:
+    description: '🌐 Tailscale for TRMNL'
+    homepage: 'https://usetrmnl.com/recipes/108109'
+stephenyeargin-trmnl-unifi-site-manager:
+  name: 'Unifi Site Manager'
+  trmnlp:
+    id: 102852
+    repo: 'https://github.com/stephenyeargin/trmnl-unifi-site-manager'
+    zip_url: 'https://github.com/stephenyeargin/trmnl-unifi-site-manager/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/3y03r4ntyellql554wg8hzbxym8g'
+  screenshot_url: 'https://github.com/stephenyeargin/trmnl-unifi-site-manager/raw/main/assets/screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: stephenyeargin
+  funding: {  }
+  author_bio:
+    description: '🛜 Unifi Site Manager for TRMNL'
+    homepage: 'https://usetrmnl.com/recipes/102852'
+stephenyeargin-trmnl-uptimerobot:
+  name: UptimeRobot
+  trmnlp:
+    id: 98765
+    repo: 'https://github.com/stephenyeargin/trmnl-uptimerobot'
+    zip_url: 'https://github.com/stephenyeargin/trmnl-uptimerobot/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/9q826ix4lp55v54fc6x1m6103yc8'
+  screenshot_url: 'https://github.com/stephenyeargin/trmnl-uptimerobot/raw/main/assets/screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: stephenyeargin
+  funding: {  }
+  author_bio:
+    description: '🤖 UptimeRobot for TRMNL'
+    homepage: 'https://usetrmnl.com/recipes/98765/'
 stevekennedyuk-trmnl-tfl-status:
   name: 'Transport for London (TfL) status messages'
   trmnlp:
@@ -677,6 +999,27 @@ sun-weather-graph:
     github_url: 'https://github.com/TheLastZombie'
     learn_more_url: 'https://sny.sh/'
     email_address: sunny@sny.sh
+transitnownash-trmnl-wego-next-trip:
+  name: 'Nashville WeGo Public Transit'
+  trmnlp:
+    id: 91940
+    repo: 'https://github.com/transitnownash/trmnl-wego-next-trip'
+    zip_url: 'https://github.com/transitnownash/trmnl-wego-next-trip/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: 'https://github.com/transitnownash/trmnl-wego-next-trip/raw/main/assets/screenshot.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: transitnownash
+  funding: {  }
+  author_bio:
+    description: '🚏 WeGo Public Transit Next Trip for TRMNL'
+    homepage: 'https://usetrmnl.com/recipes/91940'
 vimwtf-trmnl-lumon-wellness:
   name: 'Lumon Wellness'
   trmnlp:
