@@ -1,3 +1,45 @@
+a-mnich-trmnl-monkey-island-quotes:
+  name: 'Monkey Island Quotes'
+  trmnlp:
+    id: 106632
+    repo: 'https://github.com/a-mnich/trmnl-monkey-island-quotes'
+    zip_url: 'https://github.com/a-mnich/trmnl-monkey-island-quotes/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: a-mnich
+  funding: {  }
+  author_bio:
+    description: 'TRMNL Monkey Island Quotes Plugin'
+    homepage: ''
+andi4000-trmnl-open-meteo-weather-forecast:
+  name: "Half Vertical Display: Today's Max Hours"
+  trmnlp:
+    id: 112422
+    repo: 'https://github.com/andi4000/trmnl-open-meteo-weather-forecast'
+    zip_url: 'https://github.com/andi4000/trmnl-open-meteo-weather-forecast/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'You need to adapt the Data Format and remove the % chars'
+      min_version: null
+  author:
+    github: andi4000
+  funding: {  }
+  author_bio:
+    description: 'Weather forecast plugin for @usetrmnl, using data from Open-Meteo. No API Key needed. For updates, simply re-fork the recipe!'
+    homepage: 'https://usetrmnl.com/recipes/112422'
 bnussbau-trmnl-austrian-train-departures:
   name: 'Austrian Train Departures (OEBB)'
   trmnlp:
@@ -196,6 +238,48 @@ erikbuild-trmnl-yolink-temperature:
   funding: {  }
   author_bio:
     description: 'Simple TRMNL plugin for grabbing the current state of YoLink temperature sensors.'
+jbarreiros-trmnl-noaa-tides:
+  name: 'Upcoming Tides (NOAA)'
+  trmnlp:
+    id: 98475
+    repo: 'https://github.com/jbarreiros/trmnl_noaa_tides'
+    zip_url: 'https://github.com/jbarreiros/trmnl_noaa_tides/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: jbarreiros
+  funding: {  }
+  author_bio:
+    description: null
+    homepage: null
+jbelien-trmnl-plugin-updownio:
+  name: trmnl-plugin-updownio
+  trmnlp:
+    id: null
+    repo: 'https://github.com/jbelien/trmnl-plugin-updownio'
+    zip_url: 'https://github.com/jbelien/trmnl-plugin-updownio/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: jbelien
+  funding: {  }
+  author_bio:
+    description: 'updown.io plugin for TRMNL'
+    homepage: null
 jvdmeij-trmnl-countdowngit:
   name: Countdown
   trmnlp:
@@ -230,7 +314,7 @@ jvdmeij-trmnl-crypto-fear-and-greed:
   byos:
     byos_laravel:
       compatibility: false
-      compatibility_note: null
+      compatibility_note: 'Replace : with . in variables'
       min_version: null
   author:
     github: jvdmeij
@@ -354,6 +438,153 @@ monsieurm-trmnl-yearinprogress:
   funding: {  }
   author_bio:
     description: 'This plug-in shows the progress of the year (dots or bar) on TRMNL device'
+rknightuk-trmnl-fathom-analytics:
+  name: 'Fathom Analytics'
+  trmnlp:
+    id: 89064
+    repo: 'https://github.com/rknightuk/trmnl-fathom-analytics'
+    zip_url: 'https://github.com/rknightuk/trmnl-fathom-analytics/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.13.0
+  author:
+    github: rknightuk
+  funding: {  }
+  author_bio:
+    description: 'Fathom Analytics plugin for TRMNL'
+    homepage: 'https://usetrmnl.com/recipes/89064'
+rknightuk-trmnl-literate-movies:
+  name: 'Literate Movies'
+  trmnlp:
+    id: 122948
+    repo: 'https://github.com/rknightuk/trmnl-literate-movies'
+    zip_url: 'https://github.com/rknightuk/trmnl-literate-movies/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/yt1gezypt9n95dgjq4jkv10bmk4s'
+  screenshot_url: 'https://raw.githubusercontent.com/rknightuk/trmnl-literate-movies/main/screenshot.jpg'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.16.1
+  author:
+    github: rknightuk
+  funding: {  }
+  author_bio:
+    description: 'TRMNL plugin to show movies based on books'
+    homepage: 'https://usetrmnl.com/recipes/122948'
+rknightuk-trmnl-mario-kart:
+  name: 'Mario Kart Track'
+  trmnlp:
+    id: 101176
+    repo: 'https://github.com/rknightuk/trmnl-mario-kart'
+    zip_url: 'https://github.com/rknightuk/trmnl-mario-kart/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/5rgogj8vp3unc8wj5qd9hxsh7bxk'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: rknightuk
+  funding: {  }
+  author_bio:
+    description: 'TRMNL plugin to show random Mario Kart tracks'
+    homepage: 'https://usetrmnl.com/recipes/101176'
+rknightuk-trmnl-mastodon-profile:
+  name: Mastodon
+  trmnlp:
+    id: 89880
+    repo: 'https://github.com/rknightuk/trmnl-mastodon-profile'
+    zip_url: 'https://github.com/rknightuk/trmnl-mastodon-profile/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: rknightuk
+  funding: {  }
+  author_bio:
+    description: 'Mastodon Profile plugin for TRMNL'
+    homepage: null
+rknightuk-trmnl-relay-st-jude:
+  name: 'Relay for St Jude'
+  trmnlp:
+    id: 87177
+    repo: 'https://github.com/rknightuk/trmnl-relay-st-jude'
+    zip_url: 'https://github.com/rknightuk/trmnl-relay-st-jude/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/fox3zn607jvjsawsmclnh53xqd92'
+  screenshot_url: 'https://raw.githubusercontent.com/rknightuk/trmnl-relay-st-jude/main/screenshot.jpg'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: rknightuk
+  funding: {  }
+  author_bio:
+    description: 'Relay for St Jude TRMNL plugin'
+    homepage: null
+rknightuk-trmnl-stripe:
+  name: Stripe
+  trmnlp:
+    id: 89809
+    repo: 'https://github.com/rknightuk/trmnl-stripe'
+    zip_url: 'https://github.com/rknightuk/trmnl-stripe/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.13.0
+  author:
+    github: rknightuk
+  funding: {  }
+  author_bio:
+    description: 'Stripe plugin for TRMNL'
+    homepage: 'https://usetrmnl.com/recipes/89809'
+rknightuk-trmnl-the-rickies:
+  name: 'The Rickies'
+  trmnlp:
+    id: 97896
+    repo: 'https://github.com/rknightuk/trmnl-the-rickies'
+    zip_url: 'https://github.com/rknightuk/trmnl-the-rickies/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: rknightuk
+  funding: {  }
+  author_bio:
+    description: 'The Rickies plugin for TRMNL'
+    homepage: 'https://usetrmnl.com/recipes/97896'
 saious119-trmnl-anime-of-the-day:
   name: 'Anime of the Day'
   trmnlp:
