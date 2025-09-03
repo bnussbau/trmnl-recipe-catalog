@@ -44,7 +44,10 @@
       </p>
       <a href="https://github.com/bnussbau/trmnl-recipe-catalog/blob/main/CONTRIBUTING.md" class="button" style="background:rgb(248,101,75);color:#fff;border:none;">Add your recipe</a>
     </div>
-    <input class="search-box" type="text" id="search" placeholder="Search by author or title..." style="width:100%;max-width:400px;">
+    <div style="display:flex;align-items:center;gap:1em;margin-bottom:0.5em;">
+      <input class="search-box" type="text" id="search" placeholder="Search by author or title..." style="width:100%;max-width:400px;">
+      <span id="recipe-count" style="margin-left:auto;"></span>
+    </div>
     <div id="cards"></div>
   </div>
   <script>
@@ -108,6 +111,7 @@
 
     function renderCards(data, filter='') {
       const cards = document.getElementById('cards');
+      const countSpan = document.getElementById('recipe-count');
       const filterLC = filter.toLowerCase();
       const sortedEntries = Object.entries(data)
         .sort((a, b) => {
@@ -115,13 +119,19 @@
           const nameB = (b[1].name || '').toLowerCase();
           return nameA.localeCompare(nameB);
         });
-      cards.innerHTML = sortedEntries
-        .filter(([key, entry]) => {
-          const title = (entry.name || '').toLowerCase();
-          const author = (entry.author?.github || '').toLowerCase();
-          return title.includes(filterLC) || author.includes(filterLC);
-        })
-        .map(([key, entry]) => cardHTML(key, entry)).join('') || '<p>No results found.</p>';
+      const filtered = sortedEntries.filter(([key, entry]) => {
+        const title = (entry.name || '').toLowerCase();
+        const author = (entry.author?.github || '').toLowerCase();
+        return title.includes(filterLC) || author.includes(filterLC);
+      });
+      cards.innerHTML = filtered.map(([key, entry]) => cardHTML(key, entry)).join('') || '<p>No results found.</p>';
+      if (countSpan) {
+        if (filter && filter.trim() !== '') {
+          countSpan.textContent = `${filtered.length} result${filtered.length === 1 ? '' : 's'}`;
+        } else {
+          countSpan.textContent = `${sortedEntries.length} recipe${sortedEntries.length === 1 ? '' : 's'}`;
+        }
+      }
     }
 
     fetchYAML().then(data => {
