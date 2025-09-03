@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRMNL Recipe Catalog</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css">
+  <style>
+    body { background: #f9f9f9; }
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      padding: 1.5em;
+      margin-bottom: 1.5em;
+      display: flex;
+      gap: 1.5em;
+      align-items: flex-start;
+    }
+    .card img.logo { width: 64px; height: 64px; object-fit: contain; border-radius: 6px; background: #eee; }
+    .card-content { flex: 1; }
+    .search-box { margin: 2em 0; }
+    .card-title { margin: 0 0 0.5em 0; }
+    .card-meta { color: #888; font-size: 0.95em; margin-bottom: 0.5em; }
+    .card-links a { margin-right: 1em; }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>TRMNL Recipe Catalog</h2>
+    <input class="search-box" type="text" id="search" placeholder="Search by author or title..." style="width:100%;max-width:400px;">
+    <div id="cards"></div>
+  </div>
+  <script>
+    async function fetchYAML() {
+      const res = await fetch('https://raw.githubusercontent.com/bnussbau/trmnl-recipe-catalog/refs/heads/main/catalog.yaml');
+      const text = await res.text();
+      return jsyaml.load(text);
+    }
+
+    function cardHTML(key, entry) {
+      return `<div class="card">
+        ${entry.logo_url ? `<img class="logo" src="${entry.logo_url}" alt="logo">` : ''}
+        <div class="card-content">
+          <h4 class="card-title">${entry.name || key}</h4>
+          <div class="card-meta">
+            <strong>Author:</strong> ${entry.author?.name || entry.author?.github || 'Unknown'}<br>
+            <strong>License:</strong> ${entry.license || 'Unknown'}
+          </div>
+          <div>${entry.author_bio?.description || ''}</div>
+          <div class="card-links" style="margin-top:0.5em;">
+            ${entry.trmnlp?.repo ? `<a href="${entry.trmnlp.repo}" target="_blank">Repo</a>` : ''}
+            ${entry.author_bio?.learn_more_url ? `<a href="${entry.author_bio.learn_more_url}" target="_blank">Learn More</a>` : ''}
+            ${entry.screenshot_url ? `<a href="${entry.screenshot_url}" target="_blank">Screenshot</a>` : ''}
+          </div>
+        </div>
+      </div>`;
+    }
+
+    function renderCards(data, filter='') {
+      const cards = document.getElementById('cards');
+      const filterLC = filter.toLowerCase();
+      cards.innerHTML = Object.entries(data)
+        .filter(([key, entry]) => {
+          const title = (entry.name || '').toLowerCase();
+          const author = (entry.author?.name || entry.author?.github || '').toLowerCase();
+          return title.includes(filterLC) || author.includes(filterLC);
+        })
+        .map(([key, entry]) => cardHTML(key, entry)).join('') || '<p>No results found.</p>';
+    }
+
+    fetchYAML().then(data => {
+      window._catalogData = data;
+      renderCards(data);
+      document.getElementById('search').addEventListener('input', e => {
+        renderCards(window._catalogData, e.target.value);
+      });
+    });
+  </script>
+</body>
+</html>
