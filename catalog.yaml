@@ -182,7 +182,7 @@ erikbuild-trmnl-yolink-temperature:
     zip_url: 'https://github.com/erikbuild/trmnl-yolink-temperature/archive/refs/heads/main.zip'
     version: main
   logo_url: null
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/erikbuild/trmnl-yolink-temperature/main/preview.png'
   license: MIT
   byos:
     byos_laravel:
@@ -224,7 +224,7 @@ jvdmeij-trmnl-crypto-fear-and-greed:
     repo: 'https://github.com/jvdmeij/trmnl-crypto-fear-and-greed'
     zip_url: 'https://github.com/jvdmeij/trmnl-crypto-fear-and-greed/archive/refs/heads/main.zip'
     version: main
-  logo_url: null
+  logo_url: 'https://raw.githubusercontent.com/jvdmeij/trmnl-crypto-fear-and-greed/refs/heads/main/icon/icon.png'
   screenshot_url: null
   license: Unknown
   byos:
@@ -322,7 +322,7 @@ monsieurm-trmnl-lastfm:
     zip_url: 'https://github.com/monsieurm/trmnl-lastfm/archive/refs/heads/main.zip'
     version: main
   logo_url: null
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/monsieurm/trmnl-lastfm/refs/heads/main/trmnl-lastfm.bmp'
   license: MIT
   byos:
     byos_laravel:
@@ -342,7 +342,7 @@ monsieurm-trmnl-yearinprogress:
     zip_url: 'https://github.com/monsieurm/trmnl-yearinprogress/archive/refs/heads/main.zip'
     version: main
   logo_url: null
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/monsieurm/trmnl-yearinprogress/refs/heads/main/trmnl-yearinprogress-dots.jpeg'
   license: Unknown
   byos:
     byos_laravel:
@@ -362,7 +362,7 @@ saious119-trmnl-anime-of-the-day:
     zip_url: 'https://github.com/Saious119/trmnl-anime-of-the-day/archive/refs/heads/main.zip'
     version: main
   logo_url: null
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/Saious119/trmnl-anime-of-the-day/main/docs/fullscreen_preview.png'
   license: MIT
   byos:
     byos_laravel:
@@ -382,7 +382,7 @@ schrockwell-trmnl-dsn:
     zip_url: 'https://github.com/schrockwell/trmnl-dsn/archive/refs/heads/main.zip'
     version: main
   logo_url: null
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/schrockwell/trmnl-dsn/main/preview.png'
   license: Unknown
   byos:
     byos_laravel:
@@ -404,7 +404,7 @@ schrockwell-trmnl-metar:
     zip_url: 'https://github.com/schrockwell/trmnl-metar/archive/refs/heads/main.zip'
     version: main
   logo_url: null
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/schrockwell/trmnl-metar/main/preview.png'
   license: Unknown
   byos:
     byos_laravel:
@@ -427,7 +427,7 @@ snarfulsolutionsgroup-xkcd:
     zip_url: 'https://github.com/SnarfulSolutionsGroup/TRMNL-Plugins/raw/39a8e9119853761319b9ec75834010be3761f638/private_plugin_18267.zip'
     version: main
   logo_url: null
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/SnarfulSolutionsGroup/TRMNL-Plugins/main/Daily_Comic.png'
   license: Unknown
   byos:
     byos_laravel:
@@ -493,7 +493,7 @@ stephenyeargin-trmnl-pbs-kids:
     zip_url: 'https://github.com/stephenyeargin/trmnl-pbs-kids/archive/refs/heads/main.zip'
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/0tqsvsthwc0g9im6xmo2vcj9btm0'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/stephenyeargin/trmnl-pbs-kids/main/assets/screenshot.png'
   license: MIT
   byos:
     byos_laravel:
@@ -516,7 +516,7 @@ stephenyeargin-trmnl-pixelfed:
     zip_url: 'https://github.com/stephenyeargin/trmnl-pixelfed/archive/refs/heads/main.zip'
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/9eeluw5i22dlxfbhgzb3xjf0nui9'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/stephenyeargin/trmnl-pixelfed/main/assets/screenshot.png'
   license: MIT
   byos:
     byos_laravel:
@@ -685,7 +685,7 @@ vimwtf-trmnl-lumon-wellness:
     zip_url: 'https://github.com/vimwtf/trmnl-lumon-wellness/archive/refs/heads/main.zip'
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/vkhoxf2zms9ch5jkhv4i10jywx81'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/vimwtf/trmnl-lumon-wellness/main/screenshot.png'
   license: Unknown
   byos:
     byos_laravel:
