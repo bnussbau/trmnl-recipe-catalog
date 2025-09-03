@@ -6,7 +6,7 @@ bnussbau-trmnl-austrian-train-departures:
     zip_url: 'https://github.com/bnussbau/trmnl-austrian-train-departures/archive/d8f175e57d1378541c9b6eff545d4c96a426e29d.zip'
     version: d8f175e
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/h9zmyi8yt117fehvb1cuw06v0wta'
-  screenshot_url: 'https://github.com/user-attachments/assets/440f3c3e-ee12-4493-b94e-a2cd6e9e61f5'
+  screenshot_url: 'https://github.com/user-attachments/assets/79ed0058-4885-4160-bc36-f02ab81cdb63'
   license: MIT
   byos:
     byos_laravel:
@@ -462,8 +462,8 @@ sourcediver42-trmnl-mobiliteit:
     id: '129030'
   funding: {  }
   author_bio:
-    description: This recipe can be used to show a timetable of a bus stop using the Mobiliteit.lu API.
-    github_url: https://github.com/SourceDiver42/trmnl-mobiliteit
+    description: 'This recipe can be used to show a timetable of a bus stop using the Mobiliteit.lu API.'
+    github_url: 'https://github.com/SourceDiver42/trmnl-mobiliteit'
     email_address: sourcediver42@pm.me
 sriniketh-trmnl-plugin-whos-that-pokemon:
   name: "Who's That Pokémon?"
