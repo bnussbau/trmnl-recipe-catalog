@@ -1301,6 +1301,28 @@ vimwtf-trmnl-lumon-wellness:
   author_bio:
     description: 'TRMNL plugin to display facts about your Outie'
     homepage: 'https://usetrmnl.com/recipes/102880'
+who-would-know-trml-plugin-jeopardy:
+  name: Jeopardy!
+  trmnlp:
+    id: null
+    repo: 'https://github.com/who-would-know/trml-plugin-jeopardy'
+    zip_url: 'https://github.com/who-would-know/trml-plugin-jeopardy/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.16.1
+  author:
+    github: who-would-know
+  funding: {  }
+  author_bio:
+    description: 'TRMNL Jeopardy Plugin'
+    learn_more_url: 'https://jeopardy.drun.sh'
+    email_address: whowouldknowdev@gmail.com
 who-would-know-trml-plugin-open-trivia-db:
   name: 'Open Trivia DB'
   trmnlp:
