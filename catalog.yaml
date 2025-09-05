@@ -262,6 +262,27 @@ erikbuild-trmnl-yolink-temperature:
   funding: {  }
   author_bio:
     description: 'Simple TRMNL plugin for grabbing the current state of YoLink temperature sensors.'
+heroheman-trmnl-wakatime:
+  name: 'WakaTime Dashboard'
+  trmnlp:
+    id: 123718
+    repo: 'https://github.com/heroheman/trmnl_wakatime'
+    zip_url: 'https://github.com/heroheman/trmnl_wakatime/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/bvstrbh0g9zlaw83a8jmo5c0pog7'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: heroheman
+  funding: {  }
+  author_bio:
+    description: 'A WakaTime dashboard plugin for TRMNLP, displaying your coding activity in a customizable chart format.'
+    email_address: moin@flore.nz
 jbarreiros-trmnl-noaa-tides:
   name: 'Upcoming Tides (NOAA)'
   trmnlp:
