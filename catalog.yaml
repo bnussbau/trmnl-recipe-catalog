@@ -284,6 +284,27 @@ danmunoz-trmnl-bvg-transit:
   funding: {  }
   author_bio:
     description: "This is a TRMNL plugin that monitors the status of Berlin's BVG Public transportation."
+delhoume-trmnl-universal-plugin:
+  name: 'Universal Plugin'
+  trmnlp:
+    id: null
+    repo: 'https://github.com/delhoume/trmnl_universal_plugin'
+    zip_url: 'https://github.com/delhoume/trmnl_universal_plugin/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.16.1
+  author:
+    github: delhoume
+  funding: {  }
+  author_bio:
+    description: 'same code, different sources'
+    learn_more: 'https://github.com/delhoume/trmnl_universal_plugin/blob/main/README.md'
 erikbuild-trmnl-yolink-temperature:
   name: 'YoLink Temperature Sensor'
   trmnlp:
@@ -306,6 +327,64 @@ erikbuild-trmnl-yolink-temperature:
   funding: {  }
   author_bio:
     description: 'Simple TRMNL plugin for grabbing the current state of YoLink temperature sensors.'
+frjo-elprisetjustnu:
+  name: Elprisetjustnu
+  trmnlp:
+    id: 28620
+    repo: 'https://github.com/frjo/usetrmnl-plugins/tree/main/elprisetjustnu'
+    zip_url: 'https://github.com/frjo/usetrmnl-plugins/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: GPL-2.0
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'Monorepos not yet supported'
+      min_version: null
+  author:
+    github: frjo
+  funding: {  }
+  author_bio: {  }
+frjo-smhi:
+  name: SMHI
+  trmnlp:
+    id: null
+    repo: 'https://github.com/frjo/usetrmnl-plugins/blob/main/smhi'
+    zip_url: 'https://github.com/frjo/usetrmnl-plugins/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: GPL-2.0
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'Monorepos are currently not supported'
+      min_version: null
+  author:
+    github: frjo
+  funding: {  }
+  author_bio: {  }
+heroheman-trmnl-advanced-rss:
+  name: 'Advanced RSS '
+  trmnlp:
+    id: 79118
+    repo: 'https://github.com/heroheman/trmnl_advanced_rss'
+    zip_url: 'https://github.com/heroheman/trmnl_advanced_rss/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/92ql5lvo17p3csl37bp5sh2udl5w'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: heroheman
+  funding: {  }
+  author_bio:
+    description: 'A sophisticated RSS feed display plugin for TRMNL e-ink devices that transforms your favorite RSS feeds into beautifully formatted, customizable layouts.'
 heroheman-trmnl-wakatime:
   name: 'WakaTime Dashboard'
   trmnlp:
@@ -327,6 +406,26 @@ heroheman-trmnl-wakatime:
   author_bio:
     description: 'A WakaTime dashboard plugin for TRMNLP, displaying your coding activity in a customizable chart format.'
     email_address: moin@flore.nz
+javasavvydev-trmnl:
+  name: XWeather
+  trmnlp:
+    id: 138269
+    repo: 'https://github.com/javasavvydev/TRMNL/tree/main/XWeather'
+    zip_url: 'https://github.com/javasavvydev/TRMNL/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/a4ykut6xz22untlpu3pka66d4kae'
+  screenshot_url: null
+  license: GPL-3.0
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'Monorepos are not supported yet'
+      min_version: null
+  author:
+    github: javasavvydev
+  funding: {  }
+  author_bio:
+    description: 'This plugin will work with many personal weather stations including Ecowitt and Tempest. Any weather station that can publish to "PWS weather" or can transmit data to XWeather should work.'
 jbarreiros-trmnl-noaa-tides:
   name: 'Upcoming Tides (NOAA)'
   trmnlp:
@@ -349,7 +448,7 @@ jbarreiros-trmnl-noaa-tides:
     description: null
     homepage: null
 jbelien-trmnl-plugin-updownio:
-  name: trmnl-plugin-updownio
+  name: Updown.io
   trmnlp:
     id: null
     repo: 'https://github.com/jbelien/trmnl-plugin-updownio'
@@ -368,7 +467,8 @@ jbelien-trmnl-plugin-updownio:
   funding: {  }
   author_bio:
     description: 'updown.io plugin for TRMNL'
-    homepage: null
+    learn_more_url: 'https://jbelien.be/'
+    email_address: dev@jbelien.mozmail.com
 jvdmeij-trmnl-countdowngit:
   name: Countdown
   trmnlp:
@@ -739,6 +839,26 @@ schrockwell-trmnl-metar:
   author_bio:
     description: 'TRMNL private plugin for weather METARs'
     homepage: null
+sgardoll-nightscout-plugin:
+  name: Nightscout
+  trmnlp:
+    id: 139518
+    repo: 'https://github.com/sgardoll/Nightscout-Plugin'
+    zip_url: 'https://github.com/sgardoll/Nightscout-Plugin/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'Syntax error in Polling URL'
+      min_version: null
+  author:
+    github: sgardoll
+  funding: {  }
+  author_bio:
+    description: 'A comprehensive dashboard plugin for TRMNL that displays glucose monitoring data, weather information, and public transport departures with a beautiful glucose trend background chart.'
 snarfulsolutionsgroup-xkcd:
   name: XKCD
   trmnlp:
@@ -1410,6 +1530,28 @@ thepeopleseason-mtg-potd:
     description: 'A random new Magic the Gathering Plane card daily via Scryfall.com'
     learn_more_url: 'https://bsky.app/profile/thepeopleseason.bsky.social'
     email_address: matchstick@gmail.com
+tilmangriesel-ha-trmnl-weather-station:
+  name: 'Home Assistant Weather Station'
+  trmnlp:
+    id: 46862
+    repo: 'https://github.com/TilmanGriesel/ha_trmnl_weather_station/tree/main/TRMNL'
+    zip_url: 'https://github.com/TilmanGriesel/ha_trmnl_weather_station/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/6ndrekmt01h53ty35yulxztkq6gd'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: TilmanGriesel
+  funding:
+    buy_me_a_coffee: griesel
+    custom: "['https://usetrmnl.com?ref=griesel']"
+  author_bio:
+    description: '🌤️ TRMNL Home Assistant Weather Station'
 transitnownash-trmnl-wego-next-trip:
   name: 'Nashville WeGo Public Transit'
   trmnlp:
