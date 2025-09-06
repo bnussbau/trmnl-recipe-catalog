@@ -20,7 +20,7 @@ a-mnich-trmnl-monkey-island-quotes:
     description: 'TRMNL Monkey Island Quotes Plugin'
     homepage: ''
 andi4000-trmnl-open-meteo-weather-forecast:
-  name: "Half Vertical Display: Today's Max Hours"
+  name: "Open-Meteo Hourly Weather Forecast"
   trmnlp:
     id: 112422
     repo: 'https://github.com/andi4000/trmnl-open-meteo-weather-forecast'
