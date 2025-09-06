@@ -40,6 +40,50 @@ andi4000-trmnl-open-meteo-weather-forecast:
   author_bio:
     description: 'Weather forecast plugin for @usetrmnl, using data from Open-Meteo. No API Key needed. For updates, simply re-fork the recipe!'
     homepage: 'https://usetrmnl.com/recipes/112422'
+argoroots-borsihind:
+  name: Börsihind.ee
+  trmnlp:
+    id: 122983
+    repo: 'https://github.com/argoroots/trmnl/blob/main/borsihind'
+    zip_url: 'https://github.com/argoroots/trmnl/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/p6alv8wqed1xjd5l49api5290689'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'Monorepos on GitHub not yet supported.'
+      min_version: null
+  author:
+    github: argoroots
+  funding: {  }
+  author_bio:
+    description: 'Display real-time Estonian electricity prices from börsihind.ee on your TRMNL screen. View current pricing in cents per kWh, find the cheapest 1-4 hour periods for optimal energy usage, and see hourly price trends. Complete breakdown includes electricity price, transmission costs, renewable energy fees, and excise tax.'
+    learn_more_url: 'https://www.borsihind.ee'
+    email_address: argo@roots.ee
+argoroots-met-no:
+  name: 'Met.no Forecast'
+  trmnlp:
+    id: 132448
+    repo: 'https://github.com/argoroots/trmnl/blob/main/met-no'
+    zip_url: 'https://github.com/argoroots/trmnl/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/5kaqe28xodb1vpyxs8c0wi5xzgao'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'Monorepos on GitHub not yet supported.'
+      min_version: null
+  author:
+    github: argoroots
+  funding: {  }
+  author_bio:
+    description: 'Display weather forecast from The Norwegian Meteorological Institute (met.no) on your TRMNL screen. This is not an official plugin. It is developed by Argo Roots and uses the met.no API.'
+    learn_more_url: 'https://www.met.no'
+    email_address: argo@roots.ee
 bnussbau-trmnl-austrian-train-departures:
   name: 'Austrian Train Departures (OEBB)'
   trmnlp:
@@ -1278,6 +1322,94 @@ sun-weather-graph:
     github_url: 'https://github.com/TheLastZombie'
     learn_more_url: 'https://sny.sh/'
     email_address: sunny@sny.sh
+thepeopleseason-din-time-weather:
+  name: 'DIN Time 風'
+  trmnlp:
+    id: 131778
+    repo: 'https://github.com/thepeopleseason/trmnl-plugins/tree/main/din-time-weather'
+    zip_url: 'https://github.com/thepeopleseason/trmnl-plugins/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/y9t9ew5tzlecd0yco6ixk41b08k4'
+  screenshot_url: null
+  license: AGPL-3.0
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'Monorepos on GitHub not yet supported.'
+      min_version: null
+  author:
+    github: thepeopleseason
+  funding: {  }
+  author_bio:
+    description: 'Time (sort of) and Weather. Inspired by the Pebble Watchface DIN Time'
+    learn_more_url: 'https://bsky.app/profile/thepeopleseason.bsky.social'
+    email_address: matchstick@gmail.com
+thepeopleseason-edhrec-top:
+  name: 'EDHRec Top MTG Commanders'
+  trmnlp:
+    id: 131111
+    repo: 'https://github.com/thepeopleseason/trmnl-plugins/blob/main/edhrec-top'
+    zip_url: 'https://github.com/thepeopleseason/trmnl-plugins/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/nrrdlm93dnk8g15fzvs6eqt6l94b'
+  screenshot_url: null
+  license: AGPL-3.0
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'Monorepos on GitHub not yet supported.'
+      min_version: null
+  author:
+    github: thepeopleseason
+  funding: {  }
+  author_bio:
+    description: 'Listing the most popular commanders on edhrec.com for the past week, month, and last 2 years.'
+    learn_more_url: 'https://bsky.app/profile/thepeopleseason.bsky.social'
+    email_address: matchstick@gmail.com
+thepeopleseason-mtg-cotd:
+  name: 'MTG Card of the Day'
+  trmnlp:
+    id: 127986
+    repo: 'https://github.com/thepeopleseason/trmnl-plugins/blob/main/mtg-cotd'
+    zip_url: 'https://github.com/thepeopleseason/trmnl-plugins/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/tihdjper4d2pmytzjntp77knp4m7'
+  screenshot_url: null
+  license: AGPL-3.0
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'Monorepos on GitHub not yet supported.'
+      min_version: null
+  author:
+    github: thepeopleseason
+  funding: {  }
+  author_bio:
+    description: 'A random new Magic the Gathering card daily via Scryfall.com'
+    learn_more_url: 'https://bsky.app/profile/thepeopleseason.bsky.social'
+    email_address: matchstick@gmail.com
+thepeopleseason-mtg-potd:
+  name: 'Magic Plane of the Day'
+  trmnlp:
+    id: 129689
+    repo: 'https://github.com/thepeopleseason/trmnl-plugins/blob/main/mtg-potd'
+    zip_url: 'https://github.com/thepeopleseason/trmnl-plugins/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/h9phuget5pi2jkqwbudln21gg98s'
+  screenshot_url: null
+  license: AGPL-3.0
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'Monorepos on GitHub not yet supported.'
+      min_version: null
+  author:
+    github: thepeopleseason
+  funding: {  }
+  author_bio:
+    description: 'A random new Magic the Gathering Plane card daily via Scryfall.com'
+    learn_more_url: 'https://bsky.app/profile/thepeopleseason.bsky.social'
+    email_address: matchstick@gmail.com
 transitnownash-trmnl-wego-next-trip:
   name: 'Nashville WeGo Public Transit'
   trmnlp:
