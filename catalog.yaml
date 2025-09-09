@@ -20,7 +20,7 @@ a-mnich-trmnl-monkey-island-quotes:
     description: 'TRMNL Monkey Island Quotes Plugin'
     homepage: ''
 andi4000-trmnl-open-meteo-weather-forecast:
-  name: "Open-Meteo Hourly Weather Forecast"
+  name: 'Open-Meteo Hourly Weather Forecast'
   trmnlp:
     id: 112422
     repo: 'https://github.com/andi4000/trmnl-open-meteo-weather-forecast'
@@ -406,6 +406,27 @@ heroheman-trmnl-wakatime:
   author_bio:
     description: 'A WakaTime dashboard plugin for TRMNLP, displaying your coding activity in a customizable chart format.'
     email_address: moin@flore.nz
+itsjustthomas-trmnl-anki:
+  name: 'Anki cards'
+  trmnlp:
+    id: null
+    repo: 'https://github.com/ItsJustThomas/trmnl-anki'
+    zip_url: 'https://github.com/ItsJustThomas/trmnl-anki/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: AGPL-3.0
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: ItsJustThomas
+  funding: {  }
+  author_bio:
+    description: 'Display Anki cards on TRMNL'
+    homepage: ''
 javasavvydev-trmnl:
   name: XWeather
   trmnlp:
