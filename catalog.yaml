@@ -365,6 +365,26 @@ frjo-smhi:
     github: frjo
   funding: {  }
   author_bio: {  }
+glyphic.com-marquee:
+  name: Marquee
+  trmnlp:
+    id: null
+    repo: null
+    zip_url: 'https://www.glyphic.com/marquee/marquee_plugin.zip'
+    version: null
+  logo_url: null
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author: {  }
+  funding: {  }
+  author_bio:
+    email: mark@glyphic.com
+    homepage: 'https://www.glyphic.com/marquee'
 heroheman-trmnl-advanced-rss:
   name: 'Advanced RSS '
   trmnlp:
