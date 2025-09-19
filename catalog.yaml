@@ -84,6 +84,142 @@ argoroots-met-no:
     description: 'Display weather forecast from The Norwegian Meteorological Institute (met.no) on your TRMNL screen. This is not an official plugin. It is developed by Argo Roots and uses the met.no API.'
     learn_more_url: 'https://www.met.no'
     email_address: argo@roots.ee
+blueset-random-mdn-article:
+  name: 'Random MDN Article'
+  trmnlp:
+    id: 153731
+    repo: 'https://github.com/blueset/trmnl-recipes/tree/master/random-mdn-article'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: 'https://github.com/blueset/trmnl-recipes/blob/master/random-mdn-article/images/f.png?raw=true'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: blueset
+  funding:
+    github: blueset
+    liberapay: blueset
+    ko_fi: blueset
+  author_bio: {  }
+blueset-random-unicode:
+  name: 'Random Unicode'
+  trmnlp:
+    id: 151050
+    repo: 'https://github.com/blueset/trmnl-recipes/tree/master/random-unicode'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: 'https://github.com/blueset/trmnl-recipes/raw/master/random-unicode/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: blueset
+  funding:
+    github: blueset
+    liberapay: blueset
+    ko_fi: blueset
+  author_bio:
+    description: 'A random Unicode codepoint on each refresh. Data powered by codepoints.net.'
+    learn_more_url: 'https://codepoints.net'
+blueset-lyricova-quote:
+  name: 'Lyricova Quote'
+  trmnlp:
+    id: 150439
+    repo: 'https://github.com/blueset/trmnl-recipes/tree/master/lyricova-quote'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/master/lyricova-quote/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: blueset
+  funding:
+    github: blueset
+    liberapay: blueset
+    ko_fi: blueset
+  author_bio: {  }
+blueset-visa-bulletin:
+  name: 'Visa Bulletin'
+  trmnlp:
+    id: 155086
+    repo: 'https://github.com/blueset/trmnl-recipes/tree/master/visa-bulletin'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: 'https://github.com/blueset/trmnl-recipes/raw/master/visa-bulletin/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: blueset
+  funding:
+    github: blueset
+    liberapay: blueset
+    ko_fi: blueset
+  author_bio: {  }
+blueset-wikipedia-article-of-the-day:
+  name: 'Wikipedia Article of the Day'
+  trmnlp:
+    id: 148054
+    repo: 'https://github.com/blueset/trmnl-recipes/tree/master/wikipedia-article-of-the-day'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: 'https://github.com/blueset/trmnl-recipes/raw/master/wikipedia-article-of-the-day/images/en-f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: blueset
+  funding:
+    github: blueset
+    liberapay: blueset
+    ko_fi: blueset
+  author_bio:
+    description: 'Multilingual Wikipedia Article of the Day plugin'
+blueset-world-clock:
+  name: 'World clock'
+  trmnlp:
+    id: 153664
+    repo: 'https://github.com/blueset/trmnl-recipes/tree/master/world-clock'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: 'https://github.com/blueset/trmnl-recipes/raw/master/world-clock/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: blueset
+  funding:
+    github: blueset
+    liberapay: blueset
+    ko_fi: blueset
+  author_bio:
+    description: 'A digital world clock shows up to 7 time zones. Inspired by World Time Buddy and Windows 11 World Clock.'
 bnussbau-trmnl-austrian-train-departures:
   name: 'Austrian Train Departures (OEBB)'
   trmnlp:
