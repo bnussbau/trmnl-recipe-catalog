@@ -89,7 +89,7 @@ blueset-random-mdn-article:
   trmnlp:
     id: 153731
     repo: 'https://github.com/blueset/trmnl-recipes/tree/master/random-mdn-article'
-    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/main.zip'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
     version: main
   logo_url: null
   screenshot_url: 'https://github.com/blueset/trmnl-recipes/blob/master/random-mdn-article/images/f.png?raw=true'
@@ -111,7 +111,7 @@ blueset-random-unicode:
   trmnlp:
     id: 151050
     repo: 'https://github.com/blueset/trmnl-recipes/tree/master/random-unicode'
-    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/main.zip'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
     version: main
   logo_url: null
   screenshot_url: 'https://github.com/blueset/trmnl-recipes/raw/master/random-unicode/images/f.png'
@@ -135,16 +135,17 @@ blueset-lyricova-quote:
   trmnlp:
     id: 150439
     repo: 'https://github.com/blueset/trmnl-recipes/tree/master/lyricova-quote'
-    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/main.zip'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_directory: 'lyricova-quote'
     version: main
   logo_url: null
   screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/master/lyricova-quote/images/f.png'
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.17.0
   author:
     github: blueset
   funding:
@@ -157,7 +158,7 @@ blueset-visa-bulletin:
   trmnlp:
     id: 155086
     repo: 'https://github.com/blueset/trmnl-recipes/tree/master/visa-bulletin'
-    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/main.zip'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
     version: main
   logo_url: null
   screenshot_url: 'https://github.com/blueset/trmnl-recipes/raw/master/visa-bulletin/images/f.png'
@@ -179,7 +180,7 @@ blueset-wikipedia-article-of-the-day:
   trmnlp:
     id: 148054
     repo: 'https://github.com/blueset/trmnl-recipes/tree/master/wikipedia-article-of-the-day'
-    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/main.zip'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
     version: main
   logo_url: null
   screenshot_url: 'https://github.com/blueset/trmnl-recipes/raw/master/wikipedia-article-of-the-day/images/en-f.png'
@@ -202,7 +203,7 @@ blueset-world-clock:
   trmnlp:
     id: 153664
     repo: 'https://github.com/blueset/trmnl-recipes/tree/master/world-clock'
-    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/main.zip'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
     version: main
   logo_url: null
   screenshot_url: 'https://github.com/blueset/trmnl-recipes/raw/master/world-clock/images/f.png'
