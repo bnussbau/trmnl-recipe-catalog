@@ -136,7 +136,7 @@ blueset-lyricova-quote:
     id: 150439
     repo: 'https://github.com/blueset/trmnl-recipes/tree/master/lyricova-quote'
     zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
-    zip_directory: 'lyricova-quote'
+    zip_entry_path: 'trmnl-recipes-master/lyricova-quote'
     version: main
   logo_url: null
   screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/master/lyricova-quote/images/f.png'
