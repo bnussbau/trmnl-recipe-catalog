@@ -25,15 +25,16 @@ andi4000-trmnl-open-meteo-weather-forecast:
     id: 112422
     repo: 'https://github.com/andi4000/trmnl-open-meteo-weather-forecast'
     zip_url: 'https://github.com/andi4000/trmnl-open-meteo-weather-forecast/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: null
   screenshot_url: null
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: 'You need to adapt the Data Format and remove the % chars'
-      min_version: null
+      min_version: 0.17.0
   author:
     github: andi4000
   funding: {  }
@@ -46,15 +47,16 @@ argoroots-borsihind:
     id: 122983
     repo: 'https://github.com/argoroots/trmnl/blob/main/borsihind'
     zip_url: 'https://github.com/argoroots/trmnl/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-main/borsihind
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/p6alv8wqed1xjd5l49api5290689'
   screenshot_url: null
   license: MIT
   byos:
     byos_laravel:
-      compatibility: false
-      compatibility_note: 'Monorepos on GitHub not yet supported.'
-      min_version: null
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.17.0
   author:
     github: argoroots
   funding: {  }
@@ -68,15 +70,16 @@ argoroots-met-no:
     id: 132448
     repo: 'https://github.com/argoroots/trmnl/blob/main/met-no'
     zip_url: 'https://github.com/argoroots/trmnl/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-main/met-no
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/5kaqe28xodb1vpyxs8c0wi5xzgao'
   screenshot_url: null
   license: MIT
   byos:
     byos_laravel:
-      compatibility: false
-      compatibility_note: 'Monorepos on GitHub not yet supported.'
-      min_version: null
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.17.0
   author:
     github: argoroots
   funding: {  }
@@ -84,59 +87,13 @@ argoroots-met-no:
     description: 'Display weather forecast from The Norwegian Meteorological Institute (met.no) on your TRMNL screen. This is not an official plugin. It is developed by Argo Roots and uses the met.no API.'
     learn_more_url: 'https://www.met.no'
     email_address: argo@roots.ee
-blueset-random-mdn-article:
-  name: 'Random MDN Article'
-  trmnlp:
-    id: 153731
-    repo: 'https://github.com/blueset/trmnl-recipes/tree/master/random-mdn-article'
-    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
-    version: main
-  logo_url: null
-  screenshot_url: 'https://github.com/blueset/trmnl-recipes/blob/master/random-mdn-article/images/f.png?raw=true'
-  license: MIT
-  byos:
-    byos_laravel:
-      compatibility: null
-      compatibility_note: null
-      min_version: null
-  author:
-    github: blueset
-  funding:
-    github: blueset
-    liberapay: blueset
-    ko_fi: blueset
-  author_bio: {  }
-blueset-random-unicode:
-  name: 'Random Unicode'
-  trmnlp:
-    id: 151050
-    repo: 'https://github.com/blueset/trmnl-recipes/tree/master/random-unicode'
-    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
-    version: main
-  logo_url: null
-  screenshot_url: 'https://github.com/blueset/trmnl-recipes/raw/master/random-unicode/images/f.png'
-  license: MIT
-  byos:
-    byos_laravel:
-      compatibility: null
-      compatibility_note: null
-      min_version: null
-  author:
-    github: blueset
-  funding:
-    github: blueset
-    liberapay: blueset
-    ko_fi: blueset
-  author_bio:
-    description: 'A random Unicode codepoint on each refresh. Data powered by codepoints.net.'
-    learn_more_url: 'https://codepoints.net'
 blueset-lyricova-quote:
   name: 'Lyricova Quote'
   trmnlp:
     id: 150439
     repo: 'https://github.com/blueset/trmnl-recipes/tree/master/lyricova-quote'
     zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
-    zip_entry_path: 'trmnl-recipes-master/lyricova-quote'
+    zip_entry_path: trmnl-recipes-master/lyricova-quote
     version: main
   logo_url: null
   screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/master/lyricova-quote/images/f.png'
@@ -153,21 +110,70 @@ blueset-lyricova-quote:
     liberapay: blueset
     ko_fi: blueset
   author_bio: {  }
+blueset-random-mdn-article:
+  name: 'Random MDN Article'
+  trmnlp:
+    id: 153731
+    repo: 'https://github.com/blueset/trmnl-recipes/tree/master/random-mdn-article'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/random-mdn-article
+    version: main
+  logo_url: null
+  screenshot_url: 'https://github.com/blueset/trmnl-recipes/blob/master/random-mdn-article/images/f.png?raw=true'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.17.0
+  author:
+    github: blueset
+  funding:
+    github: blueset
+    liberapay: blueset
+    ko_fi: blueset
+  author_bio: {  }
+blueset-random-unicode:
+  name: 'Random Unicode'
+  trmnlp:
+    id: 151050
+    repo: 'https://github.com/blueset/trmnl-recipes/tree/master/random-unicode'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/random-unicode
+    version: main
+  logo_url: null
+  screenshot_url: 'https://github.com/blueset/trmnl-recipes/raw/master/random-unicode/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: blueset
+  funding:
+    github: blueset
+    liberapay: blueset
+    ko_fi: blueset
+  author_bio:
+    description: 'A random Unicode codepoint on each refresh. Data powered by codepoints.net.'
+    learn_more_url: 'https://codepoints.net'
 blueset-visa-bulletin:
   name: 'Visa Bulletin'
   trmnlp:
     id: 155086
     repo: 'https://github.com/blueset/trmnl-recipes/tree/master/visa-bulletin'
     zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/visa-bulletin
     version: main
   logo_url: null
   screenshot_url: 'https://github.com/blueset/trmnl-recipes/raw/master/visa-bulletin/images/f.png'
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.17.0
   author:
     github: blueset
   funding:
@@ -181,15 +187,16 @@ blueset-wikipedia-article-of-the-day:
     id: 148054
     repo: 'https://github.com/blueset/trmnl-recipes/tree/master/wikipedia-article-of-the-day'
     zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/wikipedia-article-of-the-day
     version: main
   logo_url: null
   screenshot_url: 'https://github.com/blueset/trmnl-recipes/raw/master/wikipedia-article-of-the-day/images/en-f.png'
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.17.0
   author:
     github: blueset
   funding:
@@ -204,13 +211,14 @@ blueset-world-clock:
     id: 153664
     repo: 'https://github.com/blueset/trmnl-recipes/tree/master/world-clock'
     zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/world-clock
     version: main
   logo_url: null
   screenshot_url: 'https://github.com/blueset/trmnl-recipes/raw/master/world-clock/images/f.png'
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: false
       compatibility_note: null
       min_version: null
   author:
@@ -407,15 +415,16 @@ danmunoz-trmnl-bvg-transit:
     id: 39029
     repo: 'https://github.com/danmunoz/trmnl-bvg-transit'
     zip_url: 'https://github.com/danmunoz/trmnl-bvg-transit/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: null
   screenshot_url: null
   license: MIT
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.17.0
   author:
     github: danmunoz
   funding: {  }
@@ -470,15 +479,16 @@ frjo-elprisetjustnu:
     id: 28620
     repo: 'https://github.com/frjo/usetrmnl-plugins/tree/main/elprisetjustnu'
     zip_url: 'https://github.com/frjo/usetrmnl-plugins/archive/refs/heads/main.zip'
+    zip_entry_path: usetrmnl-plugins-main/elprisetjustnu
     version: main
   logo_url: null
   screenshot_url: null
   license: GPL-2.0
   byos:
     byos_laravel:
-      compatibility: false
-      compatibility_note: 'Monorepos not yet supported'
-      min_version: null
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.17.0
   author:
     github: frjo
   funding: {  }
@@ -489,15 +499,16 @@ frjo-smhi:
     id: null
     repo: 'https://github.com/frjo/usetrmnl-plugins/blob/main/smhi'
     zip_url: 'https://github.com/frjo/usetrmnl-plugins/archive/refs/heads/main.zip'
+    zip_entry_path: usetrmnl-plugins-main/smhi
     version: main
   logo_url: null
   screenshot_url: null
   license: GPL-2.0
   byos:
     byos_laravel:
-      compatibility: false
-      compatibility_note: 'Monorepos are currently not supported'
-      min_version: null
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.17.0
   author:
     github: frjo
   funding: {  }
@@ -508,15 +519,16 @@ glyphic.com-marquee:
     id: null
     repo: null
     zip_url: 'https://www.glyphic.com/marquee/marquee_plugin.zip'
+    zip_entry_path: null
     version: null
   logo_url: null
   screenshot_url: null
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: false
-      compatibility_note: null
-      min_version: null
+      compatibility: true
+      compatibility_note: 'Backend not compatible'
+      min_version: 0.17.0
   author: {  }
   funding: {  }
   author_bio:
@@ -590,15 +602,16 @@ javasavvydev-trmnl:
     id: 138269
     repo: 'https://github.com/javasavvydev/TRMNL/tree/main/XWeather'
     zip_url: 'https://github.com/javasavvydev/TRMNL/archive/refs/heads/main.zip'
+    zip_entry_path: TRMNL-main/XWeather
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/a4ykut6xz22untlpu3pka66d4kae'
   screenshot_url: null
   license: GPL-3.0
   byos:
     byos_laravel:
-      compatibility: false
-      compatibility_note: 'Monorepos are not supported yet'
-      min_version: null
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.17.0
   author:
     github: javasavvydev
   funding: {  }
@@ -610,6 +623,7 @@ jbarreiros-trmnl-noaa-tides:
     id: 98475
     repo: 'https://github.com/jbarreiros/trmnl_noaa_tides'
     zip_url: 'https://github.com/jbarreiros/trmnl_noaa_tides/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: null
   screenshot_url: null
@@ -631,13 +645,14 @@ jbelien-trmnl-plugin-updownio:
     id: null
     repo: 'https://github.com/jbelien/trmnl-plugin-updownio'
     zip_url: 'https://github.com/jbelien/trmnl-plugin-updownio/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: null
   screenshot_url: null
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: false
       compatibility_note: null
       min_version: null
   author:
@@ -652,7 +667,8 @@ jvdmeij-trmnl-countdowngit:
   trmnlp:
     id: null
     repo: 'https://github.com/jvdmeij/trmnl-countdown.git'
-    zip_url: 'https://github.com/jvdmeij/trmnl-countdown.git/archive/refs/heads/main.zip'
+    zip_url: 'https://github.com/jvdmeij/trmnl-countdown/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: null
   screenshot_url: null
@@ -694,7 +710,8 @@ jvdmeij-trmnl-magic-8-ballgit:
   trmnlp:
     id: 22689
     repo: 'https://github.com/jvdmeij/trmnl-magic-8-ball.git'
-    zip_url: 'https://github.com/jvdmeij/trmnl-magic-8-ball.git/archive/refs/heads/main.zip'
+    zip_url: 'https://github.com/jvdmeij/trmnl-magic-8-ball/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/bcdbyz4ovlu3fjfi6ahulz4u3dkv'
   screenshot_url: null
@@ -733,6 +750,7 @@ jvdmeij-trmnl-word-clock:
     id: 19925
     repo: 'https://github.com/jvdmeij/trmnl-word-clock'
     zip_url: 'https://github.com/jvdmeij/trmnl-word-clock/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/r3ps7o2rtof9v1kg8o62a9auo0w5'
   screenshot_url: null
@@ -1626,15 +1644,16 @@ thepeopleseason-din-time-weather:
     id: 131778
     repo: 'https://github.com/thepeopleseason/trmnl-plugins/tree/main/din-time-weather'
     zip_url: 'https://github.com/thepeopleseason/trmnl-plugins/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-plugins-main/din-time-weather
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/y9t9ew5tzlecd0yco6ixk41b08k4'
   screenshot_url: null
   license: AGPL-3.0
   byos:
     byos_laravel:
-      compatibility: false
-      compatibility_note: 'Monorepos on GitHub not yet supported.'
-      min_version: null
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.17.0
   author:
     github: thepeopleseason
   funding: {  }
@@ -1648,15 +1667,16 @@ thepeopleseason-edhrec-top:
     id: 131111
     repo: 'https://github.com/thepeopleseason/trmnl-plugins/blob/main/edhrec-top'
     zip_url: 'https://github.com/thepeopleseason/trmnl-plugins/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-plugins-main/edhrec-top
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/nrrdlm93dnk8g15fzvs6eqt6l94b'
   screenshot_url: null
   license: AGPL-3.0
   byos:
     byos_laravel:
-      compatibility: false
-      compatibility_note: 'Monorepos on GitHub not yet supported.'
-      min_version: null
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.17.0
   author:
     github: thepeopleseason
   funding: {  }
@@ -1670,6 +1690,7 @@ thepeopleseason-mtg-cotd:
     id: 127986
     repo: 'https://github.com/thepeopleseason/trmnl-plugins/blob/main/mtg-cotd'
     zip_url: 'https://github.com/thepeopleseason/trmnl-plugins/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-plugins-main/mtg-cotd
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/tihdjper4d2pmytzjntp77knp4m7'
   screenshot_url: null
@@ -1677,7 +1698,7 @@ thepeopleseason-mtg-cotd:
   byos:
     byos_laravel:
       compatibility: false
-      compatibility_note: 'Monorepos on GitHub not yet supported.'
+      compatibility_note: null
       min_version: null
   author:
     github: thepeopleseason
@@ -1692,15 +1713,16 @@ thepeopleseason-mtg-potd:
     id: 129689
     repo: 'https://github.com/thepeopleseason/trmnl-plugins/blob/main/mtg-potd'
     zip_url: 'https://github.com/thepeopleseason/trmnl-plugins/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-plugins-main/mtg-potd
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/h9phuget5pi2jkqwbudln21gg98s'
   screenshot_url: null
   license: AGPL-3.0
   byos:
     byos_laravel:
-      compatibility: false
-      compatibility_note: 'Monorepos on GitHub not yet supported.'
-      min_version: null
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.17.0
   author:
     github: thepeopleseason
   funding: {  }
