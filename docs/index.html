@@ -6,33 +6,100 @@
   <title>Recipe Catalog</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css">
   <style>
-    body { background: #f9f9f9; }
-    input:focus { border-color: rgb(248, 101, 75) !important; }
+    :root {
+      --bg-color: #f9f9f9;
+      --card-bg: #fff;
+      --text-color: #333;
+      --text-muted: #888;
+      --border-color: #ddd;
+      --shadow: rgba(0,0,0,0.07);
+      --logo-bg: #eee;
+      --accent-color: rgb(248, 101, 75);
+      --accent-hover: rgb(200, 60, 40);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg-color: #1a1a1a;
+        --card-bg: #2d2d2d;
+        --text-color: #e0e0e0;
+        --text-muted: #a0a0a0;
+        --border-color: #444;
+        --shadow: rgba(0,0,0,0.3);
+        --logo-bg: #404040;
+        --accent-color: rgb(255, 120, 95);
+        --accent-hover: rgb(255, 140, 115);
+      }
+    }
+
+    body { 
+      background: var(--bg-color); 
+      color: var(--text-color);
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    
+    input:focus { border-color: var(--accent-color) !important; }
+    
     .container {
       max-width: 60rem;
     }
+    
+    
     .card {
-      background: #fff;
+      background: var(--card-bg);
       border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      box-shadow: 0 2px 8px var(--shadow);
       padding: 1.5em;
       margin-bottom: 1.5em;
       display: flex;
       gap: 1.5em;
       align-items: flex-start;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
     }
-    .card img.logo { width: 64px; height: 64px; object-fit: contain; border-radius: 6px; background: #eee; }
+    
+    .card img.logo { 
+      width: 64px; 
+      height: 64px; 
+      object-fit: contain; 
+      border-radius: 6px; 
+      background: var(--logo-bg);
+      transition: background-color 0.3s ease;
+    }
+    
     .card-content { flex: 1; }
     .search-box { margin: 2em 0; }
     .card-title { margin: 0 0 0.5em 0; }
-    .card-meta { color: #888; font-size: 0.95em; margin-bottom: 0.5em; }
+    .card-meta { color: var(--text-muted); font-size: 0.95em; margin-bottom: 0.5em; }
+    
     .card-links a {
       margin-right: 1em;
-      color: rgb(248, 101, 75) !important;
+      color: var(--accent-color) !important;
       transition: color 0.2s;
     }
+    
     .card-links a:hover {
-      color: rgb(200, 60, 40) !important;
+      color: var(--accent-hover) !important;
+    }
+    
+    .button {
+      transition: background-color 0.3s ease;
+    }
+    
+    input[type="text"] {
+      background: var(--card-bg);
+      color: var(--text-color);
+      border-color: var(--border-color);
+      transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    }
+    
+    h2, h4 {
+      color: var(--text-color);
+      transition: color 0.3s ease;
+    }
+    
+    p {
+      color: var(--text-muted);
+      transition: color 0.3s ease;
     }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
