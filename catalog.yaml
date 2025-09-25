@@ -48,7 +48,7 @@ andrzejskowron-steamsales:
     zip_url: 'https://github.com/andrzejskowron/trmnl-steamsales/archive/main.zip'
   byos:
     byos_laravel:
-      compatibility: true
+      compatibility: false
       compatibility_note: null
   author:
     github: andrzejskowron
