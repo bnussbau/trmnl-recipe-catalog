@@ -53,7 +53,7 @@ andrzejskowron-steamsales:
   author:
     github: andrzejskowron
   funding: 
-    buy_me_a_coffee: https://paypal.me/AndrzejSkowron
+    custom: https://paypal.me/AndrzejSkowron
   author_bio:
     description: 'Plugin connects to Steam Store API and gets the offers that are discounted the most.'
     github_url: 'https://github.com/andrzejskowron/trmnl-steamsales/'
