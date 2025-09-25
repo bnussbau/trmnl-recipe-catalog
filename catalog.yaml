@@ -44,16 +44,23 @@ andi4000-trmnl-open-meteo-weather-forecast:
 andrzejskowron-steamsales:
   name: 'Steam Sales'
   trmnlp:
+    id: null
     repo: 'https://github.com/andrzejskowron/trmnl-steamsales'
     zip_url: 'https://github.com/andrzejskowron/trmnl-steamsales/archive/main.zip'
+    zip_entry_path: null
+    version: null
+  logo_url: null
+  screenshot_url: null
+  license: Unknown
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
+      min_version: 0.17.1
   author:
     github: andrzejskowron
-  funding: 
-    custom: https://paypal.me/AndrzejSkowron
+  funding:
+    custom: 'https://paypal.me/AndrzejSkowron'
   author_bio:
     description: 'Plugin connects to Steam Store API and gets the offers that are discounted the most.'
     github_url: 'https://github.com/andrzejskowron/trmnl-steamsales/'
