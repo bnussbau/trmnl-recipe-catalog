@@ -41,6 +41,22 @@ andi4000-trmnl-open-meteo-weather-forecast:
   author_bio:
     description: 'Weather forecast plugin for @usetrmnl, using data from Open-Meteo. No API Key needed. For updates, simply re-fork the recipe!'
     homepage: 'https://usetrmnl.com/recipes/112422'
+andrzejskowron-steamsales:
+  name: 'Steam Sales'
+  trmnlp:
+    repo: 'https://github.com/andrzejskowron/trmnl-steamsales'
+    zip_url: 'https://github.com/andrzejskowron/trmnl-steamsales/archive/main.zip'
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+  author:
+    github: andrzejskowron
+  funding: 
+    buy_me_a_coffee: https://paypal.me/AndrzejSkowron
+  author_bio:
+    description: 'Plugin connects to Steam Store API and gets the offers that are discounted the most.'
+    github_url: 'https://github.com/andrzejskowron/trmnl-steamsales/'
 argoroots-borsihind:
   name: Börsihind.ee
   trmnlp:
