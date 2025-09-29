@@ -141,7 +141,7 @@ blueset-random-mdn-article:
     zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
     zip_entry_path: trmnl-recipes-master/random-mdn-article
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/n5w7uuph8kvockpn84fzwsuapr30'
   screenshot_url: 'https://github.com/blueset/trmnl-recipes/blob/master/random-mdn-article/images/f.png?raw=true'
   license: MIT
   byos:
