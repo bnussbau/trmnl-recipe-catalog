@@ -81,6 +81,41 @@
       color: var(--accent-hover) !important;
     }
     
+    .funding-dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .funding-dropdown-content {
+      display: none;
+      position: absolute;
+      background: var(--card-bg);
+      
+      box-shadow: 0 4px 8px var(--shadow);
+      border-radius: 6px;
+      z-index: 1000;
+      border: 1px solid var(--border-color);
+      top: 100%;
+      left: 0;
+    }
+    
+    .funding-dropdown-content a {
+      color: var(--text-color) !important;
+      padding: 8px 12px;
+      text-decoration: none;
+      display: block;
+      border-bottom: 1px solid var(--border-color);
+      transition: background-color 0.2s;
+    }
+    
+    .funding-dropdown-content a:last-child {
+      border-bottom: none;
+    }
+    
+    .funding-dropdown:hover .funding-dropdown-content {
+      display: block;
+    }
+    
     .button {
       transition: background-color 0.3s ease;
     }
@@ -143,6 +178,50 @@
       return `<div style="margin:0.5em 0 0.5em 0;">BYOS Compatibility:<ul><li>byos_laravel <span title="${text}">${icon}</span> ${text}</li></ul></div>`;
     }
 
+    function resolveFundingUrl(platform, username) {
+      const urlMap = {
+        'community_bridge': `https://funding.communitybridge.org/projects/${username}`,
+        'github': `https://github.com/sponsors/${username}`,
+        'issuehunt': `https://issuehunt.io/r/${username}`,
+        'ko_fi': `https://ko-fi.com/${username}`,
+        'liberapay': `https://liberapay.com/${username}`,
+        'open_collective': `https://opencollective.com/${username}`,
+        'patreon': `https://patreon.com/${username}`,
+        'tidelift': `https://tidelift.com/subscription/pkg/${username}`,
+        'polar': `https://polar.sh/${username}`,
+        'buy_me_a_coffee': `https://buymeacoffee.com/${username}`,
+        'thanks_dev': `https://thanks.dev/u/gh/${username}`,
+        'custom': username // Custom URLs are passed directly
+      };
+      return urlMap[platform] || '#';
+    }
+
+    function formatPlatformName(platform, username) {
+      if (platform === 'custom') {
+        return username;
+      }
+      return platform.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+    }
+
+    function fundingHTML(funding) {
+      if (!funding || Object.keys(funding).length === 0) return '';
+      
+      const fundingOptions = Object.entries(funding).map(([platform, username]) => {
+        const url = resolveFundingUrl(platform, username);
+        const displayName = formatPlatformName(platform, username);
+        return `<a href="${url}" target="_blank">${displayName}</a>`;
+      }).join('');
+      
+      return `
+        <div class="funding-dropdown">
+          <a href="#" style="color: var(--accent-color) !important;">Fund</a>
+          <div class="funding-dropdown-content">
+            ${fundingOptions}
+          </div>
+        </div>
+      `;
+    }
+
     function cardHTML(key, entry) {
       const byos = entry.byos?.byos_laravel;
       const logoHTML = entry.logo_url
@@ -158,6 +237,7 @@
           <img src="${entry.screenshot_url}" alt="Screenshot" style="max-width:100%;display:block;border-radius:8px;">
         </div>
       ` : '';
+      const fundingButton = fundingHTML(entry.funding);
       return `<div class="card">
         ${logoHTML}
         <div class="card-content">
@@ -173,6 +253,7 @@
             ${entry.trmnlp?.zip_url ? `<a href="${entry.trmnlp.zip_url}" target="_blank">Download ZIP</a>` : ''}
             ${entry.author_bio?.learn_more_url ? `<a href="${entry.author_bio.learn_more_url}" target="_blank">Learn More</a>` : ''}
             ${screenshotPopover}
+            ${fundingButton}
           </div>
         </div>
       </div>`;

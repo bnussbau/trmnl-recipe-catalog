@@ -322,7 +322,7 @@ bnussbau-trmnl-opds-shelf:
   author:
     github: bnussbau
   funding:
-    custom: '["https://usetrmnl.com/?ref=laravel-trmnl"]'
+    custom: 'https://usetrmnl.com/?ref=laravel-trmnl'
     buy_me_a_coffee: bnussbau
     github: bnussbau
   author_bio:
@@ -1772,7 +1772,7 @@ tilmangriesel-ha-trmnl-weather-station:
     github: TilmanGriesel
   funding:
     buy_me_a_coffee: griesel
-    custom: "['https://usetrmnl.com?ref=griesel']"
+    custom: 'https://usetrmnl.com?ref=griesel'
   author_bio:
     description: '🌤️ TRMNL Home Assistant Weather Station'
 transitnownash-trmnl-wego-next-trip:
