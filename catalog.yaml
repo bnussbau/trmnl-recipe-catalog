@@ -806,6 +806,26 @@ jvdmeij-trmnl-your-life-in-weeks:
     github: jvdmeij
   funding: {  }
   author_bio: {  }
+kraynel-trmnl-nyt-connections:
+  name: 'NYT Connections'
+  trmnlp:
+    id: 159089
+    repo: 'https://github.com/kraynel/trmnl-nyt-connections'
+    zip_url: 'https://github.com/kraynel/trmnl-nyt-connections/archive/refs/heads/master.zip'
+    zip_entry_path: null
+    version: master
+  logo_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/kraynel/trmnl-nyt-connections/refs/heads/master/image.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: 'Replace Polling URL with: https://www.nytimes.com/svc/connections/v2/{{ "now" | date: "%s" | date: "%Y-%m-%d" }}.json'
+      min_version: 0.17.0
+  author:
+    github: kraynel
+  funding: {  }
+  author_bio: {  }
 monsieurm-trmnl-lastfm:
   name: LastFM
   trmnlp:
