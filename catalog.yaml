@@ -910,15 +910,16 @@ monsieurm-trmnl-yearinprogress:
     id: 27924
     repo: 'https://github.com/monsieurm/trmnl-yearinprogress'
     zip_url: 'https://github.com/monsieurm/trmnl-yearinprogress/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: null
   screenshot_url: 'https://raw.githubusercontent.com/monsieurm/trmnl-yearinprogress/refs/heads/main/trmnl-yearinprogress-dots.jpeg'
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.17.3
   author:
     github: monsieurm
   funding: {  }
@@ -1014,15 +1015,16 @@ rknightuk-trmnl-relay-st-jude:
     id: 87177
     repo: 'https://github.com/rknightuk/trmnl-relay-st-jude'
     zip_url: 'https://github.com/rknightuk/trmnl-relay-st-jude/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/fox3zn607jvjsawsmclnh53xqd92'
   screenshot_url: 'https://raw.githubusercontent.com/rknightuk/trmnl-relay-st-jude/main/screenshot.jpg'
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.17.3
   author:
     github: rknightuk
   funding: {  }
