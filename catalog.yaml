@@ -304,6 +304,32 @@ bnussbau-trmnl-bookclub-planner:
     description: 'Plan your reading and track your progress leading up to your next book club meeting'
     github_url: 'https://github.com/bnussbau/trmnl-bookclub-planner'
     learn_more_url: 'https://github.com/bnussbau/trmnl-bookclub-planner/blob/main/README.md'
+bnussbau-trmnl-github-insights:
+  name: 'Github Repo Insights'
+  trmnlp:
+    id: 158645
+    repo: 'https://github.com/bnussbau/trmnl-github-insights'
+    zip_url: 'https://github.com/bnussbau/trmnl-github-insights/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/cxmppwb0q047iqmwh5spixushmym'
+  screenshot_url: 'https://github.com/user-attachments/assets/615fe133-0efd-48df-90c6-614f8b8724cb'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.17.0
+  author:
+    github: bnussbau
+  funding:
+    custom: 'https://usetrmnl.com/?ref=laravel-trmnl'
+    buy_me_a_coffee: bnussbau
+    github: bnussbau
+  author_bio:
+    description: 'Display insights of a GitHub Repository'
+    github_url: 'https://github.com/bnussbau/trmnl-github-insights'
+    learn_more_url: 'https://github.com/bnussbau/trmnl-github-insights/tree/main/README.md'
 bnussbau-trmnl-opds-shelf:
   name: 'OPDS Bookshelf'
   trmnlp:
@@ -406,6 +432,32 @@ bnussbau-trmnl-sleeper-standings:
     description: 'Display your sleeper league standings'
     github_url: 'https://github.com/bnussbau/trmnl-sleeper-standings'
     learn_more_url: 'https://github.com/bnussbau/trmnl-sleeper-standings/blob/main/README.md'
+bnussbau-trmnl-uptimekuma:
+  name: 'Uptime Kuma Statuspage'
+  trmnlp:
+    id: 159393
+    repo: 'https://github.com/bnussbau/trmnl-uptimekuma'
+    zip_url: 'https://github.com/bnussbau/trmnl-uptimekuma/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/2tistbv5fxxwcgorswfkjnzpmuzy'
+  screenshot_url: 'https://github.com/user-attachments/assets/3a523818-4932-4857-b912-1749cd15105f'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: bnussbau
+  funding:
+    custom: 'https://usetrmnl.com/?ref=laravel-trmnl'
+    buy_me_a_coffee: bnussbau
+    github: bnussbau
+  author_bio:
+    description: 'Visualize your Uptime Kuma Status Pages on TRMNL'
+    github_url: 'https://github.com/bnussbau/trmnl-uptimekuma'
+    readme_url: 'https://github.com/bnussbau/trmnl-uptimekuma#-uptime-kuma-for-trmnl'
 bnussbau-trmnl-vienna-metro-departures:
   name: 'Vienna Metro Departures'
   trmnlp:
@@ -1033,6 +1085,26 @@ saious119-trmnl-anime-of-the-day:
   funding: {  }
   author_bio:
     description: 'Gives you a random anime of the day from Anilist'
+saious119-trmnl-manga-of-the-day:
+  name: trmnl-manga-of-the-day
+  trmnlp:
+    id: null
+    repo: 'https://github.com/Saious119/trmnl-manga-of-the-day'
+    zip_url: 'https://github.com/Saious119/trmnl-manga-of-the-day/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: Saious119
+  funding: {  }
+  author_bio: {  }
 schrockwell-trmnl-dsn:
   name: 'NASA Deep Space Network'
   trmnlp:
