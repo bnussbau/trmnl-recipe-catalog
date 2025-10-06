@@ -256,9 +256,10 @@ bnussbau-trmnl-austrian-train-departures:
   name: 'Austrian Train Departures (OEBB)'
   trmnlp:
     id: 28271
-    repo: 'https://github.com/bnussbau/trmnl-austrian-train-departures/'
-    zip_url: 'https://github.com/bnussbau/trmnl-austrian-train-departures/archive/d8f175e57d1378541c9b6eff545d4c96a426e29d.zip'
-    version: d8f175e
+    repo: 'https://github.com/bnussbau/trmnl-austrian-train-departures'
+    zip_url: 'https://github.com/bnussbau/trmnl-austrian-train-departures/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/h9zmyi8yt117fehvb1cuw06v0wta'
   screenshot_url: 'https://github.com/user-attachments/assets/79ed0058-4885-4160-bc36-f02ab81cdb63'
   license: MIT
@@ -283,8 +284,9 @@ bnussbau-trmnl-bookclub-planner:
   trmnlp:
     id: 126964
     repo: 'https://github.com/bnussbau/trmnl-bookclub-planner'
-    zip_url: 'https://github.com/bnussbau/trmnl-bookclub-planner/archive/9aed8822462c1bf5266ad43110c21dd736ff7540.zip'
-    version: 9aed882
+    zip_url: 'https://github.com/bnussbau/trmnl-bookclub-planner/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
   logo_url: 'https://raw.githubusercontent.com/bnussbau/trmnl-bookclub-planner/refs/heads/main/logo.png'
   screenshot_url: 'https://github.com/user-attachments/assets/440f3c3e-ee12-4493-b94e-a2cd6e9e61f5'
   license: MIT
@@ -359,8 +361,9 @@ bnussbau-trmnl-pollen-forecast-eu:
   trmnlp:
     id: 56803
     repo: 'https://github.com/bnussbau/trmnl-pollen-forecast-eu'
-    zip_url: 'https://github.com/bnussbau/trmnl-pollen-forecast-eu/archive/9ae1397cd22b71d51d22a481e3f7986967939b91.zip'
-    version: 9ae1397
+    zip_url: 'https://github.com/bnussbau/trmnl-pollen-forecast-eu/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/cmfvfk300uaiyihuonrbhw8rnosi'
   screenshot_url: 'https://github.com/user-attachments/assets/cc98fc44-c241-4d95-bbd5-4b7caef0a5a6'
   license: MIT
@@ -385,8 +388,9 @@ bnussbau-trmnl-sleeper-matchups:
   trmnlp:
     id: 140922
     repo: 'https://github.com/bnussbau/trmnl-sleeper-matchups'
-    zip_url: 'https://github.com/bnussbau/trmnl-sleeper-matchups/archive/72c142ca614ae5c6daf63a9daa5425de3541469b.zip'
-    version: 72c142c
+    zip_url: 'https://github.com/bnussbau/trmnl-sleeper-matchups/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ql8zdbuvf53ypvjinjxbpym4sn5i'
   screenshot_url: 'https://github.com/user-attachments/assets/a4abd239-0dbb-49e2-9df0-4cba7bcd870c'
   license: MIT
@@ -411,8 +415,9 @@ bnussbau-trmnl-sleeper-standings:
   trmnlp:
     id: 141171
     repo: 'https://github.com/bnussbau/trmnl-sleeper-standings'
-    zip_url: 'https://github.com/bnussbau/trmnl-sleeper-standings/archive/a516fac7bdb60d8ce7cc57dcfb9d9910f94d0c5b.zip'
-    version: a516fac
+    zip_url: 'https://github.com/bnussbau/trmnl-sleeper-standings/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
   logo_url: 'https://raw.githubusercontent.com/bnussbau/trmnl-sleeper-standings/refs/heads/main/logo.png'
   screenshot_url: 'https://github.com/user-attachments/assets/aa65b249-43b6-400c-abb7-d6ee0e25ec1f'
   license: MIT
@@ -463,8 +468,9 @@ bnussbau-trmnl-vienna-metro-departures:
   trmnlp:
     id: 98534
     repo: 'https://github.com/bnussbau/trmnl-vienna-metro-departures'
-    zip_url: 'https://github.com/bnussbau/trmnl-vienna-metro-departures/archive/83da929994ca60cc4f36cae7457f493d6b60977d.zip'
-    version: 83da929
+    zip_url: 'https://github.com/bnussbau/trmnl-vienna-metro-departures/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/h9zmyi8yt117fehvb1cuw06v0wta'
   screenshot_url: 'https://github.com/user-attachments/assets/cd81f95c-76f4-4886-821c-017b65ca7be8'
   license: MIT
@@ -1086,9 +1092,9 @@ saious119-trmnl-anime-of-the-day:
   author_bio:
     description: 'Gives you a random anime of the day from Anilist'
 saious119-trmnl-manga-of-the-day:
-  name: trmnl-manga-of-the-day
+  name: 'Manga of the Day'
   trmnlp:
-    id: null
+    id: 66601
     repo: 'https://github.com/Saious119/trmnl-manga-of-the-day'
     zip_url: 'https://github.com/Saious119/trmnl-manga-of-the-day/archive/refs/heads/main.zip'
     zip_entry_path: null
@@ -1098,9 +1104,9 @@ saious119-trmnl-manga-of-the-day:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.17.1
   author:
     github: Saious119
   funding: {  }
