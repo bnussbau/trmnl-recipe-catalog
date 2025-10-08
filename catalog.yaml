@@ -113,7 +113,7 @@ argoroots-met-no:
 blueset-lyricova-quote:
   name: 'Lyricova Quote'
   trmnlp:
-    id: 150439
+    id: null
     repo: 'https://github.com/blueset/trmnl-recipes/tree/master/lyricova-quote'
     zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
     zip_entry_path: trmnl-recipes-master/lyricova-quote
@@ -184,7 +184,7 @@ blueset-random-unicode:
 blueset-visa-bulletin:
   name: 'Visa Bulletin'
   trmnlp:
-    id: 155086
+    id: null
     repo: 'https://github.com/blueset/trmnl-recipes/tree/master/visa-bulletin'
     zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
     zip_entry_path: trmnl-recipes-master/visa-bulletin
@@ -535,7 +535,7 @@ delhoume-trmnl-universal-plugin:
 erikbuild-trmnl-yolink-temperature:
   name: 'YoLink Temperature Sensor'
   trmnlp:
-    id: 93606
+    id: null
     repo: 'https://github.com/erikbuild/trmnl-yolink-temperature'
     zip_url: 'https://github.com/erikbuild/trmnl-yolink-temperature/archive/refs/heads/main.zip'
     version: main
@@ -597,7 +597,7 @@ frjo-smhi:
 glyphic.com-marquee:
   name: Marquee
   trmnlp:
-    id: null
+    id: 153733
     repo: null
     zip_url: 'https://www.glyphic.com/marquee/marquee_plugin.zip'
     zip_entry_path: null
@@ -907,7 +907,7 @@ monsieurm-trmnl-lastfm:
 monsieurm-trmnl-yearinprogress:
   name: 'Year In Progress'
   trmnlp:
-    id: 27924
+    id: null
     repo: 'https://github.com/monsieurm/trmnl-yearinprogress'
     zip_url: 'https://github.com/monsieurm/trmnl-yearinprogress/archive/refs/heads/main.zip'
     zip_entry_path: null
@@ -1116,7 +1116,7 @@ saious119-trmnl-manga-of-the-day:
 schrockwell-trmnl-dsn:
   name: 'NASA Deep Space Network'
   trmnlp:
-    id: 9540
+    id: null
     repo: 'https://github.com/schrockwell/trmnl-dsn'
     zip_url: 'https://github.com/schrockwell/trmnl-dsn/archive/refs/heads/main.zip'
     version: main
@@ -1161,7 +1161,7 @@ schrockwell-trmnl-metar:
 sgardoll-nightscout-plugin:
   name: Nightscout
   trmnlp:
-    id: 139518
+    id: 30521
     repo: 'https://github.com/sgardoll/Nightscout-Plugin'
     zip_url: 'https://github.com/sgardoll/Nightscout-Plugin/archive/refs/heads/main.zip'
     version: main
@@ -1639,7 +1639,7 @@ stevekennedyuk-trmnl-tfl-status:
 subtype-space-trmnl-steam-deals:
   name: 'Steam Deals of the Day'
   trmnlp:
-    id: null
+    id: 18131
     repo: 'https://github.com/subtype-space/trmnl-steam-deals'
     zip_url: 'https://github.com/subtype-space/trmnl-steam-deals/archive/refs/heads/main.zip'
     version: main
