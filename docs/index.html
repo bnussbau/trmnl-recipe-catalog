@@ -70,6 +70,7 @@
     .search-box { margin: 2em 0; }
     .card-title { margin: 0 0 0.5em 0; }
     .card-meta { color: var(--text-muted); font-size: 0.95em; margin-bottom: 0.5em; }
+    .card-meta li { margin-bottom: 0; }
     
     .card-links a {
       margin-right: 1em;
@@ -167,7 +168,7 @@
       let icon = '', text = '';
       if (byos.compatibility === true) {
         icon = '✅';
-        text = byos.min_version ? `min version ${byos.min_version}` : '';
+        text = byos.min_version ? `(min. version: ${byos.min_version})` : '';
       } else if (byos.compatibility === false) {
         icon = '❌';
         text = byos.compatibility_note || '';
@@ -175,7 +176,22 @@
         icon = '❓';
         text = '';
       }
-      return `<div style="margin:0.5em 0 0.5em 0;">BYOS Compatibility:<ul><li>byos_laravel <span title="${text}">${icon}</span> ${text}</li></ul></div>`;
+      return `<li><span title="${text}">${icon}</span> BYOS Laravel ${text}</li>`;
+    }
+
+    function trmnlCoreHTML(trmnlp) {
+      if (!trmnlp || !trmnlp.id) return '';
+      const installLink = `<a href="https://usetrmnl.com/recipes/${trmnlp.id}" target="_blank" style="color: var(--accent-color) !important;">Install</a>`;
+      return `<li><span title="Available in TRMNL Core">✅</span> TRMNL Core (Cloud service) – ${installLink}</li>`;
+    }
+
+    function compatibilityHTML(byos, trmnlp) {
+      const byosHTML = byosLaravelHTML(byos);
+      const trmnlCoreHTMLContent = trmnlCoreHTML(trmnlp);
+      
+      if (!byosHTML && !trmnlCoreHTMLContent) return '';
+      
+      return `<div class="card-meta"><strong>Compatibility:</strong><ul>${trmnlCoreHTMLContent}${byosHTML}</ul></div>`;
     }
 
     function resolveFundingUrl(platform, username) {
@@ -224,6 +240,7 @@
 
     function cardHTML(key, entry) {
       const byos = entry.byos?.byos_laravel;
+      const trmnlp = entry.trmnlp;
       const logoHTML = entry.logo_url
         ? `<img class="logo" src="${entry.logo_url}" alt="logo">`
         : `<span class="logo" style="display:inline-block;width:64px;height:64px;vertical-align:middle;background:#eee;border-radius:6px;">
@@ -246,7 +263,7 @@
             <strong>Author:</strong> ${entry.author?.github || 'Unknown'}<br>
             <strong>License:</strong> ${entry.license || 'Unknown'}
           </div>
-          ${byosLaravelHTML(byos)}
+          ${compatibilityHTML(byos, trmnlp)}
           <div>${entry.author_bio?.description || ''}</div>
           <div class="card-links" style="margin-top:0.5em;">
             ${entry.trmnlp?.repo ? `<a href="${entry.trmnlp.repo}" target="_blank">Repo</a>` : ''}
