@@ -884,6 +884,203 @@ kraynel-trmnl-nyt-connections:
     github: kraynel
   funding: {  }
   author_bio: {  }
+lanrat-beware-of-toddler:
+  name: 'Beware of Toddler Comic'
+  trmnlp:
+    id: 131756
+    repo: 'https://github.com/lanrat/trmnl_plugins/blob/main/Beware%20of%20Toddler%20Comic'
+    zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
+    zip_entry_path: 'trmnl_plugins-main/Beware of Toddler Comic'
+    version: main
+  logo_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/lanrat/trmnl_plugins/refs/heads/main/Beware%20of%20Toddler%20Comic/screenshot.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'XML not yet supported'
+      min_version: null
+  author:
+    github: lanrat
+  funding: {  }
+  author_bio:
+    description: 'Displays the daily Beware of Toddler Comic'
+    github_url: 'https://github.com/lanrat/trmnl_plugins'
+    learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/Beware%20of%20Toddler%20Comic'
+lanrat-daily-new-yorker-cartoon:
+  name: 'Daily New Yorker Cartoon'
+  trmnlp:
+    id: 131760
+    repo: 'https://github.com/lanrat/trmnl_plugins/tree/main/Daily%20New%20Yorker%20Cartoon'
+    zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
+    zip_entry_path: 'trmnl_plugins-main/Daily New Yorker Cartoon'
+    version: main
+  logo_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/lanrat/trmnl_plugins/refs/heads/main/Daily%20New%20Yorker%20Cartoon/screenshot.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'XML not yet supported'
+      min_version: null
+  author:
+    github: lanrat
+  funding: {  }
+  author_bio:
+    description: 'Displays the Daily New Yorker Cartoon'
+    github_url: 'https://github.com/lanrat/trmnl_plugins'
+    learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/Daily%20New%20Yorker%20Cartoon'
+lanrat-day-night-map:
+  name: 'Day Night Map'
+  trmnlp:
+    id: 127208
+    repo: 'https://github.com/lanrat/trmnl_plugins/blob/main/Day%20Night%20Map'
+    zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
+    zip_entry_path: 'trmnl_plugins-main/Day Night Map'
+    version: main
+  logo_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/lanrat/trmnl_plugins/refs/heads/main/Day%20Night%20Map/screenshot.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.18.0
+  author:
+    github: lanrat
+  funding: {  }
+  author_bio:
+    description: 'A real-time visualization of day and night regions across the world using accurate solar and lunar positioning calculations.'
+    github_url: 'https://github.com/lanrat/trmnl_plugins'
+    learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/Day%20Night%20Map'
+lanrat-far-side-comic:
+  name: 'Far Side Comic'
+  trmnlp:
+    id: 122324
+    repo: 'https://github.com/lanrat/trmnl_plugins/blob/main/Far%20Side%20Comic'
+    zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
+    zip_entry_path: 'trmnl_plugins-main/Far Side Comic'
+    version: main
+  logo_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/lanrat/trmnl_plugins/refs/heads/main/Far%20Side%20Comic/screenshot.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: lanrat
+  funding: {  }
+  author_bio:
+    description: 'Displays the daily Far Side comic'
+    github_url: 'https://github.com/lanrat/trmnl_plugins'
+    learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/Far%20Side%20Comic'
+lanrat-foxtrot-classics-comic:
+  name: 'FoxTrot Classics Comic'
+  trmnlp:
+    id: 122369
+    repo: 'https://github.com/lanrat/trmnl_plugins/tree/main/FoxTrot%20Classics%20Comic'
+    zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
+    zip_entry_path: 'trmnl_plugins-main/FoxTrot Classics Comic'
+    version: main
+  logo_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/lanrat/trmnl_plugins/refs/heads/main/FoxTrot%20Classics%20Comic/screenshot.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'XML not supported yet.'
+      min_version: null
+  author:
+    github: lanrat
+  funding: {  }
+  author_bio:
+    description: 'Displays the daily FoxTrot comic'
+lanrat-github-workflow-actions:
+  name: 'GitHub Workflow Actions'
+  trmnlp:
+    id: 162049
+    repo: 'https://github.com/lanrat/trmnl_plugins/tree/main/GitHub%20Workflow%20Actions'
+    zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
+    zip_entry_path: 'trmnl_plugins-main/GitHub Workflow Actions'
+    version: main
+  logo_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/lanrat/trmnl_plugins/refs/heads/main/GitHub%20Workflow%20Actions/screenshot.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'Field type "multi_string" not yet supported'
+      min_version: null
+  author:
+    github: lanrat
+  funding: {  }
+  author_bio:
+    description: 'A TRMNL plugin that displays the status of GitHub Actions workflows on your e-ink display.'
+lanrat-litterbox-comics:
+  name: 'Litterbox Comics'
+  trmnlp:
+    id: 148700
+    repo: 'https://github.com/lanrat/trmnl_plugins/tree/main/Litterbox%20Comics'
+    zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
+    zip_entry_path: 'trmnl_plugins-main/Litterbox Comics'
+    version: main
+  logo_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/lanrat/trmnl_plugins/refs/heads/main/Litterbox%20Comics/screenshot.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'XML not yet supported'
+      min_version: null
+  author:
+    github: lanrat
+  funding: {  }
+  author_bio:
+    description: 'Displays the daily Litterbox Comic'
+lanrat-nasa-image-of-the-day:
+  name: 'NASA Image of the Day'
+  trmnlp:
+    id: 76645
+    repo: 'https://github.com/lanrat/trmnl_plugins/tree/main/NASA%20Image%20of%20the%20Day'
+    zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
+    zip_entry_path: 'trmnl_plugins-main/NASA Image of the Day'
+    version: main
+  logo_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/lanrat/trmnl_plugins/refs/heads/main/NASA%20Image%20of%20the%20Day/screenshot.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'XML not yet supported'
+      min_version: null
+  author:
+    github: lanrat
+  funding: {  }
+  author_bio:
+    description: "Displays NASA's image of the day"
+lanrat-pickles-comic:
+  name: 'Pickles Comic'
+  trmnlp:
+    id: 122316
+    repo: 'https://github.com/lanrat/trmnl_plugins/blob/main/Pickles%20Comic'
+    zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
+    zip_entry_path: 'trmnl_plugins-main/Pickles Comic'
+    version: main
+  logo_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/lanrat/trmnl_plugins/refs/heads/main/Pickles%20Comic/screenshot.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'XML is not yet supported'
+      min_version: null
+  author:
+    github: lanrat
+  funding: {  }
+  author_bio:
+    description: 'Displays the daily Pickles comic'
 monsieurm-trmnl-lastfm:
   name: LastFM
   trmnlp:
