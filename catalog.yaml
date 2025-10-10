@@ -744,7 +744,7 @@ jbelien-trmnl-plugin-updownio:
     learn_more_url: 'https://jbelien.be/'
     email_address: dev@jbelien.mozmail.com
 jortvd-trmnl-plausible:
-  name: trmnl-plausible
+  name: Plausible
   trmnlp:
     id: 158263
     repo: 'https://github.com/jortvd/trmnl-plausible'
@@ -756,9 +756,9 @@ jortvd-trmnl-plausible:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.17.0
   author:
     github: jortvd
   funding: {  }
@@ -920,9 +920,9 @@ kraynel-trmnl-sentry:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.18.0
   author:
     github: kraynel
   funding: {  }
