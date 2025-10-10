@@ -743,6 +743,29 @@ jbelien-trmnl-plugin-updownio:
     description: 'updown.io plugin for TRMNL'
     learn_more_url: 'https://jbelien.be/'
     email_address: dev@jbelien.mozmail.com
+jortvd-trmnl-plausible:
+  name: trmnl-plausible
+  trmnlp:
+    id: 158263
+    repo: 'https://github.com/jortvd/trmnl-plausible'
+    zip_url: 'https://github.com/jortvd/trmnl-plausible/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/JortvD/trmnl-plausible/refs/heads/main/screenshots/full_dspline.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: jortvd
+  funding: {  }
+  author_bio:
+    description: 'Plausible Analytics is a privacy-friendly web analytics platform, available through Plausible.io or via self-hosting the Community Edition.'
+    github_url: 'https://github.com/jortvd'
+    email_address: jortvd2002@gmail.com
 jvdmeij-trmnl-countdowngit:
   name: Countdown
   trmnlp:
@@ -884,6 +907,26 @@ kraynel-trmnl-nyt-connections:
     github: kraynel
   funding: {  }
   author_bio: {  }
+kraynel-trmnl-sentry:
+  name: Sentry
+  trmnlp:
+    id: 160968
+    repo: 'https://github.com/kraynel/trmnl-sentry'
+    zip_url: 'https://github.com/kraynel/trmnl-sentry/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/kraynel/trmnl-sentry/refs/heads/main/image-full.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: kraynel
+  funding: {  }
+  author_bio: {  }
 lanrat-beware-of-toddler:
   name: 'Beware of Toddler Comic'
   trmnlp:
@@ -892,7 +935,7 @@ lanrat-beware-of-toddler:
     zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
     zip_entry_path: 'trmnl_plugins-main/Beware of Toddler Comic'
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/3slt6ldzbtgz5tn70dutkpjdr04v'
   screenshot_url: 'https://raw.githubusercontent.com/lanrat/trmnl_plugins/refs/heads/main/Beware%20of%20Toddler%20Comic/screenshot.png'
   license: Unknown
   byos:
