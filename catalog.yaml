@@ -133,6 +133,32 @@ blueset-lyricova-quote:
     liberapay: blueset
     ko_fi: blueset
   author_bio: {  }
+blueset-random-google-fonts:
+  name: 'Random Google Fonts'
+  trmnlp:
+    id: 163790
+    repo: 'https://github.com/blueset/trmnl-recipes/tree/master/random-google-fonts'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/random-google-fonts
+    version: main
+  logo_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/master/random-google-fonts/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.17.0
+  author:
+    github: blueset
+  funding:
+    github: blueset
+    liberapay: blueset
+    ko_fi: blueset
+  author_bio:
+    description: 'A random typeface from Google Fonts on each refresh.'
+    github_url: 'https://github.com/blueset/trmnl-recipes'
+    learn_more_url: 'https://fonts.google.com/'
 blueset-random-mdn-article:
   name: 'Random MDN Article'
   trmnlp:
@@ -181,6 +207,30 @@ blueset-random-unicode:
   author_bio:
     description: 'A random Unicode codepoint on each refresh. Data powered by codepoints.net.'
     learn_more_url: 'https://codepoints.net'
+blueset-random-zi:
+  name: 'Random Zi'
+  trmnlp:
+    id: 156095
+    repo: 'https://github.com/blueset/trmnl-recipes/blob/master/random-zi'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/random-zi
+    version: main
+  logo_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/refs/heads/master/random-zi/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.17.0
+  author:
+    github: blueset
+  funding:
+    github: blueset
+    liberapay: blueset
+    ko_fi: blueset
+  author_bio:
+    description: 'A random CJKV ideograph with pronunciations, definitions, and regional glyphs on each refresh. Data powered by zi.tools 字統网'
 blueset-visa-bulletin:
   name: 'Visa Bulletin'
   trmnlp:
