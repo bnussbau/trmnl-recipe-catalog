@@ -1947,6 +1947,32 @@ subtype-space-trmnl-steam-deals:
   author_bio:
     description: 'TRMNL Recipe/Plugin for displaying top rated deals on Steam'
     homepage: null
+sun-danbooru-gallery:
+  name: 'Danbooru Gallery'
+  trmnlp:
+    id: null
+    repo: 'https://forgejo.sny.sh/sun/TRMNL/src/branch/main/recipes/danbooru-gallery'
+    zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/danbooru-gallery.zip'
+    version: main
+  logo_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/icons/danbooru-gallery.svg'
+  screenshot_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/previews/danbooru-gallery.png'
+  license: Unlicense
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.13.0
+  author:
+    github: TheLastZombie
+    name: Sunny
+  funding:
+    liberapay: sun
+  author_bio:
+    name: Danbooru Gallery by Sunny
+    description: 'Displays images from Danbooru matching a given search query.'
+    github_url: 'https://forgejo.sny.sh/sun/TRMNL'
+    learn_more_url: 'https://sny.sh/'
+    email_address: sunny@sny.sh
 sun-defas-departures:
   name: 'DEFAS Departures'
   trmnlp:
@@ -1968,9 +1994,9 @@ sun-defas-departures:
   funding:
     liberapay: sun
   author_bio:
-    name: Sunny
+    name: DEFAS Departures by Sunny
     description: 'Displays the next departures for stops in Bavaria using the EFA API.'
-    github_url: 'https://github.com/TheLastZombie'
+    github_url: 'https://forgejo.sny.sh/sun/TRMNL'
     learn_more_url: 'https://sny.sh/'
     email_address: sunny@sny.sh
 sun-film-guide:
@@ -1994,9 +2020,9 @@ sun-film-guide:
   funding:
     liberapay: sun
   author_bio:
-    name: Sunny
+    name: German Film Guide by Sunny
     description: "Displays the current day's movie schedule of any cinema in Germany."
-    github_url: 'https://github.com/TheLastZombie'
+    github_url: 'https://forgejo.sny.sh/sun/TRMNL'
     learn_more_url: 'https://sny.sh/'
     email_address: sunny@sny.sh
 sun-toki-pona:
@@ -2020,9 +2046,9 @@ sun-toki-pona:
   funding:
     liberapay: sun
   author_bio:
-    name: Sunny
+    name: Random Toki Pona Word by Sunny
     description: 'Displays a random Toki Pona word along with its definition.'
-    github_url: 'https://github.com/TheLastZombie'
+    github_url: 'https://forgejo.sny.sh/sun/TRMNL'
     learn_more_url: 'https://sny.sh/'
     email_address: sunny@sny.sh
 sun-weather-graph:
@@ -2046,9 +2072,9 @@ sun-weather-graph:
   funding:
     liberapay: sun
   author_bio:
-    name: Sunny
+    name: Temperature Graph by Sunny
     description: 'Displays a temperature graph for the current day.'
-    github_url: 'https://github.com/TheLastZombie'
+    github_url: 'https://forgejo.sny.sh/sun/TRMNL'
     learn_more_url: 'https://sny.sh/'
     email_address: sunny@sny.sh
 thepeopleseason-din-time-weather:
