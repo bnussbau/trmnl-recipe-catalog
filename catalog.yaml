@@ -1215,6 +1215,28 @@ monsieurm-trmnl-yearinprogress:
   funding: {  }
   author_bio:
     description: 'This plug-in shows the progress of the year (dots or bar) on TRMNL device'
+qgriffith-trmnl-nfl-team:
+  name: 'NFL Team Schedule'
+  trmnlp:
+    id: 165579
+    repo: 'https://github.com/qgriffith/trmnl-nfl-team'
+    zip_url: 'https://github.com/qgriffith/trmnl-nfl-team/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.17.0
+  author:
+    github: qgriffith
+  funding: {  }
+  author_bio:
+    description: "A Ruby script that fetches NFL team schedule information from ESPN's API and optionally publishes it to TRMNL webhooks for display on e-ink devices."
+    homepage: null
 rknightuk-trmnl-fathom-analytics:
   name: 'Fathom Analytics'
   trmnlp:
@@ -1968,7 +1990,7 @@ sun-danbooru-gallery:
   funding:
     liberapay: sun
   author_bio:
-    name: Danbooru Gallery by Sunny
+    name: 'Danbooru Gallery by Sunny'
     description: 'Displays images from Danbooru matching a given search query.'
     github_url: 'https://forgejo.sny.sh/sun/TRMNL'
     learn_more_url: 'https://sny.sh/'
@@ -1994,7 +2016,7 @@ sun-defas-departures:
   funding:
     liberapay: sun
   author_bio:
-    name: DEFAS Departures by Sunny
+    name: 'DEFAS Departures by Sunny'
     description: 'Displays the next departures for stops in Bavaria using the EFA API.'
     github_url: 'https://forgejo.sny.sh/sun/TRMNL'
     learn_more_url: 'https://sny.sh/'
@@ -2020,7 +2042,7 @@ sun-film-guide:
   funding:
     liberapay: sun
   author_bio:
-    name: German Film Guide by Sunny
+    name: 'German Film Guide by Sunny'
     description: "Displays the current day's movie schedule of any cinema in Germany."
     github_url: 'https://forgejo.sny.sh/sun/TRMNL'
     learn_more_url: 'https://sny.sh/'
@@ -2046,7 +2068,7 @@ sun-toki-pona:
   funding:
     liberapay: sun
   author_bio:
-    name: Random Toki Pona Word by Sunny
+    name: 'Random Toki Pona Word by Sunny'
     description: 'Displays a random Toki Pona word along with its definition.'
     github_url: 'https://forgejo.sny.sh/sun/TRMNL'
     learn_more_url: 'https://sny.sh/'
@@ -2072,7 +2094,7 @@ sun-weather-graph:
   funding:
     liberapay: sun
   author_bio:
-    name: Temperature Graph by Sunny
+    name: 'Temperature Graph by Sunny'
     description: 'Displays a temperature graph for the current day.'
     github_url: 'https://forgejo.sny.sh/sun/TRMNL'
     learn_more_url: 'https://sny.sh/'
