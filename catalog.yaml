@@ -1104,7 +1104,7 @@ lanrat-foxtrot-classics-comic:
 lanrat-github-workflow-actions:
   name: 'GitHub Workflow Actions'
   trmnlp:
-    id: 162049
+    id: null
     repo: 'https://github.com/lanrat/trmnl_plugins/tree/main/GitHub%20Workflow%20Actions'
     zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
     zip_entry_path: 'trmnl_plugins-main/GitHub Workflow Actions'
@@ -1114,8 +1114,8 @@ lanrat-github-workflow-actions:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: false
-      compatibility_note: 'Field type "multi_string" not yet supported'
+      compatibility: null
+      compatibility_note: null
       min_version: null
   author:
     github: lanrat
@@ -1135,8 +1135,8 @@ lanrat-litterbox-comics:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: false
-      compatibility_note: 'XML not yet supported'
+      compatibility: null
+      compatibility_note: null
       min_version: null
   author:
     github: lanrat
@@ -1158,8 +1158,8 @@ lanrat-nasa-image-of-the-day:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: false
-      compatibility_note: 'XML not yet supported'
+      compatibility: null
+      compatibility_note: null
       min_version: null
   author:
     github: lanrat
@@ -1182,7 +1182,7 @@ lanrat-pickles-comic:
   byos:
     byos_laravel:
       compatibility: false
-      compatibility_note: 'XML is not yet supported'
+      compatibility_note: null
       min_version: null
   author:
     github: lanrat
@@ -1391,6 +1391,7 @@ rknightuk-trmnl-the-rickies:
     id: 97896
     repo: 'https://github.com/rknightuk/trmnl-the-rickies'
     zip_url: 'https://github.com/rknightuk/trmnl-the-rickies/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/hwxj4kjv5my54jw85te4tm5umbpq'
   screenshot_url: null
@@ -1404,7 +1405,7 @@ rknightuk-trmnl-the-rickies:
     github: rknightuk
   funding: {  }
   author_bio:
-    description: 'Keep track of the winners, and various titles, of <a href="https://rickies.net" class="underline" target="_blank">The Rickies</a>'
+    description: 'Keep track of the winners, and various titles, of The Rickies'
     github_url: 'https://github.com/rknightuk/trmnl-the-rickies'
     learn_more_url: 'https://rknight.me'
 saious119-trmnl-anime-of-the-day:
@@ -1446,6 +1447,7 @@ saious119-trmnl-manga-of-the-day:
   author:
     github: Saious119
   funding: {  }
+  author_bio: {  }
 schrockwell-trmnl-dsn:
   name: 'NASA Deep Space Network'
   trmnlp:
@@ -1996,9 +1998,10 @@ subtype-space-trmnl-steam-deals:
 sun-danbooru-gallery:
   name: 'Danbooru Gallery'
   trmnlp:
-    id: null
+    id: 151718
     repo: 'https://forgejo.sny.sh/sun/TRMNL/src/branch/main/recipes/danbooru-gallery'
     zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/danbooru-gallery.zip'
+    zip_entry_path: null
     version: main
   logo_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/icons/danbooru-gallery.svg'
   screenshot_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/previews/danbooru-gallery.png'
