@@ -112,14 +112,14 @@ argoroots-met-no:
     learn_more_url: 'https://www.met.no'
     email_address: argo@roots.ee
 blueset-lyricova-quote:
-  name: 'Lyricova Quote'
+  name: 'Vocaloid Lyrics Quote'
   trmnlp:
-    id: null
+    id: 150439
     repo: 'https://github.com/blueset/trmnl-recipes/tree/master/lyricova-quote'
     zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
     zip_entry_path: trmnl-recipes-master/lyricova-quote
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/k3529ij2l58a04ta1bf17uospv2d'
   screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/master/lyricova-quote/images/f.png'
   license: MIT
   byos:
@@ -133,7 +133,10 @@ blueset-lyricova-quote:
     github: blueset
     liberapay: blueset
     ko_fi: blueset
-  author_bio: {  }
+  author_bio:
+    description: 'A random lyrics quote of a Vocaloid song on each refresh. Data powered by Project Lyricova.'
+    github_url: 'https://github.com/blueset/trmnl-recipes'
+    learn_more_url: 'https://lyricova.1a23.studio/'
 blueset-random-google-fonts:
   name: 'Random Google Fonts'
   trmnlp:
@@ -191,7 +194,7 @@ blueset-random-unicode:
     zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
     zip_entry_path: trmnl-recipes-master/random-unicode
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/f04t6yco5839dcjqibf8j109q323'
   screenshot_url: 'https://github.com/blueset/trmnl-recipes/raw/master/random-unicode/images/f.png'
   license: MIT
   byos:
@@ -207,7 +210,8 @@ blueset-random-unicode:
     ko_fi: blueset
   author_bio:
     description: 'A random Unicode codepoint on each refresh. Data powered by codepoints.net.'
-    learn_more_url: 'https://codepoints.net'
+    github_url: 'https://github.com/blueset/trmnl-recipes'
+    learn_more_url: 'https://codepoints.net/'
 blueset-random-zi:
   name: 'Random Zi'
   trmnlp:
@@ -937,7 +941,9 @@ jvdmeij-trmnl-your-life-in-weeks:
   author:
     github: jvdmeij
   funding: {  }
-  author_bio: {  }
+  author_bio:
+    description: 'A visual representation of the amount of weeks of your life! Created by Jasper, @jasper on TRMNL Discord.'
+    email_address: info@jaspervandermeij.com
 kraynel-trmnl-nyt-connections:
   name: 'NYT Connections'
   trmnlp:
@@ -966,7 +972,7 @@ kraynel-trmnl-sentry:
     zip_url: 'https://github.com/kraynel/trmnl-sentry/archive/refs/heads/main.zip'
     zip_entry_path: null
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/l2lgyhhvo9u5nlq9icx0c853dnsa'
   screenshot_url: 'https://raw.githubusercontent.com/kraynel/trmnl-sentry/refs/heads/main/image-full.png'
   license: Unknown
   byos:
@@ -977,7 +983,9 @@ kraynel-trmnl-sentry:
   author:
     github: kraynel
   funding: {  }
-  author_bio: {  }
+  author_bio:
+    description: 'Monitor your applications health and performance with Sentry, display up to date issue count and key performance metrics.'
+    github_url: 'https://github.com/kraynel/trmnl-sentry'
 lanrat-beware-of-toddler:
   name: 'Beware of Toddler Comic'
   trmnlp:
@@ -1009,7 +1017,7 @@ lanrat-daily-new-yorker-cartoon:
     zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
     zip_entry_path: 'trmnl_plugins-main/Daily New Yorker Cartoon'
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/oimkm4oxgv3739og85nz7xy3axhj'
   screenshot_url: 'https://raw.githubusercontent.com/lanrat/trmnl_plugins/refs/heads/main/Daily%20New%20Yorker%20Cartoon/screenshot.png'
   license: Unknown
   byos:
@@ -1032,7 +1040,7 @@ lanrat-day-night-map:
     zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
     zip_entry_path: 'trmnl_plugins-main/Day Night Map'
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/f6nnp0wpmyl2dqj6gshq5i9owxe1'
   screenshot_url: 'https://raw.githubusercontent.com/lanrat/trmnl_plugins/refs/heads/main/Day%20Night%20Map/screenshot.png'
   license: Unknown
   byos:
@@ -1055,7 +1063,7 @@ lanrat-far-side-comic:
     zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
     zip_entry_path: 'trmnl_plugins-main/Far Side Comic'
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/rz7szun9o2yk5xoshy1hamxkgin4'
   screenshot_url: 'https://raw.githubusercontent.com/lanrat/trmnl_plugins/refs/heads/main/Far%20Side%20Comic/screenshot.png'
   license: Unknown
   byos:
@@ -1078,7 +1086,7 @@ lanrat-foxtrot-classics-comic:
     zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
     zip_entry_path: 'trmnl_plugins-main/FoxTrot Classics Comic'
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/cta7bxwbebwrnav1y4h0c8o1a7yc'
   screenshot_url: 'https://raw.githubusercontent.com/lanrat/trmnl_plugins/refs/heads/main/FoxTrot%20Classics%20Comic/screenshot.png'
   license: Unknown
   byos:
@@ -1091,6 +1099,8 @@ lanrat-foxtrot-classics-comic:
   funding: {  }
   author_bio:
     description: 'Displays the daily FoxTrot comic'
+    github_url: 'https://github.com/lanrat/trmnl_plugins'
+    learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/FoxTrot%20Classics%20Comic'
 lanrat-github-workflow-actions:
   name: 'GitHub Workflow Actions'
   trmnlp:
@@ -1120,7 +1130,7 @@ lanrat-litterbox-comics:
     zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
     zip_entry_path: 'trmnl_plugins-main/Litterbox Comics'
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/816q2g0ddphx1zm7ul62g33k3csb'
   screenshot_url: 'https://raw.githubusercontent.com/lanrat/trmnl_plugins/refs/heads/main/Litterbox%20Comics/screenshot.png'
   license: Unknown
   byos:
@@ -1133,6 +1143,8 @@ lanrat-litterbox-comics:
   funding: {  }
   author_bio:
     description: 'Displays the daily Litterbox Comic'
+    github_url: 'https://github.com/lanrat/trmnl_plugins'
+    learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/Litterbox%20Comics'
 lanrat-nasa-image-of-the-day:
   name: 'NASA Image of the Day'
   trmnlp:
@@ -1141,7 +1153,7 @@ lanrat-nasa-image-of-the-day:
     zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
     zip_entry_path: 'trmnl_plugins-main/NASA Image of the Day'
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/k0vb49dxme2hxihpelork6182z32'
   screenshot_url: 'https://raw.githubusercontent.com/lanrat/trmnl_plugins/refs/heads/main/NASA%20Image%20of%20the%20Day/screenshot.png'
   license: Unknown
   byos:
@@ -1154,6 +1166,8 @@ lanrat-nasa-image-of-the-day:
   funding: {  }
   author_bio:
     description: "Displays NASA's image of the day"
+    github_url: 'https://github.com/lanrat/trmnl_plugins'
+    learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/NASA%20Image%20of%20the%20Day'
 lanrat-pickles-comic:
   name: 'Pickles Comic'
   trmnlp:
@@ -1162,7 +1176,7 @@ lanrat-pickles-comic:
     zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
     zip_entry_path: 'trmnl_plugins-main/Pickles Comic'
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ucpkb3m1vx54xx0qwdjchffu296g'
   screenshot_url: 'https://raw.githubusercontent.com/lanrat/trmnl_plugins/refs/heads/main/Pickles%20Comic/screenshot.png'
   license: Unknown
   byos:
@@ -1175,6 +1189,8 @@ lanrat-pickles-comic:
   funding: {  }
   author_bio:
     description: 'Displays the daily Pickles comic'
+    github_url: 'https://github.com/lanrat/trmnl_plugins'
+    learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/Pickles%20Comic'
 monsieurm-trmnl-lastfm:
   name: LastFM
   trmnlp:
@@ -1217,14 +1233,14 @@ monsieurm-trmnl-yearinprogress:
   author_bio:
     description: 'This plug-in shows the progress of the year (dots or bar) on TRMNL device'
 qgriffith-trmnl-nfl-team:
-  name: 'NFL Team Schedule'
+  name: 'Bears Football'
   trmnlp:
     id: 165579
     repo: 'https://github.com/qgriffith/trmnl-nfl-team'
     zip_url: 'https://github.com/qgriffith/trmnl-nfl-team/archive/refs/heads/main.zip'
     zip_entry_path: null
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/vkzfond9daup6h7bw5q41hjry8le'
   screenshot_url: null
   license: MIT
   byos:
@@ -1236,8 +1252,9 @@ qgriffith-trmnl-nfl-team:
     github: qgriffith
   funding: {  }
   author_bio:
-    description: "A Ruby script that fetches NFL team schedule information from ESPN's API and optionally publishes it to TRMNL webhooks for display on e-ink devices."
-    homepage: null
+    description: "A Ruby script that fetches NFL team schedule information from ESPN's API and optionally publishes it to TRMNL webhooks for display on e-ink devices. Before it can run, a few setup steps are required. Make sure to visit the GitHub page for detailed instructions."
+    github_url: 'https://github.com/qgriffith/trmnl-nfl-team'
+    email_address: qgriffith@gmail.com
 rknightuk-trmnl-fathom-analytics:
   name: 'Fathom Analytics'
   trmnlp:
@@ -1245,7 +1262,7 @@ rknightuk-trmnl-fathom-analytics:
     repo: 'https://github.com/rknightuk/trmnl-fathom-analytics'
     zip_url: 'https://github.com/rknightuk/trmnl-fathom-analytics/archive/refs/heads/main.zip'
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/8ut3bpibgu113s71kgg83zqi8znv'
   screenshot_url: null
   license: Unknown
   byos:
@@ -1257,8 +1274,9 @@ rknightuk-trmnl-fathom-analytics:
     github: rknightuk
   funding: {  }
   author_bio:
-    description: 'Fathom Analytics plugin for TRMNL'
-    homepage: 'https://usetrmnl.com/recipes/89064'
+    description: 'Fathom Analytics plugin'
+    github_url: 'https://github.com/rknightuk/trmnl-fathom-analytics'
+    learn_more_url: 'https://rknight.me'
 rknightuk-trmnl-literate-movies:
   name: 'Literate Movies'
   trmnlp:
@@ -1308,7 +1326,7 @@ rknightuk-trmnl-mastodon-profile:
     repo: 'https://github.com/rknightuk/trmnl-mastodon-profile'
     zip_url: 'https://github.com/rknightuk/trmnl-mastodon-profile/archive/refs/heads/main.zip'
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/xon5tojvrwty5mu2bdxpxkdkbqbv'
   screenshot_url: null
   license: Unknown
   byos:
@@ -1320,8 +1338,9 @@ rknightuk-trmnl-mastodon-profile:
     github: rknightuk
   funding: {  }
   author_bio:
-    description: 'Mastodon Profile plugin for TRMNL'
-    homepage: null
+    description: 'Mastodon Profile plugin to show toot, follower, and following counts'
+    github_url: 'https://github.com/rknightuk/trmnl-mastodon-profile'
+    learn_more_url: 'https://rknight.me'
 rknightuk-trmnl-relay-st-jude:
   name: 'Relay for St Jude'
   trmnlp:
@@ -1351,7 +1370,7 @@ rknightuk-trmnl-stripe:
     repo: 'https://github.com/rknightuk/trmnl-stripe'
     zip_url: 'https://github.com/rknightuk/trmnl-stripe/archive/refs/heads/main.zip'
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/kvl324oczeip7lcujsjeofg73z72'
   screenshot_url: null
   license: Unknown
   byos:
@@ -1363,8 +1382,9 @@ rknightuk-trmnl-stripe:
     github: rknightuk
   funding: {  }
   author_bio:
-    description: 'Stripe plugin for TRMNL'
-    homepage: 'https://usetrmnl.com/recipes/89809'
+    description: 'Stripe plugin that shows recent transaction data.'
+    github_url: 'https://github.com/rknightuk/trmnl-stripe'
+    learn_more_url: 'https://rknight.me'
 rknightuk-trmnl-the-rickies:
   name: 'The Rickies'
   trmnlp:
@@ -1372,7 +1392,7 @@ rknightuk-trmnl-the-rickies:
     repo: 'https://github.com/rknightuk/trmnl-the-rickies'
     zip_url: 'https://github.com/rknightuk/trmnl-the-rickies/archive/refs/heads/main.zip'
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/hwxj4kjv5my54jw85te4tm5umbpq'
   screenshot_url: null
   license: Unknown
   byos:
@@ -1384,8 +1404,9 @@ rknightuk-trmnl-the-rickies:
     github: rknightuk
   funding: {  }
   author_bio:
-    description: 'The Rickies plugin for TRMNL'
-    homepage: 'https://usetrmnl.com/recipes/97896'
+    description: 'Keep track of the winners, and various titles, of <a href="https://rickies.net" class="underline" target="_blank">The Rickies</a>'
+    github_url: 'https://github.com/rknightuk/trmnl-the-rickies'
+    learn_more_url: 'https://rknight.me'
 saious119-trmnl-anime-of-the-day:
   name: 'Anime of the Day'
   trmnlp:
@@ -1393,7 +1414,7 @@ saious119-trmnl-anime-of-the-day:
     repo: 'https://github.com/Saious119/trmnl-anime-of-the-day'
     zip_url: 'https://github.com/Saious119/trmnl-anime-of-the-day/archive/refs/heads/main.zip'
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/n98f2rxd807ulggodzkwetyla6ld'
   screenshot_url: 'https://raw.githubusercontent.com/Saious119/trmnl-anime-of-the-day/main/docs/fullscreen_preview.png'
   license: MIT
   byos:
@@ -1414,7 +1435,7 @@ saious119-trmnl-manga-of-the-day:
     zip_url: 'https://github.com/Saious119/trmnl-manga-of-the-day/archive/refs/heads/main.zip'
     zip_entry_path: null
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/9wimvlirnort2pg7k3ecul87webs'
   screenshot_url: null
   license: MIT
   byos:
@@ -1425,7 +1446,6 @@ saious119-trmnl-manga-of-the-day:
   author:
     github: Saious119
   funding: {  }
-  author_bio: {  }
 schrockwell-trmnl-dsn:
   name: 'NASA Deep Space Network'
   trmnlp:
@@ -1472,7 +1492,7 @@ schrockwell-trmnl-metar:
     description: 'TRMNL private plugin for weather METARs'
     homepage: null
 sgardoll-nightscout-plugin:
-  name: Nightscout
+  name: 'Nightscout Glucose Trend'
   trmnlp:
     id: 30521
     repo: 'https://github.com/sgardoll/Nightscout-Plugin'
@@ -1666,13 +1686,14 @@ stephenyeargin-trmnl-mnpd-dispatches:
     description: '🚓 Metro Nashville Police Dept. Active Dispatches for TRMNL'
     homepage: 'https://usetrmnl.com/recipes/90541'
 stephenyeargin-trmnl-nashville-electric-service:
-  name: 'Nashville Electric Service (NES) Outage Map'
+  name: 'Nashville Electric Service (NES)'
   trmnlp:
     id: 112378
     repo: 'https://github.com/stephenyeargin/trmnl-nashville-electric-service'
     zip_url: 'https://github.com/stephenyeargin/trmnl-nashville-electric-service/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/47l2lgkwi7z6oiagbeuey8z5p8vo'
   screenshot_url: 'https://github.com/stephenyeargin/trmnl-nashville-electric-service/raw/main/assets/screenshot.png'
   license: MIT
   byos:
@@ -1684,8 +1705,10 @@ stephenyeargin-trmnl-nashville-electric-service:
     github: stephenyeargin
   funding: {  }
   author_bio:
-    description: '⚡️ NES Outage Map for TRMNL'
-    homepage: 'https://usetrmnl.com/recipes/112378'
+    description: 'Show the number of customers without power in Nashville, Tennessee'
+    github_url: 'https://github.com/stephenyeargin/trmnl-nashville-electric-service'
+    learn_more_url: 'https://www.nespower.com'
+    email_address: stephen@yearg.in
 stephenyeargin-trmnl-nashville-pollen-aqi:
   name: 'Nashville Pollen & Air Quality'
   trmnlp:
@@ -1955,8 +1978,9 @@ subtype-space-trmnl-steam-deals:
     id: 18131
     repo: 'https://github.com/subtype-space/trmnl-steam-deals'
     zip_url: 'https://github.com/subtype-space/trmnl-steam-deals/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/yze00310qj8vrqv37fq2n2e908ea'
   screenshot_url: null
   license: Unknown
   byos:
@@ -1969,7 +1993,6 @@ subtype-space-trmnl-steam-deals:
   funding: {  }
   author_bio:
     description: 'TRMNL Recipe/Plugin for displaying top rated deals on Steam'
-    homepage: null
 sun-danbooru-gallery:
   name: 'Danbooru Gallery'
   trmnlp:
@@ -2220,8 +2243,9 @@ transitnownash-trmnl-wego-next-trip:
     id: 91940
     repo: 'https://github.com/transitnownash/trmnl-wego-next-trip'
     zip_url: 'https://github.com/transitnownash/trmnl-wego-next-trip/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/4pjq5dwvr5h4afuvzxapcwzuhdvt'
   screenshot_url: 'https://github.com/transitnownash/trmnl-wego-next-trip/raw/main/assets/screenshot.png'
   license: Unknown
   byos:
@@ -2233,8 +2257,10 @@ transitnownash-trmnl-wego-next-trip:
     github: transitnownash
   funding: {  }
   author_bio:
-    description: '🚏 WeGo Public Transit Next Trip for TRMNL'
-    homepage: 'https://usetrmnl.com/recipes/91940'
+    description: 'Displays the next bus or train for a given stop in Nashville, Tennessee.'
+    github_url: 'https://github.com/transitnownash/trmnl-wego-next-trip'
+    learn_more_url: 'https://map.transitnownash.org/'
+    email_address: stephen@yearg.in
 vimwtf-trmnl-lumon-wellness:
   name: 'Lumon Wellness'
   trmnlp:
