@@ -4,8 +4,9 @@ a-mnich-trmnl-monkey-island-quotes:
     id: 106632
     repo: 'https://github.com/a-mnich/trmnl-monkey-island-quotes'
     zip_url: 'https://github.com/a-mnich/trmnl-monkey-island-quotes/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/xfmi9xlsr7p7vhmh5js4wom5gllg'
   screenshot_url: null
   license: MIT
   byos:
@@ -27,7 +28,7 @@ andi4000-trmnl-open-meteo-weather-forecast:
     zip_url: 'https://github.com/andi4000/trmnl-open-meteo-weather-forecast/archive/refs/heads/main.zip'
     zip_entry_path: null
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/wx59zioxxv1lq74m9bz1msjrmvqi'
   screenshot_url: null
   license: Unknown
   byos:
@@ -141,7 +142,7 @@ blueset-random-google-fonts:
     zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
     zip_entry_path: trmnl-recipes-master/random-google-fonts
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/vtw0w3xbtzsv85hhra8ska5dwxfs'
   screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/master/random-google-fonts/images/f.png'
   license: MIT
   byos:
@@ -215,7 +216,7 @@ blueset-random-zi:
     zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
     zip_entry_path: trmnl-recipes-master/random-zi
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/97j4g2sj527om0g9ylus8o0zfm37'
   screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/refs/heads/master/random-zi/images/f.png'
   license: MIT
   byos:
@@ -262,7 +263,7 @@ blueset-wikipedia-article-of-the-day:
     zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
     zip_entry_path: trmnl-recipes-master/wikipedia-article-of-the-day
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/qqb4k5wgsfsypa2d3wmbm4f73mzs'
   screenshot_url: 'https://github.com/blueset/trmnl-recipes/raw/master/wikipedia-article-of-the-day/images/en-f.png'
   license: MIT
   byos:
@@ -286,7 +287,7 @@ blueset-world-clock:
     zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
     zip_entry_path: trmnl-recipes-master/world-clock
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/36hz9b6vaguzn3or4dyp9g7z27f2'
   screenshot_url: 'https://github.com/blueset/trmnl-recipes/raw/master/world-clock/images/f.png'
   license: MIT
   byos:
@@ -652,7 +653,7 @@ glyphic.com-marquee:
     zip_url: 'https://www.glyphic.com/marquee/marquee_plugin.zip'
     zip_entry_path: null
     version: null
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/47mr2qnoxwyb9h3on666pql4t0ry'
   screenshot_url: null
   license: Unknown
   byos:
@@ -756,7 +757,7 @@ jbarreiros-trmnl-noaa-tides:
     zip_url: 'https://github.com/jbarreiros/trmnl_noaa_tides/archive/refs/heads/main.zip'
     zip_entry_path: null
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/mk9wh4kpml0v7ah2ylwkw5aug72u'
   screenshot_url: null
   license: MIT
   byos:
@@ -801,7 +802,7 @@ jortvd-trmnl-plausible:
     zip_url: 'https://github.com/jortvd/trmnl-plausible/archive/refs/heads/main.zip'
     zip_entry_path: null
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/v8t2meh0korrqcgtna7tmrwuqlxl'
   screenshot_url: 'https://raw.githubusercontent.com/JortvD/trmnl-plausible/refs/heads/main/screenshots/full_dspline.png'
   license: Unknown
   byos:
@@ -945,7 +946,7 @@ kraynel-trmnl-nyt-connections:
     zip_url: 'https://github.com/kraynel/trmnl-nyt-connections/archive/refs/heads/master.zip'
     zip_entry_path: null
     version: master
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/p20yu8z3ii8drrt7aqm4xgvo1sjx'
   screenshot_url: 'https://raw.githubusercontent.com/kraynel/trmnl-nyt-connections/refs/heads/master/image.png'
   license: Unknown
   byos:
