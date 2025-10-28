@@ -2287,6 +2287,28 @@ vimwtf-trmnl-lumon-wellness:
   author_bio:
     description: 'TRMNL plugin to display facts about your Outie'
     homepage: 'https://usetrmnl.com/recipes/102880'
+wandmalfarbe-trmnl-goodreads:
+  name: Goodreads
+  trmnlp:
+    id: 168273
+    repo: 'https://github.com/Wandmalfarbe/trmnl-goodreads'
+    zip_url: 'https://github.com/Wandmalfarbe/trmnl-goodreads/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://raw.githubusercontent.com/Wandmalfarbe/trmnl-goodreads/refs/heads/main/icon.png'
+  screenshot_url: 'https://raw.githubusercontent.com/Wandmalfarbe/trmnl-goodreads/main/assets/full-light.png'
+  license: BSD-3-Clause
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: Wandmalfarbe
+  funding: {  }
+  author_bio:
+    description: 'TRMNL Plugin for Goodreads'
+    homepage: ''
 who-would-know-trml-plugin-jeopardy:
   name: Jeopardy!
   trmnlp:
@@ -2331,3 +2353,24 @@ who-would-know-trml-plugin-open-trivia-db:
     description: 'A trmnl plugin for Open Trivia DB'
     learn_more_url: 'https://opentdb.com'
     email_address: whowouldknowdev@gmail.com
+yarbro-ynab-trmnl-plugin:
+  name: YNAB
+  trmnlp:
+    id: null
+    repo: 'https://github.com/yarbro/ynab-trmnl-plugin'
+    zip_url: 'https://github.com/yarbro/ynab-trmnl-plugin/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: yarbro
+  funding: {  }
+  author_bio:
+    description: 'A self-hosted TRMNL plugin for displaying YNAB budget data on your e-ink display'
+    homepage: ''
