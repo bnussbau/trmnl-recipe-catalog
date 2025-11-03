@@ -137,6 +137,28 @@ blueset-lyricova-quote:
     description: 'A random lyrics quote of a Vocaloid song on each refresh. Data powered by Project Lyricova.'
     github_url: 'https://github.com/blueset/trmnl-recipes'
     learn_more_url: 'https://lyricova.1a23.studio/'
+blueset-public-recipe-stats:
+  name: 'Public Recipe Stats'
+  trmnlp:
+    id: 170970
+    repo: 'https://github.com/blueset/trmnl-recipes'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/public-recipe-stats
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ci7ehiqoejogz3zly8ddll1s11md'
+  screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/refs/heads/master/public-recipe-stats/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: blueset
+  funding: {  }
+  author_bio:
+    description: 'Shows connection statistics of public recipes. You can choose to show the latest, search for keywords, show your own recipes, or show selected recipe IDs. Data powered by <a href="https://docs.usetrmnl.com/go/public-api/recipes-api">TRMNL Recipes API</a>. Built with help from Jasper, Mario Lurig, Ryan, and Sitnik on TRMNL Discord.'
+    github_url: 'https://github.com/blueset/trmnl-recipes'
 blueset-random-google-fonts:
   name: 'Random Google Fonts'
   trmnlp:
@@ -411,6 +433,33 @@ bnussbau-trmnl-opds-shelf:
   author_bio:
     description: 'Visualize an OPDS feed on a TRMNL device.'
     learn_more_url: 'https://github.com/bnussbau/trmnl-opds-shelf/tree/main#-opds-bookshelf-for-trmnl'
+bnussbau-trmnl-orf-news:
+  name: 'ORF.at Newsfeed'
+  trmnlp:
+    id: 173288
+    repo: 'https://github.com/bnussbau/trmnl-orf-news'
+    zip_url: 'https://github.com/bnussbau/trmnl-orf-news/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/wq03be1mgsk3qz23s9zpwxr39ijd'
+  screenshot_url: 'https://github.com/user-attachments/assets/a1458345-8024-4dc4-adec-be410d1aff51'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: bnussbau
+  funding:
+    custom: 'https://usetrmnl.com/?ref=laravel-trmnl'
+    buy_me_a_coffee: bnussbau
+    github: bnussbau
+  author_bio:
+    description: 'Displays the ORF (Austrian public service broadcaster) newsfeed from the official RSS feed.'
+    email_address: trmnl@benjaminnussbaum.at
+    github_url: 'https://github.com/bnussbau/trmnl-orf-news'
+    learn_more_url: 'https://github.com/bnussbau/trmnl-orf-news?tab=readme-ov-file#orfat-newsfeed-for-trmnl'
 bnussbau-trmnl-pollen-forecast-eu:
   name: 'Pollen Forecast (EU)'
   trmnlp:
