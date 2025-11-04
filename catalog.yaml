@@ -642,19 +642,19 @@ erikbuild-trmnl-yolink-temperature:
     id: null
     repo: 'https://github.com/erikbuild/trmnl-yolink-temperature'
     zip_url: 'https://github.com/erikbuild/trmnl-yolink-temperature/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: null
   screenshot_url: 'https://raw.githubusercontent.com/erikbuild/trmnl-yolink-temperature/main/preview.png'
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.18.0
   author:
     github: erikbuild
     name: 'YoLink Temperature'
-    id: '93606'
   funding: {  }
   author_bio:
     description: 'Simple TRMNL plugin for grabbing the current state of YoLink temperature sensors.'
@@ -827,24 +827,25 @@ jbarreiros-trmnl-noaa-tides:
 jbelien-trmnl-plugin-updownio:
   name: Updown.io
   trmnlp:
-    id: null
+    id: 94944
     repo: 'https://github.com/jbelien/trmnl-plugin-updownio'
-    zip_url: 'https://github.com/jbelien/trmnl-plugin-updownio/archive/refs/heads/main.zip'
+    zip_url: 'https://github.com/jbelien/trmnl-plugin-updownio/archive/refs/heads/master.zip'
     zip_entry_path: null
-    version: main
-  logo_url: null
+    version: master
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/cx9kqqy4pdp276pso5tvxccvknjg'
   screenshot_url: null
   license: MIT
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.18.0
   author:
     github: jbelien
   funding: {  }
   author_bio:
-    description: 'updown.io plugin for TRMNL'
+    description: 'updown.io plugin was created by Jonathan Beliën.'
+    github_url: 'https://github.com/jbelien/trmnl-plugin-updownio'
     learn_more_url: 'https://jbelien.be/'
     email_address: dev@jbelien.mozmail.com
 jortvd-trmnl-plausible:
@@ -1071,9 +1072,9 @@ lanrat-daily-new-yorker-cartoon:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: false
-      compatibility_note: 'XML not yet supported'
-      min_version: null
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.18.0
   author:
     github: lanrat
   funding: {  }
@@ -1246,15 +1247,16 @@ monsieurm-trmnl-lastfm:
     id: 25815
     repo: 'https://github.com/monsieurm/trmnl-lastfm'
     zip_url: 'https://github.com/monsieurm/trmnl-lastfm/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: null
   screenshot_url: 'https://raw.githubusercontent.com/monsieurm/trmnl-lastfm/refs/heads/main/trmnl-lastfm.bmp'
   license: MIT
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: 0.13.0
+      min_version: 0.18.0
   author:
     github: monsieurm
   funding: {  }
@@ -1584,6 +1586,29 @@ snarfulsolutionsgroup-xkcd:
   author_bio:
     description: 'Daily Comic from xkcd'
     homepage: null
+solarmax64-trmnl-recipe-tracker:
+  name: 'TRMNL Recipe Tracker'
+  trmnlp:
+    id: 172700
+    repo: 'https://github.com/Solarmax64/TRMNL-Recipe-Tracker'
+    zip_url: 'https://github.com/Solarmax64/TRMNL-Recipe-Tracker/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/o2t8e1ecj0n2hxi49cvtyh6jrl0c'
+  screenshot_url: 'https://raw.githubusercontent.com/Solarmax64/TRMNL-Recipe-Tracker/refs/heads/main/screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: Solarmax64
+  funding: {  }
+  author_bio:
+    description: 'TRMNL Recipe Tracker. It lists the top plugin engagement, sorted by installs and forks. Add your recipe master plugin IDs for the recipes to track. Buy me a coffee with the link below.'
+    email_address: dev@photic.zone
+    learn_more_url: 'https://ko-fi.com/solarmax'
 sourcediver42-trmnl-mobiliteit:
   name: 'Mobiliteit.lu Checker'
   trmnlp:
@@ -1832,15 +1857,16 @@ stephenyeargin-trmnl-nyt-best-sellers:
     id: 121924
     repo: 'https://github.com/stephenyeargin/trmnl-nyt-best-sellers'
     zip_url: 'https://github.com/stephenyeargin/trmnl-nyt-best-sellers/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/plbwko513qd2u0smeb0hasnscbtx'
   screenshot_url: 'https://github.com/stephenyeargin/trmnl-nyt-best-sellers/raw/main/assets/screenshot.png'
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.18.0
   author:
     github: stephenyeargin
   funding: {  }
@@ -1966,15 +1992,16 @@ stephenyeargin-trmnl-unifi-site-manager:
     id: 102852
     repo: 'https://github.com/stephenyeargin/trmnl-unifi-site-manager'
     zip_url: 'https://github.com/stephenyeargin/trmnl-unifi-site-manager/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/3y03r4ntyellql554wg8hzbxym8g'
   screenshot_url: 'https://github.com/stephenyeargin/trmnl-unifi-site-manager/raw/main/assets/screenshot.png'
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.18.0
   author:
     github: stephenyeargin
   funding: {  }
@@ -2273,15 +2300,16 @@ tilmangriesel-ha-trmnl-weather-station:
     id: 46862
     repo: 'https://github.com/TilmanGriesel/ha_trmnl_weather_station/tree/main/TRMNL'
     zip_url: 'https://github.com/TilmanGriesel/ha_trmnl_weather_station/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/6ndrekmt01h53ty35yulxztkq6gd'
   screenshot_url: null
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.18.0
   author:
     github: TilmanGriesel
   funding:
@@ -2302,9 +2330,9 @@ transitnownash-trmnl-wego-next-trip:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.18.0
   author:
     github: transitnownash
   funding: {  }
@@ -2408,15 +2436,16 @@ yarbro-ynab-trmnl-plugin:
     id: null
     repo: 'https://github.com/yarbro/ynab-trmnl-plugin'
     zip_url: 'https://github.com/yarbro/ynab-trmnl-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: null
   screenshot_url: null
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.18.0
   author:
     github: yarbro
   funding: {  }
