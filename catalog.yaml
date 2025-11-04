@@ -874,12 +874,12 @@ jortvd-trmnl-plausible:
 jvdmeij-trmnl-countdowngit:
   name: Countdown
   trmnlp:
-    id: null
+    id: 16789
     repo: 'https://github.com/jvdmeij/trmnl-countdown.git'
     zip_url: 'https://github.com/jvdmeij/trmnl-countdown/archive/refs/heads/main.zip'
     zip_entry_path: null
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/0pphb3pdonbrohezv0n0h1yr3s7w'
   screenshot_url: null
   license: Unknown
   byos:
@@ -891,8 +891,8 @@ jvdmeij-trmnl-countdowngit:
     github: jvdmeij
   funding: {  }
   author_bio:
-    description: null
-    homepage: null
+    description: 'Counts down to a specific date. Choose a matching emoji to finish the look. Created by Jasper, @jasper on TRMNL Discord.'
+    email_address: info@jaspervandermeij.com
 jvdmeij-trmnl-crypto-fear-and-greed:
   name: 'Crypto Fear & Greed Index'
   trmnlp:
