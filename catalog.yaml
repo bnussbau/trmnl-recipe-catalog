@@ -150,9 +150,10 @@ blueset-public-recipe-stats:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: blueset
   funding: {  }
@@ -977,9 +978,10 @@ jvdmeij-trmnl-word-clock:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: jvdmeij
   funding: {  }
@@ -1859,9 +1861,10 @@ stephenyeargin-trmnl-nfd-incidents:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: stephenyeargin
     name: 'Nashville Fire Department Active Incidents'
@@ -2016,7 +2019,7 @@ stephenyeargin-trmnl-tailscale:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: |-
         - Replace polling header
         Authorization: Bearer {{ tailscale_api_key }}
