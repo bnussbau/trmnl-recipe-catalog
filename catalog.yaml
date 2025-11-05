@@ -221,9 +221,10 @@ blueset-random-unicode:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: blueset
   funding:
@@ -318,9 +319,10 @@ blueset-world-clock:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: blueset
   funding:
@@ -554,9 +556,10 @@ bnussbau-trmnl-uptimekuma:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: bnussbau
   funding:
@@ -731,9 +734,10 @@ heroheman-trmnl-advanced-rss:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: heroheman
   funding: {  }
@@ -751,9 +755,10 @@ heroheman-trmnl-wakatime:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: heroheman
   funding: {  }
@@ -772,9 +777,10 @@ itsjustthomas-trmnl-anki:
   license: AGPL-3.0
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: ItsJustThomas
   funding: {  }
@@ -815,9 +821,10 @@ jbarreiros-trmnl-noaa-tides:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: jbarreiros
   funding: {  }
@@ -884,9 +891,10 @@ jvdmeij-trmnl-countdowngit:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: jvdmeij
   funding: {  }
@@ -905,9 +913,10 @@ jvdmeij-trmnl-crypto-fear-and-greed:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: false
-      compatibility_note: 'Replace : with . in variables'
-      min_version: null
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: jvdmeij
   funding: {  }
@@ -927,9 +936,10 @@ jvdmeij-trmnl-magic-8-ballgit:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: jvdmeij
   funding: {  }
@@ -946,9 +956,10 @@ jvdmeij-trmnl-winnie-the-pooh:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: jvdmeij
   funding: {  }
@@ -985,9 +996,10 @@ jvdmeij-trmnl-your-life-in-weeks:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: jvdmeij
   funding: {  }
@@ -1118,9 +1130,10 @@ lanrat-far-side-comic:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: lanrat
   funding: {  }
@@ -1164,9 +1177,10 @@ lanrat-github-workflow-actions:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: lanrat
   funding: {  }
@@ -1361,9 +1375,10 @@ rknightuk-trmnl-mario-kart:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: rknightuk
   funding: {  }
@@ -1382,9 +1397,10 @@ rknightuk-trmnl-mastodon-profile:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: rknightuk
   funding: {  }
@@ -1449,9 +1465,10 @@ rknightuk-trmnl-the-rickies:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: rknightuk
   funding: {  }
@@ -1471,9 +1488,10 @@ saious119-trmnl-anime-of-the-day:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: Saious119
   funding: {  }
@@ -1641,9 +1659,10 @@ sourcediver42-trmnl-mobiliteit:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: false
-      compatibility_note: 'Remove () in line 52'
-      min_version: null
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: SourceDiver42
     name: 'Mobiliteit.lu Checker'
@@ -1773,7 +1792,8 @@ stephenyeargin-trmnl-mnpd-dispatches:
     byos_laravel:
       compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: stephenyeargin
     name: 'Metro Nashville Police Dept. Active Dispatches'
@@ -1905,9 +1925,10 @@ stephenyeargin-trmnl-open-library:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: false
-      compatibility_note: 'Remove Lines 161-163'
-      min_version: null
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: stephenyeargin
   funding: {  }
@@ -1972,9 +1993,10 @@ stephenyeargin-trmnl-seatgeek:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: stephenyeargin
     name: SeatGeek
@@ -1999,7 +2021,8 @@ stephenyeargin-trmnl-tailscale:
         - Replace polling header
         Authorization: Bearer {{ tailscale_api_key }}
         - Some Liquid errors thrown
-      min_version: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: stephenyeargin
   funding: {  }
@@ -2040,9 +2063,10 @@ stephenyeargin-trmnl-uptimerobot:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: stephenyeargin
   funding: {  }
@@ -2083,9 +2107,10 @@ subtype-space-trmnl-steam-deals:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
+      renderer: 'trmnl-liquid'
   author:
     github: subtype-space
   funding: {  }
