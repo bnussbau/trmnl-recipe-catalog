@@ -1571,14 +1571,15 @@ shagn-trmnl-ralph-ruthe-comic:
     zip_url: 'https://github.com/shagn/trmnl-ruthe-comic/archive/refs/heads/master.zip'
   logo_url: 'https://raw.githubusercontent.com/shagn/trmnl-ruthe-comic/refs/heads/master/favicon.ico'
   screenshot_url: 'https://raw.githubusercontent.com/shagn/trmnl-ruthe-comic/refs/heads/master/screenshot.png'
-  license: 'BSD-3-Clause'
+  license: BSD-3-Clause
   byos:
     byos_laravel:
       compatibility: true
       compatibility_note: null
       min_version: 0.20.0
   author:
-    github: 'shagn'
+    github: shagn
+  funding: {  }
   author_bio:
     description: 'Daily changing, random Ralph Ruthe comic.'
     github_url: 'https://github.com/shagn/trmnl-ruthe-comic'
@@ -2090,6 +2091,32 @@ subtype-space-trmnl-steam-deals:
   funding: {  }
   author_bio:
     description: 'TRMNL Recipe/Plugin for displaying top rated deals on Steam'
+sun-10-print:
+  name: '10 PRINT'
+  trmnlp:
+    id: 176517
+    repo: 'https://forgejo.sny.sh/sun/TRMNL/src/branch/main/recipes/10-print'
+    zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/10-print.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/w75rsn7mws9k3ngx5t2xbsbtv709'
+  screenshot_url: 'https://forgejo.sny.sh/sun/TRMNL/media/branch/main/previews/10-print.png'
+  license: Unlicense
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.13.0
+  author:
+    github: TheLastZombie
+    name: Sunny
+  funding:
+    liberapay: sun
+  author_bio:
+    description: 'Recreates the pattern of the classic Commodore 64 one-liner program.'
+    github_url: 'https://forgejo.sny.sh/sun/TRMNL'
+    learn_more_url: 'https://sny.sh/'
+    email_address: sunny@sny.sh
 sun-danbooru-gallery:
   name: 'Danbooru Gallery'
   trmnlp:
