@@ -153,7 +153,7 @@ blueset-public-recipe-stats:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: blueset
   funding: {  }
@@ -225,7 +225,7 @@ blueset-random-unicode:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: blueset
   funding:
@@ -323,7 +323,7 @@ blueset-world-clock:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: blueset
   funding:
@@ -560,7 +560,7 @@ bnussbau-trmnl-uptimekuma:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: bnussbau
   funding:
@@ -738,7 +738,7 @@ heroheman-trmnl-advanced-rss:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: heroheman
   funding: {  }
@@ -759,13 +759,34 @@ heroheman-trmnl-wakatime:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: heroheman
   funding: {  }
   author_bio:
     description: 'A WakaTime dashboard plugin for TRMNLP, displaying your coding activity in a customizable chart format.'
     email_address: moin@flore.nz
+hrdkbhatnagar-garbage-calendar:
+  name: 'TRMNL Garbage Calendar'
+  trmnlp:
+    id: null
+    repo: 'https://github.com/hrdkbhatnagar/trml-garbage-calendar'
+    zip_url: 'https://github.com/hrdkbhatnagar/trml-garbage-calendar/archive/refs/heads/main.zip'
+    zip_entry_path: trml-garbage-calendar-main/plugin_data
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.18.0
+  author:
+    github: hrdkbhatnagar
+  funding: {  }
+  author_bio:
+    description: 'Garbage calendar for TRMNL'
 itsjustthomas-trmnl-anki:
   name: 'Anki cards'
   trmnlp:
@@ -781,7 +802,7 @@ itsjustthomas-trmnl-anki:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: ItsJustThomas
   funding: {  }
@@ -825,7 +846,7 @@ jbarreiros-trmnl-noaa-tides:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: jbarreiros
   funding: {  }
@@ -895,7 +916,7 @@ jvdmeij-trmnl-countdowngit:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: jvdmeij
   funding: {  }
@@ -917,7 +938,7 @@ jvdmeij-trmnl-crypto-fear-and-greed:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: jvdmeij
   funding: {  }
@@ -940,7 +961,7 @@ jvdmeij-trmnl-magic-8-ballgit:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: jvdmeij
   funding: {  }
@@ -960,7 +981,7 @@ jvdmeij-trmnl-winnie-the-pooh:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: jvdmeij
   funding: {  }
@@ -981,7 +1002,7 @@ jvdmeij-trmnl-word-clock:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: jvdmeij
   funding: {  }
@@ -1001,7 +1022,7 @@ jvdmeij-trmnl-your-life-in-weeks:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: jvdmeij
   funding: {  }
@@ -1135,7 +1156,7 @@ lanrat-far-side-comic:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: lanrat
   funding: {  }
@@ -1182,7 +1203,7 @@ lanrat-github-workflow-actions:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: lanrat
   funding: {  }
@@ -1257,6 +1278,29 @@ lanrat-pickles-comic:
     description: 'Displays the daily Pickles comic'
     github_url: 'https://github.com/lanrat/trmnl_plugins'
     learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/Pickles%20Comic'
+martinbelko-trmnl-plugin-tibber-norway:
+  name: 'Tibber Norway'
+  trmnlp:
+    id: 135286
+    repo: 'https://github.com/MartinBelko/TRMNL-Plugin-Tibber-Norway'
+    zip_url: 'https://github.com/MartinBelko/TRMNL-Plugin-Tibber-Norway/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/pajszdpu1y8xuycv1lvgs7au8yz4'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.21.0
+      renderer: trmnl-liquid
+  author:
+    github: MartinBelko
+  funding: {  }
+  author_bio:
+    description: 'Electricity price chart for today, for Norwegian homes using Tibber.'
+    github_url: 'https://github.com/MartinBelko/TRMNL-Plugin-Tibber-Norway'
 monsieurm-trmnl-lastfm:
   name: LastFM
   trmnlp:
@@ -1380,7 +1424,7 @@ rknightuk-trmnl-mario-kart:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: rknightuk
   funding: {  }
@@ -1402,7 +1446,7 @@ rknightuk-trmnl-mastodon-profile:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: rknightuk
   funding: {  }
@@ -1470,7 +1514,7 @@ rknightuk-trmnl-the-rickies:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: rknightuk
   funding: {  }
@@ -1493,7 +1537,7 @@ saious119-trmnl-anime-of-the-day:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: Saious119
   funding: {  }
@@ -1664,7 +1708,7 @@ sourcediver42-trmnl-mobiliteit:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: SourceDiver42
     name: 'Mobiliteit.lu Checker'
@@ -1765,13 +1809,14 @@ stephenyeargin-trmnl-mealviewer:
     id: 133879
     repo: 'https://github.com/stephenyeargin/trmnl-mealviewer'
     zip_url: 'https://github.com/stephenyeargin/trmnl-mealviewer/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/0z5x4s8spx97sugw6ph8s5dxl0x5'
   screenshot_url: 'https://github.com/stephenyeargin/trmnl-mealviewer/raw/main/assets/screenshot.png'
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: false
       compatibility_note: null
       min_version: null
   author:
@@ -1795,7 +1840,7 @@ stephenyeargin-trmnl-mnpd-dispatches:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: stephenyeargin
     name: 'Metro Nashville Police Dept. Active Dispatches'
@@ -1864,7 +1909,7 @@ stephenyeargin-trmnl-nfd-incidents:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: stephenyeargin
     name: 'Nashville Fire Department Active Incidents'
@@ -1931,7 +1976,7 @@ stephenyeargin-trmnl-open-library:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: stephenyeargin
   funding: {  }
@@ -1999,7 +2044,7 @@ stephenyeargin-trmnl-seatgeek:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: stephenyeargin
     name: SeatGeek
@@ -2025,7 +2070,7 @@ stephenyeargin-trmnl-tailscale:
         Authorization: Bearer {{ tailscale_api_key }}
         - Some Liquid errors thrown
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: stephenyeargin
   funding: {  }
@@ -2069,7 +2114,7 @@ stephenyeargin-trmnl-uptimerobot:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: stephenyeargin
   funding: {  }
@@ -2113,7 +2158,7 @@ subtype-space-trmnl-steam-deals:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
-      renderer: 'trmnl-liquid'
+      renderer: trmnl-liquid
   author:
     github: subtype-space
   funding: {  }
@@ -2322,6 +2367,30 @@ thepeopleseason-edhrec-top:
     description: 'Listing the most popular commanders on edhrec.com for the past week, month, and last 2 years.'
     learn_more_url: 'https://bsky.app/profile/thepeopleseason.bsky.social'
     email_address: matchstick@gmail.com
+thepeopleseason-habitica-tasks:
+  name: 'Habitica Tasks'
+  trmnlp:
+    id: 123494
+    repo: 'https://github.com/thepeopleseason/trmnl-plugins/tree/main/habitica-tasks'
+    zip_url: 'https://github.com/thepeopleseason/trmnl-plugins/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-plugins-main/habitica-tasks
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/2k1u26wwxad7frfvlf3zba1zj7kx'
+  screenshot_url: null
+  license: AGPL-3.0
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: 'adapt headers to one at a line'
+      min_version: 0.18.0
+  author:
+    github: thepeopleseason
+  funding: {  }
+  author_bio:
+    description: 'Habitica.com Daily Tasks and Todo List'
+    github_url: 'https://github.com/thepeopleseason'
+    learn_more_url: 'https://bsky.app/profile/thepeopleseason.bsky.social'
+    email_address: matchstick@gmail.com
 thepeopleseason-mtg-cotd:
   name: 'MTG Card of the Day'
   trmnlp:
@@ -2366,6 +2435,30 @@ thepeopleseason-mtg-potd:
   funding: {  }
   author_bio:
     description: 'A random new Magic the Gathering Plane card daily via Scryfall.com'
+    learn_more_url: 'https://bsky.app/profile/thepeopleseason.bsky.social'
+    email_address: matchstick@gmail.com
+thepeopleseason-oncalltoday:
+  name: 'PagerDuty: On Call Today'
+  trmnlp:
+    id: 158498
+    repo: 'https://github.com/thepeopleseason/trmnl-plugins/tree/main/oncalltoday'
+    zip_url: 'https://github.com/thepeopleseason/trmnl-plugins/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-plugins-main/oncalltoday
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/p3mut2omeq0i7elkhpdto90fnxlw'
+  screenshot_url: null
+  license: AGPL-3.0
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: 'adapt headers to one at a line'
+      min_version: 0.18.0
+  author:
+    github: thepeopleseason
+  funding: {  }
+  author_bio:
+    description: 'Displays the current oncall user, and the next scheduled oncall for a supplied user for schedules on <a href="https://www.pagerduty.com">Pagerduty.com</a>. More displayed information has been set up under comments for privacy reasons. Forking this recipe is required to remove anonymization.'
+    github_url: 'https://github.com/thepeopleseason'
     learn_more_url: 'https://bsky.app/profile/thepeopleseason.bsky.social'
     email_address: matchstick@gmail.com
 tilmangriesel-ha-trmnl-weather-station:
