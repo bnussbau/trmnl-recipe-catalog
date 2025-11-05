@@ -1564,6 +1564,25 @@ sgardoll-nightscout-plugin:
   funding: {  }
   author_bio:
     description: 'A comprehensive dashboard plugin for TRMNL that displays glucose monitoring data, weather information, and public transport departures with a beautiful glucose trend background chart.'
+shagn-trmnl-ralph-ruthe-comic:
+  name: 'Ralph Ruthe Comic'
+  trmnlp:
+    repo: 'https://github.com/shagn/trmnl-ruthe-comic'
+    zip_url: 'https://github.com/shagn/trmnl-ruthe-comic/archive/refs/heads/master.zip'
+  logo_url: 'https://raw.githubusercontent.com/shagn/trmnl-ruthe-comic/refs/heads/master/favicon.ico'
+  screenshot_url: 'https://raw.githubusercontent.com/shagn/trmnl-ruthe-comic/refs/heads/master/screenshot.png'
+  license: 'BSD-3-Clause'
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.20.0
+  author:
+    github: 'shagn'
+  author_bio:
+    description: 'Daily changing, random Ralph Ruthe comic.'
+    github_url: 'https://github.com/shagn/trmnl-ruthe-comic'
+    learn_more_url: 'https://github.com/shagn/trmnl-ruthe-comic/blob/master/README.md'
 snarfulsolutionsgroup-xkcd:
   name: XKCD
   trmnlp:
