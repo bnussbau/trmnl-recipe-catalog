@@ -662,6 +662,30 @@ erikbuild-trmnl-yolink-temperature:
   funding: {  }
   author_bio:
     description: 'Simple TRMNL plugin for grabbing the current state of YoLink temperature sensors.'
+excusemi-retroachievements:
+  name: 'RetroAchievements: Recent Games'
+  trmnlp:
+    id: 176378
+    repo: 'https://github.com/ExcuseMi/trmnl-retroachievements-plugins'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-retroachievements-plugins/archive/refs/heads/main.zip'
+    zip_entry_path: 'trmnl-retroachievements-plugins-main/recent_games /private_plugin_176378'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/l44wsfighvr7ddkzkshrxotmrzb5'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.21.0
+      renderer: trmnl-liquid
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: 'Unofficial RetroAchievements plugin displaying a users recent games'
+    github_url: 'https://github.com/ExcuseMi/trmnl-retroachievements-plugins'
+    learn_more_url: 'https://retroachievements.org/'
 frjo-elprisetjustnu:
   name: Elprisetjustnu
   trmnlp:
@@ -1343,6 +1367,28 @@ monsieurm-trmnl-yearinprogress:
   funding: {  }
   author_bio:
     description: 'This plug-in shows the progress of the year (dots or bar) on TRMNL device'
+pwojtaszko-home-assistant-entities:
+  name: 'Home Assistant Entities'
+  trmnlp:
+    id: null
+    repo: 'https://github.com/pwojtaszko/trmnl-home-assistant-plugin'
+    zip_url: 'https://github.com/pwojtaszko/trmnl-home-assistant-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/pwojtaszko/trmnl-home-assistant-plugin/refs/heads/main/screenshots/screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.18.0
+  author:
+    github: pwojtaszko
+  funding: {  }
+  author_bio:
+    description: 'TRMNL plugin for displaying Home Assistant entities'
+    homepage: ''
 qgriffith-trmnl-nfl-team:
   name: 'Bears Football'
   trmnlp:
@@ -2485,6 +2531,29 @@ tilmangriesel-ha-trmnl-weather-station:
     custom: 'https://usetrmnl.com?ref=griesel'
   author_bio:
     description: '🌤️ TRMNL Home Assistant Weather Station'
+tkilaker-sydsvenskan-news:
+  name: 'Sydsvenskan Latest News'
+  trmnlp:
+    id: 176724
+    repo: 'https://github.com/tkilaker/trmnl-recipes'
+    zip_url: 'https://github.com/tkilaker/trmnl-recipes/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-recipes-main/sydsvenskan-news
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/lknxxg7zoy7pzjyzygi8rjf7864u'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: tkilaker
+  funding: {  }
+  author_bio:
+    description: 'Sydsvenskan Latest News was created by Tim.'
+    github_url: 'https://github.com/tkilaker/trmnl-recipes'
+    email_address: tkilaker@icloud.com
 transitnownash-trmnl-wego-next-trip:
   name: 'Nashville WeGo Public Transit'
   trmnlp:
@@ -2619,26 +2688,4 @@ yarbro-ynab-trmnl-plugin:
   funding: {  }
   author_bio:
     description: 'A self-hosted TRMNL plugin for displaying YNAB budget data on your e-ink display'
-    homepage: ''
-pwojtaszko-home-assistant-entities:
-  name: Home Assistant Entities
-  trmnlp:
-    id: null
-    repo: 'https://github.com/pwojtaszko/trmnl-home-assistant-plugin'
-    zip_url: 'https://github.com/pwojtaszko/trmnl-home-assistant-plugin/archive/refs/heads/main.zip'
-    zip_entry_path: null
-    version: main
-  logo_url: null
-  screenshot_url: 'https://raw.githubusercontent.com/pwojtaszko/trmnl-home-assistant-plugin/refs/heads/main/screenshots/screenshot.png'
-  license: MIT
-  byos:
-    byos_laravel:
-      compatibility: true
-      compatibility_note: null
-      min_version: 0.18.0
-  author:
-    github: pwojtaszko
-  funding: {  }
-  author_bio:
-    description: 'TRMNL plugin for displaying Home Assistant entities'
     homepage: ''
