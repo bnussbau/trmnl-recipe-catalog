@@ -2172,8 +2172,8 @@ sun-10-print:
     zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/10-print.zip'
     zip_entry_path: null
     version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/w75rsn7mws9k3ngx5t2xbsbtv709'
-  screenshot_url: 'https://forgejo.sny.sh/sun/TRMNL/media/branch/main/previews/10-print.png'
+  logo_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/icons/10-print.svg'
+  screenshot_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/previews/10-print.png'
   license: Unlicense
   byos:
     byos_laravel:
@@ -2186,6 +2186,7 @@ sun-10-print:
   funding:
     liberapay: sun
   author_bio:
+    name: '10 PRINT by Sunny'
     description: 'Recreates the pattern of the classic Commodore 64 one-liner program.'
     github_url: 'https://forgejo.sny.sh/sun/TRMNL'
     learn_more_url: 'https://sny.sh/'
