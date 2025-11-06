@@ -2628,7 +2628,7 @@ pwojtaszko-home-assistant-entities:
     zip_entry_path: null
     version: main
   logo_url: null
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/pwojtaszko/trmnl-home-assistant-plugin/refs/heads/main/screenshots/screenshot.png'
   license: MIT
   byos:
     byos_laravel:
