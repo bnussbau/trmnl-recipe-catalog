@@ -686,6 +686,28 @@ excusemi-retroachievements:
     description: 'Unofficial RetroAchievements plugin displaying a users recent games'
     github_url: 'https://github.com/ExcuseMi/trmnl-retroachievements-plugins'
     learn_more_url: 'https://retroachievements.org/'
+excusemi-trmnl-github-releases-plugin:
+  name: 'Github Releases'
+  trmnlp:
+    id: 176802
+    repo: 'https://github.com/ExcuseMi/trmnl-github-releases-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-github-releases-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-github-releases-plugin-main/private_plugin_176802
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ls7xhocsj6gcdmy1x5ajrjwm6dlf'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: 'Show the latest github releases. Options: Amount of days to show releases, Include Pre-Releases, Include Draft releases'
+    github_url: 'https://github.com/ExcuseMi/trmnl-github-releases-plugin'
 frjo-elprisetjustnu:
   name: Elprisetjustnu
   trmnlp:
@@ -2609,20 +2631,20 @@ wandmalfarbe-trmnl-goodreads:
     zip_url: 'https://github.com/Wandmalfarbe/trmnl-goodreads/archive/refs/heads/main.zip'
     zip_entry_path: null
     version: main
-  logo_url: 'https://raw.githubusercontent.com/Wandmalfarbe/trmnl-goodreads/refs/heads/main/icon.png'
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/tx0xrc62tky9ifoet30hnncjcl23'
   screenshot_url: 'https://raw.githubusercontent.com/Wandmalfarbe/trmnl-goodreads/main/assets/full-light.png'
   license: BSD-3-Clause
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: false
       compatibility_note: null
       min_version: null
   author:
     github: Wandmalfarbe
   funding: {  }
   author_bio:
-    description: 'TRMNL Plugin for Goodreads'
-    homepage: ''
+    description: 'Show your Goodreads shelves with a large book cover on the left and metadata on the right.'
+    github_url: 'https://github.com/Wandmalfarbe/trmnl-goodreads'
 who-would-know-trml-plugin-jeopardy:
   name: Jeopardy!
   trmnlp:
