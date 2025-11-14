@@ -260,6 +260,32 @@ blueset-random-zi:
     ko_fi: blueset
   author_bio:
     description: 'A random CJKV ideograph with pronunciations, definitions, and regional glyphs on each refresh. Data powered by zi.tools 字統网'
+blueset-tatoeba:
+  name: 'Language Learning: Sentences'
+  trmnlp:
+    id: 177718
+    repo: 'https://github.com/blueset/trmnl-recipes/tree/master/tatoeba'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/tatoeba
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/7ypdf6v2s0z0is91f6geunarx4zy'
+  screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/master/lyricova-quote/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: blueset
+  funding:
+    github: blueset
+    liberapay: blueset
+    ko_fi: blueset
+  author_bio:
+    description: 'A random sentence in your chosen languages with translations. Data powered by <a href="https://tatoeba.org/">Tatoeba</a>'
+    github_url: 'https://github.com/blueset/trmnl-recipes'
+    learn_more_url: 'https://tatoeba.org/'
 blueset-visa-bulletin:
   name: 'Visa Bulletin'
   trmnlp:
@@ -662,6 +688,30 @@ erikbuild-trmnl-yolink-temperature:
   funding: {  }
   author_bio:
     description: 'Simple TRMNL plugin for grabbing the current state of YoLink temperature sensors.'
+excusemi-movie-guesser:
+  name: 'Movie Guesser'
+  trmnlp:
+    id: 178211
+    repo: 'https://github.com/ExcuseMi/trmnl-github-releases-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-github-releases-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-github-releases-plugin-main/private_plugin_178211
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/zdy8uggssdlr5tc6s37rsv9ltf08'
+  screenshot_url: 'https://raw.githubusercontent.com/ExcuseMi/trmnl-movie-guesser-plugin/refs/heads/main/assets/plugin-images/178211_screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: |-
+      Movie Guesser - Test your film knowledge!<br /><br /> This plugin displays random movie images from 2000 top-rated films. Challenge yourself to identify movies from a single frame.<br /><br /> <b>Features:</b><br /> ● Random backdrops from critically acclaimed films<br /> ● Customizable filters for genre, year, and popularity<br /> ● QR code reveals movie via TMDB link<br />
+      <b>How it works:</b><br /> Each refresh shows a new random still from your filtered movie selection. Scan the QR code to reveal the answer and see full movie details.<br /><br /> Powered by <a href=https://www.themoviedb.org/>TheMovieDB</a>
+    github_url: 'https://github.com/ExcuseMi/trmnl-movie-guesser-plugin'
 excusemi-retroachievements:
   name: 'RetroAchievements: Recent Games'
   trmnlp:
