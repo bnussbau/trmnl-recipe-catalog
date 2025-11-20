@@ -709,8 +709,8 @@ excusemi-movie-guesser:
   funding: {  }
   author_bio:
     description: |-
-      Movie Guesser - Test your film knowledge!<br /><br /> This plugin displays random movie images from 2000 top-rated films. Challenge yourself to identify movies from a single frame.<br /><br /> <b>Features:</b><br /> ● Random backdrops from critically acclaimed films<br /> ● Customizable filters for genre, year, and popularity<br /> ● QR code reveals movie via TMDB link<br />
-      <b>How it works:</b><br /> Each refresh shows a new random still from your filtered movie selection. Scan the QR code to reveal the answer and see full movie details.<br /><br /> Powered by <a href=https://www.themoviedb.org/>TheMovieDB</a>
+      Movie Guesser - Test your film knowledge! This plugin displays random movie images from 2000 top-rated films. Challenge yourself to identify movies from a single frame. <b>Features:</b> ● Random backdrops from critically acclaimed films ● Customizable filters for genre, year, and popularity ● QR code reveals movie via TMDB link
+      How it works: Each refresh shows a new random still from your filtered movie selection. Scan the QR code to reveal the answer and see full movie details. Powered by TheMovieDB
     github_url: 'https://github.com/ExcuseMi/trmnl-movie-guesser-plugin'
 excusemi-retroachievements:
   name: 'RetroAchievements: Recent Games'
@@ -758,6 +758,67 @@ excusemi-trmnl-github-releases-plugin:
   author_bio:
     description: 'Show the latest github releases. Options: Amount of days to show releases, Include Pre-Releases, Include Draft releases'
     github_url: 'https://github.com/ExcuseMi/trmnl-github-releases-plugin'
+excusemi-trmnl-more-comics-plugin:
+  name: 'More Comics'
+  trmnlp:
+    id: 180935
+    repo: 'https://github.com/ExcuseMi/trmnl-more-comics-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-more-comics-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/rbxv69m1hj4rgie52ofhg8qo2obz'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: |-
+      Access a collection of 574 comic RSS feeds and enjoy fresh content every day.
+      Features:
+      ● Displays the most recent comic or a random comic
+      ● Supports multiple RSS sources
+      ● Add your own RSS feeds
+      ● Frequently updated to keep all RSS sources valid and up to date
+    github_url: 'https://github.com/ExcuseMi/trmnl-more-comics-plugin'
+    learn_more_url: 'https://comiccaster.xyz'
+excusemi-trmnl-tv-guideplugin:
+  name: 'TV Guide'
+  trmnlp:
+    id: 182680
+    repo: 'https://github.com/ExcuseMi/trmnl-tv-guide.plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-tv-guide.plugin/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/alqxzcyw3yku4ods2hhiwyl3lou9'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: |
+      Display TV program schedules from 84 countries with 8573 channels available.
+      <strong>Features:</strong>
+      ● Live TV schedule with current and upcoming programs
+      ● Support for channels from multiple countries
+      ● Highlights currently airing programs
+      Setup Requirements:
+      ● Free API key from TV-Plan.org (takes less than a minute)
+      ● Each channel uses one API call per refresh
+      ● Recommended: 5 channels with hourly refresh or evening-only schedule
+    github_url: 'https://github.com/ExcuseMi/trmnl-tv-guide.plugin'
+    learn_more_url: 'https://tv-plan.org/#/apiarea'
 frjo-elprisetjustnu:
   name: Elprisetjustnu
   trmnlp:
