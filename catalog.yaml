@@ -736,6 +736,29 @@ excusemi-retroachievements:
     description: 'Unofficial RetroAchievements plugin displaying a users recent games'
     github_url: 'https://github.com/ExcuseMi/trmnl-retroachievements-plugins'
     learn_more_url: 'https://retroachievements.org/'
+excusemi-trmnl-databreaches-plugin:
+  name: 'Data Breaches'
+  trmnlp:
+    id: 183668
+    repo: 'https://github.com/ExcuseMi/trmnl-databreaches-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-databreaches-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/lk39903tfwr3ej5pg33snrjl5b98'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: 'Keep up to date with the latest data breaches.'
+    github_url: 'https://github.com/ExcuseMi/trmnl-databreaches-plugin'
+    learn_more_url: 'https://haveibeenpwned.com'
 excusemi-trmnl-github-releases-plugin:
   name: 'Github Releases'
   trmnlp:
@@ -771,7 +794,7 @@ excusemi-trmnl-more-comics-plugin:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: false
       compatibility_note: null
       min_version: null
   author:
@@ -800,7 +823,7 @@ excusemi-trmnl-tv-guideplugin:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: false
       compatibility_note: null
       min_version: null
   author:
@@ -901,6 +924,30 @@ heroheman-trmnl-advanced-rss:
   funding: {  }
   author_bio:
     description: 'A sophisticated RSS feed display plugin for TRMNL e-ink devices that transforms your favorite RSS feeds into beautifully formatted, customizable layouts.'
+heroheman-trmnl-devto:
+  name: 'Dev.to Articles'
+  trmnlp:
+    id: 184240
+    repo: 'https://github.com/heroheman/trmnl_devto'
+    zip_url: 'https://github.com/heroheman/trmnl_devto/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/860bat26bau58oot4yyv04d5gs57'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.21.0
+      renderer: trmnl-liquid
+  author:
+    github: heroheman
+  funding: {  }
+  author_bio:
+    description: 'A Dev.to articles plugin, displaying popular and trending articles from dev.to with customizable filters and layouts.'
+    github_url: 'https://github.com/heroheman/trmnl_devto'
+    email_address: moin@flore.nz
 heroheman-trmnl-wakatime:
   name: 'WakaTime Dashboard'
   trmnlp:
