@@ -1439,28 +1439,6 @@ monsieurm-trmnl-yearinprogress:
   funding: {  }
   author_bio:
     description: 'This plug-in shows the progress of the year (dots or bar) on TRMNL device'
-pwojtaszko-home-assistant-entities:
-  name: 'Home Assistant Entities'
-  trmnlp:
-    id: null
-    repo: 'https://github.com/pwojtaszko/trmnl-home-assistant-plugin'
-    zip_url: 'https://github.com/pwojtaszko/trmnl-home-assistant-plugin/archive/refs/heads/main.zip'
-    zip_entry_path: null
-    version: main
-  logo_url: null
-  screenshot_url: 'https://raw.githubusercontent.com/pwojtaszko/trmnl-home-assistant-plugin/refs/heads/main/screenshots/screenshot.png'
-  license: MIT
-  byos:
-    byos_laravel:
-      compatibility: true
-      compatibility_note: null
-      min_version: 0.18.0
-  author:
-    github: pwojtaszko
-  funding: {  }
-  author_bio:
-    description: 'TRMNL plugin for displaying Home Assistant entities'
-    homepage: ''
 qgriffith-trmnl-nfl-team:
   name: 'Bears Football'
   trmnlp:
