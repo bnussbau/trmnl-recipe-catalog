@@ -781,6 +781,29 @@ excusemi-trmnl-github-releases-plugin:
   author_bio:
     description: 'Show the latest github releases. Options: Amount of days to show releases, Include Pre-Releases, Include Draft releases'
     github_url: 'https://github.com/ExcuseMi/trmnl-github-releases-plugin'
+excusemi-trmnl-lego-plugin:
+  name: 'Lego Sets'
+  trmnlp:
+    id: 184371
+    repo: 'https://github.com/ExcuseMi/trmnl-lego-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-lego-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/s6u6k9fxgvtwsig8pqy1siydk828'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: "Display LEGO® sets on your TRMNL device with powerful filtering options using community APIs.Data Sources:● <strong>Rebrickable Mode (Default): Uses curated dataset from Rebrickable.com with theme and part count filters ● BrickSet Mode: Uses live API from BrickSet.com with personal collection features (owned/wanted), minifigure counts, and regional pricing BrickSet Setup (Optional):1. Create a free account at brickset.com/signup 2. Request your API key at brickset.com/tools/webservices/requestkey 3. Enter your API key in the field below to enable BrickSet mode4. (Optional) For owned/wanted filtering: obtain your userHash via the BrickSet login API. Important Notes:● When using BrickSet mode, you must select at least one theme OR set a min/max year filter OR owned/wanted filter● Filter options automatically adjust based on your selected data source"
+    github_url: 'https://github.com/ExcuseMi/trmnl-lego-plugin'
+    category: life
 excusemi-trmnl-more-comics-plugin:
   name: 'More Comics'
   trmnlp:
@@ -832,7 +855,7 @@ excusemi-trmnl-tv-guideplugin:
   author_bio:
     description: |
       Display TV program schedules from 84 countries with 8573 channels available.
-      <strong>Features:</strong>
+      <strong>Features:
       ● Live TV schedule with current and upcoming programs
       ● Support for channels from multiple countries
       ● Highlights currently airing programs
