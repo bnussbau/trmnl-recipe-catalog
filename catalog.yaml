@@ -688,6 +688,51 @@ erikbuild-trmnl-yolink-temperature:
   funding: {  }
   author_bio:
     description: 'Simple TRMNL plugin for grabbing the current state of YoLink temperature sensors.'
+excusemi-comic-book-covers-plugin:
+  name: trmnl-comic-book-covers-plugin
+  trmnlp:
+    id: 186430
+    repo: 'https://github.com/ExcuseMi/trmnl-comic-book-covers-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-comic-book-covers-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: null
+    homepage: null
+excusemi-counterstrike-2-showcase-plugin:
+  name: 'Counter-Strike 2 Item Showcase'
+  trmnlp:
+    id: 180810
+    repo: 'https://github.com/ExcuseMi/trmnl-counterstrike-2-showcase-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-counterstrike-2-showcase-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/7jqy3e13hw74v6dzr6bx89emy1xp'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    category: games
+    github_url: 'https://github.com/ExcuseMi/trmnl-counterstrike-2-showcase-plugin'
+    description: 'Showcase every available item in Counter-Strike 2, including skins, crates, collectibles, music kits, and more.'
 excusemi-movie-guesser:
   name: 'Movie Guesser'
   trmnlp:
@@ -801,7 +846,7 @@ excusemi-trmnl-lego-plugin:
     github: ExcuseMi
   funding: {  }
   author_bio:
-    description: "Display LEGO® sets on your TRMNL device with powerful filtering options using community APIs.Data Sources:● <strong>Rebrickable Mode (Default): Uses curated dataset from Rebrickable.com with theme and part count filters ● BrickSet Mode: Uses live API from BrickSet.com with personal collection features (owned/wanted), minifigure counts, and regional pricing BrickSet Setup (Optional):1. Create a free account at brickset.com/signup 2. Request your API key at brickset.com/tools/webservices/requestkey 3. Enter your API key in the field below to enable BrickSet mode4. (Optional) For owned/wanted filtering: obtain your userHash via the BrickSet login API. Important Notes:● When using BrickSet mode, you must select at least one theme OR set a min/max year filter OR owned/wanted filter● Filter options automatically adjust based on your selected data source"
+    description: 'Display LEGO® sets on your TRMNL device with powerful filtering options using community APIs.Data Sources:● <strong>Rebrickable Mode (Default): Uses curated dataset from Rebrickable.com with theme and part count filters ● BrickSet Mode: Uses live API from BrickSet.com with personal collection features (owned/wanted), minifigure counts, and regional pricing BrickSet Setup (Optional):1. Create a free account at brickset.com/signup 2. Request your API key at brickset.com/tools/webservices/requestkey 3. Enter your API key in the field below to enable BrickSet mode4. (Optional) For owned/wanted filtering: obtain your userHash via the BrickSet login API. Important Notes:● When using BrickSet mode, you must select at least one theme OR set a min/max year filter OR owned/wanted filter● Filter options automatically adjust based on your selected data source'
     github_url: 'https://github.com/ExcuseMi/trmnl-lego-plugin'
     category: life
 excusemi-trmnl-more-comics-plugin:
@@ -1104,6 +1149,30 @@ jbelien-trmnl-plugin-updownio:
     github_url: 'https://github.com/jbelien/trmnl-plugin-updownio'
     learn_more_url: 'https://jbelien.be/'
     email_address: dev@jbelien.mozmail.com
+jetsharklambo-acstop:
+  name: 'ACTransit Stop'
+  trmnlp:
+    id: 183449
+    repo: 'https://github.com/jetsharklambo/ACstop'
+    zip_url: 'https://github.com/jetsharklambo/ACstop/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/uiw4s1s6pvjcd7k1c5qwsiux1dcm'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: jetsharklambo
+  funding: {  }
+  author_bio:
+    description: 'Real-time AC Transit bus departures at a glance. Displays next departures for any AC Transit stop in the Bay Area.'
+    github_url: 'https://github.com/jetsharklambo/ACstop'
+    learn_more_url: 'https://maximo.is/jetsharklambo'
+    email_address: jetsharklambo+trmnlcom@gmail.com
 jortvd-trmnl-plausible:
   name: Plausible
   trmnlp:
@@ -1615,6 +1684,37 @@ qgriffith-trmnl-nfl-team:
     description: "A Ruby script that fetches NFL team schedule information from ESPN's API and optionally publishes it to TRMNL webhooks for display on e-ink devices. Before it can run, a few setup steps are required. Make sure to visit the GitHub page for detailed instructions."
     github_url: 'https://github.com/qgriffith/trmnl-nfl-team'
     email_address: qgriffith@gmail.com
+rabbit-company-rabbitassets:
+  name: RabbitAssets
+  trmnlp:
+    id: 181797
+    repo: 'https://github.com/Rabbit-Company/RabbitAssets'
+    zip_url: 'https://github.com/Rabbit-Company/RabbitAssets/archive/refs/heads/main.zip'
+    zip_entry_path: RabbitAssets-main/trmnl
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/7bcn3znaqlyb66xnavfcow2u8bj6'
+  screenshot_url: null
+  license: GPL-3.0
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: Rabbit-Company
+  funding:
+    github: Rabbit-Company
+    open_collective: rabbit-company
+    liberapay: RabbitCompany
+    ko_fi: rabbitcompany
+    patreon: rabbitcompany
+    issuehunt: rabbit-company
+  author_bio:
+    category: 'finance,analytics'
+    description: 'Live asset price monitoring. For privacy, all asset calculations are performed on the TRMNL backend your device is connected to. By default this is the official TRMNL server, but you can also self-host your own. Rabbit Company does not receive or store any asset data.'
+    learn_more_url: 'https://rabbit-company.com'
+    github_url: 'https://github.com/Rabbit-Company/RabbitAssets'
+    email_address: info@rabbit-company.com
 rknightuk-trmnl-fathom-analytics:
   name: 'Fathom Analytics'
   trmnlp:
@@ -2370,6 +2470,29 @@ stephenyeargin-trmnl-uptimerobot:
   author_bio:
     description: '🤖 UptimeRobot for TRMNL'
     homepage: 'https://usetrmnl.com/recipes/98765/'
+steveblox-fortnite-statistics:
+  name: 'Fortnite Statistics'
+  trmnlp:
+    id: 186199
+    repo: 'https://github.com/SteveBloX/trmnl-recipes'
+    zip_url: 'https://github.com/SteveBloX/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/fortnite-stats
+    version: master
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ywbwdumxf5s3tim1dbey0a3296ln'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: SteveBloX
+  funding: {  }
+  author_bio:
+    description: "Easily get your Fortnite stats right on your TRMNL! Don't forget to set your in-game username in the plugin settings."
+    github_url: 'https://github.com/SteveBloX/trmnl-recipes'
+    email_address: contact@bloax.xyz
 stevekennedyuk-trmnl-tfl-status:
   name: 'Transport for London (TfL) status messages'
   trmnlp:
