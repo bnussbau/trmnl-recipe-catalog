@@ -1849,6 +1849,27 @@ rknightuk-trmnl-the-rickies:
     description: 'Keep track of the winners, and various titles, of The Rickies'
     github_url: 'https://github.com/rknightuk/trmnl-the-rickies'
     learn_more_url: 'https://rknight.me'
+robertpolmear-trmnl-nsw-traffic-cams:
+  name: NSW Live Traffic Cams
+  trmnlp:
+    id: null
+    repo: 'https://github.com/robertpolmear/trmnl-nsw-traffic-cams'
+    zip_url: 'https://github.com/robertpolmear/trmnl-nsw-traffic-cams/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://raw.githubusercontent.com/robertpolmear/trmnl-nsw-traffic-cams/main/icon.png'
+  screenshot_url: 'https://raw.githubusercontent.com/robertpolmear/trmnl-nsw-traffic-cams/main/screenshot.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.22.0
+  author:
+    github: robertpolmear
+  funding: {  }
+  author_bio:
+    description: 'Displays a live snapshot from NSW Traffic Cameras. For a full list of camera names, use the Learn More link.'
+    learn_more_url: 'https://trmnl-rp.vercel.app/public/nsw-camera-names.html'
 saious119-trmnl-anime-of-the-day:
   name: 'Anime of the Day'
   trmnlp:
