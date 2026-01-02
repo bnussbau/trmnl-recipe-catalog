@@ -124,9 +124,9 @@ aziac-trmnl-ghibli-backgrounds:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
   author:
     github: aziac
   funding: {  }
@@ -296,9 +296,9 @@ blueset-slickdeals:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.22.0
   author:
     github: blueset
   funding:
@@ -323,9 +323,9 @@ blueset-sun-chart:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.22.0
   author:
     github: blueset
   funding:
@@ -440,7 +440,7 @@ blueset-world-clock-ja:
     id: 187661
     repo: 'https://github.com/blueset/trmnl-recipes/tree/master/world-clock'
     zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
-    zip_entry_path: trmnl-recipes-master/world-clock-ja
+    zip_entry_path: trmnl-recipes-master/word-clock-ja
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ms9y3wj5xf19ayfof7o9w0b8r9pc'
   screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/refs/heads/master/word-clock-ja/images/f.png'
@@ -467,7 +467,7 @@ blueset-world-clock-zh:
     id: 187631
     repo: 'https://github.com/blueset/trmnl-recipes/tree/master/world-clock'
     zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
-    zip_entry_path: trmnl-recipes-master/world-clock-zh
+    zip_entry_path: trmnl-recipes-master/word-clock-zh
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/dd8n09n02ykmnwd4tzinxum7rafr'
   screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/refs/heads/master/word-clock-zh/images/f.png'
@@ -758,18 +758,19 @@ bnussbau-trmnl-vienna-metro-departures:
 ctorrao-trmnl-fuel-pricing-pt:
   name: 'Fuel Prices Portugal'
   trmnlp:
-    id: '181330'
+    id: 181330
     repo: 'https://github.com/ctorrao/trmnl-fuel-pricing-pt'
     zip_url: 'https://github.com/ctorrao/trmnl-fuel-pricing-pt/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/fjk83eqkftk02gjf03gcqo58xxyi'
   screenshot_url: null
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
   author:
     github: ctorrao
   funding: {  }
@@ -854,7 +855,7 @@ excusemi-comic-book-covers-plugin:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: false
       compatibility_note: null
       min_version: null
   author:
@@ -865,29 +866,6 @@ excusemi-comic-book-covers-plugin:
     learn_more_url: 'https://comicvine.gamespot.com/api/'
     github_url: 'https://github.com/ExcuseMi/trmnl-comic-book-covers-plugin'
     category: 'comics,art'
-excusemi-counterstrike-2-showcase-plugin:
-  name: 'Counter-Strike 2 Item Showcase'
-  trmnlp:
-    id: 180810
-    repo: 'https://github.com/ExcuseMi/trmnl-counterstrike-2-showcase-plugin'
-    zip_url: 'https://github.com/ExcuseMi/trmnl-counterstrike-2-showcase-plugin/archive/refs/heads/main.zip'
-    zip_entry_path: null
-    version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/7jqy3e13hw74v6dzr6bx89emy1xp'
-  screenshot_url: null
-  license: MIT
-  byos:
-    byos_laravel:
-      compatibility: null
-      compatibility_note: null
-      min_version: null
-  author:
-    github: ExcuseMi
-  funding: {  }
-  author_bio:
-    category: games
-    github_url: 'https://github.com/ExcuseMi/trmnl-counterstrike-2-showcase-plugin'
-    description: 'Showcase every available item in Counter-Strike 2, including skins, crates, collectibles, music kits, and more.'
 excusemi-movie-guesser:
   name: 'Movie Guesser'
   trmnlp:
@@ -949,9 +927,9 @@ excusemi-trmnl-air-quality-plugin:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
-      compatibility_note: null
-      min_version: null
+      compatibility: false
+      compatibility_note: 'Polling URL needs to be adapted'
+      min_version: 0.22.0
   author:
     github: ExcuseMi
   funding: {  }
@@ -1416,9 +1394,9 @@ jetsharklambo-acstop:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.20.0
   author:
     github: jetsharklambo
   funding: {  }
@@ -1432,7 +1410,7 @@ jonasherzfeld-trmnl-hvv:
   trmnlp:
     id: 187524
     repo: 'https://github.com/jonasherzfeld/trmnl-hvv'
-    zip_url: 'https://github.com/jonasherzfeld/trmnl-hvv/archive/refs/heads/main.zip'
+    zip_url: 'https://github.com/jonasherzfeld/trmnl-hvv/archive/refs/heads/master.zip'
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/r6c2aco7hhmjxotvva8lmbus53e6'
@@ -1440,9 +1418,9 @@ jonasherzfeld-trmnl-hvv:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.22.0
   author:
     github: jonasherzfeld
   funding: {  }
@@ -1955,9 +1933,9 @@ pipwilson-trmnl-72-seasons:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.20.0
   author:
     github: pipwilson
   funding: {  }
@@ -1971,7 +1949,7 @@ pythcon-trmnl-plugin-grafana:
   trmnlp:
     id: 189121
     repo: 'https://github.com/pythcon/trmnl-plugin-grafana'
-    zip_url: 'https://github.com/pythcon/trmnl-plugin-grafana/archive/refs/heads/main.zip'
+    zip_url: 'https://github.com/pythcon/trmnl-plugin-grafana/archive/refs/heads/master.zip'
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ic94s80664oddcbiteryckpgm79z'
@@ -1979,9 +1957,9 @@ pythcon-trmnl-plugin-grafana:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
   author:
     github: pythcon
   funding: {  }
@@ -1994,7 +1972,7 @@ pythcon-trmnl-plugin-servarr:
   trmnlp:
     id: 190336
     repo: 'https://github.com/pythcon/trmnl-plugin-servarr'
-    zip_url: 'https://github.com/pythcon/trmnl-plugin-servarr/archive/refs/heads/main.zip'
+    zip_url: 'https://github.com/pythcon/trmnl-plugin-servarr/archive/refs/heads/master.zip'
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/t8579f6xgv4r30b6kjdnq23zcryp'
@@ -2002,9 +1980,9 @@ pythcon-trmnl-plugin-servarr:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.22.0
   author:
     github: pythcon
   funding: {  }
@@ -2048,9 +2026,9 @@ rabbit-company-rabbitassets:
   license: GPL-3.0
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.22.0
   author:
     github: Rabbit-Company
   funding:
@@ -2079,9 +2057,9 @@ rabbit-company-rabbitforexapi:
   license: GPL-3.0
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.22.0
   author:
     github: Rabbit-Company
   funding:
@@ -2145,14 +2123,14 @@ rknightuk-trmnl-fathom-analytics:
     github_url: 'https://github.com/rknightuk/trmnl-fathom-analytics'
     learn_more_url: 'https://rknight.me'
 rknightuk-trmnl-gameboy-title-screens:
-  name: 'GameCube Title Screens'
+  name: 'Game Boy Title Screens'
   trmnlp:
-    id: 202626
+    id: 202774
     repo: 'https://github.com/rknightuk/trmnl-gameboy-title-screens'
     zip_url: 'https://github.com/rknightuk/trmnl-gameboy-title-screens/archive/refs/heads/main.zip'
     zip_entry_path: null
     version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/cqhc1azdjcuughzexbqokwscl2pv'
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/yu0ek3phppy28bpd0asveagsoqxz'
   screenshot_url: 'https://raw.githubusercontent.com/rknightuk/trmnl-gameboy-title-screens/main/screenshot.jpg'
   license: Unknown
   byos:
@@ -2164,8 +2142,8 @@ rknightuk-trmnl-gameboy-title-screens:
     github: rknightuk
   funding: {  }
   author_bio:
-    description: 'Shows a random GameCube game title screen'
-    github_url: 'https://github.com/rknightuk/trmnl-gamecube-title-screens'
+    description: 'Shows a random Game Boy game title screen'
+    github_url: 'https://github.com/rknightuk/trmnl-gameboy-title-screens'
     learn_more_url: 'https://rknight.me'
 rknightuk-trmnl-gamecube-title-screens:
   name: 'GameCube Title Screens'
@@ -2819,9 +2797,9 @@ stephenyeargin-trmnl-ollama:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.22.0
   author:
     github: stephenyeargin
   funding: {  }
@@ -2990,29 +2968,6 @@ stephenyeargin-trmnl-uptimerobot:
   author_bio:
     description: '🤖 UptimeRobot for TRMNL'
     homepage: 'https://usetrmnl.com/recipes/98765/'
-steveblox-fortnite-statistics:
-  name: 'Fortnite Statistics'
-  trmnlp:
-    id: 186199
-    repo: 'https://github.com/SteveBloX/trmnl-recipes'
-    zip_url: 'https://github.com/SteveBloX/trmnl-recipes/archive/refs/heads/master.zip'
-    zip_entry_path: trmnl-recipes-master/fortnite-stats
-    version: master
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ywbwdumxf5s3tim1dbey0a3296ln'
-  screenshot_url: null
-  license: Unknown
-  byos:
-    byos_laravel:
-      compatibility: null
-      compatibility_note: null
-      min_version: null
-  author:
-    github: SteveBloX
-  funding: {  }
-  author_bio:
-    description: "Easily get your Fortnite stats right on your TRMNL! Don't forget to set your in-game username in the plugin settings."
-    github_url: 'https://github.com/SteveBloX/trmnl-recipes'
-    email_address: contact@bloax.xyz
 stevekennedyuk-trmnl-tfl-status:
   name: 'Transport for London (TfL) status messages'
   trmnlp:
@@ -3526,9 +3481,9 @@ y2ee201-trmnl-fortune-cookie:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.21.0
   author:
     github: y2ee201
   funding: {  }
