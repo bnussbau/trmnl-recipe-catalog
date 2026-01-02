@@ -111,6 +111,29 @@ argoroots-met-no:
     description: 'Display weather forecast from The Norwegian Meteorological Institute (met.no) on your TRMNL screen. This is not an official plugin. It is developed by Argo Roots and uses the met.no API.'
     learn_more_url: 'https://www.met.no'
     email_address: argo@roots.ee
+aziac-trmnl-ghibli-backgrounds:
+  name: 'Ghibli Backgrounds'
+  trmnlp:
+    id: 210390
+    repo: 'https://github.com/aziac/trmnl-ghibli-backgrounds'
+    zip_url: 'https://github.com/aziac/trmnl-ghibli-backgrounds/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/oy71hn85roqajrik8jwrv68bmunx'
+  screenshot_url: 'https://raw.githubusercontent.com/aziac/trmnl-ghibli-backgrounds/main/assets/mononoke-screenshot.jpg'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: aziac
+  funding: {  }
+  author_bio:
+    category: 'art,images'
+    description: 'A simple plugin to randomly display images from various Studio Ghibli movies.'
+    github_url: 'https://github.com/aziac/trmnl-ghibli-backgrounds'
 blueset-lyricova-quote:
   name: 'Vocaloid Lyrics Quote'
   trmnlp:
@@ -260,6 +283,59 @@ blueset-random-zi:
     ko_fi: blueset
   author_bio:
     description: 'A random CJKV ideograph with pronunciations, definitions, and regional glyphs on each refresh. Data powered by zi.tools 字統网'
+blueset-slickdeals:
+  name: 'Slickdeals Frontpage'
+  trmnlp:
+    id: 184875
+    repo: 'https://github.com/blueset/trmnl-recipes/tree/master/slickdeals'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/slickdeals
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/perjj1f0o8swgwgmwzddq9udeb6h'
+  screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/refs/heads/master/slickdeals/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: blueset
+  funding:
+    github: blueset
+    liberapay: blueset
+    ko_fi: blueset
+  author_bio:
+    description: 'Slickdeals Frontpage and Popular deals. Data from Slickdeals RSS feed.'
+    github_url: 'https://github.com/blueset/trmnl-recipes'
+    learn_more_url: 'https://slickdeals.net/'
+    category: 'discovery,ecommerce'
+blueset-sun-chart:
+  name: 'Sunrise and Sunset Chart'
+  trmnlp:
+    id: 195274
+    repo: 'https://github.com/blueset/trmnl-recipes/tree/master/world-clock'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/sun-chart
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/lsnzsyn522dhx3qps062e8no4j83'
+  screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/master/sun-chart/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: blueset
+  funding:
+    github: blueset
+    liberapay: blueset
+    ko_fi: blueset
+  author_bio:
+    description: 'Sunrise and sunset time with a daily and yearly chart.'
+    category: 'calendar,life'
+    github_url: 'https://github.com/blueset/trmnl-recipes'
 blueset-tatoeba:
   name: 'Language Learning: Sentences'
   trmnlp:
@@ -358,6 +434,61 @@ blueset-world-clock:
     ko_fi: blueset
   author_bio:
     description: 'A digital world clock shows up to 7 time zones. Inspired by World Time Buddy and Windows 11 World Clock.'
+blueset-world-clock-ja:
+  name: 'Word Clock 日本語'
+  trmnlp:
+    id: 187661
+    repo: 'https://github.com/blueset/trmnl-recipes/tree/master/world-clock'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/world-clock-ja
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ms9y3wj5xf19ayfof7o9w0b8r9pc'
+  screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/refs/heads/master/word-clock-ja/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: blueset
+  funding:
+    github: blueset
+    liberapay: blueset
+    ko_fi: blueset
+  author_bio:
+    description: 'Word clock in Japanese. Supports 24-hour and 12-hour formats, with a maximum display precision of 5 minutes (depending on recipe and device update frequency).'
+    description-ja: '日本語の文字時計。24 時制と 12 時制対応、最大表示精度は 5 分（レシピとデバイスの更新頻度による）。'
+    github_url: 'https://github.com/blueset/trmnl-recipes'
+    category: 'productivity,calendar'
+blueset-world-clock-zh:
+  name: 'Word Clock 中文'
+  trmnlp:
+    id: 187631
+    repo: 'https://github.com/blueset/trmnl-recipes/tree/master/world-clock'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/world-clock-zh
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/dd8n09n02ykmnwd4tzinxum7rafr'
+  screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/refs/heads/master/word-clock-zh/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: blueset
+  funding:
+    github: blueset
+    liberapay: blueset
+    ko_fi: blueset
+  author_bio:
+    description: 'Word Clock in Chinese. Supports 24-hour and 12-hour formats, as well as Simplified and Traditional Chinese. The highest precision is 5 minutes (determined by the plugin and device refresh rate).'
+    description-zh-CN: '中文文字时钟。支持 24 小时和 12 小时，支持简体繁体。最高精度为 5 分钟（由插件和设备刷新频率决定）。'
+    description-zh-HK: '中文文字時鐘。支援 24 小時和 12 小時，支援簡體繁體。最高精度為 5 分鐘（由插件和設備刷新頻率決定）。'
+    github_url: 'https://github.com/blueset/trmnl-recipes'
+    category: 'productivity,calendar'
 bnussbau-trmnl-austrian-train-departures:
   name: 'Austrian Train Departures (OEBB)'
   trmnlp:
@@ -624,6 +755,28 @@ bnussbau-trmnl-vienna-metro-departures:
     description: 'Metro departures for Vienna, Austria. Data attribution data.gv.at'
     github_url: 'https://github.com/bnussbau/trmnl-vienna-metro-departures'
     learn_more_url: 'https://github.com/bnussbau/trmnl-vienna-metro-departures/blob/main/README.md'
+ctorrao-trmnl-fuel-pricing-pt:
+  name: 'Fuel Prices Portugal'
+  trmnlp:
+    id: '181330'
+    repo: 'https://github.com/ctorrao/trmnl-fuel-pricing-pt'
+    zip_url: 'https://github.com/ctorrao/trmnl-fuel-pricing-pt/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/fjk83eqkftk02gjf03gcqo58xxyi'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: ctorrao
+  funding: {  }
+  author_bio:
+    description: 'Show cheapest fuel prices in Portugal from official government data. Check the GitHub repository for more details on how to configure and use this plugin.'
+    github_url: 'https://github.com/ctorrao/trmnl-fuel-pricing-pt'
+    learn_more_url: 'https://github.com/ctorrao/trmnl-fuel-pricing-pt'
 danmunoz-trmnl-bvg-transit:
   name: 'BVG - Berlin Public Transport'
   trmnlp:
@@ -689,14 +842,14 @@ erikbuild-trmnl-yolink-temperature:
   author_bio:
     description: 'Simple TRMNL plugin for grabbing the current state of YoLink temperature sensors.'
 excusemi-comic-book-covers-plugin:
-  name: trmnl-comic-book-covers-plugin
+  name: 'Comic Book Covers'
   trmnlp:
     id: 186430
     repo: 'https://github.com/ExcuseMi/trmnl-comic-book-covers-plugin'
     zip_url: 'https://github.com/ExcuseMi/trmnl-comic-book-covers-plugin/archive/refs/heads/main.zip'
     zip_entry_path: null
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/bvhgsggye11ineh2gv0wsygg2wjq'
   screenshot_url: null
   license: MIT
   byos:
@@ -708,8 +861,10 @@ excusemi-comic-book-covers-plugin:
     github: ExcuseMi
   funding: {  }
   author_bio:
-    description: null
-    homepage: null
+    description: 'Display random comic book covers on your TRMNL e-ink device using the Comic Vine API.'
+    learn_more_url: 'https://comicvine.gamespot.com/api/'
+    github_url: 'https://github.com/ExcuseMi/trmnl-comic-book-covers-plugin'
+    category: 'comics,art'
 excusemi-counterstrike-2-showcase-plugin:
   name: 'Counter-Strike 2 Item Showcase'
   trmnlp:
@@ -781,6 +936,30 @@ excusemi-retroachievements:
     description: 'Unofficial RetroAchievements plugin displaying a users recent games'
     github_url: 'https://github.com/ExcuseMi/trmnl-retroachievements-plugins'
     learn_more_url: 'https://retroachievements.org/'
+excusemi-trmnl-air-quality-plugin:
+  name: 'Air Quality'
+  trmnlp:
+    id: 193113
+    repo: 'https://github.com/ExcuseMi/trmnl-air-quality-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-air-quality-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-air-quality-plugin-main/private_plugin_193113
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/qgo5572x7xjmbqeq0813wk52gni6'
+  screenshot_url: 'https://raw.githubusercontent.com/ExcuseMi/trmnl-air-quality-plugin/main/assets/plugin-images/193113_screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: "Monitor air quality in real-time with detailed AQI readings from stations around you and 24-hour forecasts. Map data: OpenStreetMap & CartoDB. Air quality data from AQICN/WAQI."
+    github_url: 'https://github.com/ExcuseMi/trmnl-air-quality-plugin'
+    learn_more_url: 'https://aqicn.org'
+    category: environment
 excusemi-trmnl-databreaches-plugin:
   name: 'Data Breaches'
   trmnlp:
@@ -804,6 +983,35 @@ excusemi-trmnl-databreaches-plugin:
     description: 'Keep up to date with the latest data breaches.'
     github_url: 'https://github.com/ExcuseMi/trmnl-databreaches-plugin'
     learn_more_url: 'https://haveibeenpwned.com'
+excusemi-trmnl-email-messages-plugin:
+  name: 'Email Messages'
+  trmnlp:
+    id: 198482
+    repo: 'https://github.com/ExcuseMi/trmnl-email-messages-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-email-messages-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/nfzpp86tp5piccqezfembs86zl48'
+  screenshot_url: 'https://raw.githubusercontent.com/ExcuseMi/trmnl-email-messages-plugin/main/assets/plugin-images/198482_screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: |
+      Display your recent emails on your TRMNL display.
+      This plugin connects to your email account via IMAP and shows your latest messages with customizable filters and display options.
+      IMAP support: Works with Gmail, Outlook, Yahoo, iCloud, and custom IMAP servers
+      Real-time updates: Shows the latest emails from your inbox
+      Advanced filtering: Filter by sender, category, or importance
+      Custom display: Control how emails appear on your screen
+    category: email
+    github_url: 'https://github.com/ExcuseMi/trmnl-email-messages-plugin'
 excusemi-trmnl-github-releases-plugin:
   name: 'Github Releases'
   trmnlp:
@@ -812,7 +1020,7 @@ excusemi-trmnl-github-releases-plugin:
     zip_url: 'https://github.com/ExcuseMi/trmnl-github-releases-plugin/archive/refs/heads/main.zip'
     zip_entry_path: trmnl-github-releases-plugin-main/private_plugin_176802
     version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ls7xhocsj6gcdmy1x5ajrjwm6dlf'
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/vh14ovf1wo27othgp363lldafoz1'
   screenshot_url: null
   license: MIT
   byos:
@@ -824,7 +1032,7 @@ excusemi-trmnl-github-releases-plugin:
     github: ExcuseMi
   funding: {  }
   author_bio:
-    description: 'Show the latest github releases. Options: Amount of days to show releases, Include Pre-Releases, Include Draft releases'
+    description: 'Display the latest GitHub releases from your monitored repositories with powerful filtering options. Features: ● Filter by time period (show releases from last N days) ● Include or exclude pre-releases ● Include or exclude draft releases ● Show only the latest release per repository ● Show time since previous release for a project ● Multi-language support ● Dynamic spacing (TRMNL X Ready)'
     github_url: 'https://github.com/ExcuseMi/trmnl-github-releases-plugin'
 excusemi-trmnl-lego-plugin:
   name: 'Lego Sets'
@@ -846,7 +1054,7 @@ excusemi-trmnl-lego-plugin:
     github: ExcuseMi
   funding: {  }
   author_bio:
-    description: 'Display LEGO® sets on your TRMNL device with powerful filtering options using community APIs.Data Sources:● <strong>Rebrickable Mode (Default): Uses curated dataset from Rebrickable.com with theme and part count filters ● BrickSet Mode: Uses live API from BrickSet.com with personal collection features (owned/wanted), minifigure counts, and regional pricing BrickSet Setup (Optional):1. Create a free account at brickset.com/signup 2. Request your API key at brickset.com/tools/webservices/requestkey 3. Enter your API key in the field below to enable BrickSet mode4. (Optional) For owned/wanted filtering: obtain your userHash via the BrickSet login API. Important Notes:● When using BrickSet mode, you must select at least one theme OR set a min/max year filter OR owned/wanted filter● Filter options automatically adjust based on your selected data source'
+    description: 'Display LEGO® sets on your TRMNL device with powerful filtering options using community APIs.'
     github_url: 'https://github.com/ExcuseMi/trmnl-lego-plugin'
     category: life
 excusemi-trmnl-more-comics-plugin:
@@ -878,6 +1086,29 @@ excusemi-trmnl-more-comics-plugin:
       ● Frequently updated to keep all RSS sources valid and up to date
     github_url: 'https://github.com/ExcuseMi/trmnl-more-comics-plugin'
     learn_more_url: 'https://comiccaster.xyz'
+excusemi-trmnl-sleepy-time-plugin:
+  name: 'Sleepy Time!'
+  trmnlp:
+    id: 190819
+    repo: 'https://github.com/ExcuseMi/trmnl-sleepy-time-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-sleepy-time-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-sleepy-time-plugin-main/plugin
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/vfmoi7vg742yb1zocytmiherisj8'
+  screenshot_url: 'https://raw.githubusercontent.com/ExcuseMi/trmnl-sleepy-time-plugin/refs/heads/main/assets/plugin-images/190819_screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    category: life
+    description: "Let your loved ones know it's time to head to bed with a warm image and your personal sleepy ritual.Set the schedule for this plugin in your playlist to match your kids bedtime.When setting the schedule, please take into account the refresh rate of your device's dashboard to ensure proper timing.To make sure it never gets buried in your playlist, mark it as important."
+    github_url: 'https://github.com/ExcuseMi/trmnl-sleepy-time-plugin'
 excusemi-trmnl-tv-guideplugin:
   name: 'TV Guide'
   trmnlp:
@@ -886,7 +1117,7 @@ excusemi-trmnl-tv-guideplugin:
     zip_url: 'https://github.com/ExcuseMi/trmnl-tv-guide.plugin/archive/refs/heads/main.zip'
     zip_entry_path: null
     version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/alqxzcyw3yku4ods2hhiwyl3lou9'
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/56f0xa1cksaew8i0momht8h4fvkt'
   screenshot_url: null
   license: Unknown
   byos:
@@ -899,8 +1130,8 @@ excusemi-trmnl-tv-guideplugin:
   funding: {  }
   author_bio:
     description: |
-      Display TV program schedules from 84 countries with 8573 channels available.
-      <strong>Features:
+      Display TV program schedules from 84 countries with 8574 channels available.
+      Features:
       ● Live TV schedule with current and upcoming programs
       ● Support for channels from multiple countries
       ● Highlights currently airing programs
@@ -910,6 +1141,29 @@ excusemi-trmnl-tv-guideplugin:
       ● Recommended: 5 channels with hourly refresh or evening-only schedule
     github_url: 'https://github.com/ExcuseMi/trmnl-tv-guide.plugin'
     learn_more_url: 'https://tv-plan.org/#/apiarea'
+excusemi-trmnl-word-search-plugin:
+  name: 'Word Search'
+  trmnlp:
+    id: 189996
+    repo: 'https://github.com/ExcuseMi/trmnl-word-search-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-word-search-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-word-search-plugin-main/private_plugin_189996
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/zbhsetbneccu89qlyoi99nxzxl3g'
+  screenshot_url: 'https://raw.githubusercontent.com/ExcuseMi/trmnl-word-search-plugin/refs/heads/main/assets/plugin-images/189996_screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: 'Solve Word Searches directly on your TRMNL! Get stuck on a tricky word search puzzle? Simply scan the QR code to reveal the solution!'
+    github_url: 'https://github.com/ExcuseMi/trmnl-word-search-plugin'
+    category: games
 frjo-elprisetjustnu:
   name: Elprisetjustnu
   trmnlp:
@@ -1173,6 +1427,30 @@ jetsharklambo-acstop:
     github_url: 'https://github.com/jetsharklambo/ACstop'
     learn_more_url: 'https://maximo.is/jetsharklambo'
     email_address: jetsharklambo+trmnlcom@gmail.com
+jonasherzfeld-trmnl-hvv:
+  name: 'HVV Transit'
+  trmnlp:
+    id: 187524
+    repo: 'https://github.com/jonasherzfeld/trmnl-hvv'
+    zip_url: 'https://github.com/jonasherzfeld/trmnl-hvv/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/r6c2aco7hhmjxotvva8lmbus53e6'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: jonasherzfeld
+  funding: {  }
+  author_bio:
+    category: travel
+    description: 'Hamburg transit operator information'
+    github_url: 'https://github.com/jonasherzfeld'
+    learn_more_url: 'https://www.hvv.de/'
 jortvd-trmnl-plausible:
   name: Plausible
   trmnlp:
@@ -1196,6 +1474,31 @@ jortvd-trmnl-plausible:
     description: 'Plausible Analytics is a privacy-friendly web analytics platform, available through Plausible.io or via self-hosting the Community Edition.'
     github_url: 'https://github.com/jortvd'
     email_address: jortvd2002@gmail.com
+jshiell-trmnl-stalbans-refuse-collections:
+  name: 'St Albans Refuse Collections'
+  trmnlp:
+    id: '203404'
+    repo: 'https://github.com/jshiell/trmnl-stalbans-refuse-collections'
+    zip_url: 'https://github.com/jshiell/trmnl-stalbans-refuse-collections/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/cdjp7e4blcrfitxttf4wmknz822o'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: jshiell
+  funding: {  }
+  author_bio:
+    category: 'life,environment'
+    description: |
+      St Albans Refuse Collections displays the upcoming collection date from your refuse, recycling, food, and garden waste.
+      Note that this will only be useful for residents of St Albans in the UK.
+      You will require your unique property reference number (UPRN), which you can find using FindMyAddress.
+    github_url: 'https://github.com/jshiell/trmnl-stalbans-refuse-collections'
 jvdmeij-trmnl-countdowngit:
   name: Countdown
   trmnlp:
@@ -1639,6 +1942,76 @@ monsieurm-trmnl-yearinprogress:
   funding: {  }
   author_bio:
     description: 'This plug-in shows the progress of the year (dots or bar) on TRMNL device'
+pipwilson-trmnl-72-seasons:
+  name: '72 Japanese Seasons'
+  trmnlp:
+    id: 103813
+    repo: 'https://github.com/pipwilson/trmnl-72-seasons'
+    zip_url: 'https://github.com/pipwilson/trmnl-72-seasons/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/s4twjxjxjda4z9o6pvsn5hlsszqa'
+  screenshot_url: 'https://raw.githubusercontent.com/pipwilson/trmnl-72-seasons/refs/heads/main/screenshot.jpg'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: pipwilson
+  funding: {  }
+  author_bio:
+    category: 'calendar,nature'
+    description: "Tells you which of Japan's traditional 72 seasons it currently is."
+    github_url: 'https://github.com/pipwilson/trmnl-72-seasons'
+    learn_more_url: 'https://philwilson.org/blog/2025/06/72-seasons-on-the-trmnl/'
+pythcon-trmnl-plugin-grafana:
+  name: 'Grafana Panel'
+  trmnlp:
+    id: 189121
+    repo: 'https://github.com/pythcon/trmnl-plugin-grafana'
+    zip_url: 'https://github.com/pythcon/trmnl-plugin-grafana/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ic94s80664oddcbiteryckpgm79z'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: pythcon
+  funding: {  }
+  author_bio:
+    description: 'Display Grafana panels on your TRMNL e-ink display. Use our public API or self-host for firewalled Grafana instances.Supported panels: • Stat • Time Series • Graph (legacy) • Gauge • Bar Gauge • Bar Chart • Table • Polystat'
+    github_url: 'https://github.com/pythcon/trmnl-plugin-grafana'
+    learn_more_url: 'https://trmnlplugins.com'
+pythcon-trmnl-plugin-servarr:
+  name: 'Servarr Dashboard'
+  trmnlp:
+    id: 190336
+    repo: 'https://github.com/pythcon/trmnl-plugin-servarr'
+    zip_url: 'https://github.com/pythcon/trmnl-plugin-servarr/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/t8579f6xgv4r30b6kjdnq23zcryp'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: pythcon
+  funding: {  }
+  author_bio:
+    description: 'A beautiful dashboard for your Servarr media stack. Monitor download queues, upcoming releases, recently added content, and library statistics from Sonarr, Radarr, Lidarr, Readarr, or Prowlarr. Visit the GitHub repository for setup instructions on connecting your Servarr instance to TRMNL via webhook.'
+    github_url: 'https://github.com/pythcon/trmnl-plugin-servarr'
+    learn_more_url: 'https://trmnlplugins.com'
 qgriffith-trmnl-nfl-team:
   name: 'Bears Football'
   trmnlp:
@@ -1693,6 +2066,62 @@ rabbit-company-rabbitassets:
     learn_more_url: 'https://rabbit-company.com'
     github_url: 'https://github.com/Rabbit-Company/RabbitAssets'
     email_address: info@rabbit-company.com
+rabbit-company-rabbitforexapi:
+  name: RabbitForex
+  trmnlp:
+    id: 182766
+    repo: 'https://github.com/Rabbit-Company/RabbitForexAPI'
+    zip_url: 'https://github.com/Rabbit-Company/RabbitForexAPI/archive/refs/heads/main.zip'
+    zip_entry_path: RabbitForexAPI-main/trmnl
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: GPL-3.0
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: Rabbit-Company
+  funding:
+    github: Rabbit-Company
+    open_collective: rabbit-company
+    liberapay: RabbitCompany
+    ko_fi: rabbitcompany
+    patreon: rabbitcompany
+    issuehunt: rabbit-company
+  author_bio:
+    category: 'finance,analytics'
+    description: 'Real time exchange rate data.'
+    learn_more_url: 'https://rabbit-company.com'
+    github_url: 'https://github.com/Rabbit-Company/RabbitForexAPI'
+    email_address: info@rabbit-company.com
+rishikeshsreehari-trmnl-webmention:
+  name: Webmentions
+  trmnlp:
+    id: 203096
+    repo: 'https://github.com/rishikeshsreehari/trmnl-webmention'
+    zip_url: 'https://github.com/rishikeshsreehari/trmnl-webmention/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/m3ofmx8p1k0w01eywdl4jdksa4m6'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: rishikeshsreehari
+  funding: {  }
+  author_bio:
+    category: 'personal,programming'
+    description: 'Display webmentions from across the web for your personal website or blog. Webmentions are a W3C recommendation that enables websites to notify each other when content is linked, liked, reposted, or replied to - bringing decentralized social interactions to the IndieWeb.'
+    github_url: 'https://github.com/rishikeshsreehari/trmnl-webmention'
+    learn_more_url: 'https://rishikeshs.com'
+    email_address: hello@rishikeshs.com
 rknightuk-trmnl-fathom-analytics:
   name: 'Fathom Analytics'
   trmnlp:
@@ -1714,6 +2143,52 @@ rknightuk-trmnl-fathom-analytics:
   author_bio:
     description: 'Fathom Analytics plugin'
     github_url: 'https://github.com/rknightuk/trmnl-fathom-analytics'
+    learn_more_url: 'https://rknight.me'
+rknightuk-trmnl-gameboy-title-screens:
+  name: 'GameCube Title Screens'
+  trmnlp:
+    id: 202626
+    repo: 'https://github.com/rknightuk/trmnl-gameboy-title-screens'
+    zip_url: 'https://github.com/rknightuk/trmnl-gameboy-title-screens/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/cqhc1azdjcuughzexbqokwscl2pv'
+  screenshot_url: 'https://raw.githubusercontent.com/rknightuk/trmnl-gameboy-title-screens/main/screenshot.jpg'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: rknightuk
+  funding: {  }
+  author_bio:
+    description: 'Shows a random GameCube game title screen'
+    github_url: 'https://github.com/rknightuk/trmnl-gamecube-title-screens'
+    learn_more_url: 'https://rknight.me'
+rknightuk-trmnl-gamecube-title-screens:
+  name: 'GameCube Title Screens'
+  trmnlp:
+    id: 202626
+    repo: 'https://github.com/rknightuk/trmnl-gamecube-title-screens'
+    zip_url: 'https://github.com/rknightuk/trmnl-gamecube-title-screens/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/cqhc1azdjcuughzexbqokwscl2pv'
+  screenshot_url: 'https://raw.githubusercontent.com/rknightuk/trmnl-gamecube-title-screens/main/screenshot.jpg'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: rknightuk
+  funding: {  }
+  author_bio:
+    description: 'Shows a random GameCube game title screen'
+    github_url: 'https://github.com/rknightuk/trmnl-gamecube-title-screens'
     learn_more_url: 'https://rknight.me'
 rknightuk-trmnl-literate-movies:
   name: 'Literate Movies'
@@ -1780,6 +2255,28 @@ rknightuk-trmnl-mastodon-profile:
   author_bio:
     description: 'Mastodon Profile plugin to show toot, follower, and following counts'
     github_url: 'https://github.com/rknightuk/trmnl-mastodon-profile'
+    learn_more_url: 'https://rknight.me'
+rknightuk-trmnl-ps2-title-screens:
+  name: 'PS2 Title Screens'
+  trmnlp:
+    id: '130437'
+    repo: 'https://github.com/rknightuk/trmnl-ps2-title-screens'
+    zip_url: 'https://github.com/rknightuk/trmnl-ps2-title-screens/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/i2iv4735p3icwibia8whltzzq4mh'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: rknightuk
+  funding: {  }
+  author_bio:
+    description: 'Shows a random PS2 game title screen'
+    github_url: 'https://github.com/rknightuk/trmnl-ps2-title-screens'
     learn_more_url: 'https://rknight.me'
 rknightuk-trmnl-relay-st-jude:
   name: 'Relay for St Jude'
@@ -1850,7 +2347,7 @@ rknightuk-trmnl-the-rickies:
     github_url: 'https://github.com/rknightuk/trmnl-the-rickies'
     learn_more_url: 'https://rknight.me'
 robertpolmear-trmnl-nsw-traffic-cams:
-  name: NSW Live Traffic Cams
+  name: 'NSW Live Traffic Cams'
   trmnlp:
     id: null
     repo: 'https://github.com/robertpolmear/trmnl-nsw-traffic-cams'
@@ -2309,6 +2806,30 @@ stephenyeargin-trmnl-nyt-best-sellers:
   author_bio:
     description: '📚 New York Times Best Seller List for TRMNL'
     homepage: 'https://usetrmnl.com/recipes/121924'
+stephenyeargin-trmnl-ollama:
+  name: Ollama
+  trmnlp:
+    id: 193453
+    repo: 'https://github.com/stephenyeargin/trmnl-ollama'
+    zip_url: 'https://github.com/stephenyeargin/trmnl-ollama/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/kksxnvquifevy3rvg6mlmkbo274t'
+  screenshot_url: 'https://raw.githubusercontent.com/stephenyeargin/trmnl-ollama/main/assets/screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: stephenyeargin
+  funding: {  }
+  author_bio:
+    description: 'Generate an LLM response from Ollama for a given prompt.'
+    github_url: 'https://github.com/stephenyeargin/trmnl-ollama'
+    learn_more_url: 'https://ollama.com'
+    email_address: stephen@yearg.in
 stephenyeargin-trmnl-open-library:
   name: 'Open Library'
   trmnlp:
@@ -2992,6 +3513,30 @@ who-would-know-trml-plugin-open-trivia-db:
     description: 'A trmnl plugin for Open Trivia DB'
     learn_more_url: 'https://opentdb.com'
     email_address: whowouldknowdev@gmail.com
+y2ee201-trmnl-fortune-cookie:
+  name: 'Fortune Cookie of the Day'
+  trmnlp:
+    id: 201904
+    repo: 'https://github.com/y2ee201/TRMNL_fortune_cookie'
+    zip_url: 'https://github.com/y2ee201/TRMNL_fortune_cookie/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/415a7pdjz6xswv2r2iat36lv8dr8'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: y2ee201
+  funding: {  }
+  author_bio:
+    description: 'A fortune cookie for you to start the day with!!!'
+    category: 'personal,life'
+    github_url: 'https://github.com/y2ee201'
+    email_address: y2ee201.work@gmail.com
 yarbro-ynab-trmnl-plugin:
   name: YNAB
   trmnlp:
