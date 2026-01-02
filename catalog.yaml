@@ -956,7 +956,7 @@ excusemi-trmnl-air-quality-plugin:
     github: ExcuseMi
   funding: {  }
   author_bio:
-    description: "Monitor air quality in real-time with detailed AQI readings from stations around you and 24-hour forecasts. Map data: OpenStreetMap & CartoDB. Air quality data from AQICN/WAQI."
+    description: 'Monitor air quality in real-time with detailed AQI readings from stations around you and 24-hour forecasts. Map data: OpenStreetMap & CartoDB. Air quality data from AQICN/WAQI.'
     github_url: 'https://github.com/ExcuseMi/trmnl-air-quality-plugin'
     learn_more_url: 'https://aqicn.org'
     category: environment
@@ -1021,7 +1021,7 @@ excusemi-trmnl-github-releases-plugin:
     zip_entry_path: trmnl-github-releases-plugin-main/private_plugin_176802
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/vh14ovf1wo27othgp363lldafoz1'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/ExcuseMi/trmnl-github-releases-plugin/main/assets/plugin-images/176802_screenshot.png'
   license: MIT
   byos:
     byos_laravel:
@@ -2043,7 +2043,7 @@ rabbit-company-rabbitassets:
     zip_url: 'https://github.com/Rabbit-Company/RabbitAssets/archive/refs/heads/main.zip'
     zip_entry_path: RabbitAssets-main/trmnl
     version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/7bcn3znaqlyb66xnavfcow2u8bj6'
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/jsw6ypatutf9wxyzvp43fyn93syv'
   screenshot_url: null
   license: GPL-3.0
   byos:
