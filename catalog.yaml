@@ -977,6 +977,7 @@ excusemi-trmnl-email-messages-plugin:
       compatibility: null
       compatibility_note: null
       min_version: null
+      renderer: trmnl-liquid
   author:
     github: ExcuseMi
   funding: {  }
