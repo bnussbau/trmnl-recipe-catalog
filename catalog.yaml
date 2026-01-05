@@ -1204,6 +1204,30 @@ glyphic.com-marquee:
   author_bio:
     email: mark@glyphic.com
     homepage: 'https://www.glyphic.com/marquee'
+guilhermemorais-trmnl-weeksofyear:
+  name: 'Weeks of the Year'
+  trmnlp:
+    id: 209377
+    repo: 'https://github.com/GuilhermeMorais/trmnl-weeksOfYear'
+    zip_url: 'https://github.com/GuilhermeMorais/trmnl-weeksOfYear/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/i8uf1juee3orkmg8fdwkc6f58klm'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.21.0
+  author:
+    github: GuilhermeMorais
+  funding: {  }
+  author_bio:
+    category: 'calendar,kpi'
+    description: 'A visual representation of the amount of weeks for the year! Created by Guilherme based on Jasper''s recipe <a href="https://usetrmnl.com/recipes/22415">Your Life in Weeks</a>. You can find me on <a href="https://dotnet.social/@Gui">Mastodon</a>, or @glmsharp on Discord or send an email.'
+    github_url: 'https://github.com/GuilhermeMorais/trmnl-weeksOfYear'
+    email_address: gui.lopes@gmail.com
 heroheman-trmnl-advanced-rss:
   name: 'Advanced RSS '
   trmnlp:
@@ -1454,6 +1478,40 @@ jortvd-trmnl-plausible:
     description: 'Plausible Analytics is a privacy-friendly web analytics platform, available through Plausible.io or via self-hosting the Community Edition.'
     github_url: 'https://github.com/jortvd'
     email_address: jortvd2002@gmail.com
+jshiell-trmnl-national-rail-departures:
+  name: 'National Rail Departures'
+  trmnlp:
+    id: 203604
+    repo: 'https://github.com/jshiell/trmnl-national-rail-departures'
+    zip_url: 'https://github.com/jshiell/trmnl-national-rail-departures/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/nxnuh0dvz847q487wupwgu8x51j6'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.21.0
+  author:
+    github: jshiell
+  funding: {  }
+  author_bio:
+    category: travel
+    description: |
+      National Rail Departures displays the upcoming departures from a chosen station to a particular destination.
+      <br><br>
+      <strong>Prerequisites</strong>
+      <br>
+      You will need:<br>
+      1. A National Rail API key. If you don't already have one, you can request one <a href="http://realtime.nationalrail.co.uk/OpenLDBWSRegistration">at the National Rail Developers website</a>.<br>
+      2. The CRS code for your departure and destination stations, which can be found <a href="https://www.nationalrail.co.uk/">on the National Rail website</a>.
+      <br><br>
+      <strong>Attributions</strong>
+      <br>
+      The data feed is powered by <a href="https://www.nationalrail.co.uk/developers/">National Rail Enquiries</a>.
+    github_url: 'https://github.com/jshiell/trmnl-national-rail-departures'
 jshiell-trmnl-stalbans-refuse-collections:
   name: 'St Albans Refuse Collections'
   trmnlp:
@@ -2077,6 +2135,32 @@ rabbit-company-rabbitforexapi:
     learn_more_url: 'https://rabbit-company.com'
     github_url: 'https://github.com/Rabbit-Company/RabbitForexAPI'
     email_address: info@rabbit-company.com
+rishikeshsreehari-trmnl-lobsters:
+  name: Lobsters
+  trmnlp:
+    id: 212869
+    repo: 'https://github.com/rishikeshsreehari/trmnl-lobsters'
+    zip_url: 'https://github.com/rishikeshsreehari/trmnl-lobsters/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ueg6vnjfdfrq2hszc3cu7dpsm35k'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: 'qr_code filter is not yet supported'
+      min_version: 0.23.0
+  author:
+    github: rishikeshsreehari
+  funding: {  }
+  author_bio:
+    description: 'Stay updated with the tech community''s favorite stories from <a href="https://lobste.rs">Lobste.rs</a>. Choose between hottest or newest posts, and scan QR codes to read full discussions on your phone.'
+    help_text: 'For bug reports or queries, <a href="mailto:hello@rishikeshs.com">email me</a>'
+    category: 'programming,news'
+    github_url: 'https://github.com/rishikeshsreehari/trmnl-lobsters'
+    email_address: hello@rishikeshs.com
+    learn_more_url: 'https://rishikeshs.com'
 rishikeshsreehari-trmnl-webmention:
   name: Webmentions
   trmnlp:
