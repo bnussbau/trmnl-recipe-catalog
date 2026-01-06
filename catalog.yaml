@@ -2578,6 +2578,25 @@ shagn-trmnl-ralph-ruthe-comic:
     description: 'Daily changing, random Ralph Ruthe comic.'
     github_url: 'https://github.com/shagn/trmnl-ruthe-comic'
     learn_more_url: 'https://github.com/shagn/trmnl-ruthe-comic/blob/master/README.md'
+shagn-trmnl-todoist:
+  name: 'Todoist Tasks'
+  trmnlp:
+    repo: 'https://github.com/shagn/trmnl-todoist'
+    zip_url: 'https://github.com/shagn/trmnl-todoist/archive/refs/heads/master.zip'
+  logo_url: 'https://raw.githubusercontent.com/shagn/trmnl-todoist/refs/heads/master/favicon.ico'
+  screenshot_url: 'https://raw.githubusercontent.com/shagn/trmnl-todoist/refs/heads/master/screenshot.png'
+  license: 'GPL-3.0'
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.23.2
+  author:
+    github: 'shagn'
+  author_bio:
+    description: 'Lists your Todoist tasks.'
+    github_url: 'https://github.com/shagn/trmnl-todoist'
+    learn_more_url: 'https://github.com/shagn/trmnl-todoist/blob/master/README.md'
 snarfulsolutionsgroup-xkcd:
   name: XKCD
   trmnlp:
