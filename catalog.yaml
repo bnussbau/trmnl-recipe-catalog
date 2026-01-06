@@ -820,6 +820,27 @@ delhoume-trmnl-universal-plugin:
   author_bio:
     description: 'same code, different sources'
     learn_more: 'https://github.com/delhoume/trmnl_universal_plugin/blob/main/README.md'
+depau-trmnl-atm-milano:
+  name: 'ATM Milano Bus/Tram live timetable'
+  trmnlp:
+    repo: 'https://github.com/depau/trmnl-atm-milano/'
+    zip_url: 'https://github.com/depau/trmnl-atm-milano/archive/refs/heads/main.zip'
+  logo_url: 'https://raw.githubusercontent.com/depau/trmnl-atm-milano/refs/heads/main/atm-logo.svg'
+  screenshot_url: 'https://raw.githubusercontent.com/depau/trmnl-atm-milano/refs/heads/main/screenshot.png'
+  license: 'LGPL-2.1'
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+  author:
+    github: 'depau'
+    name: 'Davide Depau'
+  funding:
+    custom: 'https://etchdroid.app/donate/'
+    github: 'depau'
+  author_bio:
+    description: Unofficial plugin, display the live time table for the selected ATM Milano bus/tram stops.
+    github_url: 'https://github.com/depau/trmnl-atm-milano/'
 erikbuild-trmnl-yolink-temperature:
   name: 'YoLink Temperature Sensor'
   trmnlp:
