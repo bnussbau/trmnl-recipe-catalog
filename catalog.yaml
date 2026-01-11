@@ -3152,7 +3152,7 @@ sun-10-print:
     byos_laravel:
       compatibility: true
       compatibility_note: null
-      min_version: 0.13.0
+      min_version: 0.25.0
   author:
     github: TheLastZombie
     name: Sunny
@@ -3179,7 +3179,7 @@ sun-danbooru-gallery:
     byos_laravel:
       compatibility: true
       compatibility_note: null
-      min_version: 0.13.0
+      min_version: 0.25.0
   author:
     github: TheLastZombie
     name: Sunny
@@ -3205,7 +3205,7 @@ sun-defas-departures:
     byos_laravel:
       compatibility: true
       compatibility_note: null
-      min_version: 0.13.0
+      min_version: 0.25.0
   author:
     github: TheLastZombie
     name: Sunny
@@ -3231,7 +3231,7 @@ sun-film-guide:
     byos_laravel:
       compatibility: true
       compatibility_note: null
-      min_version: 0.13.0
+      min_version: 0.25.0
   author:
     github: TheLastZombie
     name: Sunny
@@ -3257,7 +3257,7 @@ sun-toki-pona:
     byos_laravel:
       compatibility: true
       compatibility_note: null
-      min_version: 0.16.1
+      min_version: 0.25.0
   author:
     github: TheLastZombie
     name: Sunny
@@ -3283,7 +3283,7 @@ sun-weather-graph:
     byos_laravel:
       compatibility: true
       compatibility_note: null
-      min_version: 0.13.0
+      min_version: 0.25.0
   author:
     github: TheLastZombie
     name: Sunny
