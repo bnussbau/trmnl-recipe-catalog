@@ -134,6 +134,30 @@ aziac-trmnl-ghibli-backgrounds:
     category: 'art,images'
     description: 'A simple plugin to randomly display images from various Studio Ghibli movies.'
     github_url: 'https://github.com/aziac/trmnl-ghibli-backgrounds'
+bastronautik-trmnl-triangles-art:
+  name: 'Triangles - Generated Art'
+  trmnlp:
+    id: 220720
+    repo: 'https://github.com/Bastronautik/trmnl-triangles-art'
+    zip_url: 'https://github.com/Bastronautik/trmnl-triangles-art/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/68hbc7xak7h557b657l022c0u6yn'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.20.0
+  author:
+    github: Bastronautik
+  funding: {  }
+  author_bio:
+    description: 'Let your TRMNL show a random generated artwork with triangles. Based on the Kumiko styled artwork from Japan, but more random. With every refresh the generated artwork gets a new look.'
+    category: art
+    email_address: trmnl@achtnegen.nl
+    github_url: 'https://github.com/Bastronautik/trmnl-triangles-art'
 blueset-lyricova-quote:
   name: 'Vocaloid Lyrics Quote'
   trmnlp:
@@ -827,19 +851,19 @@ depau-trmnl-atm-milano:
     zip_url: 'https://github.com/depau/trmnl-atm-milano/archive/refs/heads/main.zip'
   logo_url: 'https://raw.githubusercontent.com/depau/trmnl-atm-milano/refs/heads/main/atm-logo.svg'
   screenshot_url: 'https://raw.githubusercontent.com/depau/trmnl-atm-milano/refs/heads/main/screenshot.png'
-  license: 'LGPL-2.1'
+  license: LGPL-2.1
   byos:
     byos_laravel:
       compatibility: true
       compatibility_note: null
   author:
-    github: 'depau'
+    github: depau
     name: 'Davide Depau'
   funding:
     custom: 'https://etchdroid.app/donate/'
-    github: 'depau'
+    github: depau
   author_bio:
-    description: Unofficial plugin, display the live time table for the selected ATM Milano bus/tram stops.
+    description: 'Unofficial plugin, display the live time table for the selected ATM Milano bus/tram stops.'
     github_url: 'https://github.com/depau/trmnl-atm-milano/'
 erikbuild-trmnl-yolink-temperature:
   name: 'YoLink Temperature Sensor'
@@ -2585,14 +2609,15 @@ shagn-trmnl-todoist:
     zip_url: 'https://github.com/shagn/trmnl-todoist/archive/refs/heads/master.zip'
   logo_url: 'https://raw.githubusercontent.com/shagn/trmnl-todoist/refs/heads/master/favicon.ico'
   screenshot_url: 'https://raw.githubusercontent.com/shagn/trmnl-todoist/refs/heads/master/screenshot.png'
-  license: 'GPL-3.0'
+  license: GPL-3.0
   byos:
     byos_laravel:
       compatibility: true
       compatibility_note: null
       min_version: 0.23.2
   author:
-    github: 'shagn'
+    github: shagn
+  funding: {  }
   author_bio:
     description: 'Lists your Todoist tasks.'
     github_url: 'https://github.com/shagn/trmnl-todoist'
@@ -3243,6 +3268,33 @@ sun-film-guide:
     github_url: 'https://forgejo.sny.sh/sun/TRMNL'
     learn_more_url: 'https://sny.sh/'
     email_address: sunny@sny.sh
+sun-government-alerts:
+  name: 'Government Alerts'
+  trmnlp:
+    id: 217791
+    repo: 'https://forgejo.sny.sh/sun/TRMNL/src/branch/main/recipes/government-alerts'
+    zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/government-alerts.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/rcl2cfhspykpri41psizkge9o2i9'
+  screenshot_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/previews/weather-graph.png'
+  license: Unlicense
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.25.0
+  author:
+    github: TheLastZombie
+    name: Sunny
+  funding:
+    liberapay: sun
+  author_bio:
+    description: 'Displays government-issued emergency and weather alerts for a specific region.'
+    category: news
+    github_url: 'https://forgejo.sny.sh/sun/TRMNL'
+    learn_more_url: 'https://sny.sh/'
+    email_address: sunny@sny.sh
 sun-toki-pona:
   name: 'Random Toki Pona Word'
   trmnlp:
@@ -3617,6 +3669,54 @@ y2ee201-trmnl-fortune-cookie:
     description: 'A fortune cookie for you to start the day with!!!'
     category: 'personal,life'
     github_url: 'https://github.com/y2ee201'
+    email_address: y2ee201.work@gmail.com
+y2ee201-trmnl-tv-quotes:
+  name: 'TV Quotes'
+  trmnlp:
+    id: 214847
+    repo: 'https://github.com/y2ee201/TRMNL_TV_Quotes'
+    zip_url: 'https://github.com/y2ee201/TRMNL_TV_Quotes/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/lab4et862yu88fko4ta9yyufhgf0'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: 'Polling url needs ?show=all appended'
+      min_version: 0.20.0
+  author:
+    github: y2ee201
+  funding: {  }
+  author_bio:
+    description: 'Quotes from your favourite TV Shows!!! Currently curating from Seinfeld and Friends. More shows to be added as soon as artwork is generated. API Credit to Alakhpc'
+    category: entertainment
+    github_url: 'https://github.com/y2ee201'
+    email_address: y2ee201.work@gmail.com
+y2ee201-trmnl-wildfire-tracker:
+  name: 'WildFires Tracker'
+  trmnlp:
+    id: 210345
+    repo: 'https://github.com/y2ee201/TRMNL_wildfire_tracker'
+    zip_url: 'https://github.com/y2ee201/TRMNL_wildfire_tracker/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ll916hl6cbkfvvzayq76ru823zzy'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: y2ee201
+  funding: {  }
+  author_bio:
+    description: "Track Nearby Wildfires using NASA's Fire Information for Resource Management System. Uses Visible Infrared Imaging Radiometer Suite (VIIRS) instrument aboard the joint NASA/NOAA Suomi National Polar-orbiting Partnership (Suomi NPP), NOAA-20 and NOAA-21 satellites for Near Realtime to Realtime Data Acquisition."
+    category: 'nature,environment'
+    github_url: 'https://github.com/y2ee201/TRMNL_wildfire_tracker'
     email_address: y2ee201.work@gmail.com
 yarbro-ynab-trmnl-plugin:
   name: YNAB
