@@ -2231,6 +2231,29 @@ rishikeshsreehari-trmnl-webmention:
     github_url: 'https://github.com/rishikeshsreehari/trmnl-webmention'
     learn_more_url: 'https://rishikeshs.com'
     email_address: hello@rishikeshs.com
+rknightuk-trmnl-dreamcast-title-screens:
+  name: 'Dreamcast Title Screens'
+  trmnlp:
+    id: 222198
+    repo: 'https://github.com/rknightuk/trmnl-dreamcast-title-screens'
+    zip_url: 'https://github.com/rknightuk/trmnl-dreamcast-title-screens/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/cgcs7t3cltjbfs47qj8wlf2oa0cu'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.20.0
+  author:
+    github: rknightuk
+  funding: {  }
+  author_bio:
+    description: 'Shows a random Dreamcast game title screen'
+    github_url: 'https://github.com/rknightuk/trmnl-dreamcast-title-screens'
+    learn_more_url: 'https://rknight.me'
 rknightuk-trmnl-fathom-analytics:
   name: 'Fathom Analytics'
   trmnlp:
