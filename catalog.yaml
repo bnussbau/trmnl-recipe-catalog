@@ -3209,6 +3209,7 @@ sun-10-print:
   author_bio:
     name: '10 PRINT by Sunny'
     description: 'Recreates the pattern of the classic Commodore 64 one-liner program.'
+    category: art
     github_url: 'https://forgejo.sny.sh/sun/TRMNL'
     learn_more_url: 'https://sny.sh/'
     email_address: sunny@sny.sh
@@ -3236,6 +3237,7 @@ sun-danbooru-gallery:
   author_bio:
     name: 'Danbooru Gallery by Sunny'
     description: 'Displays images from Danbooru matching a given search query.'
+    category: art
     github_url: 'https://forgejo.sny.sh/sun/TRMNL'
     learn_more_url: 'https://sny.sh/'
     email_address: sunny@sny.sh
@@ -3245,6 +3247,7 @@ sun-defas-departures:
     id: 137663
     repo: 'https://forgejo.sny.sh/sun/TRMNL/src/branch/main/recipes/defas-departures'
     zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/defas-departures.zip'
+    zip_entry_path: null
     version: main
   logo_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/icons/defas-departures.svg'
   screenshot_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/previews/defas-departures.png'
@@ -3262,6 +3265,7 @@ sun-defas-departures:
   author_bio:
     name: 'DEFAS Departures by Sunny'
     description: 'Displays the next departures for stops in Bavaria using the EFA API.'
+    category: travel
     github_url: 'https://forgejo.sny.sh/sun/TRMNL'
     learn_more_url: 'https://sny.sh/'
     email_address: sunny@sny.sh
@@ -3271,6 +3275,7 @@ sun-film-guide:
     id: 130454
     repo: 'https://forgejo.sny.sh/sun/TRMNL/src/branch/main/recipes/film-guide'
     zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/film-guide.zip'
+    zip_entry_path: null
     version: main
   logo_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/icons/film-guide.svg'
   screenshot_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/previews/film-guide.png'
@@ -3288,6 +3293,7 @@ sun-film-guide:
   author_bio:
     name: 'German Film Guide by Sunny'
     description: "Displays the current day's movie schedule of any cinema in Germany."
+    category: entertainment
     github_url: 'https://forgejo.sny.sh/sun/TRMNL'
     learn_more_url: 'https://sny.sh/'
     email_address: sunny@sny.sh
@@ -3299,8 +3305,8 @@ sun-government-alerts:
     zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/government-alerts.zip'
     zip_entry_path: null
     version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/rcl2cfhspykpri41psizkge9o2i9'
-  screenshot_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/previews/weather-graph.png'
+  logo_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/icons/government-alerts.svg'
+  screenshot_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/previews/government-alerts.png'
   license: Unlicense
   byos:
     byos_laravel:
@@ -3313,6 +3319,7 @@ sun-government-alerts:
   funding:
     liberapay: sun
   author_bio:
+    name: 'Government Alerts by Sunny'
     description: 'Displays government-issued emergency and weather alerts for a specific region.'
     category: news
     github_url: 'https://forgejo.sny.sh/sun/TRMNL'
@@ -3324,6 +3331,7 @@ sun-toki-pona:
     id: 137228
     repo: 'https://forgejo.sny.sh/sun/TRMNL/src/branch/main/recipes/toki-pona'
     zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/toki-pona.zip'
+    zip_entry_path: null
     version: main
   logo_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/icons/toki-pona.svg'
   screenshot_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/previews/toki-pona.png'
@@ -3341,6 +3349,7 @@ sun-toki-pona:
   author_bio:
     name: 'Random Toki Pona Word by Sunny'
     description: 'Displays a random Toki Pona word along with its definition.'
+    category: education
     github_url: 'https://forgejo.sny.sh/sun/TRMNL'
     learn_more_url: 'https://sny.sh/'
     email_address: sunny@sny.sh
@@ -3350,6 +3359,7 @@ sun-weather-graph:
     id: 141444
     repo: 'https://forgejo.sny.sh/sun/TRMNL/src/branch/main/recipes/weather-graph'
     zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/weather-graph.zip'
+    zip_entry_path: null
     version: main
   logo_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/icons/weather-graph.svg'
   screenshot_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/previews/weather-graph.png'
@@ -3367,6 +3377,7 @@ sun-weather-graph:
   author_bio:
     name: 'Temperature Graph by Sunny'
     description: 'Displays a temperature graph for the current day.'
+    category: environment
     github_url: 'https://forgejo.sny.sh/sun/TRMNL'
     learn_more_url: 'https://sny.sh/'
     email_address: sunny@sny.sh
