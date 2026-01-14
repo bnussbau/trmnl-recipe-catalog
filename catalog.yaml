@@ -779,6 +779,42 @@ bnussbau-trmnl-vienna-metro-departures:
     description: 'Metro departures for Vienna, Austria. Data attribution data.gv.at'
     github_url: 'https://github.com/bnussbau/trmnl-vienna-metro-departures'
     learn_more_url: 'https://github.com/bnussbau/trmnl-vienna-metro-departures/blob/main/README.md'
+captainproton42-trmnl-transport-api:
+  name: 'UK Bus Departures (TransportAPI)'
+  trmnlp:
+    id: 221735
+    repo: 'https://github.com/CaptainProton42/trmnl-transport-api'
+    zip_url: 'https://github.com/CaptainProton42/trmnl-transport-api/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/qal3h24ucvknajiwkaz09n0rqjt2'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.20.0
+      renderer: trmnl-liquid
+  author:
+    github: CaptainProton42
+  funding: {  }
+  author_bio:
+    category: travel
+    description: |
+      Displays upcoming departures from a chosen bus stop in the UK via <a href="https://developer.transportapi.com/">TransportAPI</a>.
+      <br>
+      <br>
+      <strong>Prerequisites</strong>
+      <br>
+      <br>
+      1. A TransportAPI app ID and key. You can sign up for a free developer account to request these at <a href="https://developer.transportapi.com/signup">the TransportAPI website.</a>
+      <br>
+      2. The ATCO code for the bus stop you wish to display departures for. This can be found by visiting <a href="https://beta-naptan.dft.gov.uk/download/la">this DfT website</a> and entering the name of your local authority. You can then download a CSV file that you can search for your bus stop.
+      <br>
+      <br>
+      <b>Note that TransportAPI's free plan only allows 30 hits per day, so lowering the refresh rate to < 1 hour is not recommended.</b>
+    github_url: 'https://github.com/CaptainProton42/trmnl-transport-api'
 ctorrao-trmnl-fuel-pricing-pt:
   name: 'Fuel Prices Portugal'
   trmnlp:
@@ -1983,6 +2019,31 @@ martinbelko-trmnl-plugin-tibber-norway:
   author_bio:
     description: 'Electricity price chart for today, for Norwegian homes using Tibber.'
     github_url: 'https://github.com/MartinBelko/TRMNL-Plugin-Tibber-Norway'
+mironiasty-trmnl-bergfex-snow:
+  name: 'Bergfex Snow Report'
+  trmnlp:
+    id: 219253
+    repo: 'https://github.com/mironiasty/trmnl_bergfex_snow'
+    zip_url: 'https://github.com/mironiasty/trmnl_bergfex_snow/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/y3ibeq1wi8t3lniuqz6e547yr3sp'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.23.0
+      renderer: trmnl-liquid
+  author:
+    github: mironiasty
+  funding: {  }
+  author_bio:
+    category: 'travel,custom'
+    description: 'Show snow report in your favourite ski resort'
+    github_url: 'https://github.com/mironiasty/trmnl_bergfex_snow'
+    youtube_url: 'https://www.youtube.com/@panjamnik'
 monsieurm-trmnl-lastfm:
   name: LastFM
   trmnlp:
@@ -2206,6 +2267,32 @@ rishikeshsreehari-trmnl-lobsters:
     github_url: 'https://github.com/rishikeshsreehari/trmnl-lobsters'
     email_address: hello@rishikeshs.com
     learn_more_url: 'https://rishikeshs.com'
+rishikeshsreehari-trmnl-pihole:
+  name: Pi-hole
+  trmnlp:
+    id: 220520
+    repo: 'https://github.com/rishikeshsreehari/trmnl-pihole'
+    zip_url: 'https://github.com/rishikeshsreehari/trmnl-pihole/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/pgxg1atv6m1fq9nkrsk74iygvnon'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.20.0
+      renderer: null
+  author:
+    github: rishikeshsreehari
+  funding: {  }
+  author_bio:
+    category: 'analytics,programming'
+    description: 'Display real-time statistics from your <a href="https://pi-hole.net/">Pi-hole</a> network-wide ad blocker on your TRMNL device. Monitor DNS queries, blocked requests, system performance, query history charts, and top blocked domains.<br><br><strong>Requirements:</strong> Pi-hole device with SSH access (root or sudo access required), TRMNL webhook URL from plugin settings.<br><br><strong>Installation:</strong> Run the install script on your Pi-hole via SSH. Updates automatically every 15 minutes. Full instructions available in the <a href="https://github.com/rishikeshsreehari/trmnl-pihole">GitHub repository</a>.<br><br>For issues or suggestions, please <a href="https://github.com/rishikeshsreehari/trmnl-pihole/issues">raise an issue on GitHub</a> or send an email.'
+    github_url: 'https://github.com/rishikeshsreehari/trmnl-pihole'
+    learn_more_url: 'https://rishikeshs.com/projects/trmnl-pihole'
+    email_address: hello@rishikeshs.com
 rishikeshsreehari-trmnl-webmention:
   name: Webmentions
   trmnlp:
@@ -2387,6 +2474,30 @@ rknightuk-trmnl-mastodon-profile:
   author_bio:
     description: 'Mastodon Profile plugin to show toot, follower, and following counts'
     github_url: 'https://github.com/rknightuk/trmnl-mastodon-profile'
+    learn_more_url: 'https://rknight.me'
+rknightuk-trmnl-playstation-title-screens:
+  name: 'PlayStation Title Screens'
+  trmnlp:
+    id: 222275
+    repo: 'https://github.com/rknightuk/trmnl-playstation-title-screens'
+    zip_url: 'https://github.com/rknightuk/trmnl-playstation-title-screens/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/r6gtrs4kp4b0adneitjogr9s7jcd'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: rknightuk
+  funding: {  }
+  author_bio:
+    description: 'Shows a random PlayStation game title screen'
+    github_url: 'https://github.com/rknightuk/trmnl-playstation-title-screens'
     learn_more_url: 'https://rknight.me'
 rknightuk-trmnl-ps2-title-screens:
   name: 'PS2 Title Screens'
