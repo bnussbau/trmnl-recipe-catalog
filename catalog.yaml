@@ -802,18 +802,8 @@ captainproton42-trmnl-transport-api:
   author_bio:
     category: travel
     description: |
-      Displays upcoming departures from a chosen bus stop in the UK via <a href="https://developer.transportapi.com/">TransportAPI</a>.
-      <br>
-      <br>
-      <strong>Prerequisites</strong>
-      <br>
-      <br>
-      1. A TransportAPI app ID and key. You can sign up for a free developer account to request these at <a href="https://developer.transportapi.com/signup">the TransportAPI website.</a>
-      <br>
-      2. The ATCO code for the bus stop you wish to display departures for. This can be found by visiting <a href="https://beta-naptan.dft.gov.uk/download/la">this DfT website</a> and entering the name of your local authority. You can then download a CSV file that you can search for your bus stop.
-      <br>
-      <br>
-      <b>Note that TransportAPI's free plan only allows 30 hits per day, so lowering the refresh rate to < 1 hour is not recommended.</b>
+      Displays upcoming departures from a chosen bus stop in the UK via TransportAPI.
+      Note that TransportAPI's free plan only allows 30 hits per day, so lowering the refresh rate to < 1 hour is not recommended.
     github_url: 'https://github.com/CaptainProton42/trmnl-transport-api'
 ctorrao-trmnl-fuel-pricing-pt:
   name: 'Fuel Prices Portugal'
