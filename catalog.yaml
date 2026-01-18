@@ -1477,6 +1477,20 @@ jbelien-trmnl-plugin-updownio:
     github_url: 'https://github.com/jbelien/trmnl-plugin-updownio'
     learn_more_url: 'https://jbelien.be/'
     email_address: dev@jbelien.mozmail.com
+jerremyng-sg-bus:
+  name: 'SG bus'
+  trmnlp:
+    repo: 'https://github.com/jerremyng/trmnl-sg-bus'
+    zip_url: 'https://github.com/jerremyng/trmnl-sg-bus/releases/tag/v1.0'
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.25.1
+  author:
+    github: jerremyng
+  author_bio:
+    description: 'Always missing buses? I gotchu. This plugin shows departure times of buses in Singapore. Specific stops/buses and names can be configured.'
+    github_url: 'https://github.com/jerremyng/trmnl-sg-bus'
 jetsharklambo-acstop:
   name: 'ACTransit Stop'
   trmnlp:
