@@ -401,6 +401,33 @@ blueset-tatoeba:
     github_url: 'https://github.com/blueset/trmnl-recipes'
     learn_more_url: 'https://tatoeba.org/'
     category: education
+blueset-transit:
+  name: 'Puget Sound Transit Nearby'
+  trmnlp:
+    id: 225183
+    repo: 'https://github.com/blueset/trmnl-recipes/tree/master/transit'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/transit
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/zzccysij1k8a2hd1cebcwzgw5p2z'
+  screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/refs/heads/master/slickdeals/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: blueset
+  funding:
+    github: blueset
+    liberapay: blueset
+    ko_fi: blueset
+  author_bio:
+    description: 'Dashboard public transit information close to you. Supports all public transit types in Puget Sound, Washington, USA: bus, lightrail, street car, monorail, Amtrak, ferries and more. Supports multiple layouts. <a href="https://github.com/blueset/trmnl-recipes/tree/master/transit" class="underline" target="_blank">Check out previews of each layout</a>.'
+    category: 'personal,travel'
+    github_url: 'https://github.com/blueset/trmnl-recipes'
 blueset-visa-bulletin:
   name: 'Visa Bulletin'
   trmnlp:
@@ -531,6 +558,34 @@ blueset-world-clock-zh:
     description-zh-HK: '中文文字時鐘。支援 24 小時和 12 小時，支援簡體繁體。最高精度為 5 分鐘（由插件和設備刷新頻率決定）。'
     github_url: 'https://github.com/blueset/trmnl-recipes'
     category: 'productivity,calendar'
+blueset-wsdot:
+  name: 'Washington Real-time Travel Times, Cameras, Alerts'
+  trmnlp:
+    id: 227171
+    repo: 'https://github.com/blueset/trmnl-recipes/tree/master/wsdot'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/wsdot
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/vmxe5po8oqtojk2gvcsh67yrmqmm'
+  screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/refs/heads/master/slickdeals/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: blueset
+  funding:
+    github: blueset
+    liberapay: blueset
+    ko_fi: blueset
+  author_bio:
+    description: |
+      Real-time travel info from Washington State Department of Transportation (WSDOT). Show travel times, traffic cameras, and alerts on your dashboard. <a href="https://github.com/blueset/trmnl-recipes/tree/master/wsdot" class="underline" target="_blank">Checkout previews of each content</a>. Data powered by <a href="https://wsdot.com/traffic/api/" class="underline" target="_blank">WSDOT Traffic API</a>.
+    github_url: 'https://github.com/blueset/trmnl-recipes'
+    learn_more_url: 'https://wsdot.com/traffic/api/'
 bnussbau-trmnl-austrian-train-departures:
   name: 'Austrian Train Departures (OEBB)'
   trmnlp:
@@ -810,6 +865,31 @@ bnussbau-trmnl-vienna-metro-departures:
     category: travel
     github_url: 'https://github.com/bnussbau/trmnl-vienna-metro-departures'
     email_address: trmnl@benjaminnussbaum.at
+captainproton42-trmnl-home-assistant-todo-list:
+  name: 'Home Assistant To-Do List'
+  trmnlp:
+    id: 227107
+    repo: 'https://github.com/CaptainProton42/trmnl-home-assistant-todo-list'
+    zip_url: 'https://github.com/CaptainProton42/trmnl-home-assistant-todo-list/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/pchbeqd626yjdgxaajfe6z95hbb1'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: CaptainProton42
+  funding: {  }
+  author_bio:
+    category: 'life,personal'
+    description: |
+      Display a Home Assistant to-do list on your TRMNL device.
+    github_url: 'https://github.com/CaptainProton42/trmnl-home-assistant-todo-list'
 captainproton42-trmnl-transport-api:
   name: 'UK Bus Departures (TransportAPI)'
   trmnlp:
@@ -1311,10 +1391,33 @@ glyphic.com-marquee:
   author: {  }
   funding: {  }
   author_bio:
-    description: A simple list of messages, easily editable by anyone you choose through a web interface.
+    description: 'A simple list of messages, easily editable by anyone you choose through a web interface.'
     github_url: 'https://forge.glyphic.com/mark/marquee'
     learn_more_url: 'https://www.glyphic.com/marquee/'
     email_address: mark+marquee@glyphic.com
+guilhermemorais-trmnl-github-pull-requests:
+  name: 'GitHub Pull Requests'
+  trmnlp:
+    id: '221833'
+    repo: 'https://github.com/GuilhermeMorais/trmnl-github-pull-requests'
+    zip_url: 'https://github.com/GuilhermeMorais/trmnl-github-pull-requests/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/cxq14r3l46pxm4z0c3eao2lahfqo'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: GuilhermeMorais
+  funding: {  }
+  author_bio:
+    description: 'Displays all your open pull requests from GitHub in one place, so you can easily track review status and pending work. GitHub Pull Request was created by Guilherme Morais'
+    category: 'productivity,programming'
+    github_url: 'https://github.com/GuilhermeMorais/trmnl-github-pull-requests'
+    email_address: gui.lopes@gmail.com
 guilhermemorais-trmnl-weeksofyear:
   name: 'Weeks of the Year'
   trmnlp:
@@ -1410,6 +1513,121 @@ heroheman-trmnl-wakatime:
     description: 'A WakaTime dashboard plugin for TRMNLP, displaying your coding activity in a customizable chart format. For further details see Github Repo!'
     github_url: 'https://github.com/heroheman/trmnl_wakatime'
     email_address: moin@flore.nz
+hossain-khan-trmnl-elements-plugin:
+  name: 'Element of the Day'
+  trmnlp:
+    id: 226166
+    repo: 'https://github.com/hossain-khan/trmnl-elements-plugin'
+    zip_url: 'https://github.com/hossain-khan/trmnl-elements-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/lnh3i6y972h4nrrv2t7r0jcwu14n'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: hossain-khan
+  funding: {  }
+  author_bio:
+    category: 'education,discovery'
+    description: |
+      Element of the Day brings the wonder of chemistry to your TRMNL device by displaying a different element from the Periodic Table each day (or hour).
+      Features:
+      🔬 118 elements with comprehensive scientific data
+      ⏰ Daily rotation or hourly random display modes
+      📊 Atomic number, mass, electron configuration, and more
+      🎨 Periodic table-style card design
+      📱 Four optimized layouts (Full, Half Horizontal, Half Vertical, Quadrant)
+      ⚡ Fast static data delivery via GitHub Pages
+      🧪 Data sourced from PubChem database
+      Data Source: All 118 elements verified from PubChem (National Center for Biotechnology Information)
+    github_url: 'https://github.com/hossain-khan/trmnl-elements-plugin'
+    learn_more_url: 'https://hossain-khan.github.io/trmnl-elements-plugin/'
+    email_address: trmnl@hossain.dev
+hossain-khan-trmnl-google-photos-plugin:
+  name: 'Google Photos'
+  trmnlp:
+    id: 227153
+    repo: 'https://github.com/hossain-khan/trmnl-google-photos-plugin'
+    zip_url: 'https://github.com/hossain-khan/trmnl-google-photos-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/k25eoz1ytss10hkogbmwn9z92mwe'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: hossain-khan
+  funding: {  }
+  author_bio:
+    category: 'images,personal'
+    description: |
+      Google Photos Shared Album brings your cherished memories to your TRMNL device by displaying random photos from your Google Photos shared albums — no sign-in needed.
+      How It Works:
+      1. Create a shared album in Google Photos
+      2. Copy the shared album link
+      3. Paste it into the plugin settings
+      4. Photos automatically appear on your TRMNL device
+      5. New random photo displayed every hour or day based on your refresh configuration
+      Features:
+      📸 Random photo selection from your shared albums
+      ⏰ Automatic refresh with new random photos
+      🎨 Four optimized layouts for all TRMNL device sizes
+      📱 Responsive design across all e-ink displays
+      🖼️ Display photo metadata
+      Privacy-First Design: This plugin prioritizes your privacy - no need to sign in with Google. No cookies, no tracking, and we never save your personal information. 
+    github_url: 'https://github.com/hossain-khan/trmnl-google-photos-plugin'
+    learn_more_url: 'https://hossain-khan.github.io/trmnl-google-photos-plugin/'
+    email_address: trmnl@hossain.dev
+hossain-khan-trmnl-max-payne-quotes-plugin:
+  name: 'Max Payne Quotes'
+  trmnlp:
+    id: 224761
+    repo: 'https://github.com/hossain-khan/trmnl-max-payne-quotes-plugin'
+    zip_url: 'https://github.com/hossain-khan/trmnl-max-payne-quotes-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/8zzyovftdgvenuqqolm7ro64yy5u'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: hossain-khan
+  funding: {  }
+  author_bio:
+    category: 'entertainment,games'
+    description: |
+      Max Payne Quotes brings the iconic noir dialogue from the legendary Max Payne trilogy directly to your TRMNL device.
+      Features:
+      🎮 39 authentic quotes from Max Payne, Max Payne 2, and Max Payne 3
+      🗨️ Noir-style typography with Courier New monospace font
+      📱 Optimized layouts for all TRMNL view sizes
+      🎨 Game-specific poster artwork for visual atmosphere
+      🎲 Random quote selection with daily automatic updates
+      Setup:
+      1. Install or Fork this recipe
+      2. The plugin automatically polls for a new quote every 24 hours
+      3. Add to your playlist and enjoy noir wisdom on your e-ink display
+      All quotes are verified authentic from Wikiquote and capture the philosophical, dark, and action-packed moments that made Max Payne an iconic character in gaming.
+      Quote Database: 39 quotes verified from Wikiquote (35 Max Payne across trilogy, 4 Mona Sax)
+    github_url: 'https://github.com/hossain-khan/trmnl-max-payne-quotes-plugin'
+    learn_more_url: 'https://hossain-khan.github.io/trmnl-max-payne-quotes-plugin/'
+    email_address: trmnl@hossain.dev
 hrdkbhatnagar-garbage-calendar:
   name: 'TRMNL Garbage Calendar'
   trmnlp:
@@ -1669,6 +1887,33 @@ jshiell-trmnl-stalbans-refuse-collections:
       Note that this will only be useful for residents of St Albans in the UK.
       You will require your unique property reference number (UPRN), which you can find using FindMyAddress.
     github_url: 'https://github.com/jshiell/trmnl-stalbans-refuse-collections'
+jshiell-trmnl-weather-byos:
+  name: 'Weather BYOS (Open Meteo)'
+  trmnlp:
+    id: '221669'
+    repo: 'https://github.com/jshiell/trmnl-weather-byos'
+    zip_url: 'https://github.com/jshiell/trmnl-weather-byos/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/rgwo8q0210wb26p3khszi91pyow7'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: jshiell
+  funding: {  }
+  author_bio:
+    category: 'life,environment'
+    description: |
+      This is yet another weather plugin based on TRMNL's Weather, but implemented as an extension and hence usable on BYOS setups. It also offers a little more precision for users of celsuis.
+      You will need your latitude and longitude. You can find your latitude and longitude using a service like LatLong.net.
+      Attributions
+      The weather data is from Open-Meteo.
+      The icons used are from the Material Design icons.
+    github_url: 'https://github.com/jshiell/trmnl-weather-byos'
 jvdmeij-trmnl-countdowngit:
   name: Countdown
   trmnlp:
@@ -1809,6 +2054,33 @@ jvdmeij-trmnl-your-life-in-weeks:
     category: 'personal,kpi'
     description: 'A visual representation of the amount of weeks of your life! Created by Jasper, @jasper on TRMNL Discord.'
     email_address: info@jaspervandermeij.com
+kenken64-promptink:
+  name: PromptInk
+  trmnlp:
+    id: 221038
+    repo: 'https://github.com/kenken64/Promptink'
+    zip_url: 'https://github.com/kenken64/Promptink/archive/refs/heads/main.zip'
+    zip_entry_path: Promptink-main/trmnl-plugin
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/v9ii98ghwbygophsi9y423ij9au5'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: kenken64
+  funding: {  }
+  author_bio:
+    category: 'life,news'
+    description: 'AI-powered image generation app with TRMNL e-ink display sync. Generate stunning images using OpenAI''s DALL-E 3 and display them on your TRMNL device. Register as new user , ignore the subscription currently is FREE. Checkout how to use the app:<a href="https://github.com/kenken64/Promptink/blob/development/docs/USER_GUIDE.md">https://github.com/kenken64/Promptink/blob/development/docs/USER_GUIDE.md</a>'
+    github_url: 'https://github.com/kenken64/Promptink'
+    learn_more_url: 'https://promptink-production.up.railway.app/'
+    email_address: bunnyppl@gmail.com
+    youtube_url: 'https://www.youtube.com/@PromptInk-SG'
 kraynel-trmnl-nyt-connections:
   name: 'NYT Games: Connections'
   trmnlp:
@@ -2304,6 +2576,32 @@ rabbit-company-rabbitforexapi:
     learn_more_url: 'https://rabbit-company.com'
     github_url: 'https://github.com/Rabbit-Company/RabbitForexAPI'
     email_address: info@rabbit-company.com
+rishikeshsreehari-trmnl-goatcounter:
+  name: GoatCounter
+  trmnlp:
+    id: '228787'
+    repo: 'https://github.com/rishikeshsreehari/trmnl-goatcounter'
+    zip_url: 'https://github.com/rishikeshsreehari/trmnl-goatcounter/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/75ef96xu53cko3a1mfuy7lj7puxz'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: rishikeshsreehari
+  funding: {  }
+  author_bio:
+    category: analytics
+    description: |
+      Display your GoatCounter web analytics on your TRMNL screen. 
+      For bugs, features, or requests, please email me or raise an issue on GitHub. Contributions are welcome!
+    github_url: 'https://github.com/rishikeshsreehari/trmnl-goatcounter'
+    learn_more_url: 'https://rishikeshs.com'
+    email_address: hello@rishikeshs.com
 rishikeshsreehari-trmnl-lobsters:
   name: Lobsters
   trmnlp:
