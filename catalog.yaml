@@ -40,8 +40,9 @@ andi4000-trmnl-open-meteo-weather-forecast:
     github: andi4000
   funding: {  }
   author_bio:
-    description: 'Weather forecast plugin for @usetrmnl, using data from Open-Meteo. No API Key needed. For updates, simply re-fork the recipe!'
-    homepage: 'https://usetrmnl.com/recipes/112422'
+    description: |
+      Hourly weather forecast plugin with Open-Meteo Backend. No API key required. NOTE: Click save right after plugin import, to populate the required fields to fetch the weather data. Otherwise you will get "Liquid error" messages. Report bugs and translation issues on GitHub link below.
+    github_url: 'https://github.com/andi4000/trmnl-open-meteo-weather-forecast'
 andrzejskowron-steamsales:
   name: 'Steam Sales'
   trmnlp:
@@ -86,6 +87,7 @@ argoroots-borsihind:
   funding: {  }
   author_bio:
     description: 'Display real-time Estonian electricity prices from börsihind.ee on your TRMNL screen. View current pricing in cents per kWh, find the cheapest 1-4 hour periods for optimal energy usage, and see hourly price trends. Complete breakdown includes electricity price, transmission costs, renewable energy fees, and excise tax.'
+    github_url: 'https://github.com/argoroots/trmnl'
     learn_more_url: 'https://www.borsihind.ee'
     email_address: argo@roots.ee
 argoroots-met-no:
@@ -109,6 +111,7 @@ argoroots-met-no:
   funding: {  }
   author_bio:
     description: 'Display weather forecast from The Norwegian Meteorological Institute (met.no) on your TRMNL screen. This is not an official plugin. It is developed by Argo Roots and uses the met.no API.'
+    github_url: 'https://github.com/argoroots/trmnl'
     learn_more_url: 'https://www.met.no'
     email_address: argo@roots.ee
 aziac-trmnl-ghibli-backgrounds:
@@ -184,6 +187,7 @@ blueset-lyricova-quote:
     description: 'A random lyrics quote of a Vocaloid song on each refresh. Data powered by Project Lyricova.'
     github_url: 'https://github.com/blueset/trmnl-recipes'
     learn_more_url: 'https://lyricova.1a23.studio/'
+    category: 'discovery,art'
 blueset-public-recipe-stats:
   name: 'Public Recipe Stats'
   trmnlp:
@@ -207,6 +211,7 @@ blueset-public-recipe-stats:
   author_bio:
     description: 'Shows connection statistics of public recipes. You can choose to show the latest, search for keywords, show your own recipes, or show selected recipe IDs. Data powered by TRMNL Recipes API. Built with help from Jasper, Mario Lurig, Ryan, and Sitnik on TRMNL Discord.'
     github_url: 'https://github.com/blueset/trmnl-recipes'
+    category: 'discovery,analytics'
 blueset-random-google-fonts:
   name: 'Random Google Fonts'
   trmnlp:
@@ -233,6 +238,7 @@ blueset-random-google-fonts:
     description: 'A random typeface from Google Fonts on each refresh.'
     github_url: 'https://github.com/blueset/trmnl-recipes'
     learn_more_url: 'https://fonts.google.com/'
+    category: discovery
 blueset-random-mdn-article:
   name: 'Random MDN Article'
   trmnlp:
@@ -255,7 +261,11 @@ blueset-random-mdn-article:
     github: blueset
     liberapay: blueset
     ko_fi: blueset
-  author_bio: {  }
+  author_bio:
+    description: 'A random MDN Web article on each refresh.'
+    github_url: 'https://github.com/blueset/trmnl-recipes'
+    learn_more_url: 'https://developer.mozilla.org/'
+    category: 'discovery,programming'
 blueset-random-unicode:
   name: 'Random Unicode'
   trmnlp:
@@ -283,6 +293,7 @@ blueset-random-unicode:
     description: 'A random Unicode codepoint on each refresh. Data powered by codepoints.net.'
     github_url: 'https://github.com/blueset/trmnl-recipes'
     learn_more_url: 'https://codepoints.net/'
+    category: 'discovery,programming'
 blueset-random-zi:
   name: 'Random Zi'
   trmnlp:
@@ -306,7 +317,10 @@ blueset-random-zi:
     liberapay: blueset
     ko_fi: blueset
   author_bio:
-    description: 'A random CJKV ideograph with pronunciations, definitions, and regional glyphs on each refresh. Data powered by zi.tools 字統网'
+    description: 'A random CJKV ideograph (Chinese characters, Hanzi, Kanji, Hanja, Chữ Nôm) with pronunciations, definitions, and regional glyphs on each refresh. Data powered by zi.tools.'
+    github_url: 'https://github.com/blueset/trmnl-recipes'
+    learn_more_url: 'https://zi.tools/'
+    category: 'discovery,education'
 blueset-slickdeals:
   name: 'Slickdeals Frontpage'
   trmnlp:
@@ -386,6 +400,7 @@ blueset-tatoeba:
     description: 'A random sentence in your chosen languages with translations. Data powered by <a href="https://tatoeba.org/">Tatoeba</a>'
     github_url: 'https://github.com/blueset/trmnl-recipes'
     learn_more_url: 'https://tatoeba.org/'
+    category: education
 blueset-visa-bulletin:
   name: 'Visa Bulletin'
   trmnlp:
@@ -410,7 +425,7 @@ blueset-visa-bulletin:
     ko_fi: blueset
   author_bio: {  }
 blueset-wikipedia-article-of-the-day:
-  name: 'Wikipedia Article of the Day'
+  name: 'Wikipedia Feeds'
   trmnlp:
     id: 148054
     repo: 'https://github.com/blueset/trmnl-recipes/tree/master/wikipedia-article-of-the-day'
@@ -432,9 +447,11 @@ blueset-wikipedia-article-of-the-day:
     liberapay: blueset
     ko_fi: blueset
   author_bio:
-    description: 'Multilingual Wikipedia Article of the Day plugin'
+    description: 'Multilingual Wikipedia feed recipe, supports Article of the Day, On this day, and Did you know, for multiple languages.'
+    github_url: 'https://github.com/blueset/trmnl-recipes'
+    category: 'discovery,news'
 blueset-world-clock:
-  name: 'World clock'
+  name: 'Horizontal World Clock'
   trmnlp:
     id: 153664
     repo: 'https://github.com/blueset/trmnl-recipes/tree/master/world-clock'
@@ -458,6 +475,7 @@ blueset-world-clock:
     ko_fi: blueset
   author_bio:
     description: 'A digital world clock shows up to 7 time zones. Inspired by World Time Buddy and Windows 11 World Clock.'
+    github_url: 'https://github.com/blueset/trmnl-recipes'
 blueset-world-clock-ja:
   name: 'Word Clock 日本語'
   trmnlp:
@@ -537,9 +555,10 @@ bnussbau-trmnl-austrian-train-departures:
     buy_me_a_coffee: bnussbau
     github: bnussbau
   author_bio:
+    category: travel
     description: 'Train departures for the Austrian OEBB. Data attribution dbf.finalrewind.org'
-    github_url: 'https://github.com/bnussbau/trmnl-austrian-train-departures/'
-    learn_more_url: 'https://github.com/bnussbau/trmnl-austrian-train-departures/blob/main/README.md'
+    github_url: 'https://github.com/bnussbau/trmnl-austrian-train-departures'
+    email_address: trmnl@benjaminnussbaum.at
 bnussbau-trmnl-bookclub-planner:
   name: 'Book Club Planner'
   trmnlp:
@@ -548,7 +567,7 @@ bnussbau-trmnl-bookclub-planner:
     zip_url: 'https://github.com/bnussbau/trmnl-bookclub-planner/archive/refs/heads/main.zip'
     zip_entry_path: null
     version: main
-  logo_url: 'https://raw.githubusercontent.com/bnussbau/trmnl-bookclub-planner/refs/heads/main/logo.png'
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/mlc84jyjzevzp29puiu16i8tr7f4'
   screenshot_url: 'https://github.com/user-attachments/assets/440f3c3e-ee12-4493-b94e-a2cd6e9e61f5'
   license: MIT
   byos:
@@ -567,6 +586,7 @@ bnussbau-trmnl-bookclub-planner:
     description: 'Plan your reading and track your progress leading up to your next book club meeting'
     github_url: 'https://github.com/bnussbau/trmnl-bookclub-planner'
     learn_more_url: 'https://github.com/bnussbau/trmnl-bookclub-planner/blob/main/README.md'
+    email_address: trmnl@benjaminnussbaum.at
 bnussbau-trmnl-github-insights:
   name: 'Github Repo Insights'
   trmnlp:
@@ -591,6 +611,7 @@ bnussbau-trmnl-github-insights:
     github: bnussbau
   author_bio:
     description: 'Display insights of a GitHub Repository'
+    category: 'programming,kpi'
     github_url: 'https://github.com/bnussbau/trmnl-github-insights'
     learn_more_url: 'https://github.com/bnussbau/trmnl-github-insights/tree/main/README.md'
 bnussbau-trmnl-opds-shelf:
@@ -615,8 +636,10 @@ bnussbau-trmnl-opds-shelf:
     buy_me_a_coffee: bnussbau
     github: bnussbau
   author_bio:
-    description: 'Visualize an OPDS feed on a TRMNL device.'
+    description: 'Display your personal bookshelf by connecting to an OPDS feed. Remember when people kept bookshelves in their living rooms? Guests would browse the spines, spot a favorite title and suddenly you were deep in a great conversation. But now, in the age of e-readers and digital libraries, our books are invisible. OPDS Bookshelf for TRMNL brings it back.'
+    github_url: 'https://github.com/bnussbau/trmnl-opds-shelf'
     learn_more_url: 'https://github.com/bnussbau/trmnl-opds-shelf/tree/main#-opds-bookshelf-for-trmnl'
+    email_address: trmnl@benjaminnussbaum.at
 bnussbau-trmnl-orf-news:
   name: 'ORF.at Newsfeed'
   trmnlp:
@@ -640,12 +663,13 @@ bnussbau-trmnl-orf-news:
     buy_me_a_coffee: bnussbau
     github: bnussbau
   author_bio:
+    category: news
     description: 'Displays the ORF (Austrian public service broadcaster) newsfeed from the official RSS feed.'
     email_address: trmnl@benjaminnussbaum.at
     github_url: 'https://github.com/bnussbau/trmnl-orf-news'
     learn_more_url: 'https://github.com/bnussbau/trmnl-orf-news?tab=readme-ov-file#orfat-newsfeed-for-trmnl'
 bnussbau-trmnl-pollen-forecast-eu:
-  name: 'Pollen Forecast (EU)'
+  name: 'Pollen Forecast (Europe)'
   trmnlp:
     id: 56803
     repo: 'https://github.com/bnussbau/trmnl-pollen-forecast-eu'
@@ -670,9 +694,9 @@ bnussbau-trmnl-pollen-forecast-eu:
   author_bio:
     description: 'Pollen forecast in 11 km resolution for most of Europe. Data by open-meteo.com'
     github_url: 'https://github.com/bnussbau/trmnl-pollen-forecast-eu'
-    learn_more_url: 'https://github.com/bnussbau/trmnl-pollen-forecast-eu/blob/main/README.md'
+    email_address: trmnl@benjaminnussbaum.at
 bnussbau-trmnl-sleeper-matchups:
-  name: 'Sleeper Matchups'
+  name: 'Sleeper: Matchups'
   trmnlp:
     id: 140922
     repo: 'https://github.com/bnussbau/trmnl-sleeper-matchups'
@@ -695,18 +719,20 @@ bnussbau-trmnl-sleeper-matchups:
     buy_me_a_coffee: bnussbau
     github: bnussbau
   author_bio:
-    description: 'Display your sleeper league matchups by week'
+    category: sports
+    description: 'Display your Sleeper league matchups by week'
     github_url: 'https://github.com/bnussbau/trmnl-sleeper-matchups'
     learn_more_url: 'https://github.com/bnussbau/trmnl-sleeper-matchups/blob/main/README.md'
+    email_address: trmnl@benjaminnussbaum.at
 bnussbau-trmnl-sleeper-standings:
-  name: 'Sleeper Standings'
+  name: 'Sleeper: Standings'
   trmnlp:
     id: 141171
     repo: 'https://github.com/bnussbau/trmnl-sleeper-standings'
     zip_url: 'https://github.com/bnussbau/trmnl-sleeper-standings/archive/refs/heads/main.zip'
     zip_entry_path: null
     version: main
-  logo_url: 'https://raw.githubusercontent.com/bnussbau/trmnl-sleeper-standings/refs/heads/main/logo.png'
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ns06798793v66ou4fv3kn9rjoyrp'
   screenshot_url: 'https://github.com/user-attachments/assets/aa65b249-43b6-400c-abb7-d6ee0e25ec1f'
   license: MIT
   byos:
@@ -722,9 +748,11 @@ bnussbau-trmnl-sleeper-standings:
     buy_me_a_coffee: bnussbau
     github: bnussbau
   author_bio:
+    category: sports
     description: 'Display your sleeper league standings'
     github_url: 'https://github.com/bnussbau/trmnl-sleeper-standings'
     learn_more_url: 'https://github.com/bnussbau/trmnl-sleeper-standings/blob/main/README.md'
+    email_address: trmnl@benjaminnussbaum.at
 bnussbau-trmnl-uptimekuma:
   name: 'Uptime Kuma Statuspage'
   trmnlp:
@@ -749,18 +777,20 @@ bnussbau-trmnl-uptimekuma:
     buy_me_a_coffee: bnussbau
     github: bnussbau
   author_bio:
+    category: 'kpi,programming'
     description: 'Visualize your Uptime Kuma Status Pages on TRMNL'
+    email_address: trmnl@benjaminnussbaum.at
     github_url: 'https://github.com/bnussbau/trmnl-uptimekuma'
-    readme_url: 'https://github.com/bnussbau/trmnl-uptimekuma#-uptime-kuma-for-trmnl'
+    learn_more_url: 'https://github.com/bnussbau/trmnl-uptimekuma?tab=readme-ov-file#-uptime-kuma-for-trmnl'
 bnussbau-trmnl-vienna-metro-departures:
-  name: 'Vienna Metro Departures'
+  name: 'Vienna Metro Departures (Wiener Linien)'
   trmnlp:
     id: 98534
     repo: 'https://github.com/bnussbau/trmnl-vienna-metro-departures'
     zip_url: 'https://github.com/bnussbau/trmnl-vienna-metro-departures/archive/refs/heads/main.zip'
     zip_entry_path: null
     version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/h9zmyi8yt117fehvb1cuw06v0wta'
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/jtysfsv02r6nz9whjj0x3ionkusy'
   screenshot_url: 'https://github.com/user-attachments/assets/cd81f95c-76f4-4886-821c-017b65ca7be8'
   license: MIT
   byos:
@@ -777,8 +807,9 @@ bnussbau-trmnl-vienna-metro-departures:
     github: bnussbau
   author_bio:
     description: 'Metro departures for Vienna, Austria. Data attribution data.gv.at'
+    category: travel
     github_url: 'https://github.com/bnussbau/trmnl-vienna-metro-departures'
-    learn_more_url: 'https://github.com/bnussbau/trmnl-vienna-metro-departures/blob/main/README.md'
+    email_address: trmnl@benjaminnussbaum.at
 captainproton42-trmnl-transport-api:
   name: 'UK Bus Departures (TransportAPI)'
   trmnlp:
@@ -961,6 +992,7 @@ excusemi-movie-guesser:
       Movie Guesser - Test your film knowledge! This plugin displays random movie images from 2000 top-rated films. Challenge yourself to identify movies from a single frame. <b>Features:</b> ● Random backdrops from critically acclaimed films ● Customizable filters for genre, year, and popularity ● QR code reveals movie via TMDB link
       How it works: Each refresh shows a new random still from your filtered movie selection. Scan the QR code to reveal the answer and see full movie details. Powered by TheMovieDB
     github_url: 'https://github.com/ExcuseMi/trmnl-movie-guesser-plugin'
+    category: 'art,entertainment'
 excusemi-retroachievements:
   name: 'RetroAchievements: Recent Games'
   trmnlp:
@@ -1032,6 +1064,7 @@ excusemi-trmnl-databreaches-plugin:
     description: 'Keep up to date with the latest data breaches.'
     github_url: 'https://github.com/ExcuseMi/trmnl-databreaches-plugin'
     learn_more_url: 'https://haveibeenpwned.com'
+    category: 'news,analytics'
 excusemi-trmnl-email-messages-plugin:
   name: 'Email Messages'
   trmnlp:
@@ -1136,6 +1169,7 @@ excusemi-trmnl-more-comics-plugin:
       ● Frequently updated to keep all RSS sources valid and up to date
     github_url: 'https://github.com/ExcuseMi/trmnl-more-comics-plugin'
     learn_more_url: 'https://comiccaster.xyz'
+    category: comics
 excusemi-trmnl-sleepy-time-plugin:
   name: 'Sleepy Time!'
   trmnlp:
@@ -1233,7 +1267,11 @@ frjo-elprisetjustnu:
   author:
     github: frjo
   funding: {  }
-  author_bio: {  }
+  author_bio:
+    category: environment
+    description: 'Swedish spot prices per kWh. Using the API from Elprisetjustnu. Set your area to get the local price.'
+    github_url: 'https://github.com/frjo/usetrmnl-plugins'
+    learn_more_url: 'https://www.elprisetjustnu.se/'
 frjo-smhi:
   name: SMHI
   trmnlp:
@@ -1273,8 +1311,10 @@ glyphic.com-marquee:
   author: {  }
   funding: {  }
   author_bio:
-    email: mark@glyphic.com
-    homepage: 'https://www.glyphic.com/marquee'
+    description: A simple list of messages, easily editable by anyone you choose through a web interface.
+    github_url: 'https://forge.glyphic.com/mark/marquee'
+    learn_more_url: 'https://www.glyphic.com/marquee/'
+    email_address: mark+marquee@glyphic.com
 guilhermemorais-trmnl-weeksofyear:
   name: 'Weeks of the Year'
   trmnlp:
@@ -1295,8 +1335,8 @@ guilhermemorais-trmnl-weeksofyear:
     github: GuilhermeMorais
   funding: {  }
   author_bio:
-    category: 'calendar,kpi'
-    description: 'A visual representation of the amount of weeks for the year! Created by Guilherme based on Jasper''s recipe <a href="https://usetrmnl.com/recipes/22415">Your Life in Weeks</a>. You can find me on <a href="https://dotnet.social/@Gui">Mastodon</a>, or @glmsharp on Discord or send an email.'
+    category: 'productivity,personal'
+    description: 'Visualize your year at a glance. This plugin displays the current week number and all weeks of the year as checkboxes, marking each week as it passes to help you stay aware of time and progress through the year. Created by Guilherme based on Jasper''s recipe <a href="https://usetrmnl.com/recipes/22415">Your Life in Weeks</a>. You can find me on <a href="https://dotnet.social/@Gui">Mastodon</a>, or @glmsharp on Discord or send an email. Version 1.2.1 (2025-01-17)'
     github_url: 'https://github.com/GuilhermeMorais/trmnl-weeksOfYear'
     email_address: gui.lopes@gmail.com
 heroheman-trmnl-advanced-rss:
@@ -1319,7 +1359,10 @@ heroheman-trmnl-advanced-rss:
     github: heroheman
   funding: {  }
   author_bio:
-    description: 'A sophisticated RSS feed display plugin for TRMNL e-ink devices that transforms your favorite RSS feeds into beautifully formatted, customizable layouts.'
+    description: 'Advanced RSS Plugin with Thumbnail Support and various settings for adjusting the content display. For changes and layout screenshots, please check changelog in the the GitHub repository. Due to the upgrade to the v2 Framework, there might be issues, but the current state of devtools is not allowing me to upgrade to a good look on all devices. Sorry for that.'
+    github_url: 'https://github.com/heroheman'
+    learn_more_url: 'https://github.com/heroheman/trmnl_advanced_rss'
+    email_address: moin@flore.nz
 heroheman-trmnl-devto:
   name: 'Dev.to Articles'
   trmnlp:
@@ -1364,7 +1407,8 @@ heroheman-trmnl-wakatime:
     github: heroheman
   funding: {  }
   author_bio:
-    description: 'A WakaTime dashboard plugin for TRMNLP, displaying your coding activity in a customizable chart format.'
+    description: 'A WakaTime dashboard plugin for TRMNLP, displaying your coding activity in a customizable chart format. For further details see Github Repo!'
+    github_url: 'https://github.com/heroheman/trmnl_wakatime'
     email_address: moin@flore.nz
 hrdkbhatnagar-garbage-calendar:
   name: 'TRMNL Garbage Calendar'
@@ -1451,8 +1495,10 @@ jbarreiros-trmnl-noaa-tides:
     github: jbarreiros
   funding: {  }
   author_bio:
-    description: null
-    homepage: null
+    description: 'Upcoming low and high tides, provided by NOAA. On weekdays, it also highlights the upcoming weekend high tides.'
+    github_url: 'https://github.com/jbarreiros/trmnl_noaa_tides'
+    learn_more_url: 'https://github.com/jbarreiros/trmnl_noaa_tides'
+    email_address: johnbarreiros2@gmail.com
 jbelien-trmnl-plugin-updownio:
   name: Updown.io
   trmnlp:
@@ -1486,8 +1532,13 @@ jerremyng-sg-bus:
       compatibility: true
       compatibility_note: null
       min_version: 0.25.1
+  logo_url: null
+  screenshot_url: null
+  license: ''
+  byos: {  }
   author:
     github: jerremyng
+  funding: {  }
   author_bio:
     description: 'Always missing buses? I gotchu. This plugin shows departure times of buses in Singapore. Specific stops/buses and names can be configured.'
     github_url: 'https://github.com/jerremyng/trmnl-sg-bus'
@@ -1586,16 +1637,12 @@ jshiell-trmnl-national-rail-departures:
     category: travel
     description: |
       National Rail Departures displays the upcoming departures from a chosen station to a particular destination.
-      <br><br>
-      <strong>Prerequisites</strong>
-      <br>
-      You will need:<br>
-      1. A National Rail API key. If you don't already have one, you can request one <a href="http://realtime.nationalrail.co.uk/OpenLDBWSRegistration">at the National Rail Developers website</a>.<br>
-      2. The CRS code for your departure and destination stations, which can be found <a href="https://www.nationalrail.co.uk/">on the National Rail website</a>.
-      <br><br>
-      <strong>Attributions</strong>
-      <br>
-      The data feed is powered by <a href="https://www.nationalrail.co.uk/developers/">National Rail Enquiries</a>.
+      Prerequisites
+      You will need:
+      1. A National Rail API key. If you don't already have one, you can request one at http://realtime.nationalrail.co.uk/OpenLDBWSRegistration.
+      2. The CRS code for your departure and destination stations, which can be found on https://www.nationalrail.co.uk.
+      Attributions
+      The data feed is powered by National Rail Enquiries.
     github_url: 'https://github.com/jshiell/trmnl-national-rail-departures'
 jshiell-trmnl-stalbans-refuse-collections:
   name: 'St Albans Refuse Collections'
@@ -1643,6 +1690,7 @@ jvdmeij-trmnl-countdowngit:
     github: jvdmeij
   funding: {  }
   author_bio:
+    category: 'calendar,personal'
     description: 'Counts down to a specific date. Choose a matching emoji to finish the look. Created by Jasper, @jasper on TRMNL Discord.'
     email_address: info@jaspervandermeij.com
 jvdmeij-trmnl-crypto-fear-and-greed:
@@ -1687,7 +1735,10 @@ jvdmeij-trmnl-magic-8-ballgit:
   author:
     github: jvdmeij
   funding: {  }
-  author_bio: {  }
+  author_bio:
+    category: 'personal,life'
+    description: 'Let the Magic 8 Ball determine your choices. Created by Jasper, @jasper on TRMNL Discord.'
+    email_address: info@jaspervandermeij.com
 jvdmeij-trmnl-winnie-the-pooh:
   name: 'Winnie the Pooh Quotes'
   trmnlp:
@@ -1707,7 +1758,10 @@ jvdmeij-trmnl-winnie-the-pooh:
   author:
     github: jvdmeij
   funding: {  }
-  author_bio: {  }
+  author_bio:
+    category: 'life,images'
+    description: 'Winnie the Pooh quotes. Curated by Jasper, @jasper on TRMNL Discord.'
+    email_address: info@jaspervandermeij.com
 jvdmeij-trmnl-word-clock:
   name: 'Word Clock'
   trmnlp:
@@ -1716,7 +1770,7 @@ jvdmeij-trmnl-word-clock:
     zip_url: 'https://github.com/jvdmeij/trmnl-word-clock/archive/refs/heads/main.zip'
     zip_entry_path: null
     version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/r3ps7o2rtof9v1kg8o62a9auo0w5'
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/xhrcrdh6zncc9sscsmzcozht8yk2'
   screenshot_url: null
   license: Unknown
   byos:
@@ -1728,7 +1782,10 @@ jvdmeij-trmnl-word-clock:
   author:
     github: jvdmeij
   funding: {  }
-  author_bio: {  }
+  author_bio:
+    category: 'calendar,life'
+    description: 'Word clock created by Jasper, @jasper on TRMNL Discord.'
+    email_address: info@jaspervandermeij.com
 jvdmeij-trmnl-your-life-in-weeks:
   name: 'Your Life in Weeks'
   trmnlp:
@@ -1749,10 +1806,11 @@ jvdmeij-trmnl-your-life-in-weeks:
     github: jvdmeij
   funding: {  }
   author_bio:
+    category: 'personal,kpi'
     description: 'A visual representation of the amount of weeks of your life! Created by Jasper, @jasper on TRMNL Discord.'
     email_address: info@jaspervandermeij.com
 kraynel-trmnl-nyt-connections:
-  name: 'NYT Connections'
+  name: 'NYT Games: Connections'
   trmnlp:
     id: 159089
     repo: 'https://github.com/kraynel/trmnl-nyt-connections'
@@ -1770,7 +1828,9 @@ kraynel-trmnl-nyt-connections:
   author:
     github: kraynel
   funding: {  }
-  author_bio: {  }
+  author_bio:
+    description: 'Your daily dose of NYT Connections.'
+    github_url: 'https://github.com/kraynel/trmnl-nyt-connections'
 kraynel-trmnl-sentry:
   name: Sentry
   trmnlp:
@@ -1813,7 +1873,7 @@ lanrat-beware-of-toddler:
     github: lanrat
   funding: {  }
   author_bio:
-    description: 'Displays the daily Beware of Toddler Comic'
+    description: 'Displays the daily Beware of Toddler Comic by George Gant'
     github_url: 'https://github.com/lanrat/trmnl_plugins'
     learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/Beware%20of%20Toddler%20Comic'
 lanrat-daily-new-yorker-cartoon:
@@ -1883,7 +1943,7 @@ lanrat-far-side-comic:
     github: lanrat
   funding: {  }
   author_bio:
-    description: 'Displays the daily Far Side comic'
+    description: 'Displays the daily Far Side comic by Gary Larson'
     github_url: 'https://github.com/lanrat/trmnl_plugins'
     learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/Far%20Side%20Comic'
 lanrat-foxtrot-classics-comic:
@@ -1906,7 +1966,7 @@ lanrat-foxtrot-classics-comic:
     github: lanrat
   funding: {  }
   author_bio:
-    description: 'Displays the daily FoxTrot comic'
+    description: 'Displays the daily FoxTrot comic by Bill Amend'
     github_url: 'https://github.com/lanrat/trmnl_plugins'
     learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/FoxTrot%20Classics%20Comic'
 lanrat-github-workflow-actions:
@@ -1951,7 +2011,7 @@ lanrat-litterbox-comics:
     github: lanrat
   funding: {  }
   author_bio:
-    description: 'Displays the daily Litterbox Comic'
+    description: 'Displays the daily Litterbox comic by Chesca Hause'
     github_url: 'https://github.com/lanrat/trmnl_plugins'
     learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/Litterbox%20Comics'
 lanrat-nasa-image-of-the-day:
@@ -1997,7 +2057,7 @@ lanrat-pickles-comic:
     github: lanrat
   funding: {  }
   author_bio:
-    description: 'Displays the daily Pickles comic'
+    description: 'Displays the daily Pickles comic by Brian Crane'
     github_url: 'https://github.com/lanrat/trmnl_plugins'
     learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/Pickles%20Comic'
 martinbelko-trmnl-plugin-tibber-norway:
@@ -2045,9 +2105,8 @@ mironiasty-trmnl-bergfex-snow:
   funding: {  }
   author_bio:
     category: 'travel,custom'
-    description: 'Show snow report in your favourite ski resort'
+    description: 'Show snow report for your favourite ski resort. This plugin requires Home Assistant with Bergfex Snow Report Integration to get Snow reports. When adding ski resort in integration, you can also add webhook URL from pluign page. See GitHub page for more information.'
     github_url: 'https://github.com/mironiasty/trmnl_bergfex_snow'
-    youtube_url: 'https://www.youtube.com/@panjamnik'
 monsieurm-trmnl-lastfm:
   name: LastFM
   trmnlp:
@@ -2293,7 +2352,7 @@ rishikeshsreehari-trmnl-pihole:
   funding: {  }
   author_bio:
     category: 'analytics,programming'
-    description: 'Display real-time statistics from your <a href="https://pi-hole.net/">Pi-hole</a> network-wide ad blocker on your TRMNL device. Monitor DNS queries, blocked requests, system performance, query history charts, and top blocked domains.<br><br><strong>Requirements:</strong> Pi-hole device with SSH access (root or sudo access required), TRMNL webhook URL from plugin settings.<br><br><strong>Installation:</strong> Run the install script on your Pi-hole via SSH. Updates automatically every 15 minutes. Full instructions available in the <a href="https://github.com/rishikeshsreehari/trmnl-pihole">GitHub repository</a>.<br><br>For issues or suggestions, please <a href="https://github.com/rishikeshsreehari/trmnl-pihole/issues">raise an issue on GitHub</a> or send an email.'
+    description: 'Display real-time statistics from your <a href="https://pi-hole.net/">Pi-hole</a> network-wide ad blocker on your TRMNL device. Monitor DNS queries, blocked requests, system performance, query history charts, and top blocked domains.Requirements: Pi-hole device with SSH access (root or sudo access required), TRMNL webhook URL from plugin settings.Installation: Run the install script on your Pi-hole via SSH. Updates automatically every 15 minutes. Full instructions available in the <a href="https://github.com/rishikeshsreehari/trmnl-pihole">GitHub repository</a>.For issues or suggestions, please <a href="https://github.com/rishikeshsreehari/trmnl-pihole/issues">raise an issue on GitHub</a> or send an email.'
     github_url: 'https://github.com/rishikeshsreehari/trmnl-pihole'
     learn_more_url: 'https://rishikeshs.com/projects/trmnl-pihole'
     email_address: hello@rishikeshs.com
@@ -2432,8 +2491,9 @@ rknightuk-trmnl-literate-movies:
     github: rknightuk
   funding: {  }
   author_bio:
-    description: 'TRMNL plugin to show movies based on books'
-    homepage: 'https://usetrmnl.com/recipes/122948'
+    description: 'Literate Movies shows a random movie from this list of movies based on books, short stories, novels, novellas, poems, and other literary works.'
+    github_url: 'https://github.com/rknightuk/trmnl-literate-movies'
+    learn_more_url: 'https://rknight.me'
 rknightuk-trmnl-mario-kart:
   name: 'Mario Kart Track'
   trmnlp:
@@ -2454,8 +2514,9 @@ rknightuk-trmnl-mario-kart:
     github: rknightuk
   funding: {  }
   author_bio:
-    description: 'TRMNL plugin to show random Mario Kart tracks'
-    homepage: 'https://usetrmnl.com/recipes/101176'
+    description: "Mario Kart Track shows info about a random track including an image, map if it's available, and trivia."
+    github_url: 'https://github.com/rknightuk/trmnl-mario-kart'
+    learn_more_url: 'https://rknight.me'
 rknightuk-trmnl-mastodon-profile:
   name: Mastodon
   trmnlp:
@@ -2510,7 +2571,7 @@ rknightuk-trmnl-ps2-title-screens:
     repo: 'https://github.com/rknightuk/trmnl-ps2-title-screens'
     zip_url: 'https://github.com/rknightuk/trmnl-ps2-title-screens/archive/refs/heads/main.zip'
     version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/i2iv4735p3icwibia8whltzzq4mh'
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/2ovqzlkbw1lhwjsny8qz5td8gebs'
   screenshot_url: null
   license: Unknown
   byos:
@@ -2545,8 +2606,9 @@ rknightuk-trmnl-relay-st-jude:
     github: rknightuk
   funding: {  }
   author_bio:
-    description: 'Relay for St Jude TRMNL plugin'
-    homepage: null
+    description: 'A tracker for the Relay for St Jude September campaign and podcastathon'
+    github_url: 'https://github.com/rknightuk/trmnl-relay-st-jude'
+    learn_more_url: 'https://donationdaddy.rknight.me'
 rknightuk-trmnl-stripe:
   name: Stripe
   trmnlp:
@@ -2719,7 +2781,10 @@ sgardoll-nightscout-plugin:
     github: sgardoll
   funding: {  }
   author_bio:
-    description: 'A comprehensive dashboard plugin for TRMNL that displays glucose monitoring data, weather information, and public transport departures with a beautiful glucose trend background chart.'
+    description: 'Graph of your glucose from CGM pulled from Nightscout-compatible server.'
+    category: 'life,personal'
+    github_url: 'https://github.com/datacompboy/'
+    email_address: datacompboy@gmail.com
 shagn-trmnl-ralph-ruthe-comic:
   name: 'Ralph Ruthe Comic'
   trmnlp:
@@ -2780,8 +2845,8 @@ snarfulsolutionsgroup-xkcd:
     github: SnarfulSolutionsGroup
   funding: {  }
   author_bio:
-    description: 'Daily Comic from xkcd'
-    homepage: null
+    category: 'humor,comics'
+    description: 'XKCD comic plugin created by Akisame-AI. If you encounter major issues please contact him via discord under "akisame."'
 solarmax64-trmnl-recipe-tracker:
   name: 'TRMNL Recipe Tracker'
   trmnlp:
@@ -2802,7 +2867,8 @@ solarmax64-trmnl-recipe-tracker:
     github: Solarmax64
   funding: {  }
   author_bio:
-    description: 'TRMNL Recipe Tracker. It lists the top plugin engagement, sorted by installs and forks. Add your recipe master plugin IDs for the recipes to track. Buy me a coffee with the link below.'
+    category: 'kpi,analytics'
+    description: 'TRMNL Recipe Tracker. It lists the top plugin engagement, sorted by installs and forks. Add your recipe master plugin IDs for the recipes to track.  <a href="https://ko-fi.com/solarmax" target="_blank">Support this project</a>'
     email_address: dev@photic.zone
     learn_more_url: 'https://ko-fi.com/solarmax'
 sourcediver42-trmnl-mobiliteit:
@@ -2870,10 +2936,12 @@ stephenyeargin-trmnl-adafruit-io:
     name: 'Adafruit IO'
   funding: {  }
   author_bio:
-    description: '👩‍🏭 Adafruit IO for TRMNL'
-    homepage: 'https://usetrmnl.com/recipes/112643'
+    description: 'Show data collected via Adafruit IO'
+    github_url: 'https://github.com/stephenyeargin/trmnl-adafruit-io'
+    learn_more_url: 'https://io.adafruit.com/'
+    email_address: stephen@yearg.in
 stephenyeargin-trmnl-bcycle:
-  name: 'BCycle Station Status'
+  name: BCycle
   trmnlp:
     id: 100262
     repo: 'https://github.com/stephenyeargin/trmnl-bcycle'
@@ -2892,8 +2960,10 @@ stephenyeargin-trmnl-bcycle:
     name: BCycle
   funding: {  }
   author_bio:
-    description: '🚲 BCycle Station Status for TRMNL'
-    homepage: 'https://usetrmnl.com/recipes/100262'
+    description: 'Show the status of BCycle stations around town.'
+    github_url: 'https://github.com/stephenyeargin/trmnl-bcycle'
+    learn_more_url: 'https://bcycle.com'
+    email_address: stephen@yearg.in
 stephenyeargin-trmnl-matomo:
   name: 'Matomo Analytics'
   trmnlp:
@@ -2913,8 +2983,10 @@ stephenyeargin-trmnl-matomo:
     github: stephenyeargin
   funding: {  }
   author_bio:
-    description: '📊 Matomo Analytics for TRMNL'
-    homepage: 'https://usetrmnl.com/recipes/97234'
+    description: 'Displays web analytics from Matomo for a selected Site.'
+    github_url: 'https://github.com/stephenyeargin/trmnl-matomo'
+    learn_more_url: 'https://matomo.org/'
+    email_address: stephen@yearg.in
 stephenyeargin-trmnl-mealviewer:
   name: 'MealViewer (School Lunch)'
   trmnlp:
@@ -2935,8 +3007,10 @@ stephenyeargin-trmnl-mealviewer:
     github: stephenyeargin
   funding: {  }
   author_bio:
-    description: '🍽️ MealViewer Calendar for TRMNL'
-    homepage: 'https://usetrmnl.com/recipes/133879'
+    description: 'Shows school lunch menu via MealViewer.com'
+    github_url: 'https://github.com/stephenyeargin/trmnl-mealviewer'
+    learn_more_url: 'https://mealviewer.com'
+    email_address: stephen@yearg.in
 stephenyeargin-trmnl-mnpd-dispatches:
   name: 'Metro Nashville Police Dept. Active Dispatches'
   trmnlp:
@@ -2958,8 +3032,10 @@ stephenyeargin-trmnl-mnpd-dispatches:
     name: 'Metro Nashville Police Dept. Active Dispatches'
   funding: {  }
   author_bio:
-    description: '🚓 Metro Nashville Police Dept. Active Dispatches for TRMNL'
-    homepage: 'https://usetrmnl.com/recipes/90541'
+    description: 'Active dispatches for the Metro Nashville Police Department.'
+    github_url: 'https://github.com/stephenyeargin/trmnl-mnpd-dispatches'
+    learn_more_url: 'https://www.nashville.gov/departments/police/online-resources/active-dispatches'
+    email_address: stephen@yearg.in
 stephenyeargin-trmnl-nashville-electric-service:
   name: 'Nashville Electric Service (NES)'
   trmnlp:
@@ -3004,8 +3080,10 @@ stephenyeargin-trmnl-nashville-pollen-aqi:
     name: 'Nashville Pollen & Air Quality'
   funding: {  }
   author_bio:
-    description: '🤧 Nashville Pollen & Air Quality for TRMNL'
-    homepage: 'https://usetrmnl.com/recipes/93912'
+    description: 'Pollen and air quality report from the Metro Nashville Health Department.'
+    github_url: 'https://github.com/stephenyeargin/trmnl-nashville-pollen-aqi'
+    learn_more_url: 'https://www.nashville.gov/departments/health/environmental-health/air-pollution-control/daily-aqi-and-pollen-count'
+    email_address: stephen@yearg.in
 stephenyeargin-trmnl-nfd-incidents:
   name: 'Nashville Fire Department Active Incidents'
   trmnlp:
@@ -3027,8 +3105,10 @@ stephenyeargin-trmnl-nfd-incidents:
     name: 'Nashville Fire Department Active Incidents'
   funding: {  }
   author_bio:
-    description: '🚒 Nashville Fire Department Active Incidents for TRMNL'
-    homepage: 'https://usetrmnl.com/recipes/89850'
+    description: 'Active incidents for the Nashville Fire Department.'
+    github_url: 'https://github.com/stephenyeargin/trmnl-nfd-incidents'
+    learn_more_url: 'https://www.nashville.gov/departments/fire/operations-division/active-incidents'
+    email_address: stephen@yearg.in
 stephenyeargin-trmnl-nwps-gauges:
   name: 'NWPS River Gauges'
   trmnlp:
@@ -3049,8 +3129,10 @@ stephenyeargin-trmnl-nwps-gauges:
     name: 'NWPS River Gauges'
   funding: {  }
   author_bio:
-    description: '💧 National Water Prediction Service Gauges for TRMNL'
-    homepage: 'https://usetrmnl.com/recipes/101750'
+    description: 'Displays the current gauge reading for a station'
+    github_url: 'https://github.com/stephenyeargin/trmnl-nwps-gauges'
+    learn_more_url: 'https://water.noaa.gov/'
+    email_address: stephen@yearg.in
 stephenyeargin-trmnl-nyt-best-sellers:
   name: 'New York Times Best Sellers'
   trmnlp:
@@ -3071,8 +3153,10 @@ stephenyeargin-trmnl-nyt-best-sellers:
     github: stephenyeargin
   funding: {  }
   author_bio:
-    description: '📚 New York Times Best Seller List for TRMNL'
-    homepage: 'https://usetrmnl.com/recipes/121924'
+    description: 'Display the latest New York Times Best Seller list for a given category.'
+    github_url: 'https://github.com/stephenyeargin/trmnl-nyt-best-sellers'
+    learn_more_url: 'https://www.nytimes.com/books/best-sellers/'
+    email_address: stephen@yearg.in
 stephenyeargin-trmnl-ollama:
   name: Ollama
   trmnlp:
@@ -3117,8 +3201,10 @@ stephenyeargin-trmnl-open-library:
     github: stephenyeargin
   funding: {  }
   author_bio:
-    description: '📚 Open Library for TRMNL'
-    homepage: 'https://usetrmnl.com/recipes/124200'
+    description: 'View your reading lists on Open Library'
+    github_url: 'https://github.com/stephenyeargin/trmnl-open-library'
+    learn_more_url: 'https://openlibrary.org/'
+    email_address: stephen@yearg.in
 stephenyeargin-trmnl-pbs-kids:
   name: 'PBS Kids'
   trmnlp:
@@ -3140,8 +3226,10 @@ stephenyeargin-trmnl-pbs-kids:
     id: '110655'
   funding: {  }
   author_bio:
-    description: '🚸 PBS Kids for TRMNL'
-    homepage: 'https://usetrmnl.com/recipes/110655'
+    description: 'Show the latest videos available on the PBS Kids app and website.'
+    github_url: 'https://github.com/stephenyeargin/trmnl-pbs-kids'
+    learn_more_url: 'https://pbskids.org/'
+    email_address: stephen@yearg.in
 stephenyeargin-trmnl-pixelfed:
   name: Pixelfed
   trmnlp:
@@ -3163,8 +3251,10 @@ stephenyeargin-trmnl-pixelfed:
     id: '103958'
   funding: {  }
   author_bio:
-    description: '📸 Pixelfed for TRMNL'
-    homepage: 'https://usetrmnl.com/recipes/103958'
+    description: 'Show latest photos from your Pixelfed timeline.'
+    github_url: 'https://github.com/stephenyeargin/trmnl-pixelfed'
+    learn_more_url: 'https://pixelfed.org'
+    email_address: stephen@yearg.in
 stephenyeargin-trmnl-seatgeek:
   name: SeatGeek
   trmnlp:
@@ -3186,8 +3276,10 @@ stephenyeargin-trmnl-seatgeek:
     name: SeatGeek
   funding: {  }
   author_bio:
-    description: '🎟️ SeatGeek for TRMNL'
-    homepage: 'https://usetrmnl.com/recipes/120686'
+    description: 'Show upcoming events for your favorite artist or team.'
+    github_url: 'https://github.com/stephenyeargin/trmnl-seatgeek'
+    learn_more_url: 'https://seatgeek.com'
+    email_address: stephen@yearg.in
 stephenyeargin-trmnl-tailscale:
   name: Tailscale
   trmnlp:
@@ -3211,8 +3303,10 @@ stephenyeargin-trmnl-tailscale:
     github: stephenyeargin
   funding: {  }
   author_bio:
-    description: '🌐 Tailscale for TRMNL'
-    homepage: 'https://usetrmnl.com/recipes/108109'
+    description: 'Show the status of devices on your Tailscale network.'
+    github_url: 'https://github.com/stephenyeargin/trmnl-tailscale'
+    learn_more_url: 'https://tailscale.com/'
+    email_address: stephen@yearg.in
 stephenyeargin-trmnl-unifi-site-manager:
   name: 'Unifi Site Manager'
   trmnlp:
@@ -3233,8 +3327,10 @@ stephenyeargin-trmnl-unifi-site-manager:
     github: stephenyeargin
   funding: {  }
   author_bio:
-    description: '🛜 Unifi Site Manager for TRMNL'
-    homepage: 'https://usetrmnl.com/recipes/102852'
+    description: 'Shows the status of your connected Ubiquiti Unifi Sites.'
+    github_url: 'https://github.com/stephenyeargin/trmnl-unifi-site-manager'
+    learn_more_url: 'https://ui.com/how-it-works'
+    email_address: stephen@yearg.in
 stephenyeargin-trmnl-uptimerobot:
   name: UptimeRobot
   trmnlp:
@@ -3255,8 +3351,10 @@ stephenyeargin-trmnl-uptimerobot:
     github: stephenyeargin
   funding: {  }
   author_bio:
-    description: '🤖 UptimeRobot for TRMNL'
-    homepage: 'https://usetrmnl.com/recipes/98765/'
+    description: 'Displays the status of UptimeRobot monitors'
+    github_url: 'https://github.com/stephenyeargin/trmnl-uptimerobot'
+    learn_more_url: 'https://uptimerobot.com/'
+    email_address: stephen@yearg.in
 stevekennedyuk-trmnl-tfl-status:
   name: 'Transport for London (TfL) status messages'
   trmnlp:
@@ -3516,7 +3614,9 @@ thepeopleseason-din-time-weather:
     github: thepeopleseason
   funding: {  }
   author_bio:
+    category: 'news,environment'
     description: 'Time (sort of) and Weather. Inspired by the Pebble Watchface DIN Time'
+    github_url: 'https://github.com/thepeopleseason/trmnl-plugins'
     learn_more_url: 'https://bsky.app/profile/thepeopleseason.bsky.social'
     email_address: matchstick@gmail.com
 thepeopleseason-edhrec-top:
@@ -3539,7 +3639,9 @@ thepeopleseason-edhrec-top:
     github: thepeopleseason
   funding: {  }
   author_bio:
+    category: 'games,entertainment'
     description: 'Listing the most popular commanders on edhrec.com for the past week, month, and last 2 years.'
+    github_url: 'https://github.com/thepeopleseason/trmnl-plugins'
     learn_more_url: 'https://bsky.app/profile/thepeopleseason.bsky.social'
     email_address: matchstick@gmail.com
 thepeopleseason-habitica-tasks:
@@ -3562,8 +3664,9 @@ thepeopleseason-habitica-tasks:
     github: thepeopleseason
   funding: {  }
   author_bio:
+    category: 'personal,productivity'
     description: 'Habitica.com Daily Tasks and Todo List'
-    github_url: 'https://github.com/thepeopleseason'
+    github_url: 'https://github.com/thepeopleseason/trmnl-plugins'
     learn_more_url: 'https://bsky.app/profile/thepeopleseason.bsky.social'
     email_address: matchstick@gmail.com
 thepeopleseason-mtg-cotd:
@@ -3586,7 +3689,9 @@ thepeopleseason-mtg-cotd:
     github: thepeopleseason
   funding: {  }
   author_bio:
+    category: 'games,entertainment'
     description: 'A random new Magic the Gathering card daily via Scryfall.com'
+    github_url: 'https://github.com/thepeopleseason/trmnl-plugins'
     learn_more_url: 'https://bsky.app/profile/thepeopleseason.bsky.social'
     email_address: matchstick@gmail.com
 thepeopleseason-mtg-potd:
@@ -3609,7 +3714,9 @@ thepeopleseason-mtg-potd:
     github: thepeopleseason
   funding: {  }
   author_bio:
+    category: 'games,entertainment'
     description: 'A random new Magic the Gathering Plane card daily via Scryfall.com'
+    github_url: 'https://github.com/thepeopleseason/trmnl-plugins'
     learn_more_url: 'https://bsky.app/profile/thepeopleseason.bsky.social'
     email_address: matchstick@gmail.com
 thepeopleseason-oncalltoday:
@@ -3632,8 +3739,9 @@ thepeopleseason-oncalltoday:
     github: thepeopleseason
   funding: {  }
   author_bio:
+    category: productivity
     description: 'Displays the current oncall user, and the next scheduled oncall for a supplied user for schedules on <a href="https://www.pagerduty.com">Pagerduty.com</a>. More displayed information has been set up under comments for privacy reasons. Forking this recipe is required to remove anonymization.'
-    github_url: 'https://github.com/thepeopleseason'
+    github_url: 'https://github.com/thepeopleseason/trmnl-plugins'
     learn_more_url: 'https://bsky.app/profile/thepeopleseason.bsky.social'
     email_address: matchstick@gmail.com
 tilmangriesel-ha-trmnl-weather-station:
@@ -3658,7 +3766,11 @@ tilmangriesel-ha-trmnl-weather-station:
     buy_me_a_coffee: griesel
     custom: 'https://usetrmnl.com?ref=griesel'
   author_bio:
-    description: '🌤️ TRMNL Home Assistant Weather Station'
+    description: 'TRMNL Weather Station integration for Home Assistant featuring CO₂ monitoring, customizable multi-sensor support (up to 6 sensors), and real-time weather conditions with visual icons.'
+    github_url: 'https://github.com/TilmanGriesel/ha_trmnl_weather_station'
+    learn_more_url: 'https://github.com/TilmanGriesel/ha_trmnl_weather_station'
+    email_address: griesel@me.com
+    optional: true
 tkilaker-sydsvenskan-news:
   name: 'Sydsvenskan Latest News'
   trmnlp:
@@ -3727,8 +3839,9 @@ vimwtf-trmnl-lumon-wellness:
     id: '102880'
   funding: {  }
   author_bio:
-    description: 'TRMNL plugin to display facts about your Outie'
-    homepage: 'https://usetrmnl.com/recipes/102880'
+    description: 'Welcome to the Lumon Industries Wellness Center. Please try to enjoy each fact equally, and not show preference for any over the others.'
+    github_url: 'https://github.com/vimwtf/trmnl-lumon-wellness'
+    learn_more_url: 'https://buffer.vim.wtf/lumon-wellness-plugin-for-trmnl/'
 wandmalfarbe-trmnl-goodreads:
   name: Goodreads
   trmnlp:
@@ -3792,8 +3905,9 @@ who-would-know-trml-plugin-open-trivia-db:
     github: who-would-know
   funding: {  }
   author_bio:
-    description: 'A trmnl plugin for Open Trivia DB'
-    learn_more_url: 'https://opentdb.com'
+    description: 'Shows Trivia Questions from Open Trivia DB'
+    github_url: 'https://github.com/who-would-know/trml-plugin-open-trivia-db'
+    learn_more_url: 'https://opentdb.com/'
     email_address: whowouldknowdev@gmail.com
 y2ee201-trmnl-fortune-cookie:
   name: 'Fortune Cookie of the Day'
