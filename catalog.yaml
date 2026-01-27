@@ -3406,7 +3406,7 @@ sun-10-print:
     zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/10-print.zip'
     zip_entry_path: null
     version: main
-  logo_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/icons/10-print.svg'
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/z1g1ekh3vzu7f5cj5nmn8awhgk91'
   screenshot_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/previews/10-print.png'
   license: Unlicense
   byos:
@@ -3420,7 +3420,6 @@ sun-10-print:
   funding:
     liberapay: sun
   author_bio:
-    name: '10 PRINT by Sunny'
     description: 'Recreates the pattern of the classic Commodore 64 one-liner program.'
     category: art
     github_url: 'https://forgejo.sny.sh/sun/TRMNL'
@@ -3434,7 +3433,7 @@ sun-danbooru-gallery:
     zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/danbooru-gallery.zip'
     zip_entry_path: null
     version: main
-  logo_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/icons/danbooru-gallery.svg'
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/uzv7xs4hxtwwoiir5v1zspyjby7p'
   screenshot_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/previews/danbooru-gallery.png'
   license: Unlicense
   byos:
@@ -3462,7 +3461,7 @@ sun-defas-departures:
     zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/defas-departures.zip'
     zip_entry_path: null
     version: main
-  logo_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/icons/defas-departures.svg'
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/3ckfjxro0otxn4ssvdrvxstag4zv'
   screenshot_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/previews/defas-departures.png'
   license: Unlicense
   byos:
@@ -3490,7 +3489,7 @@ sun-film-guide:
     zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/film-guide.zip'
     zip_entry_path: null
     version: main
-  logo_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/icons/film-guide.svg'
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/1l307xn4v255wn15gprypuv6wxy6'
   screenshot_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/previews/film-guide.png'
   license: Unlicense
   byos:
@@ -3518,7 +3517,7 @@ sun-government-alerts:
     zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/government-alerts.zip'
     zip_entry_path: null
     version: main
-  logo_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/icons/government-alerts.svg'
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/rcl2cfhspykpri41psizkge9o2i9'
   screenshot_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/previews/government-alerts.png'
   license: Unlicense
   byos:
@@ -3546,7 +3545,7 @@ sun-toki-pona:
     zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/toki-pona.zip'
     zip_entry_path: null
     version: main
-  logo_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/icons/toki-pona.svg'
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/7n86h1msiftd6joddi31r80yqqoz'
   screenshot_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/previews/toki-pona.png'
   license: Unlicense
   byos:
@@ -3574,7 +3573,7 @@ sun-weather-graph:
     zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/weather-graph.zip'
     zip_entry_path: null
     version: main
-  logo_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/icons/weather-graph.svg'
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/90lk3vad2tzx2vfnt3b6jqnpdsqr'
   screenshot_url: 'https://forgejo.sny.sh/sun/TRMNL/raw/branch/main/previews/weather-graph.png'
   license: Unlicense
   byos:
