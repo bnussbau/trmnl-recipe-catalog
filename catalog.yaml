@@ -2654,6 +2654,33 @@ rishikeshsreehari-trmnl-pihole:
     github_url: 'https://github.com/rishikeshsreehari/trmnl-pihole'
     learn_more_url: 'https://rishikeshs.com/projects/trmnl-pihole'
     email_address: hello@rishikeshs.com
+rishikeshsreehari-trmnl-solana:
+  name: 'Solana Wallet'
+  trmnlp:
+    id: '229540'
+    repo: 'https://github.com/rishikeshsreehari/trmnl-solana'
+    zip_url: 'https://github.com/rishikeshsreehari/trmnl-solana/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/lpwqui58bquwgsyzcfze94qjfclo'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: rishikeshsreehari
+  funding: {  }
+  author_bio:
+    category: finance
+    description: |
+      Track your Solana wallet balance and SOL price trends on your TRMNL screen.<br>
+      Displays real-time wallet balance, USD value, current SOL price, and percentage changes across multiple time periods.<br><br>
+      For bugs, features, or requests, please email me or raise an issue on GitHub. Contributions are welcome!
+    github_url: 'https://github.com/rishikeshsreehari/trmnl-solana'
+    learn_more_url: 'https://rishikeshs.com'
+    email_address: hello@rishikeshs.com
 rishikeshsreehari-trmnl-webmention:
   name: Webmentions
   trmnlp:
