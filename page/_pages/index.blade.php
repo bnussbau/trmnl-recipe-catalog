@@ -277,7 +277,7 @@
                     <span class="flex-shrink-0 mt-0.5">${checkIcon}</span>
                     <div class="flex-1">
                         <div class="text-sm font-medium text-[var(--text-color)]">TRMNL Core (Cloud service)</div>
-                        <a href="https://usetrmnl.com/recipes/${entry.id}" target="_blank" class="text-sm text-[#f8654b] hover:text-[#e5553b] hover:underline">Install</a>
+                        <a href="https://trmnl.com/recipes/${entry.id}" target="_blank" class="text-sm text-[#f8654b] hover:text-[#e5553b] hover:underline">Install</a>
                     </div>
                 </div>`;
             }
