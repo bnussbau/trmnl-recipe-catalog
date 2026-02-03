@@ -1220,17 +1220,17 @@ excusemi-trmnl-lego-plugin:
     description: 'Display LEGO® sets on your TRMNL device with powerful filtering options using community APIs.'
     github_url: 'https://github.com/ExcuseMi/trmnl-lego-plugin'
     category: life
-excusemi-trmnl-more-comics-plugin:
-  name: 'More Comics'
+excusemi-trmnl-comic-library-plugin:
+  name: 'Comic Library'
   trmnlp:
     id: 180935
-    repo: 'https://github.com/ExcuseMi/trmnl-more-comics-plugin'
-    zip_url: 'https://github.com/ExcuseMi/trmnl-more-comics-plugin/archive/refs/heads/main.zip'
+    repo: 'https://github.com/ExcuseMi/trmnl-comic-library-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-comic-library-plugin/archive/refs/heads/main.zip'
     zip_entry_path: null
     version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/rbxv69m1hj4rgie52ofhg8qo2obz'
-  screenshot_url: null
-  license: Unknown
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/iii2gt4uhhmhx2e8d45mmy1aqcgc'
+  screenshot_url: 'https://github.com/ExcuseMi/trmnl-comic-library-plugin/blob/main/assets/plugin-images/180935_screenshot.png?raw=true'
+  license: MIT
   byos:
     byos_laravel:
       compatibility: false
@@ -1247,8 +1247,8 @@ excusemi-trmnl-more-comics-plugin:
       ● Supports multiple RSS sources
       ● Add your own RSS feeds
       ● Frequently updated to keep all RSS sources valid and up to date
-    github_url: 'https://github.com/ExcuseMi/trmnl-more-comics-plugin'
-    learn_more_url: 'https://comiccaster.xyz'
+    github_url: 'https://github.com/ExcuseMi/trmnl-comic-library-plugin'
+    learn_more_url: 'https://excusemi.github.io/trmnl-comic-library-plugin/'
     category: comics
 excusemi-trmnl-sleepy-time-plugin:
   name: 'Sleepy Time!'
