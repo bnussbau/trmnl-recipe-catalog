@@ -20,6 +20,30 @@ a-mnich-trmnl-monkey-island-quotes:
   author_bio:
     description: 'TRMNL Monkey Island Quotes Plugin'
     homepage: ''
+alisterscott-trmnl-translink:
+  name: 'Queensland Stop Timetable (Translink)'
+  trmnlp:
+    id: 233040
+    repo: 'https://github.com/alisterscott/trmnl-translink'
+    zip_url: 'https://github.com/alisterscott/trmnl-translink/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/3uoy8628na9zssnnd6jc2al18brx'
+  screenshot_url: 'https://raw.githubusercontent.com/alisterscott/trmnl-translink/refs/heads/main/preview.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.25.0
+      renderer: null
+  author:
+    github: alisterscott
+  funding: {  }
+  author_bio:
+    category: 'travel,life'
+    description: 'Upcoming departures for stops in Queensland via the Translink API'
+    github_url: 'https://github.com/alisterscott/trmnl-translink'
 andi4000-trmnl-open-meteo-weather-forecast:
   name: 'Open-Meteo Hourly Weather Forecast'
   trmnlp:
@@ -1121,6 +1145,36 @@ excusemi-trmnl-air-quality-plugin:
     github_url: 'https://github.com/ExcuseMi/trmnl-air-quality-plugin'
     learn_more_url: 'https://aqicn.org'
     category: environment
+excusemi-trmnl-comic-library-plugin:
+  name: 'Comic Library'
+  trmnlp:
+    id: 180935
+    repo: 'https://github.com/ExcuseMi/trmnl-comic-library-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-comic-library-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/iii2gt4uhhmhx2e8d45mmy1aqcgc'
+  screenshot_url: 'https://github.com/ExcuseMi/trmnl-comic-library-plugin/blob/main/assets/plugin-images/180935_screenshot.png?raw=true'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: |-
+      Access a collection of 574 comic RSS feeds and enjoy fresh content every day.
+      Features:
+      ● Displays the most recent comic or a random comic
+      ● Supports multiple RSS sources
+      ● Add your own RSS feeds
+      ● Frequently updated to keep all RSS sources valid and up to date
+    github_url: 'https://github.com/ExcuseMi/trmnl-comic-library-plugin'
+    learn_more_url: 'https://excusemi.github.io/trmnl-comic-library-plugin/'
+    category: comics
 excusemi-trmnl-databreaches-plugin:
   name: 'Data Breaches'
   trmnlp:
@@ -1220,36 +1274,6 @@ excusemi-trmnl-lego-plugin:
     description: 'Display LEGO® sets on your TRMNL device with powerful filtering options using community APIs.'
     github_url: 'https://github.com/ExcuseMi/trmnl-lego-plugin'
     category: life
-excusemi-trmnl-comic-library-plugin:
-  name: 'Comic Library'
-  trmnlp:
-    id: 180935
-    repo: 'https://github.com/ExcuseMi/trmnl-comic-library-plugin'
-    zip_url: 'https://github.com/ExcuseMi/trmnl-comic-library-plugin/archive/refs/heads/main.zip'
-    zip_entry_path: null
-    version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/iii2gt4uhhmhx2e8d45mmy1aqcgc'
-  screenshot_url: 'https://github.com/ExcuseMi/trmnl-comic-library-plugin/blob/main/assets/plugin-images/180935_screenshot.png?raw=true'
-  license: MIT
-  byos:
-    byos_laravel:
-      compatibility: false
-      compatibility_note: null
-      min_version: null
-  author:
-    github: ExcuseMi
-  funding: {  }
-  author_bio:
-    description: |-
-      Access a collection of 574 comic RSS feeds and enjoy fresh content every day.
-      Features:
-      ● Displays the most recent comic or a random comic
-      ● Supports multiple RSS sources
-      ● Add your own RSS feeds
-      ● Frequently updated to keep all RSS sources valid and up to date
-    github_url: 'https://github.com/ExcuseMi/trmnl-comic-library-plugin'
-    learn_more_url: 'https://excusemi.github.io/trmnl-comic-library-plugin/'
-    category: comics
 excusemi-trmnl-sleepy-time-plugin:
   name: 'Sleepy Time!'
   trmnlp:
@@ -1890,18 +1914,20 @@ jshiell-trmnl-stalbans-refuse-collections:
 jshiell-trmnl-weather-byos:
   name: 'Weather BYOS (Open Meteo)'
   trmnlp:
-    id: '221669'
+    id: 221669
     repo: 'https://github.com/jshiell/trmnl-weather-byos'
     zip_url: 'https://github.com/jshiell/trmnl-weather-byos/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/rgwo8q0210wb26p3khszi91pyow7'
   screenshot_url: null
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.25.0
+      renderer: trmnl-liquid
   author:
     github: jshiell
   funding: {  }
@@ -4294,9 +4320,10 @@ y2ee201-trmnl-wildfire-tracker:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.25.0
+      renderer: null
   author:
     github: y2ee201
   funding: {  }
