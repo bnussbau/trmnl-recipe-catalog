@@ -1537,6 +1537,27 @@ heroheman-trmnl-wakatime:
     description: 'A WakaTime dashboard plugin for TRMNLP, displaying your coding activity in a customizable chart format. For further details see Github Repo!'
     github_url: 'https://github.com/heroheman/trmnl_wakatime'
     email_address: moin@flore.nz
+hija-trmnl-vvs-abfahrtsplan:
+  name: 'VVS Departures'
+  trmnlp:
+    id: null
+    repo: 'https://github.com/hija/trmnl-vvs-abfahrtsplan'
+    zip_url: 'https://github.com/hija/trmnl-vvs-abfahrtsplan/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/hija/trmnl-vvs-abfahrtsplan/refs/heads/main/screenshot.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.27.0
+      renderer: null
+  author:
+    github: hija
+  funding: {  }
+  author_bio: {  }
 hossain-khan-trmnl-elements-plugin:
   name: 'Element of the Day'
   trmnlp:
