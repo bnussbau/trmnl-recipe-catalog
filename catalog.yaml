@@ -3459,6 +3459,32 @@ stephenyeargin-trmnl-nashville-pollen-aqi:
     github_url: 'https://github.com/stephenyeargin/trmnl-nashville-pollen-aqi'
     learn_more_url: 'https://www.nashville.gov/departments/health/environmental-health/air-pollution-control/daily-aqi-and-pollen-count'
     email_address: stephen@yearg.in
+stephenyeargin-trmnl-nashville-waste-services:
+  name: 'Nashville Waste Collection'
+  trmnlp:
+    id: 240532
+    repo: 'https://github.com/stephenyeargin/trmnl-nashville-waste-services'
+    zip_url: 'https://github.com/stephenyeargin/trmnl-nashville-waste-services/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/li5fefxierf0yvqcfm39jnjahwbe'
+  screenshot_url: 'https://raw.githubusercontent.com/stephenyeargin/trmnl-nashville-waste-services/refs/heads/main/assets/screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.27.0
+      renderer: trmnl-liquid
+  author:
+    github: stephenyeargin
+  funding: {  }
+  author_bio:
+    category: 'life,environment'
+    description: 'Show the next pickup date for Nashville Waste Services. Forked from <a href="https://github.com/hossain-khan/trmnl-next-pickup-plugin" class="underline">Hossain Khan''s Next Pickup Plugin</a>'
+    github_url: 'https://github.com/stephenyeargin/trmnl-nashville-waste-services'
+    email_address: stephen@yearg.in
+    learn_more_url: 'https://www.nashville.gov/departments/waste-services/trash-and-recycling-services/recycling-app'
 stephenyeargin-trmnl-nfd-incidents:
   name: 'Nashville Fire Department Active Incidents'
   trmnlp:
@@ -3968,6 +3994,37 @@ sun-weather-graph:
     github_url: 'https://forgejo.sny.sh/sun/TRMNL'
     learn_more_url: 'https://sny.sh/'
     email_address: sunny@sny.sh
+thecapypara-trmnl-wingspan:
+  name: Wingspan
+  trmnlp:
+    id: 239594
+    repo: 'https://github.com/theCapypara/trmnl-wingspan'
+    zip_url: 'https://github.com/theCapypara/trmnl-wingspan/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-wingspan-main/plugin
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ynu7sbha5m4o5k0l88p6274t9hhs'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.27.0
+      renderer: null
+  author:
+    github: theCapypara
+  funding: {  }
+  author_bio:
+    description: |
+      This plugin shows you bird information from the game Wingspan.
+
+      Please note that by default this plugin does not show the actual artwork on the cards for copyright reasons. You will need to host your own API server and host the images yourself.
+
+      See the GitHub link for the source code for the API server. The default API server selects a new bird every hour.
+
+      This plugin is powered by <a href="https://navarog.github.io/wingsearch/" target="_blank">Wingsearch</a>.
+    category: 'entertainment,games'
+    github_url: 'https://github.com/theCapypara/trmnl-wingspan'
 thepeopleseason-din-time-weather:
   name: 'DIN Time 風'
   trmnlp:
