@@ -185,6 +185,60 @@ bastronautik-trmnl-triangles-art:
     category: art
     email_address: trmnl@achtnegen.nl
     github_url: 'https://github.com/Bastronautik/trmnl-triangles-art'
+blueset-github-trending-repos:
+  name: 'GitHub Trending Repos'
+  trmnlp:
+    id: 243710
+    repo: 'https://github.com/blueset/trmnl-recipes/tree/master/github-trending-repos'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/github-trending-repos
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/7h9zp934p9fpgldie6cmt83nsify'
+  screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/master/github-trending-repos/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.27.0
+      renderer: trmnl-liquid
+  author:
+    github: blueset
+  funding:
+    github: blueset
+    liberapay: blueset
+    ko_fi: blueset
+  author_bio:
+    description: 'GitHub Trending Repositories. API courtesy of <a href="https://github.com/doforce/github-trending">doforce</a>.'
+    category: 'programming,discovery'
+    github_url: 'https://github.com/blueset/trmnl-recipes'
+blueset-http-dogs:
+  name: 'HTTP Dogs'
+  trmnlp:
+    id: 243773
+    repo: 'https://github.com/blueset/trmnl-recipes/tree/master/http-dogs'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/http-dogs
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/nr6kemz2iayj020p2ebyh2isbuop'
+  screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/master/http-dogs/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: blueset
+  funding:
+    github: blueset
+    liberapay: blueset
+    ko_fi: blueset
+  author_bio:
+    description: 'A random HTTP Dog picture on each refresh. Works well with <a href="https://trmnl.com/recipes/235410">HTTP Cats</a> too. Images from <a href="https://http.dog/">HTTP Dogs</a> and <a href="https://httpstatusdogs.com/">HTTP Status Dogs</a>.'
+    category: 'programming,discovery'
+    github_url: 'https://github.com/blueset/trmnl-recipes'
 blueset-lyricova-quote:
   name: 'Vocaloid Lyrics Quote'
   trmnlp:
@@ -212,6 +266,34 @@ blueset-lyricova-quote:
     github_url: 'https://github.com/blueset/trmnl-recipes'
     learn_more_url: 'https://lyricova.1a23.studio/'
     category: 'discovery,art'
+blueset-one-headline:
+  name: 'One Headline News'
+  trmnlp:
+    id: 243967
+    repo: 'https://github.com/blueset/trmnl-recipes/tree/master/one-headline'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/one-headline
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ut49x48az61ep6uqb8yhusb2yibq'
+  screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/master/one-headline/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: blueset
+  funding:
+    github: blueset
+    liberapay: blueset
+    ko_fi: blueset
+  author_bio:
+    description: 'News of the day, one headline at a time. News sourced from <a href="https://news.kagi.com">Kagi News</a>.'
+    category: 'news,discovery'
+    github_url: 'https://github.com/blueset/trmnl-recipes'
+    learn_more_url: 'https://news.kagi.com/'
 blueset-public-recipe-stats:
   name: 'Public Recipe Stats'
   trmnlp:
@@ -1329,6 +1411,30 @@ excusemi-trmnl-tv-guideplugin:
       ● Recommended: 5 channels with hourly refresh or evening-only schedule
     github_url: 'https://github.com/ExcuseMi/trmnl-tv-guide.plugin'
     learn_more_url: 'https://tv-plan.org/#/apiarea'
+excusemi-trmnl-twitch-dashboard-plugin:
+  name: 'Twitch Dashboard'
+  trmnlp:
+    id: 243915
+    repo: 'https://github.com/ExcuseMi/trmnl-twitch-dashboard-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-twitch-dashboard-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/jylvkq4v9x1hae5uri9hpi7h1nvu'
+  screenshot_url: 'https://raw.githubusercontent.com/ExcuseMi/trmnl-twitch-dashboard-plugin/refs/heads/main/assets/plugin-images/243915_screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'OAuth not yet supported'
+      min_version: null
+      renderer: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: 'Monitor Twitch streams at a glance: view stream status, viewer counts, followers, and subscriber stats.<br /><br /><strong>Requires OAuth authentication for full access.</strong>'
+    category: entertainment
+    github_url: 'https://github.com/ExcuseMi/trmnl-twitch-dashboard-plugin'
 excusemi-trmnl-word-search-plugin:
   name: 'Word Search'
   trmnlp:
@@ -3994,6 +4100,30 @@ sun-weather-graph:
     github_url: 'https://forgejo.sny.sh/sun/TRMNL'
     learn_more_url: 'https://sny.sh/'
     email_address: sunny@sny.sh
+taichikuji-trmnl-frank-energie-plugin:
+  name: 'Frank Energie'
+  trmnlp:
+    id: 245095
+    repo: 'https://github.com/taichikuji/trmnl-frank-energie-plugin'
+    zip_url: 'https://github.com/taichikuji/trmnl-frank-energie-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-frank-energie-plugin-main/TRMNL/src
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/7y4dnl88fjggc56z6myt63faiwjf'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.27.0
+      renderer: trmnl-liquid
+  author:
+    github: taichikuji
+  funding: {  }
+  author_bio:
+    description: 'Created by Ivan Perez. This plugin is for Dutch residents using Frank Energie who want to monitor real-time electricity and gas prices on their TRMNL device.'
+    category: 'environment,finance'
+    github_url: 'https://github.com/taichikuji/trmnl-frank-energie-plugin'
 thecapypara-trmnl-wingspan:
   name: Wingspan
   trmnlp:
