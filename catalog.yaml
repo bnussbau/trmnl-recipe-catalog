@@ -20,6 +20,101 @@ a-mnich-trmnl-monkey-island-quotes:
   author_bio:
     description: 'TRMNL Monkey Island Quotes Plugin'
     homepage: ''
+alisterscott-trmnl-bne-bin:
+  name: 'Brisbane Bin Collection'
+  trmnlp:
+    id: 240601
+    repo: 'https://github.com/alisterscott/trmnl-bne-bin'
+    zip_url: 'https://github.com/alisterscott/trmnl-bne-bin/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/r59at6p65wglht7bvyexswyw7kvn'
+  screenshot_url: 'https://raw.githubusercontent.com/alisterscott/trmnl-bne-bin/main/media/screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: alisterscott
+  funding: {  }
+  author_bio:
+    description: 'A Personalised Bin Collection Schedule for Brisbane, Queensland, Australia'
+    category: 'life,productivity'
+    github_url: 'https://github.com/alisterscott/trmnl-bne-bin'
+alisterscott-trmnl-flip-date:
+  name: 'International Flip Date Clock'
+  trmnlp:
+    id: 247379
+    repo: 'https://github.com/alisterscott/trmnl-flip-date'
+    zip_url: 'https://github.com/alisterscott/trmnl-flip-date/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/s3bmck6kv50ux01optd0zjca8ihm'
+  screenshot_url: 'https://raw.githubusercontent.com/alisterscott/trmnl-flip-date/main/media/screen.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: alisterscott
+  funding: {  }
+  author_bio:
+    description: 'Retro inspired flip date clock, with internationalisation support.'
+    description-da: 'Retro-inspireret flip-dato ur, med internationaliseringsstøtte.'
+    description-de: 'Retro-inspirierte Flip-Datumsuhr mit Unterstützung für Internationalisierung.'
+    description-de-AT: 'Retro-inspirierte Flip-Datumsuhr mit Unterstützung für Internationalisierung.'
+    description-en-GB: 'Retro inspired flip date clock, with internationalisation support.'
+    description-en: 'Retro inspired flip date clock, with internationalisation support.'
+    description-es-ES: 'Reloj de fecha de flip inspirado en lo retro, con soporte de internacionalización.'
+    description-fr: "Horloge de date à bascule inspirée du rétro, avec prise en charge de l'internationalisation."
+    description-he: 'שעון תאריך פליפ בהשראת רטרו, עם תמיכה באינטרנציונליזציה.'
+    description-hu: 'Retro ihlette flip dátum óra, nemzetközivé tás támogatással.'
+    description-id: 'Jam tanggal flip yang terinspirasi retro, dengan dukungan internasionalisasi.'
+    description-is: 'Retro innblásinn flip dagsetning klukka, með stuðningi við alþjóðavæðingu.'
+    description-ko: '레트로에서 영감을 받은 플립 날짜 시계로 국제화 지원이 가능합니다.'
+    description-it: "Orologio flip date ispirato al retro, con supporto per l'internazionalizzazione."
+    description-ja: レトロ風のフリップ日付時計で、国際化をサポートしています。
+    description-nl: 'Retro geïnspireerde flip datum klok, met ondersteuning voor internationalisatie.'
+    description-pl: 'Zegarek z datą flip inspirowany retro, z obsługą internacjonalizacji.'
+    description-pt-BR: 'Relógio de data flip inspirado no retrô, com suporte à internacionalização.'
+    description-ru: 'Ретро вдохновленные флип-дата часы с поддержкой интернационализации.'
+    description-sk: 'Retro inspirované flip datum hodiny, s podporou internacionalizace.'
+    description-sv: 'Retro inspirerad flip datum klocka, med internationell support.'
+    description-uk: 'Ретро вдохновленные флип-дата часы с поддержкой интернационализации.'
+    description-zh-CN: 复古风格的翻转日期时钟，支持国际化。
+    description-zh-HK: 复古风格的翻转日期时钟，支持国际化。
+    category: 'life,productivity'
+    github_url: 'https://github.com/alisterscott/trmnl-flip-date'
+alisterscott-trmnl-simplenote:
+  name: 'Simplenote Published Note'
+  trmnlp:
+    id: 236882
+    repo: 'https://github.com/alisterscott/trmnl-simplenote'
+    zip_url: 'https://github.com/alisterscott/trmnl-simplenote/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/711sijq3h5ehypvrq9ggcrv18z1q'
+  screenshot_url: 'https://raw.githubusercontent.com/alisterscott/trmnl-simplenote/main/media/screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: alisterscott
+  funding: {  }
+  author_bio:
+    category: 'productivity,life'
+    description: 'Easily display a published <a href="https://simplenote.com/">Simplenote</a> document on your TRMNL'
+    github_url: 'https://github.com/alisterscott/trmnl-simplenote'
 alisterscott-trmnl-translink:
   name: 'Queensland Stop Timetable (Translink)'
   trmnlp:
@@ -1281,6 +1376,31 @@ excusemi-trmnl-databreaches-plugin:
     github_url: 'https://github.com/ExcuseMi/trmnl-databreaches-plugin'
     learn_more_url: 'https://haveibeenpwned.com'
     category: 'news,analytics'
+excusemi-trmnl-deviantart-plugin:
+  name: DeviantArt
+  trmnlp:
+    id: 246026
+    repo: 'https://github.com/ExcuseMi/trmnl-deviantart-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-deviantart-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-deviantart-plugin-main/plugin
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/upv2fmr35qw9y9vcj3hktflp4wwo'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: 'Display personalised art from DeviantArt on your TRMNL device. Requires OAuth'
+    category: 'art,images'
+    github_url: 'https://github.com/ExcuseMi/trmnl-deviantart-plugin'
+    learn_more_url: 'https://www.deviantart.com/'
 excusemi-trmnl-email-messages-plugin:
   name: 'Email Messages'
   trmnlp:
@@ -1311,6 +1431,33 @@ excusemi-trmnl-email-messages-plugin:
       Custom display: Control how emails appear on your screen
     category: email
     github_url: 'https://github.com/ExcuseMi/trmnl-email-messages-plugin'
+excusemi-trmnl-esthio-schoolmenu-plugin:
+  name: 'Esthio Schoolmenu'
+  trmnlp:
+    id: 250418
+    repo: 'https://github.com/ExcuseMi/trmnl-esthio-schoolmenu-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-esthio-schoolmenu-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-esthio-schoolmenu-plugin-main/plugin
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/afh7bdicmmyk5z6jgb4wgx5v9hcg'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: 'Show the upcoming meals provided by Esthio, a Belgian meal provider for school (amongst other audiences). '
+    category: 'calendar,life'
+    learn_more_url: 'https://www.esthio.be/menu/scholen'
+    description-nl: 'Toon de komende maaltijden aangeboden door Esthio, een Belgische maaltijdleverancier voor scholen (en andere doelgroepen).'
+    github_url: 'https://github.com/ExcuseMi/trmnl-esthio-schoolmenu-plugin'
+    help_text: 'TRMNL X Ready'
 excusemi-trmnl-github-releases-plugin:
   name: 'Github Releases'
   trmnlp:
@@ -1333,6 +1480,31 @@ excusemi-trmnl-github-releases-plugin:
   author_bio:
     description: 'Display the latest GitHub releases from your monitored repositories with powerful filtering options. Features: ● Filter by time period (show releases from last N days) ● Include or exclude pre-releases ● Include or exclude draft releases ● Show only the latest release per repository ● Show time since previous release for a project ● Multi-language support ● Dynamic spacing (TRMNL X Ready)'
     github_url: 'https://github.com/ExcuseMi/trmnl-github-releases-plugin'
+excusemi-trmnl-its5oclock-somewhere-plugin:
+  name: " It's 5 O'Clock Somewhere"
+  trmnlp:
+    id: 253752
+    repo: 'https://github.com/ExcuseMi/trmnl-its5oclock-somewhere-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-its5oclock-somewhere-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/5urs5ineegga47ve14he9bhbn7pf'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: 'Discover a new city around the world where it''s exactly 5 PM.<br />A live map shows you just where to raise your glass, because <strong>it''s always 5 o''clock somewhere!</strong><br /><br />glass by Leonardo Henrique Martini from <a href="https://thenounproject.com/browse/icons/term/glass/" target="_blank" title="glass Icons">Noun Project</a> (CC BY 3.0)<br />Beer by Massfoday K Toure from <a href="https://thenounproject.com/browse/icons/term/beer/" target="_blank" title="Beer Icons">Noun Project</a> (CC BY 3.0)<br />'
+    help_text: 'TRMNL X Ready'
+    category: life
+    github_url: 'https://github.com/ExcuseMi/trmnl-its5oclock-somewhere-plugin'
 excusemi-trmnl-lego-plugin:
   name: 'Lego Sets'
   trmnlp:
@@ -1379,6 +1551,44 @@ excusemi-trmnl-sleepy-time-plugin:
     category: life
     description: "Let your loved ones know it's time to head to bed with a warm image and your personal sleepy ritual.Set the schedule for this plugin in your playlist to match your kids bedtime.When setting the schedule, please take into account the refresh rate of your device's dashboard to ensure proper timing.To make sure it never gets buried in your playlist, mark it as important."
     github_url: 'https://github.com/ExcuseMi/trmnl-sleepy-time-plugin'
+excusemi-trmnl-trakt-tv-plugin:
+  name: Trakt.tv
+  trmnlp:
+    id: 245666
+    repo: 'https://github.com/ExcuseMi/trmnl-trakt-tv-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-trakt-tv-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-trakt-tv-plugin-main/plugin
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/0y7clai5rvbu5dun0xh9o38fww2e'
+  screenshot_url: 'https://raw.githubusercontent.com/ExcuseMi/trmnl-trakt-tv-plugin/main/assets/plugin-images/245666_screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    category: entertainment
+    description: |
+      Track your Trakt.tv activity right on your TRMNL device.<br /><br />
+      <strong>Available categories</strong><br />
+      · <strong>Collection</strong> — collected media<br />
+      · <strong>Continue Watching / Paused</strong> — paused shows &amp; movies <em>(self only)</em><br />
+      · <strong>Now Watching</strong> — currently playing<br />
+      · <strong>Recently Watched</strong> — your watch history <em>(self only)</em><br />
+      · <strong>Recommended</strong> — personalized picks from Trakt <em>(self only)</em><br />
+      · <strong>Stats</strong> — watch statistics<em>(self only)</em><br />
+      · <strong>Trending</strong> — what's popular right now<br />
+      · <strong>Upcoming</strong> — next episodes &amp; releases <em>(self only)</em><br />
+      · <strong>Watchlist</strong> — saved items<br /><br />
+      <strong>Requires Trakt.tv OAuth</strong><br /><br /><br />Pick the order you want your categories to appear using the dropdowns.<br />Don't worry about empty categories—they'll be automatically skipped, and the next one with data will show instead.<br /><br />Icons by <a href="https://www.svgrepo.com">SVG Repo</a>  
+    github_url: 'https://github.com/ExcuseMi/trmnl-trakt-tv-plugin'
+    learn_more_url: 'https://trakt.tv/'
+    help_text: 'TRMNL X Ready'
 excusemi-trmnl-tv-guideplugin:
   name: 'TV Guide'
   trmnlp:
@@ -1803,6 +2013,31 @@ hrdkbhatnagar-garbage-calendar:
   funding: {  }
   author_bio:
     description: 'Garbage calendar for TRMNL'
+ingm4r-trmnl-plugin-evcc:
+  name: 'EVCC Dashboard'
+  trmnlp:
+    id: 240868
+    repo: 'https://github.com/ingm4r/trmnl-plugin-evcc'
+    zip_url: 'https://github.com/ingm4r/trmnl-plugin-evcc/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/zgxt0f2thacdg4gzblrc7ztcvedu'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: ingm4r
+  funding: {  }
+  author_bio:
+    category: 'environment,kpi'
+    description: 'Display your EVCC solar charging dashboard on TRMNL. This plugin requires a background service (Docker container) that collects data from your EVCC instance and pushes it to TRMNL via the webhook URL above. See the GitHub README for full setup instructions.'
+    github_url: 'https://github.com/ingm4r/trmnl-plugin-evcc'
+    learn_more_url: 'https://github.com/ingm4r/trmnl-plugin-evcc#readme'
 itsjustthomas-trmnl-anki:
   name: 'Anki cards'
   trmnlp:
@@ -1825,6 +2060,30 @@ itsjustthomas-trmnl-anki:
   author_bio:
     description: 'Display Anki cards on TRMNL'
     homepage: ''
+jaredcat-personal-steam-deals:
+  name: 'Personal Steam Deals'
+  trmnlp:
+    id: 246965
+    repo: 'https://github.com/jaredcat/trmnl-plugins'
+    zip_url: 'https://github.com/jaredcat/trmnl-plugins/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-plugins-main/personal-steam-deals
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/zn7wxscf4zesxo4b32bend4bn6dg'
+  screenshot_url: 'https://raw.githubusercontent.com/jaredcat/trmnl-plugins/refs/heads/main/images/personal-steam-deals.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: jaredcat
+  funding: {  }
+  author_bio:
+    category: 'games,personal'
+    github_url: 'https://github.com/jaredcat/trmnl-plugins'
+    description: 'Displays Steam deals only for games that you don''t own!<br/><br/>Originally forked from <a href="https://trmnl.com/recipes/18131" class="underline" rel="noreferrer nofollow">Steam Deals of the Day</a>'
 javasavvydev-trmnl:
   name: XWeather
   trmnlp:
@@ -2488,6 +2747,105 @@ lanrat-pickles-comic:
     description: 'Displays the daily Pickles comic by Brian Crane'
     github_url: 'https://github.com/lanrat/trmnl_plugins'
     learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/Pickles%20Comic'
+lanrat-xkcd-hover:
+  name: 'XKCD Comic (with Hover text)'
+  trmnlp:
+    id: 230540
+    repo: 'https://github.com/lanrat/trmnl_plugins/tree/main/XKCD%20Hover'
+    zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
+    zip_entry_path: 'trmnl_plugins-main/XKCD Hover'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/iuqvggili0lqt1o93r807l2a9c5i'
+  screenshot_url: 'https://raw.githubusercontent.com/lanrat/trmnl_plugins/main/XKCD%20Hover/screenshot.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: lanrat
+  funding: {  }
+  author_bio:
+    category: comics
+    description: 'XKCD Comic by Randall Munroe with hover text'
+    github_url: 'https://github.com/lanrat/trmnl_plugins'
+    learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/XKCD%20Hover'
+lanrat-xkcd-hover-copy:
+  name: 'Daily B.C. Comic'
+  trmnlp:
+    id: 248039
+    repo: 'https://github.com/lanrat/trmnl_plugins'
+    zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
+    zip_entry_path: 'trmnl_plugins-main/B.C. Comic'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/coeweiksh83vv9s2xesmnd6cdpxo'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: lanrat
+  funding: {  }
+  author_bio:
+    category: comics
+    description: 'Displays the daily B.C. comic by Johnny Hart'
+    github_url: 'https://github.com/lanrat/trmnl_plugins'
+    learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/B.C.%20Comic'
+macusercom-trmnl-pollen-information-austria:
+  name: 'Pollen Information Austria'
+  trmnlp:
+    id: 255979
+    repo: 'https://github.com/Macusercom/TRMNL-Pollen-Information-Austria'
+    zip_url: 'https://github.com/Macusercom/TRMNL-Pollen-Information-Austria/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/zeat5wr0cuavzqf8dkodo3fugq8x'
+  screenshot_url: 'https://raw.githubusercontent.com/Macusercom/TRMNL-Pollen-Information-Austria/main/images/image1.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: Macusercom
+  funding: {  }
+  author_bio:
+    category: 'nature,life'
+    description: 'Shows current pollen contamination for your location for today and the next 3 days.<br/><br/>To use this plugin you need a free API key. Request one here: <a href="https://www.polleninformation.at/datenschnittstelle/api-key-anfordern" target="_blank">polleninformation.at/datenschnittstelle/api-key-anfordern</a><br/><br/>Data provided by Österreichischer Polleninformationsdienst, <a href="https://www.polleninformation.at" target="_blank">www.polleninformation.at</a>'
+    learn_more_url: 'https://www.polleninformation.at/datenschnittstelle/api-key-anfordern'
+    github_url: 'https://github.com/macusercom'
+macusercom-trmnl-vienna-public-transport-disruptions:
+  name: 'Vienna Public Transport Disruptions'
+  trmnlp:
+    id: 250757
+    repo: 'https://github.com/Macusercom/TRMNL-Vienna-Public-Transport-Disruptions'
+    zip_url: 'https://github.com/Macusercom/TRMNL-Vienna-Public-Transport-Disruptions/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/6uvx4sbars3gcp97qe42lbw4alfb'
+  screenshot_url: 'https://raw.githubusercontent.com/Macusercom/TRMNL-Vienna-Public-Transport-Disruptions/main/images/image1.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: Macusercom
+  funding: {  }
+  author_bio:
+    category: travel
+    description: 'Public Transport Disruptions for Vienna (Wiener Linien) provided by the Wiener Linien API. Image loaded from wikipedia.org'
+    github_url: 'https://github.com/Macusercom/TRMNL-Vienna-Public-Transport-Disruptions/'
 martinbelko-trmnl-plugin-tibber-norway:
   name: 'Tibber Norway'
   trmnlp:
@@ -4108,7 +4466,7 @@ taichikuji-trmnl-frank-energie-plugin:
     zip_url: 'https://github.com/taichikuji/trmnl-frank-energie-plugin/archive/refs/heads/main.zip'
     zip_entry_path: trmnl-frank-energie-plugin-main/TRMNL/src
     version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/7y4dnl88fjggc56z6myt63faiwjf'
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/6s6apzw3f7iny7m3betk4j9r436q'
   screenshot_url: null
   license: MIT
   byos:
@@ -4123,7 +4481,33 @@ taichikuji-trmnl-frank-energie-plugin:
   author_bio:
     description: 'Created by Ivan Perez. This plugin is for Dutch residents using Frank Energie who want to monitor real-time electricity and gas prices on their TRMNL device.'
     category: 'environment,finance'
+    learn_more_url: 'https://discordid.taichikuji.org/discord'
     github_url: 'https://github.com/taichikuji/trmnl-frank-energie-plugin'
+taichikuji-trmnl-tmb-plugin:
+  name: 'TMB Alerts'
+  trmnlp:
+    id: 247650
+    repo: 'https://github.com/taichikuji/trmnl-tmb-plugin'
+    zip_url: 'https://github.com/taichikuji/trmnl-tmb-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-tmb-plugin/TRMNL
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/engtjh2leelmcvszzga4uqscsywz'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: taichikuji
+  funding: {  }
+  author_bio:
+    description: 'Created by Ivan Perez. This plugin is for monitoring real-time metro outages in Barcelona on your TRMNL device.'
+    category: 'news,travel'
+    learn_more_url: 'https://discordid.taichikuji.org/discord'
+    github_url: 'https://github.com/taichikuji/trmnl-tmb-plugin'
 thecapypara-trmnl-wingspan:
   name: Wingspan
   trmnlp:
