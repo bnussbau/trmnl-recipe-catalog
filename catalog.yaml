@@ -2540,6 +2540,56 @@ kraynel-trmnl-sentry:
   author_bio:
     description: 'Monitor your applications health and performance with Sentry, display up to date issue count and key performance metrics.'
     github_url: 'https://github.com/kraynel/trmnl-sentry'
+lanrat-adhdinos-comic:
+  name: ADHDinos
+  trmnlp:
+    id: 248040
+    repo: 'https://github.com/lanrat/trmnl_plugins'
+    zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
+    zip_entry_path: 'trmnl_plugins-main/ADHDinos Comic'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ez4kl0qixoifl13k0dfsp23mg71a'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: lanrat
+  funding: {  }
+  author_bio:
+    category: comics
+    description: 'Displays the ADHDinos comic by Ryan Keats'
+    github_url: 'https://github.com/lanrat/trmnl_plugins'
+    learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/ADHDinos%20Comic'
+lanrat-bc-comic:
+  name: 'Daily B.C. Comic'
+  trmnlp:
+    id: 248039
+    repo: 'https://github.com/lanrat/trmnl_plugins'
+    zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
+    zip_entry_path: 'trmnl_plugins-main/B.C. Comic'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/coeweiksh83vv9s2xesmnd6cdpxo'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: lanrat
+  funding: {  }
+  author_bio:
+    category: comics
+    description: 'Displays the daily B.C. comic by Johnny Hart'
+    github_url: 'https://github.com/lanrat/trmnl_plugins'
+    learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/B.C.%20Comic'
 lanrat-beware-of-toddler:
   name: 'Beware of Toddler Comic'
   trmnlp:
@@ -2701,6 +2751,31 @@ lanrat-litterbox-comics:
     description: 'Displays the daily Litterbox comic by Chesca Hause'
     github_url: 'https://github.com/lanrat/trmnl_plugins'
     learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/Litterbox%20Comics'
+lanrat-luann-comic:
+  name: 'Daily Luann Comic'
+  trmnlp:
+    id: 248034
+    repo: 'https://github.com/lanrat/trmnl_plugins'
+    zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
+    zip_entry_path: 'trmnl_plugins-main/Luann Comic'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/dv59ptstep4d697fgbnsniguq956'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: lanrat
+  funding: {  }
+  author_bio:
+    category: comics
+    description: 'Displays the daily Luann comic by Greg Evans and Karen Evans'
+    github_url: 'https://github.com/lanrat/trmnl_plugins'
+    learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/Luann%20Comic'
 lanrat-nasa-image-of-the-day:
   name: 'NASA Image of the Day'
   trmnlp:
@@ -2772,31 +2847,6 @@ lanrat-xkcd-hover:
     description: 'XKCD Comic by Randall Munroe with hover text'
     github_url: 'https://github.com/lanrat/trmnl_plugins'
     learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/XKCD%20Hover'
-lanrat-xkcd-hover-copy:
-  name: 'Daily B.C. Comic'
-  trmnlp:
-    id: 248039
-    repo: 'https://github.com/lanrat/trmnl_plugins'
-    zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
-    zip_entry_path: 'trmnl_plugins-main/B.C. Comic'
-    version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/coeweiksh83vv9s2xesmnd6cdpxo'
-  screenshot_url: null
-  license: Unknown
-  byos:
-    byos_laravel:
-      compatibility: null
-      compatibility_note: null
-      min_version: null
-      renderer: null
-  author:
-    github: lanrat
-  funding: {  }
-  author_bio:
-    category: comics
-    description: 'Displays the daily B.C. comic by Johnny Hart'
-    github_url: 'https://github.com/lanrat/trmnl_plugins'
-    learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/B.C.%20Comic'
 macusercom-trmnl-pollen-information-austria:
   name: 'Pollen Information Austria'
   trmnlp:
