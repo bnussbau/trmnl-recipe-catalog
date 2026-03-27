@@ -4813,6 +4813,31 @@ transitnownash-trmnl-wego-next-trip:
     github_url: 'https://github.com/transitnownash/trmnl-wego-next-trip'
     learn_more_url: 'https://map.transitnownash.org/'
     email_address: stephen@yearg.in
+upcoming_ics:
+  name: 'Upcoming ICS Calendar'
+  trmnlp:
+    id: # Update this if you register it in the official TRMNL directory
+    repo: 'https://github.com/paprika27/trmnlp_upcoming_ics'
+    # Note: Update the zip_url with your specific commit hash or 'main.zip'
+    zip_url: 'https://github.com/paprika27/trmnlp_upcoming_ics/archive/refs/heads/main.zip'
+    version: '1.0.0'
+  logo_url: 'https://trmnl.com/images/plugins/caldav.svg'
+  screenshot_url: 'https://raw.githubusercontent.com/paprika27/trmnlp_upcoming_ics/main/screenshot.png'
+  license: 'MIT'
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: 'Tested on Laravel TRMNL 0.31.3'
+      min_version: 0.31.3
+  author:
+    github: 'paprika27'
+    name: 'Paprika' # Update with your preferred display name
+  funding:
+    github: 'paprika27'
+  author_bio:
+    description: 'A scrolling ICS calendar view for TRMNL with smart hero status.'
+    github_url: 'https://github.com/paprika27/trmnlp_upcoming_ics'
+    learn_more_url: 'https://github.com/paprika27/trmnlp_upcoming_ics/blob/main/README.md'
 vimwtf-trmnl-lumon-wellness:
   name: 'Lumon Wellness'
   trmnlp:
