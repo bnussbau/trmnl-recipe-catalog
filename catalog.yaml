@@ -4830,14 +4830,12 @@ upcoming_ics:
       compatibility_note: 'Tested on Laravel TRMNL 0.31.3'
       min_version: 0.31.3
   author:
-    github: 'paprika27'
-    name: 'Paprika' # Update with your preferred display name
-  funding:
-    github: 'paprika27'
+    github: paprika27
   author_bio:
-    description: 'A scrolling ICS calendar view for TRMNL with smart hero status.'
+    description: 'A scrolling timeline ICS calendar view for TRMNL with smart hero status.'
     github_url: 'https://github.com/paprika27/trmnlp_upcoming_ics'
     learn_more_url: 'https://github.com/paprika27/trmnlp_upcoming_ics/blob/main/README.md'
+    email_address: paprika27@duck.com
 vimwtf-trmnl-lumon-wellness:
   name: 'Lumon Wellness'
   trmnlp:
