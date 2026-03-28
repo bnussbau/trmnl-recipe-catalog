@@ -4816,9 +4816,8 @@ transitnownash-trmnl-wego-next-trip:
 upcoming_ics:
   name: 'Upcoming ICS Calendar'
   trmnlp:
-    id: # Update this if you register it in the official TRMNL directory
+    id: # please assign
     repo: 'https://github.com/paprika27/trmnlp_upcoming_ics'
-    # Note: Update the zip_url with your specific commit hash or 'main.zip'
     zip_url: 'https://github.com/paprika27/trmnlp_upcoming_ics/archive/refs/heads/main.zip'
     version: '1.0.0'
   logo_url: 'https://trmnl.com/images/plugins/caldav.svg'
