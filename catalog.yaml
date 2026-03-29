@@ -2985,6 +2985,28 @@ monsieurm-trmnl-yearinprogress:
   funding: {  }
   author_bio:
     description: 'This plug-in shows the progress of the year (dots or bar) on TRMNL device'
+paprika27-upcoming_ics:
+  name: 'Upcoming ICS Calendar'
+  trmnlp:
+    id: null
+    repo: 'https://github.com/paprika27/trmnlp_upcoming_ics'
+    zip_url: 'https://github.com/paprika27/trmnlp_upcoming_ics/archive/refs/heads/main.zip'
+    version: '1.0.0'
+  logo_url: 'https://raw.githubusercontent.com/paprika27/trmnlp_upcoming_ics/refs/heads/main/caldav.svg'
+  screenshot_url: 'https://raw.githubusercontent.com/paprika27/trmnlp_upcoming_ics/main/screenshot.png'
+  license: 'MIT'
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.31.3
+  author:
+    github: paprika27
+  author_bio:
+    description: 'A scrolling timeline ICS calendar view for TRMNL with smart hero status.'
+    github_url: 'https://github.com/paprika27/trmnlp_upcoming_ics'
+    learn_more_url: 'https://github.com/paprika27/trmnlp_upcoming_ics/blob/main/README.md'
+    email_address: paprika27@duck.com
 pipwilson-trmnl-72-seasons:
   name: '72 Japanese Seasons'
   trmnlp:
@@ -4813,28 +4835,6 @@ transitnownash-trmnl-wego-next-trip:
     github_url: 'https://github.com/transitnownash/trmnl-wego-next-trip'
     learn_more_url: 'https://map.transitnownash.org/'
     email_address: stephen@yearg.in
-upcoming_ics:
-  name: 'Upcoming ICS Calendar'
-  trmnlp:
-    id: # please assign
-    repo: 'https://github.com/paprika27/trmnlp_upcoming_ics'
-    zip_url: 'https://github.com/paprika27/trmnlp_upcoming_ics/archive/refs/heads/main.zip'
-    version: '1.0.0'
-  logo_url: 'https://trmnl.com/images/plugins/caldav.svg'
-  screenshot_url: 'https://raw.githubusercontent.com/paprika27/trmnlp_upcoming_ics/main/screenshot.png'
-  license: 'MIT'
-  byos:
-    byos_laravel:
-      compatibility: true
-      compatibility_note: 'Tested on Laravel TRMNL 0.31.3'
-      min_version: 0.31.3
-  author:
-    github: paprika27
-  author_bio:
-    description: 'A scrolling timeline ICS calendar view for TRMNL with smart hero status.'
-    github_url: 'https://github.com/paprika27/trmnlp_upcoming_ics'
-    learn_more_url: 'https://github.com/paprika27/trmnlp_upcoming_ics/blob/main/README.md'
-    email_address: paprika27@duck.com
 vimwtf-trmnl-lumon-wellness:
   name: 'Lumon Wellness'
   trmnlp:
