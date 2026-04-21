@@ -33,10 +33,10 @@ alisterscott-trmnl-bne-bin:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
-      renderer: null
+      min_version: 0.29.0
+      renderer: trmnl-liquid
   author:
     github: alisterscott
   funding: {  }
@@ -280,6 +280,33 @@ bastronautik-trmnl-triangles-art:
     category: art
     email_address: trmnl@achtnegen.nl
     github_url: 'https://github.com/Bastronautik/trmnl-triangles-art'
+blueset-custom-next-holiday:
+  name: 'Custom Next Holiday and Countdown'
+  trmnlp:
+    id: 257171
+    repo: 'https://github.com/blueset/trmnl-recipes/tree/master/custom-next-holiday'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/custom-next-holiday
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/pfg9gi2e2frtj0ab322j7f3lwu96'
+  screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/refs/heads/master/slickdeals/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: blueset
+  funding:
+    github: blueset
+    liberapay: blueset
+    ko_fi: blueset
+  author_bio:
+    description: 'Countdown to your custom holidays. Support absolute dates, date of month, and <b class="font-normal italic">n</b>-th weekday of month.'
+    github_url: 'https://github.com/blueset/trmnl-recipes'
+    category: 'calendar,personal'
 blueset-github-trending-repos:
   name: 'GitHub Trending Repos'
   trmnlp:
@@ -787,6 +814,34 @@ blueset-wsdot:
       Real-time travel info from Washington State Department of Transportation (WSDOT). Show travel times, traffic cameras, and alerts on your dashboard. <a href="https://github.com/blueset/trmnl-recipes/tree/master/wsdot" class="underline" target="_blank">Checkout previews of each content</a>. Data powered by <a href="https://wsdot.com/traffic/api/" class="underline" target="_blank">WSDOT Traffic API</a>.
     github_url: 'https://github.com/blueset/trmnl-recipes'
     learn_more_url: 'https://wsdot.com/traffic/api/'
+blueset-wsdot-copy:
+  name: 'Random Computer'
+  trmnlp:
+    id: 258479
+    repo: 'https://github.com/blueset/trmnl-recipes/tree/master/random-computer'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/random-computer
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/rarcmt81lm2jg3ngpa7wzdbm4q2u'
+  screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/refs/heads/master/slickdeals/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: blueset
+  funding:
+    github: blueset
+    liberapay: blueset
+    ko_fi: blueset
+  author_bio:
+    description: 'What are people doing on their computers around the world, especially those with an insecure setup. Data courtesy of <a href="https://computernewb.com/vncresolver/">Computernewb VNC Resolver</a>.'
+    category: discovery
+    learn_more: 'https://computernewb.com/vncresolver/'
+    github_url: 'https://github.com/blueset/trmnl-recipes'
 bnussbau-trmnl-austrian-train-departures:
   name: 'Austrian Train Departures (OEBB)'
   trmnlp:
@@ -1225,6 +1280,32 @@ erikbuild-trmnl-yolink-temperature:
   funding: {  }
   author_bio:
     description: 'Simple TRMNL plugin for grabbing the current state of YoLink temperature sensors.'
+excusemi-artificial-intelligence-plugin:
+  name: 'AI Leaderboard'
+  trmnlp:
+    id: 258521
+    repo: 'https://github.com/ExcuseMi/trmnl-artificial-intelligence-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-artificial-intelligence-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-artificial-intelligence-plugin-main/plugin
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ku6i13elgk4cosj65yi8w12jrdpt'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: 'Live AI model leaderboards powered by Artificial Analysis'
+    help_text: 'TRMNL X Ready'
+    category: analytics
+    github_url: 'https://github.com/ExcuseMi/trmnl-artificial-intelligence-plugin'
+    learn_more_url: 'https://artificialanalysis.ai/'
 excusemi-comic-book-covers-plugin:
   name: 'Comic Book Covers'
   trmnlp:
@@ -1401,6 +1482,31 @@ excusemi-trmnl-deviantart-plugin:
     category: 'art,images'
     github_url: 'https://github.com/ExcuseMi/trmnl-deviantart-plugin'
     learn_more_url: 'https://www.deviantart.com/'
+excusemi-trmnl-earth-observatory-plugin:
+  name: 'Earth Observatory Image of the Day'
+  trmnlp:
+    id: 280791
+    repo: 'https://github.com/ExcuseMi/trmnl-earth-observatory-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-earth-observatory-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-earth-observatory-plugin-main/plugin
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/i4cyzeotuxa6z7iewmu3znp1yuva'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: 'Displays the NASA Earth Observatory Image of the Day — satellite and scientific imagery of Earth with title, description, and author.<br />Data is pulled directly from the official NASA Earth Observatory RSS feed.'
+    category: 'nature,environment'
+    github_url: 'https://github.com/ExcuseMi/trmnl-earth-observatory-plugin'
+    learn_more_url: 'https://science.nasa.gov/earth/earth-observatory/image-of-the-day/'
 excusemi-trmnl-email-messages-plugin:
   name: 'Email Messages'
   trmnlp:
@@ -1735,6 +1841,30 @@ glyphic.com-marquee:
     github_url: 'https://forge.glyphic.com/mark/marquee'
     learn_more_url: 'https://www.glyphic.com/marquee/'
     email_address: mark+marquee@glyphic.com
+gnitsua-artemis2-trmnl:
+  name: Artemis2
+  trmnlp:
+    id: 279677
+    repo: 'https://github.com/gnitsua/artemis2-trmnl'
+    zip_url: 'https://github.com/gnitsua/artemis2-trmnl/archive/refs/heads/mainline.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/q9ym5ksormx5z9q4nwyb9bakulll'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: gnitsua
+  funding: {  }
+  author_bio:
+    category: news
+    description: "Tracks the Artemis II spacecraft position using data from NASA's JPL Horizons API. Updated every 15 minutes via GitHub Actions."
+    github_url: 'https://github.com/gnitsua/artemis2-trmnl'
 guilhermemorais-trmnl-github-pull-requests:
   name: 'GitHub Pull Requests'
   trmnlp:
@@ -2084,6 +2214,90 @@ jaredcat-personal-steam-deals:
     category: 'games,personal'
     github_url: 'https://github.com/jaredcat/trmnl-plugins'
     description: 'Displays Steam deals only for games that you don''t own!<br/><br/>Originally forked from <a href="https://trmnl.com/recipes/18131" class="underline" rel="noreferrer nofollow">Steam Deals of the Day</a>'
+jasonwaters-beautiful-weather:
+  name: 'Beautiful Weather'
+  trmnlp:
+    id: null
+    repo: 'https://github.com/jasonwaters/trmnl'
+    zip_url: 'https://github.com/jasonwaters/trmnl/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-main/plugins/beautiful-weather
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: jasonwaters
+  funding: {  }
+  author_bio: {  }
+jasonwaters-health-chart:
+  name: 'Health Chart'
+  trmnlp:
+    id: null
+    repo: 'https://github.com/jasonwaters/trmnl'
+    zip_url: 'https://github.com/jasonwaters/trmnl/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-main/plugins/health-chart
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: jasonwaters
+  funding: {  }
+  author_bio: {  }
+jasonwaters-parcel:
+  name: Parcel
+  trmnlp:
+    id: null
+    repo: 'https://github.com/jasonwaters/trmnl'
+    zip_url: 'https://github.com/jasonwaters/trmnl/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-main/plugins/parcel
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: jasonwaters
+  funding: {  }
+  author_bio: {  }
+jasonwaters-stock-price:
+  name: 'Stock Price'
+  trmnlp:
+    id: null
+    repo: 'https://github.com/jasonwaters/trmnl'
+    zip_url: 'https://github.com/jasonwaters/trmnl/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-main/plugins/stock-price
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: jasonwaters
+  funding: {  }
+  author_bio: {  }
 javasavvydev-trmnl:
   name: XWeather
   trmnlp:
@@ -2197,6 +2411,32 @@ jetsharklambo-acstop:
     github_url: 'https://github.com/jetsharklambo/ACstop'
     learn_more_url: 'https://maximo.is/jetsharklambo'
     email_address: jetsharklambo+trmnlcom@gmail.com
+jetsharklambo-bartstop:
+  name: BARTstop
+  trmnlp:
+    id: 180254
+    repo: 'https://github.com/jetsharklambo/BARTstop'
+    zip_url: 'https://github.com/jetsharklambo/BARTstop/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/mpvzf3ii0hhwab7ulbheht9sfp6x'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: jetsharklambo
+  funding: {  }
+  author_bio:
+    category: travel
+    description: 'Shows realtime departure information about any BART station on your TRMNL.'
+    github_url: 'https://github.com/jetsharklambo/BARTstop'
+    learn_more_url: 'https://maximo.is/jetsharklambo'
+    email_address: jetsharklambo+trmnl@gmail.com
 jonasherzfeld-trmnl-hvv:
   name: 'HVV Transit'
   trmnlp:
@@ -2553,10 +2793,10 @@ lanrat-adhdinos-comic:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
-      renderer: null
+      min_version: 0.29.0
+      renderer: trmnl-liquid
   author:
     github: lanrat
   funding: {  }
@@ -2613,6 +2853,30 @@ lanrat-beware-of-toddler:
     description: 'Displays the daily Beware of Toddler Comic by George Gant'
     github_url: 'https://github.com/lanrat/trmnl_plugins'
     learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/Beware%20of%20Toddler%20Comic'
+lanrat-currency-index:
+  name: 'Currency Index'
+  trmnlp:
+    id: 273095
+    repo: 'https://github.com/lanrat/trmnl_plugins'
+    zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
+    zip_entry_path: 'trmnl_plugins-main/Currency Index'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/h2a2m8iuzsxb9rz234ckkhhitskt'
+  screenshot_url: 'https://raw.githubusercontent.com/lanrat/trmnl_plugins/main/XKCD%20Hover/screenshot.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: lanrat
+  funding: {  }
+  author_bio:
+    category: 'finance,ecommerce'
+    description: 'Time-series chart of currency exchange rates relative to a base currency, powered by the Frankfurter API.'
+    github_url: 'https://github.com/lanrat/trmnl_plugins'
 lanrat-daily-new-yorker-cartoon:
   name: 'Daily New Yorker Cartoon'
   trmnlp:
@@ -2659,6 +2923,30 @@ lanrat-day-night-map:
     description: 'A real-time visualization of day and night regions across the world using accurate solar and lunar positioning calculations.'
     github_url: 'https://github.com/lanrat/trmnl_plugins'
     learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/Day%20Night%20Map'
+lanrat-environment-sensor-graph:
+  name: 'Environmental Sensor Graph'
+  trmnlp:
+    id: 256958
+    repo: 'https://github.com/lanrat'
+    zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
+    zip_entry_path: 'trmnl_plugins-main/Environmental Sensor Graph'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/3w733n895bc3wfw0tfpr0g6yarkb'
+  screenshot_url: 'https://raw.githubusercontent.com/lanrat/trmnl_plugins/main/XKCD%20Hover/screenshot.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: lanrat
+  funding: {  }
+  author_bio:
+    category: environment
+    description: 'Graphs data from connected environmental sensors including temperature, humidity, carbon dioxide, and pressure.'
+    github_url: 'https://github.com/lanrat/trmnl_plugins'
 lanrat-far-side-comic:
   name: 'Far Side Comic'
   trmnlp:
@@ -2776,6 +3064,30 @@ lanrat-luann-comic:
     description: 'Displays the daily Luann comic by Greg Evans and Karen Evans'
     github_url: 'https://github.com/lanrat/trmnl_plugins'
     learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/Luann%20Comic'
+lanrat-maker-world:
+  name: 'MakerWorld Trending Models'
+  trmnlp:
+    id: 272038
+    repo: 'https://github.com/lanrat/trmnl_plugins'
+    zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl_plugins-main/MakerWorld
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/yzx8ve05numjdh4jp05z7afdmh8j'
+  screenshot_url: 'https://raw.githubusercontent.com/lanrat/trmnl_plugins/main/XKCD%20Hover/screenshot.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: lanrat
+  funding: {  }
+  author_bio:
+    category: discovery
+    description: 'Show Trending projects from MakerWorld'
+    github_url: 'https://github.com/lanrat/trmnl_plugins'
 lanrat-nasa-image-of-the-day:
   name: 'NASA Image of the Day'
   trmnlp:
@@ -2822,6 +3134,30 @@ lanrat-pickles-comic:
     description: 'Displays the daily Pickles comic by Brian Crane'
     github_url: 'https://github.com/lanrat/trmnl_plugins'
     learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/Pickles%20Comic'
+lanrat-twonks:
+  name: 'Twonks Comics'
+  trmnlp:
+    id: 272414
+    repo: 'https://github.com/lanrat/trmnl_plugins'
+    zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl_plugins-main/Twonks
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/87n6p5mhebaxglrndxcyugtw7nho'
+  screenshot_url: 'https://raw.githubusercontent.com/lanrat/trmnl_plugins/main/XKCD%20Hover/screenshot.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: lanrat
+  funding: {  }
+  author_bio:
+    category: comics
+    description: 'Displays Twonks comics by Steve Nelson'
+    github_url: 'https://github.com/lanrat/trmnl_plugins'
 lanrat-xkcd-hover:
   name: 'XKCD Comic (with Hover text)'
   trmnlp:
@@ -2847,6 +3183,53 @@ lanrat-xkcd-hover:
     description: 'XKCD Comic by Randall Munroe with hover text'
     github_url: 'https://github.com/lanrat/trmnl_plugins'
     learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/XKCD%20Hover'
+lucaspimentel-lp-weather:
+  name: 'LP Weather'
+  trmnlp:
+    id: 249561
+    repo: 'https://github.com/lucaspimentel/trmnl-plugins'
+    zip_url: 'https://github.com/lucaspimentel/trmnl-plugins/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-plugins-main/plugins/weather
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: lucaspimentel
+  funding: {  }
+  author_bio:
+    description: 'Plugins for TRMNL'
+    homepage: ''
+lucaspimentel-mbta-alerts:
+  name: 'MBTA Alerts'
+  trmnlp:
+    id: 93149
+    repo: 'https://github.com/lucaspimentel/trmnl-plugins'
+    zip_url: 'https://github.com/lucaspimentel/trmnl-plugins/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-plugins-main/plugins/mbta-alerts
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/4djpjgf9wy2bs3jcg033s75tatn0'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: lucaspimentel
+  funding: {  }
+  author_bio:
+    description: 'Shows service alerts from the Massachusetts Bay Transport Authority (MBTA)'
+    github_url: 'https://github.com/lucaspimentel/trmnl-plugins'
+    learn_more_url: 'https://github.com/lucaspimentel/trmnl-plugins/tree/main/plugins/mbta-alerts/README.md'
 macusercom-trmnl-pollen-information-austria:
   name: 'Pollen Information Austria'
   trmnlp:
@@ -2985,16 +3368,41 @@ monsieurm-trmnl-yearinprogress:
   funding: {  }
   author_bio:
     description: 'This plug-in shows the progress of the year (dots or bar) on TRMNL device'
+nickspaghetti-trmnl-osrs-ge-price-trend:
+  name: 'OSRS GE Price Trend'
+  trmnlp:
+    id: 265824
+    repo: 'https://github.com/NickSpaghetti/trmnl-osrs-ge-price-trend'
+    zip_url: 'https://github.com/NickSpaghetti/trmnl-osrs-ge-price-trend/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ulupbp3228sbzsighjth5h6tes8s'
+  screenshot_url: null
+  license: Apache-2.0
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: NickSpaghetti
+  funding: {  }
+  author_bio:
+    category: 'games,ecommerce'
+    description: 'Show the price trends of an item from the Grand Exchange in OSRS.'
+    github_url: 'https://github.com/NickSpaghetti'
+    learn_more_url: 'https://github.com/NickSpaghetti/trmnl-osrs-ge-price-trend'
 paprika27-upcoming_ics:
   name: 'Upcoming ICS Calendar'
   trmnlp:
     id: null
     repo: 'https://github.com/paprika27/trmnlp_upcoming_ics'
     zip_url: 'https://github.com/paprika27/trmnlp_upcoming_ics/archive/refs/heads/main.zip'
-    version: '1.0.0'
+    version: 1.0.0
   logo_url: 'https://raw.githubusercontent.com/paprika27/trmnlp_upcoming_ics/refs/heads/main/caldav.svg'
   screenshot_url: 'https://raw.githubusercontent.com/paprika27/trmnlp_upcoming_ics/main/screenshot.png'
-  license: 'MIT'
+  license: MIT
   byos:
     byos_laravel:
       compatibility: true
@@ -3002,6 +3410,7 @@ paprika27-upcoming_ics:
       min_version: 0.31.3
   author:
     github: paprika27
+  funding: {  }
   author_bio:
     description: 'A scrolling timeline ICS calendar view for TRMNL with smart hero status.'
     github_url: 'https://github.com/paprika27/trmnlp_upcoming_ics'
@@ -4580,6 +4989,36 @@ taichikuji-trmnl-tmb-plugin:
     category: 'news,travel'
     learn_more_url: 'https://discordid.taichikuji.org/discord'
     github_url: 'https://github.com/taichikuji/trmnl-tmb-plugin'
+thecapypara-trmnl-wakatime-stats:
+  name: 'WakaTime Stats'
+  trmnlp:
+    id: 241536
+    repo: 'https://github.com/theCapypara/trmnl-wakatime-stats'
+    zip_url: 'https://github.com/theCapypara/trmnl-wakatime-stats/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/2pw1uh9882v8vzgio0nqouwd7cno'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: theCapypara
+  funding: {  }
+  author_bio:
+    description: |
+      This plugin displays WakaTime statistics using <a href="https://wakatime.com/developers#stats" target="_blank">WakaTime's API</a>.
+      To use the plugin, your profile must be set to public.
+      <br>
+      This plugin can show you the same information as you configured on your public profile,
+      except for the activity diagram. For that see <a href="https://trmnl.com/recipes/123718" target="_blank">WakaTime Dashboard</a>: a plugin that 
+      displays WakaTime coding activity.
+    category: productivity
+    github_url: 'https://github.com/theCapypara/trmnl-wakatime-stats'
 thecapypara-trmnl-wingspan:
   name: Wingspan
   trmnlp:
