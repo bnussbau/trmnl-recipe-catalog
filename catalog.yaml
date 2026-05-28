@@ -1172,6 +1172,30 @@ captainproton42-trmnl-transport-api:
       Displays upcoming departures from a chosen bus stop in the UK via TransportAPI.
       Note that TransportAPI's free plan only allows 30 hits per day, so lowering the refresh rate to < 1 hour is not recommended.
     github_url: 'https://github.com/CaptainProton42/trmnl-transport-api'
+carterpape-trmnl-sports:
+  name: 'Next Game'
+  trmnlp:
+    id: 271063
+    repo: 'https://github.com/CarterPape/trmnl-sports'
+    zip_url: 'https://github.com/CarterPape/trmnl-sports/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-sports-main/src
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/pmpqsnktawpgjir701wn0bm8rflo'
+  screenshot_url: null
+  license: GPL-3.0
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: CarterPape
+  funding: {  }
+  author_bio:
+    category: sports
+    description: 'Shows the next scheduled game for teams across major sports leagues, including:  • North American professional sports (NFL, NBA, NHL, MLB, MLS, WNBA, NWSL) • College football and basketball • Top European soccer leagues (EPL, La Liga, Bundesliga, Serie A, Ligue 1) • Aussie leagues (AFL, NRL, Big Bash) • Indian Premier League  Optionally filter to only see home or away games.'
+    github_url: 'https://github.com/CarterPape/trmnl-sports'
 ctorrao-trmnl-fuel-pricing-pt:
   name: 'Fuel Prices Portugal'
   trmnlp:
@@ -1433,6 +1457,61 @@ excusemi-trmnl-comic-library-plugin:
     github_url: 'https://github.com/ExcuseMi/trmnl-comic-library-plugin'
     learn_more_url: 'https://excusemi.github.io/trmnl-comic-library-plugin/'
     category: comics
+excusemi-trmnl-dad-jokes-by-groandeck-plugin:
+  name: 'Dad Jokes by GroanDeck.com'
+  trmnlp:
+    id: 285134
+    repo: 'https://github.com/ExcuseMi/trmnl-dad-jokes-by-groandeck-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-dad-jokes-by-groandeck-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/f11xxcufw4xp96ukq4mos1cnsrtq'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'API does not support BYOS'
+      min_version: null
+      renderer: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: |-
+      Dad Jokes courtesy of GroanDeck.com
+      The curated collection of dad jokes that make you groan, roll your eyes — and then reluctantly tell someone else.
+      Every joke is clean, work-safe, and built on puns or wordplay. Quality over quantity: each one is reviewed before it goes live. If it doesn't produce a genuine groan, it doesn't make the cut.
+      Fresh joke(s) every minute - 4 jokes are cached per refresh so your screen always shows something new without hammering the API. Works great in mashup mode too: add up to 4 instances on a single screen, each showing a different joke.
+    category: humor
+    learn_more_url: 'https://groandeck.com'
+    github_url: 'https://github.com/ExcuseMi/trmnl-dad-jokes-by-groandeck-plugin'
+excusemi-trmnl-daily-excuse-plugin:
+  name: 'Daily Excuse'
+  trmnlp:
+    id: 286320
+    repo: 'https://github.com/ExcuseMi/trmnl-daily-excuse-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-daily-excuse-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/x9buhhazuots801ycy3np9p5uph2'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: 'Random excuses to say no, courtesy of No as a Service.'
+    category: humor
+    github_url: 'https://github.com/ExcuseMi/trmnl-daily-excuse-plugin'
+    learn_more_url: 'https://github.com/hotheadhacker/no-as-a-service'
+    help_text: 'TRMNL X Ready'
 excusemi-trmnl-databreaches-plugin:
   name: 'Data Breaches'
   trmnlp:
@@ -1586,6 +1665,32 @@ excusemi-trmnl-github-releases-plugin:
   author_bio:
     description: 'Display the latest GitHub releases from your monitored repositories with powerful filtering options. Features: ● Filter by time period (show releases from last N days) ● Include or exclude pre-releases ● Include or exclude draft releases ● Show only the latest release per repository ● Show time since previous release for a project ● Multi-language support ● Dynamic spacing (TRMNL X Ready)'
     github_url: 'https://github.com/ExcuseMi/trmnl-github-releases-plugin'
+excusemi-trmnl-inaturalist-plugin:
+  name: 'Wildlife Observations by iNaturalist'
+  trmnlp:
+    id: 290545
+    repo: 'https://github.com/ExcuseMi/trmnl-inaturalist-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-inaturalist-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-inaturalist-plugin-main/plugin
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/9bocgrfhcy0icw2lusgpaerepac1'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: 'Wake up to a polar bear. A mantis shrimp. A mushroom that shouldnt exist. Every day this plugin pulls the most-loved wildlife photos from iNaturalist. Real observations, real places, real people who stopped to look.<br /><br />Animal names are shown in your language. Filter by birds, mammals, fungi, or any group you love.'
+    github_url: 'https://github.com/ExcuseMi/trmnl-inaturalist-plugin'
+    learn_more_url: 'https://www.inaturalist.org'
+    category: 'nature,images'
+    help_text: 'TRMNL X Ready'
 excusemi-trmnl-its5oclock-somewhere-plugin:
   name: " It's 5 O'Clock Somewhere"
   trmnlp:
@@ -1634,6 +1739,162 @@ excusemi-trmnl-lego-plugin:
     description: 'Display LEGO® sets on your TRMNL device with powerful filtering options using community APIs.'
     github_url: 'https://github.com/ExcuseMi/trmnl-lego-plugin'
     category: life
+excusemi-trmnl-lorcana-cards-plugin:
+  name: 'Lorcana Cards'
+  trmnlp:
+    id: 298482
+    repo: 'https://github.com/ExcuseMi/trmnl-lorcana-cards-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-lorcana-cards-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/5hnhr90vumtnhweh5l8i7y14fspt'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: 'Update Markup: {% render "main", trmnl: trmnl, items: data, labels: labels, view: view %}'
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: 'Discover Disney Lorcana cards on your TRMNL — browse sets, hunt for Enchanteds, or enjoy the artwork. Filter by ink color, rarity, type, or set. A new selection appears each refresh.'
+    github_url: 'https://github.com/ExcuseMi/trmnl-lorcana-cards-plugin'
+    category: 'games,art'
+excusemi-trmnl-neocities-plugin:
+  name: 'Neocities Sites'
+  trmnlp:
+    id: 290436
+    repo: 'https://github.com/ExcuseMi/trmnl-neocities-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-neocities-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-neocities-plugin-main/plugin
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/n6bqfbg7p1w7zni1wni3vvf72x07'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: 'Correct view code {% render "main", trmnl: trmnl, items: data, view: view %}'
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: "The internet like it used to be: random Neocities sites, hand-crafted and weird. Inspired by A Web Revival: the Internet didn't die, you're just not on it by @onionboots"
+    github_url: 'https://github.com/ExcuseMi/trmnl-neocities-plugin'
+    learn_more_url: 'https://neocities.org/browse'
+    category: discovery
+    help_text: 'TRMNL X Ready'
+excusemi-trmnl-nextcloud-photos-plugin:
+  name: 'Nextcloud Photos'
+  trmnlp:
+    id: 285470
+    repo: 'https://github.com/ExcuseMi/trmnl-nextcloud-photos-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-nextcloud-photos-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-nextcloud-photos-plugin-main/plugin
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/zdxqudrg77n6s6elsyefovv3s6ll'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: 'Show photos from your Nextcloud on your TRMNL display. Note: Requests are proxied through trmnl.bettens.dev because TRMNL cannot authenticate with Nextcloud directly. Credentials are never stored — only used to fetch images on demand.'
+    github_url: 'https://github.com/ExcuseMi/trmnl-nextcloud-photos-plugin'
+    category: 'images,album'
+    help_text: 'TRMNL X Ready'
+excusemi-trmnl-nightsky-plugin:
+  name: 'Night Sky'
+  trmnlp:
+    id: 290823
+    repo: 'https://github.com/ExcuseMi/trmnl-nightsky-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-nightsky-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-nightsky-plugin-main/plugin
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/o70okq46qii61vlfq637vnkdv9qy'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: trmnl-liquid
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: 'A real-time star chart for your location with an optional conditions overlay. The chart renders a perspective view of the sky looking south — stars sized by magnitude, moon and visible planets marked, and optional constellation lines. The overlay shows Bortle scale, NELM, moon phase & illumination, cloud cover, temperature, dew point, and a best-viewing window estimate.'
+    github_url: 'https://github.com/ExcuseMi/trmnl-nightsky-plugin'
+    category: 'environment,nature'
+excusemi-trmnl-pokemon-cards-plugin:
+  name: 'Pokemon Cards'
+  trmnlp:
+    id: 297288
+    repo: 'https://github.com/ExcuseMi/trmnl-pokemon-cards-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-pokemon-cards-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/pkklyp60lz9ktf45xw0uyzd3k8ey'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: 'Update Markup: {% render "main", trmnl: trmnl, items: data, labels: labels, view: view %}'
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: 'Discover Pokémon cards on your TRMNL: browse packs, hunt for rares, or enjoy the artwork. Filter by type, rarity, or set. A new selection appears each refresh. Optimized for mashups.'
+    category: 'games,art'
+    github_url: 'https://github.com/ExcuseMi/trmnl-pokemon-cards-plugin'
+    learn_more_url: 'https://tcgdex.net/'
+excusemi-trmnl-skywatch-plugin:
+  name: SkyWatch
+  trmnlp:
+    id: 286469
+    repo: 'https://github.com/ExcuseMi/trmnl-skywatch-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-skywatch-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/le84pp45axmx1j1o4xw0qsmlx92o'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: |-
+      Live aircraft radar within 50 nm (~90 km / 55 mi), updated every 15 minutes.
+      How to read the display:
+      Labels: Callsign, aircraft type, altitude, speed. Brightness reflects altitude. Emergency squawks flagged automatically.
+      Routes: Origin → destination labels powered by adsbdb.com. Progress bar shows position along the route.
+      Airports: Large and medium airports marked with crosshair and IATA code. Full airport list and display guide are available.
+      Data sources: ADS-B signals via airplanes.live, adsb.lol, and adsb.fi. Airport data via OurAirports. Route data via adsbdb.com. Icons by ADS-B Radar.
+    github_url: 'https://github.com/ExcuseMi/trmnl-skywatch-plugin'
+    learn_more_url: 'https://github.com/ExcuseMi/trmnl-skywatch-plugin/blob/main/GUIDE.md'
+    category: 'travel,environment'
+    help_text: 'TRMNL X Ready'
 excusemi-trmnl-sleepy-time-plugin:
   name: 'Sleepy Time!'
   trmnlp:
@@ -1680,18 +1941,19 @@ excusemi-trmnl-trakt-tv-plugin:
   author_bio:
     category: entertainment
     description: |
-      Track your Trakt.tv activity right on your TRMNL device.<br /><br />
-      <strong>Available categories</strong><br />
-      · <strong>Collection</strong> — collected media<br />
-      · <strong>Continue Watching / Paused</strong> — paused shows &amp; movies <em>(self only)</em><br />
-      · <strong>Now Watching</strong> — currently playing<br />
-      · <strong>Recently Watched</strong> — your watch history <em>(self only)</em><br />
-      · <strong>Recommended</strong> — personalized picks from Trakt <em>(self only)</em><br />
-      · <strong>Stats</strong> — watch statistics<em>(self only)</em><br />
-      · <strong>Trending</strong> — what's popular right now<br />
-      · <strong>Upcoming</strong> — next episodes &amp; releases <em>(self only)</em><br />
-      · <strong>Watchlist</strong> — saved items<br /><br />
-      <strong>Requires Trakt.tv OAuth</strong><br /><br /><br />Pick the order you want your categories to appear using the dropdowns.<br />Don't worry about empty categories—they'll be automatically skipped, and the next one with data will show instead.<br /><br />Icons by <a href="https://www.svgrepo.com">SVG Repo</a>  
+      Track your Trakt.tv activity right on your TRMNL device.
+      Available categories:
+      - Collection — collected media
+      - Continue Watching / Paused — paused shows & movies (self only)
+      - Now Watching — currently playing
+      - Recently Watched — your watch history (self only)
+      - Recommended — personalized picks from Trakt (self only)
+      - Stats — watch statistics (self only)
+      - Trending — what's popular right now
+      - Upcoming — next episodes & releases (self only)
+      - Watchlist — saved items
+      Requires Trakt.tv OAuth.
+      Pick the order you want your categories to appear using the dropdowns. Don't worry about empty categories—they'll be automatically skipped, and the next one with data will show instead. Icons by SVG Repo.
     github_url: 'https://github.com/ExcuseMi/trmnl-trakt-tv-plugin'
     learn_more_url: 'https://trakt.tv/'
     help_text: 'TRMNL X Ready'
@@ -3111,6 +3373,30 @@ lanrat-nasa-image-of-the-day:
     description: "Displays NASA's image of the day"
     github_url: 'https://github.com/lanrat/trmnl_plugins'
     learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/NASA%20Image%20of%20the%20Day'
+lanrat-pebble:
+  name: 'Pebble Appstore'
+  trmnlp:
+    id: 281436
+    repo: 'https://github.com/lanrat/trmnl_plugins/tree/main'
+    zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl_plugins-main/Pebble
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/vg3cp8vturuj260id494ettunavx'
+  screenshot_url: 'https://raw.githubusercontent.com/lanrat/trmnl_plugins/main/XKCD%20Hover/screenshot.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'Transform is not yet supported'
+      min_version: null
+      renderer: null
+  author:
+    github: lanrat
+  funding: {  }
+  author_bio:
+    description: 'Browse watchfaces and apps from the repebble appstore on your TRMNL device.'
+    category: discovery
+    github_url: 'https://github.com/lanrat/trmnl_plugins'
 lanrat-pickles-comic:
   name: 'Pickles Comic'
   trmnlp:
@@ -4216,6 +4502,31 @@ sourcediver42-trmnl-mobiliteit:
     description: 'This recipe can be used to show a timetable of a bus stop using the Mobiliteit.lu API.'
     github_url: 'https://github.com/SourceDiver42/trmnl-mobiliteit'
     email_address: sourcediver42@pm.me
+spravodaj-trmnl-when-is-keynote:
+  name: 'When is the next Apple Keynote?'
+  trmnlp:
+    id: 287989
+    repo: 'https://github.com/spravodaj/TRMNL-When-Is-Keynote'
+    zip_url: 'https://github.com/spravodaj/TRMNL-When-Is-Keynote/archive/refs/heads/main.zip'
+    zip_entry_path: TRMNL-When-Is-Keynote-main/sources
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/pu3g7ry0rm3oipw6lj1jsi31fdij'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: trmnl-liquid
+  author:
+    github: spravodaj
+  funding: {  }
+  author_bio:
+    description: "TRMNL version of wheniskeynote.com. You don't need to set the recipe to occur more often than once a day because the JSON is static and I refresh the data at least once a day. Fixed countdown timer for local timezone. Parser v2.1"
+    email_address: spravodaj@madaj.net
+    github_url: 'https://github.com/spravodaj/TRMNL-When-Is-Keynote/'
+    category: 'calendar,news'
 sriniketh-trmnl-plugin-whos-that-pokemon:
   name: "Who's That Pokémon?"
   trmnlp:
@@ -4284,6 +4595,32 @@ stephenyeargin-trmnl-bcycle:
     github_url: 'https://github.com/stephenyeargin/trmnl-bcycle'
     learn_more_url: 'https://bcycle.com'
     email_address: stephen@yearg.in
+stephenyeargin-trmnl-gh-copilot-usage:
+  name: 'GitHub Copilot Usage'
+  trmnlp:
+    id: 298373
+    repo: 'https://github.com/stephenyeargin/trmnl-gh-copilot-usage'
+    zip_url: 'https://github.com/stephenyeargin/trmnl-gh-copilot-usage/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/b4mirw53dmf7gitzlxo5shzcddpq'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: stephenyeargin
+  funding: {  }
+  author_bio:
+    description: 'Show your GitHub Copilot Premium Request usage for the month.'
+    github_url: 'https://github.com/stephenyeargin/trmnl-gh-copilot-usage'
+    learn_more_url: 'https://github.com/features/copilot'
+    email_address: stephen@yearg.in
+    category: 'programming,productivity'
 stephenyeargin-trmnl-matomo:
   name: 'Matomo Analytics'
   trmnlp:
@@ -4601,6 +4938,32 @@ stephenyeargin-trmnl-pixelfed:
     github_url: 'https://github.com/stephenyeargin/trmnl-pixelfed'
     learn_more_url: 'https://pixelfed.org'
     email_address: stephen@yearg.in
+stephenyeargin-trmnl-plugin-analytics:
+  name: 'TRMNL Plugin Analytics'
+  trmnlp:
+    id: 286220
+    repo: 'https://github.com/stephenyeargin/trmnl-plugin-analytics'
+    zip_url: 'https://github.com/stephenyeargin/trmnl-plugin-analytics/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/qcantoch164papdwjz8ueczi9msr'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: trmnl-liquid
+  author:
+    github: stephenyeargin
+  funding: {  }
+  author_bio:
+    category: analytics
+    description: 'Allows plugin authors to monitor their plugins'
+    github_url: 'https://github.com/stephenyeargin/trmnl-plugin-analytics'
+    learn_more_url: 'https://trmnl.com/analytics'
+    email_address: stephen@yearg.in
 stephenyeargin-trmnl-seatgeek:
   name: SeatGeek
   trmnlp:
@@ -4653,6 +5016,30 @@ stephenyeargin-trmnl-tailscale:
     github_url: 'https://github.com/stephenyeargin/trmnl-tailscale'
     learn_more_url: 'https://tailscale.com/'
     email_address: stephen@yearg.in
+stephenyeargin-trmnl-tdot-smartway:
+  name: 'TDOT SmartWay'
+  trmnlp:
+    id: '302448'
+    repo: 'https://github.com/stephenyeargin/trmnl-tdot-smartway'
+    zip_url: 'https://github.com/stephenyeargin/trmnl-tdot-smartway/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/823lhk99i4wh7f1fdk184ajgwl4s'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: stephenyeargin
+  funding: {  }
+  author_bio:
+    description: 'Displays traffic cameras along highways and interstates in Tennessee'
+    github_url: 'https://github.com/stephenyeargin/trmnl-tdot-smartway'
+    learn_more_url: 'https://smartway.tn.gov'
+    email_address: stephen@yearg.in
+    category: 'travel,images'
 stephenyeargin-trmnl-unifi-site-manager:
   name: 'Unifi Site Manager'
   trmnlp:
@@ -4964,6 +5351,31 @@ taichikuji-trmnl-frank-energie-plugin:
     category: 'environment,finance'
     learn_more_url: 'https://discordid.taichikuji.org/discord'
     github_url: 'https://github.com/taichikuji/trmnl-frank-energie-plugin'
+taichikuji-trmnl-laliga-plugin:
+  name: '¿Hay ahora fútbol?'
+  trmnlp:
+    id: 294074
+    repo: 'https://github.com/taichikuji/trmnl-laliga-plugin'
+    zip_url: 'https://github.com/taichikuji/trmnl-laliga-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/5co0wz1pgqjvepu04bl81wihbh2c'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: taichikuji
+  funding: {  }
+  author_bio:
+    description: 'Created by Ivan Perez. This plugin is for monitoring La Liga internet blockades on your TRMNL device.'
+    category: news
+    learn_more_url: 'https://discordid.taichikuji.org/discord'
+    github_url: 'https://github.com/taichikuji/trmnl-laliga-plugin'
 taichikuji-trmnl-tmb-plugin:
   name: 'TMB Alerts'
   trmnlp:
@@ -5011,12 +5423,8 @@ thecapypara-trmnl-wakatime-stats:
   funding: {  }
   author_bio:
     description: |
-      This plugin displays WakaTime statistics using <a href="https://wakatime.com/developers#stats" target="_blank">WakaTime's API</a>.
-      To use the plugin, your profile must be set to public.
-      <br>
-      This plugin can show you the same information as you configured on your public profile,
-      except for the activity diagram. For that see <a href="https://trmnl.com/recipes/123718" target="_blank">WakaTime Dashboard</a>: a plugin that 
-      displays WakaTime coding activity.
+    This plugin displays WakaTime statistics using WakaTime's API. To use the plugin, your profile must be set to public. 
+    This plugin can show you the same information as you configured on your public profile, except for the activity diagram. For that, see WakaTime Dashboard: a plugin that displays WakaTime coding activity.
     category: productivity
     github_url: 'https://github.com/theCapypara/trmnl-wakatime-stats'
 thecapypara-trmnl-wingspan:
