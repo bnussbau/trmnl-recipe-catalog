@@ -5422,9 +5422,7 @@ thecapypara-trmnl-wakatime-stats:
     github: theCapypara
   funding: {  }
   author_bio:
-    description: |
-    This plugin displays WakaTime statistics using WakaTime's API. To use the plugin, your profile must be set to public. 
-    This plugin can show you the same information as you configured on your public profile, except for the activity diagram. For that, see WakaTime Dashboard: a plugin that displays WakaTime coding activity.
+    description: 'This plugin displays WakaTime statistics using WakaTime API. To use the plugin, your profile must be set to public. This plugin can show you the same information as you configured on your public profile, except for the activity diagram. For that, see WakaTime Dashboard, a plugin that displays WakaTime coding activity.'
     category: productivity
     github_url: 'https://github.com/theCapypara/trmnl-wakatime-stats'
 thecapypara-trmnl-wingspan:
