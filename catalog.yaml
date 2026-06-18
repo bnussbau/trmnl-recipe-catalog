@@ -3679,6 +3679,31 @@ nickspaghetti-trmnl-osrs-ge-price-trend:
     description: 'Show the price trends of an item from the Grand Exchange in OSRS.'
     github_url: 'https://github.com/NickSpaghetti'
     learn_more_url: 'https://github.com/NickSpaghetti/trmnl-osrs-ge-price-trend'
+njclarke1-trmnl-anylist:
+  name: 'AnyList Shopping List'
+  trmnlp:
+    id: null
+    repo: 'https://github.com/njclarke1/trmnl-anylist'
+    zip_url: 'https://github.com/njclarke1/trmnl-anylist/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://raw.githubusercontent.com/njclarke1/trmnl-anylist/main/assets/icon/icon.png'
+  screenshot_url: 'https://raw.githubusercontent.com/njclarke1/trmnl-anylist/main/assets/demo/render-normal.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: 'Requires self-hosted trmnl-anylist-api sidecar container. See README for setup.'
+      min_version: 0.13.0
+      renderer: null
+  author:
+    github: njclarke1
+  funding: {  }
+  author_bio:
+    description: 'Displays your AnyList shopping list grouped by category on your TRMNL e-ink display. Shows unchecked items only with emoji category icons.'
+    category: 'productivity,life'
+    github_url: 'https://github.com/njclarke1/trmnl-anylist'
+    learn_more_url: 'https://github.com/njclarke1/trmnl-anylist/blob/main/README.md'
 paprika27-upcoming_ics:
   name: 'Upcoming ICS Calendar'
   trmnlp:
