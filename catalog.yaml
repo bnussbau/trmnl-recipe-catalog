@@ -44,6 +44,30 @@ alisterscott-trmnl-bne-bin:
     description: 'A Personalised Bin Collection Schedule for Brisbane, Queensland, Australia'
     category: 'life,productivity'
     github_url: 'https://github.com/alisterscott/trmnl-bne-bin'
+alisterscott-trmnl-countdown-countup:
+  name: 'Elegant Countdown Countup Display'
+  trmnlp:
+    id: 327796
+    repo: 'https://github.com/alisterscott/trmnl-countdown-countup'
+    zip_url: 'https://github.com/alisterscott/trmnl-countdown-countup/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/xo4dy0wli8d1c4qnt07k0yfr9gyp'
+  screenshot_url: 'https://github.com/alisterscott/trmnl-countdown-countup/blob/main/media/screen.png?raw=true'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: alisterscott
+  funding: {  }
+  author_bio:
+    description: 'Retro inspired countdown and countup clock for your TRMNL dashboard. Perfect for tracking time until an event or time since an event.'
+    category: 'life,productivity'
+    github_url: 'https://github.com/alisterscott/trmnl-countdown-countup'
 alisterscott-trmnl-flip-date:
   name: 'International Flip Date Clock'
   trmnlp:
@@ -233,6 +257,52 @@ argoroots-met-no:
     github_url: 'https://github.com/argoroots/trmnl'
     learn_more_url: 'https://www.met.no'
     email_address: argo@roots.ee
+asmurphy-ctroads-traffic-alerts:
+  name: 'CTRoads Traffic Advisories'
+  trmnlp:
+    id: 335490
+    repo: 'https://gitlab.com/asmurphy/ctroads-traffic-alerts'
+    zip_url: 'https://gitlab.com/asmurphy/ctroads-traffic-alerts/-/archive/main/ctroads-traffic-alerts-main.zip'
+    zip_entry_path: null
+    version: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/879vb13zuub906285e63sfldp3ss'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author: {  }
+  funding: {  }
+  author_bio:
+    category: 'travel,news'
+    description: 'Displays Traffic Alerts from CTRoads. Can select roadway filter for a specific roadway.'
+    github_url: 'https://gitlab.com/asmurphy/ctroads-traffic-alerts'
+asmurphy-github-notifications:
+  name: 'Github Notifications'
+  trmnlp:
+    id: 179266
+    repo: 'https://gitlab.com/asmurphy/github-notifications'
+    zip_url: 'https://gitlab.com/asmurphy/github-notifications/-/archive/main/github-notifications-main.zip'
+    zip_entry_path: null
+    version: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/cx4rx795u709vhsbswxy14ue0oo8'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author: {  }
+  funding: {  }
+  author_bio:
+    category: 'productivity,programming'
+    description: 'Github Notifications to display either unread notifications, or all notifications.'
+    github_url: 'https://gitlab.com/asmurphy/github-notifications'
 aziac-trmnl-ghibli-backgrounds:
   name: 'Ghibli Backgrounds'
   trmnlp:
@@ -2993,7 +3063,7 @@ kenken64-promptink:
   funding: {  }
   author_bio:
     category: 'life,news'
-    description: 'AI-powered image generation app with TRMNL e-ink display sync. Generate stunning images using OpenAI''s DALL-E 3 and display them on your TRMNL device. Register as new user , ignore the subscription currently is FREE. Checkout how to use the app:<a href="https://github.com/kenken64/Promptink/blob/development/docs/USER_GUIDE.md">https://github.com/kenken64/Promptink/blob/development/docs/USER_GUIDE.md</a>'
+    description: "AI-powered image generation app with TRMNL e-ink display sync. Generate stunning images using OpenAI's DALL-E 3 and display them on your TRMNL device. Register as new user, ignore the subscription currently is FREE."
     github_url: 'https://github.com/kenken64/Promptink'
     learn_more_url: 'https://promptink-production.up.railway.app/'
     email_address: bunnyppl@gmail.com
@@ -3530,7 +3600,7 @@ macusercom-trmnl-pollen-information-austria:
   byos:
     byos_laravel:
       compatibility: null
-      compatibility_note: null
+      compatibility_note: 'The placeholder value for multistring fields like `pollen_filter` cannot contain commas.'
       min_version: null
       renderer: null
   author:
@@ -4646,6 +4716,32 @@ stephenyeargin-trmnl-gh-copilot-usage:
     learn_more_url: 'https://github.com/features/copilot'
     email_address: stephen@yearg.in
     category: 'programming,productivity'
+stephenyeargin-trmnl-jenkins:
+  name: 'Jenkins CI/CD'
+  trmnlp:
+    id: 336671
+    repo: 'https://github.com/stephenyeargin/trmnl-jenkins'
+    zip_url: 'https://github.com/stephenyeargin/trmnl-jenkins/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/l2kt6nd2umaw45hxkaid8glvo2mk'
+  screenshot_url: 'https://raw.githubusercontent.com/stephenyeargin/trmnl-jenkins/main/assets/screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: stephenyeargin
+  funding: {  }
+  author_bio:
+    description: 'Show the status for your most recent Jenkins CI/CD jobs and builds.'
+    github_url: 'https://github.com/stephenyeargin/trmnl-jenkins'
+    learn_more_url: 'https://jenkins.io/'
+    email_address: stephen@yearg.in
+    category: 'productivity,programming'
 stephenyeargin-trmnl-matomo:
   name: 'Matomo Analytics'
   trmnlp:
