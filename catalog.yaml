@@ -377,6 +377,31 @@ blueset-custom-next-holiday:
     description: 'Countdown to your custom holidays. Support absolute dates, date of month, and <b class="font-normal italic">n</b>-th weekday of month.'
     github_url: 'https://github.com/blueset/trmnl-recipes'
     category: 'calendar,personal'
+blueset-framework-update:
+  name: 'TRMNL Framework Updates'
+  trmnlp:
+    id: 277426
+    repo: 'https://github.com/blueset/trmnl-recipes'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/framework-update
+    version: master
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/6eec1lu71ywiv1fi0p4rra4445ne'
+  screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/master/framework-update/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'Transform is not yet supported'
+      min_version: null
+      renderer: null
+  author:
+    github: blueset
+  funding: {  }
+  author_bio:
+    description: 'Latest releases of <a href="https://trmnl.com/framework/releases" target="_blank">TRMNL Framework</a>.'
+    github_url: 'https://github.com/blueset/trmnl-recipes'
+    learn_more_url: 'https://trmnl.com/framework/releases'
+    category: 'discovery,programming'
 blueset-github-trending-repos:
   name: 'GitHub Trending Repos'
   trmnlp:
@@ -431,6 +456,31 @@ blueset-http-dogs:
     description: 'A random HTTP Dog picture on each refresh. Works well with <a href="https://trmnl.com/recipes/235410">HTTP Cats</a> too. Images from <a href="https://http.dog/">HTTP Dogs</a> and <a href="https://httpstatusdogs.com/">HTTP Status Dogs</a>.'
     category: 'programming,discovery'
     github_url: 'https://github.com/blueset/trmnl-recipes'
+blueset-ipv6-adoption:
+  name: 'IPv6 Adoption'
+  trmnlp:
+    id: 345789
+    repo: 'https://github.com/blueset/trmnl-recipes'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/ipv6-adoption
+    version: master
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/vzn28cj3otwcy47iy47squpbgrfr'
+  screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/master/ipv6-adoption/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'Transform is not yet supported'
+      min_version: null
+      renderer: null
+  author:
+    github: blueset
+  funding: {  }
+  author_bio:
+    description: 'Tracking global adoption of IPv6. Data source: <a href="https://www.google.com/intl/en/ipv6/statistics.html">Google</a>. The graph shows the percentage of users that access Google over IPv6.'
+    category: 'programming,news'
+    github_url: 'https://github.com/blueset/trmnl-recipes'
+    learn_more_url: 'https://www.google.com/intl/en/ipv6/statistics.html'
 blueset-lyricova-quote:
   name: 'Vocaloid Lyrics Quote'
   trmnlp:
@@ -510,6 +560,31 @@ blueset-public-recipe-stats:
     description: 'Shows connection statistics of public recipes. You can choose to show the latest, search for keywords, show your own recipes, or show selected recipe IDs. Data powered by TRMNL Recipes API. Built with help from Jasper, Mario Lurig, Ryan, and Sitnik on TRMNL Discord.'
     github_url: 'https://github.com/blueset/trmnl-recipes'
     category: 'discovery,analytics'
+blueset-random-computer:
+  name: 'Random Computer'
+  trmnlp:
+    id: 258479
+    repo: 'https://github.com/blueset/trmnl-recipes'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/random-computer
+    version: master
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/rarcmt81lm2jg3ngpa7wzdbm4q2u'
+  screenshot_url: 'https://github.com/blueset/trmnl-recipes/raw/master/random-computer/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: blueset
+  funding: {  }
+  author_bio:
+    description: 'What are people doing on their computers around the world, especially those with an insecure setup. Data courtesy of <a href="https://computernewb.com/vncresolver/">Computernewb VNC Resolver</a>.'
+    category: discovery
+    learn_more: 'https://computernewb.com/vncresolver/'
+    github_url: 'https://github.com/blueset/trmnl-recipes'
 blueset-random-google-fonts:
   name: 'Random Google Fonts'
   trmnlp:
@@ -726,6 +801,31 @@ blueset-transit:
     description: 'Dashboard public transit information close to you. Supports all public transit types in Puget Sound, Washington, USA: bus, lightrail, street car, monorail, Amtrak, ferries and more. Supports multiple layouts. <a href="https://github.com/blueset/trmnl-recipes/tree/master/transit" class="underline" target="_blank">Check out previews of each layout</a>.'
     category: 'personal,travel'
     github_url: 'https://github.com/blueset/trmnl-recipes'
+blueset-uspto:
+  name: 'USPTO New Trademarks'
+  trmnlp:
+    id: 264269
+    repo: 'https://github.com/blueset/trmnl-recipes'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/uspto
+    version: master
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/83g6fzkge7rgj7xaasecy6wmtko1'
+  screenshot_url: 'https://github.com/blueset/trmnl-recipes/raw/master/uspto/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: blueset
+  funding: {  }
+  author_bio:
+    description: 'A random selections new trademarks registered today to USPTO. Data courtesy of <a href="https://uspto.report/TM/" target="_blank">USPTO.report</a>.'
+    github_url: 'https://github.com/blueset/trmnl-recipes'
+    learn_more_url: 'https://uspto.report/TM/'
+    category: 'discovery,marketing'
 blueset-visa-bulletin:
   name: 'Visa Bulletin'
   trmnlp:
