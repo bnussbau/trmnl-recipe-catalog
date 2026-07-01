@@ -1448,6 +1448,30 @@ depau-trmnl-atm-milano:
   author_bio:
     description: 'Unofficial plugin, display the live time table for the selected ATM Milano bus/tram stops.'
     github_url: 'https://github.com/depau/trmnl-atm-milano/'
+ericrogerstechnology-applytics-trmnl:
+  name: Applytics
+  trmnlp:
+    id: 339013
+    repo: 'https://github.com/EricRogersTechnology/Applytics-trmnl'
+    zip_url: 'https://github.com/EricRogersTechnology/Applytics-trmnl/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/i8hsb9f6vbwc0687qkuxsuw6s4i9'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: EricRogersTechnology
+  funding: {  }
+  author_bio:
+    category: 'analytics,programming'
+    description: 'App Store Connect downloads and revenue on your TRMNL, by Eric Rogers.'
+    github_url: 'https://github.com/EricRogersTechnology/Applytics-trmnl'
 erikbuild-trmnl-yolink-temperature:
   name: 'YoLink Temperature Sensor'
   trmnlp:
