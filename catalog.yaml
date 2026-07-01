@@ -303,6 +303,29 @@ asmurphy-github-notifications:
     category: 'productivity,programming'
     description: 'Github Notifications to display either unread notifications, or all notifications.'
     github_url: 'https://gitlab.com/asmurphy/github-notifications'
+asmurphy-monero-p2pool-payouts:
+  name: 'Monero P2Pool Payouts'
+  trmnlp:
+    id: 337553
+    repo: 'https://gitlab.com/asmurphy/monero-p2pool-payouts'
+    zip_url: 'https://gitlab.com/asmurphy/monero-p2pool-payouts/-/archive/main/monero-p2pool-payouts-main.zip'
+    zip_entry_path: null
+    version: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/bpgn3ygkylz3afsyqnukbt4sycdv'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author: {  }
+  funding: {  }
+  author_bio:
+    category: 'finance,analytics'
+    description: 'Shows most recent payouts for P2pool mining of Monero. Includes all three current sidechains (Main, Mini, and Nano). For more info take a look at the <a href="https://www.monero.how/p2pool-monero">Monero P2Pool Wiki Page</a> and the P2Pool Observer Pages for the Sidechains (<a href="https://p2pool.observer/">Main</a>, <a href="https://mini.p2pool.observer/">Mini</a>, <a href="https://nano.p2pool.observer/">Nano</a>).'
+    github_url: 'https://gitlab.com/asmurphy/monero-p2pool-payouts'
 aziac-trmnl-ghibli-backgrounds:
   name: 'Ghibli Backgrounds'
   trmnlp:
@@ -334,7 +357,7 @@ bastronautik-trmnl-triangles-art:
     zip_url: 'https://github.com/Bastronautik/trmnl-triangles-art/archive/refs/heads/main.zip'
     zip_entry_path: null
     version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/68hbc7xak7h557b657l022c0u6yn'
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/4tdnol3nm65jssn7div7ykidyb3w'
   screenshot_url: null
   license: Unknown
   byos:
@@ -342,6 +365,7 @@ bastronautik-trmnl-triangles-art:
       compatibility: true
       compatibility_note: null
       min_version: 0.20.0
+      renderer: null
   author:
     github: Bastronautik
   funding: {  }
@@ -1215,7 +1239,7 @@ bnussbau-trmnl-uptimekuma:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/2tistbv5fxxwcgorswfkjnzpmuzy'
-  screenshot_url: 'https://github.com/user-attachments/assets/3a523818-4932-4857-b912-1749cd15105f'
+  screenshot_url: 'https://raw.githubusercontent.com/bnussbau/trmnl-uptimekuma/refs/heads/main/screenshot_og.png'
   license: MIT
   byos:
     byos_laravel:
@@ -1577,7 +1601,7 @@ excusemi-trmnl-comic-library-plugin:
     zip_url: 'https://github.com/ExcuseMi/trmnl-comic-library-plugin/archive/refs/heads/main.zip'
     zip_entry_path: null
     version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/iii2gt4uhhmhx2e8d45mmy1aqcgc'
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/t1tjkuee1qnjp0tolhx4jxz83w73'
   screenshot_url: 'https://github.com/ExcuseMi/trmnl-comic-library-plugin/blob/main/assets/plugin-images/180935_screenshot.png?raw=true'
   license: MIT
   byos:
@@ -1585,20 +1609,16 @@ excusemi-trmnl-comic-library-plugin:
       compatibility: false
       compatibility_note: null
       min_version: null
+      renderer: null
   author:
     github: ExcuseMi
   funding: {  }
   author_bio:
-    description: |-
-      Access a collection of 574 comic RSS feeds and enjoy fresh content every day.
-      Features:
-      ● Displays the most recent comic or a random comic
-      ● Supports multiple RSS sources
-      ● Add your own RSS feeds
-      ● Frequently updated to keep all RSS sources valid and up to date
+    description: "Access an daily updated collection of 595 comic RSS / Atom feeds and enjoy fresh content every day.<br /><a href='https://excusemi.github.io/trmnl-comic-library-plugin/'>Click here to see all supported comics!</a><br />Features: <br />● Displays the most recent comic or a random comic <br />● Supports multiple RSS / Atom sources <br />● Add your own RSS / Atom feeds <br />● Frequently updated to keep all RSS / Atom sources valid and up to date"
     github_url: 'https://github.com/ExcuseMi/trmnl-comic-library-plugin'
-    learn_more_url: 'https://excusemi.github.io/trmnl-comic-library-plugin/'
+    learn_more_url: 'https://excusemi.github.io/trmnl-comic-library-plugin'
     category: comics
+    help_text: 'TRMNL X Ready'
 excusemi-trmnl-dad-jokes-by-groandeck-plugin:
   name: 'Dad Jokes by GroanDeck.com'
   trmnlp:
@@ -4820,8 +4840,9 @@ stephenyeargin-trmnl-matomo:
     id: 97234
     repo: 'https://github.com/stephenyeargin/trmnl-matomo'
     zip_url: 'https://github.com/stephenyeargin/trmnl-matomo/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/qkgae7cch43048ku01agp18i34pv'
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/khhnh4fk5notkz38vffo5ziee7be'
   screenshot_url: 'https://github.com/stephenyeargin/trmnl-matomo/raw/main/assets/screenshot.png'
   license: MIT
   byos:
@@ -4829,10 +4850,12 @@ stephenyeargin-trmnl-matomo:
       compatibility: null
       compatibility_note: null
       min_version: null
+      renderer: null
   author:
     github: stephenyeargin
   funding: {  }
   author_bio:
+    category: analytics
     description: 'Displays web analytics from Matomo for a selected Site.'
     github_url: 'https://github.com/stephenyeargin/trmnl-matomo'
     learn_more_url: 'https://matomo.org/'
@@ -5919,6 +5942,30 @@ wandmalfarbe-trmnl-goodreads:
   author_bio:
     description: 'Show your Goodreads shelves with a large book cover on the left and metadata on the right.'
     github_url: 'https://github.com/Wandmalfarbe/trmnl-goodreads'
+wasauce-hanzi:
+  name: 'Chinese Hanzi'
+  trmnlp:
+    id: 352027
+    repo: 'https://github.com/wasauce/trmnltrmnl'
+    zip_url: 'https://github.com/wasauce/trmnltrmnl/archive/refs/heads/main.zip'
+    zip_entry_path: trmnltrmnl-main/hanzi/trmnl
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/z4qmmkfcmmqb1a090436agxgrs5k'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: wasauce
+  funding: {  }
+  author_bio:
+    category: 'education,life'
+    description: 'A new random Chinese word every refresh - large character, pinyin, and English. Pick Simplified or Traditional characters. Great for passive daily vocabulary review.'
+    github_url: 'https://github.com/wasauce/trmnltrmnl/tree/main/hanzi'
 who-would-know-trml-plugin-jeopardy:
   name: Jeopardy!
   trmnlp:
@@ -6059,3 +6106,28 @@ yarbro-ynab-trmnl-plugin:
   author_bio:
     description: 'A self-hosted TRMNL plugin for displaying YNAB budget data on your e-ink display'
     homepage: ''
+yeled-weather-circles:
+  name: 'Weather Circles'
+  trmnlp:
+    id: 341571
+    repo: 'https://github.com/yeled/weather-circles'
+    zip_url: 'https://github.com/yeled/weather-circles/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/a1z385jwhg7ojocmo3bn7e8nf0d2'
+  screenshot_url: 'https://raw.githubusercontent.com/yeled/weather-circles/refs/heads/main/docs/screenshot.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: yeled
+  funding: {  }
+  author_bio:
+    category: 'environment,news'
+    description: '2-day forecast using UK Met Office–style weather station circles'
+    github_url: 'https://github.com/yeled/weather-circles'
+    email_address: charlie@evilforbeginners.com
