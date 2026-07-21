@@ -505,6 +505,31 @@ blueset-ipv6-adoption:
     category: 'programming,news'
     github_url: 'https://github.com/blueset/trmnl-recipes'
     learn_more_url: 'https://www.google.com/intl/en/ipv6/statistics.html'
+blueset-is-it-down:
+  name: 'Is it down?'
+  trmnlp:
+    id: 367860
+    repo: 'https://github.com/blueset/trmnl-recipes'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/is-it-down
+    version: master
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ibgv2zg1lgczjtmbf5qp0fs9ti1u'
+  screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/master/is-it-down/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: blueset
+  funding: {  }
+  author_bio:
+    description: 'Service down/degraded statuses of popular online services. Covering Social Media, Gaming & Entertainment, Communication, Payments, Productivity & Media, AI, Developer & Cloud services. Data courtesy of <a href="https://isupmap.com/">Is Up Map</a>.'
+    category: 'kpi,programming'
+    github_url: 'https://github.com/blueset/trmnl-recipes'
+    learn_more_url: 'https://isupmap.com/'
 blueset-lyricova-quote:
   name: 'Vocaloid Lyrics Quote'
   trmnlp:
@@ -1362,6 +1387,31 @@ carterpape-trmnl-sports:
     category: sports
     description: 'Shows the next scheduled game for teams across major sports leagues, including:  • North American professional sports (NFL, NBA, NHL, MLB, MLS, WNBA, NWSL) • College football and basketball • Top European soccer leagues (EPL, La Liga, Bundesliga, Serie A, Ligue 1) • Aussie leagues (AFL, NRL, Big Bash) • Indian Premier League  Optionally filter to only see home or away games.'
     github_url: 'https://github.com/CarterPape/trmnl-sports'
+caweis-victron:
+  name: 'Victron Power & Tanks'
+  trmnlp:
+    id: 361655
+    repo: 'https://github.com/caweis/victron-trmnl'
+    zip_url: 'https://github.com/caweis/victron-trmnl/archive/refs/heads/main.zip'
+    zip_entry_path: victron-trmnl-main/plugin
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/lg48drccitkovkeeq7pcjdynjj2h'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: caweis
+  funding: {  }
+  author_bio:
+    category: 'environment,kpi'
+    description: 'A Victron VRM dashboard for TRMNL. Battery, solar, load, grid, weather, temperatures, and tank levels, rendered from your own installation. Deploy the Worker and point it at your VRM (setup guide linked below).'
+    github_url: 'https://github.com/caweis/victron-trmnl'
+    email_address: chris@rigsense.app
 ctorrao-trmnl-fuel-pricing-pt:
   name: 'Fuel Prices Portugal'
   trmnlp:
@@ -1448,6 +1498,56 @@ depau-trmnl-atm-milano:
   author_bio:
     description: 'Unofficial plugin, display the live time table for the selected ATM Milano bus/tram stops.'
     github_url: 'https://github.com/depau/trmnl-atm-milano/'
+doekenorg-trmnl-buienradar:
+  name: 'Buienradar Station'
+  trmnlp:
+    id: 353457
+    repo: 'https://github.com/doekenorg/trmnl-buienradar'
+    zip_url: 'https://github.com/doekenorg/trmnl-buienradar/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/lmgkurszzfgx3jqasnft8ac4bq6f'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: trmnl-liquid
+  author:
+    github: doekenorg
+  funding: {  }
+  author_bio:
+    category: 'life,personal'
+    description: 'Buienradar Weather by Doeke Norg.'
+    learn_more_url: 'https://doeken.org'
+    email_address: mail@doeken.org
+    github_url: 'https://github.com/doekenorg/trmnl-buienradar'
+dsdilpreet-google-health:
+  name: 'Google Health'
+  trmnlp:
+    id: 318970
+    repo: 'https://github.com/dsdilpreet/trmnl-plugins'
+    zip_url: 'https://github.com/dsdilpreet/trmnl-plugins/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-plugins-main/Google%20Health
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/i9mmbqbwv3byzm5xnucd78faz3ju'
+  screenshot_url: 'https://github.com/dsdilpreet/trmnl-plugins/blob/main/Google%20Health/images/sample_data.png?raw=true'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'Transform is not yet supported'
+      min_version: null
+      renderer: null
+  author:
+    github: dsdilpreet
+  funding: {  }
+  author_bio:
+    category: 'personal,sports'
+    description: "Displays your daily activity and recovery metrics from Google Health. Note because this is an open-source plugin and I do not own the trmnl.com domain, I haven't gone through the formal process of getting the app verified by Google. So you will see an 'Unverified App' warning when connecting your google account. This is normal and can be bypassed. The code for this plugin is on github. Hope you enjoy it!"
+    github_url: 'https://github.com/dsdilpreet/trmnl-plugins'
 ericrogerstechnology-applytics-trmnl:
   name: Applytics
   trmnlp:
@@ -3774,6 +3874,30 @@ martinbelko-trmnl-plugin-tibber-norway:
   author_bio:
     description: 'Electricity price chart for today, for Norwegian homes using Tibber.'
     github_url: 'https://github.com/MartinBelko/TRMNL-Plugin-Tibber-Norway'
+mgeilich-planet-finder:
+  name: 'Planet Finder'
+  trmnlp:
+    id: 348470
+    repo: 'https://github.com/mgeilich/planetfinder'
+    zip_url: 'https://github.com/mgeilich/planetfinder/archive/refs/heads/main.zip'
+    zip_entry_path: planetfinder-main/private_plugin_348470-2
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/wx44m4i9reh09sub4m2fckx10qnp'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: mgeilich
+  funding: {  }
+  author_bio:
+    description: 'Planet Finder displays a real-time planisphere/sky map.<br>Created by Michael Geilich. Please report any issues on GitHub.'
+    github_url: 'https://github.com/mgeilich/planetfinder'
+    category: 'discovery,education'
 mironiasty-trmnl-bergfex-snow:
   name: 'Bergfex Snow Report'
   trmnlp:
@@ -6143,9 +6267,9 @@ yeled-weather-circles:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.29.0
       renderer: null
   author:
     github: yeled
