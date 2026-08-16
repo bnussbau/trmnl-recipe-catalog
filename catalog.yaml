@@ -2460,6 +2460,56 @@ guilhermemorais-trmnl-weeksofyear:
     description: 'Visualize your year at a glance. This plugin displays the current week number and all weeks of the year as checkboxes, marking each week as it passes to help you stay aware of time and progress through the year. Created by Guilherme based on Jasper''s recipe <a href="https://usetrmnl.com/recipes/22415">Your Life in Weeks</a>. You can find me on <a href="https://dotnet.social/@Gui">Mastodon</a>, or @glmsharp on Discord or send an email. Version 1.2.1 (2025-01-17)'
     github_url: 'https://github.com/GuilhermeMorais/trmnl-weeksOfYear'
     email_address: gui.lopes@gmail.com
+hacdias-trmnl-miniflux:
+  name: Miniflux
+  trmnlp:
+    id: 392974
+    repo: 'https://github.com/hacdias/trmnl-miniflux'
+    zip_url: 'https://github.com/hacdias/trmnl-miniflux/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/qqf4cgv7o2jlzofnvugtz3cddbpl'
+  screenshot_url: null
+  license: CC-BY-4.0
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: hacdias
+  funding: {  }
+  author_bio:
+    category: 'news,entertainment'
+    description: 'This plugin was created by Henrique Dias. Help improve this plugin on GitHub.'
+    learn_more_url: 'https://hacdias.com'
+    github_url: 'https://github.com/hacdias/trmnl-miniflux'
+hacdias-trmnl-ns-station:
+  name: 'NS Station'
+  trmnlp:
+    id: 390680
+    repo: 'https://github.com/hacdias/trmnl-ns-station'
+    zip_url: 'https://github.com/hacdias/trmnl-ns-station/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/qqcsu2acr35rw38v1f4hf6dnrsij'
+  screenshot_url: null
+  license: CC-BY-4.0
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: hacdias
+  funding: {  }
+  author_bio:
+    category: travel
+    description: 'NS Train Station was created by Henrique Dias.'
+    learn_more_url: 'https://hacdias.com'
+    github_url: 'https://github.com/hacdias/trmnl-ns-station'
 heroheman-trmnl-advanced-rss:
   name: 'Advanced RSS '
   trmnlp:
@@ -3851,6 +3901,98 @@ macusercom-trmnl-vienna-public-transport-disruptions:
     category: travel
     description: 'Public Transport Disruptions for Vienna (Wiener Linien) provided by the Wiener Linien API. Image loaded from wikipedia.org'
     github_url: 'https://github.com/Macusercom/TRMNL-Vienna-Public-Transport-Disruptions/'
+martin2097-trmnl-beautiful-rss-news:
+  name: 'Beautiful RSS News'
+  trmnlp:
+    id: 395962
+    repo: 'https://github.com/martin2097/trmnl-beautiful-rss-news'
+    zip_url: 'https://github.com/martin2097/trmnl-beautiful-rss-news/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/y3cwr2p14hfu9exmzbf0jadxzkqe'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: martin2097
+  funding: {  }
+  author_bio:
+    category: 'news,custom'
+    description: |
+      Beautiful RSS News turns your favorite publications into a beautiful news briefing made for TRMNL. Start with our curated selections or add publications you already love. Follow one source or combine several in a single feed.
+      <br/><br/>
+      No technical setup is needed. Pick your sources, save the plugin, and enjoy your favorite news in one beautiful feed.
+    github_url: 'https://github.com/martin2097'
+    learn_more_url: 'https://www.rapavy.cz/'
+    email_address: rapavy.mato@gmail.com
+martin2097-trmnl-is-this-weather-normal:
+  name: 'Is this weather normal?'
+  trmnlp:
+    id: 377387
+    repo: 'https://github.com/martin2097/trmnl-is-this-weather-normal'
+    zip_url: 'https://github.com/martin2097/trmnl-is-this-weather-normal/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/s99auexbyjcimoj82cff1110yr2i'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: martin2097
+  funding: {  }
+  author_bio:
+    category: 'environment,nature'
+    description: |
+      Today feels off - too cold for July, or it just won't stop raining. But is it actually unusual, or just a perfectly normal bad week? Stop guessing: this plugin gives you a straight answer on both - is today normal, near a record, or somewhere in between?
+      <br/><br/>
+
+      Compares today against this same date across 85+ years of history for your exact location, using Open-Meteo's weather archive.
+      <br/><br/>
+
+      Search for a city, address, or postal code, pick your units and it does the rest.
+    github_url: 'https://github.com/martin2097'
+    learn_more_url: 'https://www.rapavy.cz/'
+    email_address: rapavy.mato@gmail.com
+martin2097-trmnl-place-of-the-day:
+  name: 'Atlas Obscura - Place of the Day'
+  trmnlp:
+    id: 396344
+    repo: 'https://github.com/martin2097/trmnl-place-of-the-day'
+    zip_url: 'https://github.com/martin2097/trmnl-place-of-the-day/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/8vf6bef9tedii6qzrv4afdj2mtq3'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: martin2097
+  funding: {  }
+  author_bio:
+    category: 'travel,images'
+    description: |
+      Let your screen take you somewhere unexpected. Atlas Obscura - Place of the Day brings one strange, remarkable, or overlooked corner of the world to your TRMNL each day.
+      <br/><br/>
+
+      Prefer a quieter screen? You can hide the QR code or title bar in the settings.
+    github_url: 'https://github.com/martin2097'
+    learn_more_url: 'https://www.atlasobscura.com/'
+    email_address: rapavy.mato@gmail.com
 martinbelko-trmnl-plugin-tibber-norway:
   name: 'Tibber Norway'
   trmnlp:
@@ -4726,6 +4868,29 @@ sgardoll-nightscout-plugin:
     category: 'life,personal'
     github_url: 'https://github.com/datacompboy/'
     email_address: datacompboy@gmail.com
+shackless-trmnl-mtg-check:
+  name: 'Magic: The Gathering (MtG) Card Show'
+  trmnlp:
+    id: '389435'
+    repo: 'https://github.com/Shackless/trmnl-mtg-check'
+    zip_url: 'https://github.com/Shackless/trmnl-mtg-check/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/1z0ll5tk1kmirn3f05mz6huj3yrz'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: Shackless
+  funding: {  }
+  author_bio:
+    description: 'Rotates through the cards of any Magic&colon; The Gathering set, one card at a time — image, oracle text, prices, EDHREC rank and a Cardmarket QR code. Powered by Scryfall. Unofficial fan content, not affiliated with Wizards of the Coast.'
+    category: games
+    github_url: 'https://github.com/Shackless/trmnl-mtg-check'
+    learn_more_url: 'https://github.com/Shackless/trmnl-mtg-check#readme'
 shagn-trmnl-ralph-ruthe-comic:
   name: 'Ralph Ruthe Comic'
   trmnlp:
@@ -5765,6 +5930,31 @@ taichikuji-trmnl-tmb-plugin:
     category: 'news,travel'
     learn_more_url: 'https://discordid.taichikuji.org/discord'
     github_url: 'https://github.com/taichikuji/trmnl-tmb-plugin'
+thecapypara-trmnl-lastfm:
+  name: 'Last.fm Album Grid'
+  trmnlp:
+    id: 390439
+    repo: 'https://github.com/theCapypara/trmnl-lastfm'
+    zip_url: 'https://github.com/theCapypara/trmnl-lastfm/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/wks82k5pyim4j1inqtn8yuod86nx'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: theCapypara
+  funding: {  }
+  author_bio:
+    description: 'This plugin displays your recent or top albums on Last.fm as a grid.'
+    description-de: 'Dieses Plugin zeigt deine zuletzt gespielten oder Top-Alben von Last.fm als Gitter.'
+    category: 'entertainment,personal'
+    github_url: 'https://github.com/theCapypara/trmnl-lastfm'
 thecapypara-trmnl-wakatime-stats:
   name: 'WakaTime Stats'
   trmnlp:
@@ -6279,3 +6469,26 @@ yeled-weather-circles:
     description: '2-day forecast using UK Met Office–style weather station circles'
     github_url: 'https://github.com/yeled/weather-circles'
     email_address: charlie@evilforbeginners.com
+zolanpro-trmnl-remnawave:
+  name: 'Remnawave Dashboard'
+  trmnlp:
+    id: null
+    repo: 'https://github.com/ZolanPro/trmnl-remnawave'
+    zip_url: 'https://github.com/ZolanPro/trmnl-remnawave/archive/refs/heads/master.zip'
+    zip_entry_path: null
+    version: master
+  logo_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/ZolanPro/trmnl-remnawave/master/docs/preview.png'
+  license: NOASSERTION
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: ZolanPro
+  funding: {  }
+  author_bio:
+    description: 'Remnawave dashboard plugin for TRMNL'
+    homepage: null
