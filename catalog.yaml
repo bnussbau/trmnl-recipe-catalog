@@ -228,7 +228,7 @@ andremessier-trmnl-recipes-plex-watchlist-episodes:
     name: 'Andre Messier'
   funding: {  }
   author_bio:
-    description: 'Shows your Plex Watchlist TV shows, sorted by most recent episode air date rather than premiere date. Excludes anything more than 3 days in the future. Requires a personal Plex token.'
+    description: 'Shows your Plex Watchlist TV shows, sorted by most recent episode air date rather than premiere date. Excludes anything more than N days in the future (configurable, default 3). Requires a personal Plex token.'
     github_url: 'https://github.com/AndreMessier/trmnl-recipes'
 andremessier-trmnl-recipes-plex-server-new-movies:
   name: 'Plex Server - Recently Added Movies'
