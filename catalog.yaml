@@ -186,15 +186,15 @@ andi4000-trmnl-open-meteo-weather-forecast:
     description: |
       Hourly weather forecast plugin with Open-Meteo Backend. No API key required. NOTE: Click save right after plugin import, to populate the required fields to fetch the weather data. Otherwise you will get "Liquid error" messages. Report bugs and translation issues on GitHub link below.
     github_url: 'https://github.com/andi4000/trmnl-open-meteo-weather-forecast'
-andremessier-trmnl-recipes-plex-watchlist-movies:
-  name: 'Plex Watchlist - Recent Movies'
+andremessier-trmnl-recipes-plex-server-new-episodes:
+  name: 'Plex Server - Recently Added Episodes'
   trmnlp:
     repo: 'https://github.com/AndreMessier/trmnl-recipes'
     zip_url: 'https://github.com/AndreMessier/trmnl-recipes/archive/refs/heads/main.zip'
-    zip_entry_path: trmnl-recipes-main/plex-watchlist-movies
+    zip_entry_path: trmnl-recipes-main/plex-server-new-episodes
     version: main
   logo_url: null
-  screenshot_url: 'https://raw.githubusercontent.com/AndreMessier/trmnl-recipes/main/screenshots/plex-watchlist-movies.png'
+  screenshot_url: 'https://raw.githubusercontent.com/AndreMessier/trmnl-recipes/main/screenshots/plex-server-new-episodes.png'
   license: MIT
   byos:
     byos_laravel:
@@ -206,29 +206,7 @@ andremessier-trmnl-recipes-plex-watchlist-movies:
     name: 'Andre Messier'
   funding: {  }
   author_bio:
-    description: 'Shows your Plex Watchlist movies, sorted by release date (newest first). Requires a personal Plex token.'
-    github_url: 'https://github.com/AndreMessier/trmnl-recipes'
-andremessier-trmnl-recipes-plex-watchlist-episodes:
-  name: 'Plex Watchlist - Recent Episodes'
-  trmnlp:
-    repo: 'https://github.com/AndreMessier/trmnl-recipes'
-    zip_url: 'https://github.com/AndreMessier/trmnl-recipes/archive/refs/heads/main.zip'
-    zip_entry_path: trmnl-recipes-main/plex-watchlist-episodes
-    version: main
-  logo_url: null
-  screenshot_url: 'https://raw.githubusercontent.com/AndreMessier/trmnl-recipes/main/screenshots/plex-watchlist-episodes.png'
-  license: MIT
-  byos:
-    byos_laravel:
-      compatibility: true
-      compatibility_note: null
-      min_version: null
-  author:
-    github: AndreMessier
-    name: 'Andre Messier'
-  funding: {  }
-  author_bio:
-    description: 'Shows your Plex Watchlist TV shows, sorted by most recent episode air date rather than premiere date. Excludes anything more than N days in the future (configurable, default 3). Requires a personal Plex token.'
+    description: 'Recently added TV episodes on your own Plex Media Server, aggregated by show rather than one row per episode. Requires your Plex token and server URL.'
     github_url: 'https://github.com/AndreMessier/trmnl-recipes'
 andremessier-trmnl-recipes-plex-server-new-movies:
   name: 'Plex Server - Recently Added Movies'
@@ -252,15 +230,15 @@ andremessier-trmnl-recipes-plex-server-new-movies:
   author_bio:
     description: 'Recently added movies on your own Plex Media Server. Requires your Plex token and server URL.'
     github_url: 'https://github.com/AndreMessier/trmnl-recipes'
-andremessier-trmnl-recipes-plex-server-new-episodes:
-  name: 'Plex Server - Recently Added Episodes'
+andremessier-trmnl-recipes-plex-watchlist-episodes:
+  name: 'Plex Watchlist - Recent Episodes'
   trmnlp:
     repo: 'https://github.com/AndreMessier/trmnl-recipes'
     zip_url: 'https://github.com/AndreMessier/trmnl-recipes/archive/refs/heads/main.zip'
-    zip_entry_path: trmnl-recipes-main/plex-server-new-episodes
+    zip_entry_path: trmnl-recipes-main/plex-watchlist-episodes
     version: main
   logo_url: null
-  screenshot_url: 'https://raw.githubusercontent.com/AndreMessier/trmnl-recipes/main/screenshots/plex-server-new-episodes.png'
+  screenshot_url: 'https://raw.githubusercontent.com/AndreMessier/trmnl-recipes/main/screenshots/plex-watchlist-episodes.png'
   license: MIT
   byos:
     byos_laravel:
@@ -272,7 +250,29 @@ andremessier-trmnl-recipes-plex-server-new-episodes:
     name: 'Andre Messier'
   funding: {  }
   author_bio:
-    description: 'Recently added TV episodes on your own Plex Media Server, aggregated by show rather than one row per episode. Requires your Plex token and server URL.'
+    description: 'Shows your Plex Watchlist TV shows, sorted by most recent episode air date rather than premiere date. Excludes anything more than N days in the future (configurable, default 3). Requires a personal Plex token.'
+    github_url: 'https://github.com/AndreMessier/trmnl-recipes'
+andremessier-trmnl-recipes-plex-watchlist-movies:
+  name: 'Plex Watchlist - Recent Movies'
+  trmnlp:
+    repo: 'https://github.com/AndreMessier/trmnl-recipes'
+    zip_url: 'https://github.com/AndreMessier/trmnl-recipes/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-recipes-main/plex-watchlist-movies
+    version: main
+  logo_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/AndreMessier/trmnl-recipes/main/screenshots/plex-watchlist-movies.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: null
+  author:
+    github: AndreMessier
+    name: 'Andre Messier'
+  funding: {  }
+  author_bio:
+    description: 'Shows your Plex Watchlist movies, sorted by release date (newest first). Requires a personal Plex token.'
     github_url: 'https://github.com/AndreMessier/trmnl-recipes'
 andremessier-trmnl-recipes-wmata-bethesda-bus:
   name: 'WMATA Bethesda Station Bus Board'
@@ -5775,7 +5775,7 @@ sun-10-print:
   trmnlp:
     id: 176517
     repo: 'https://forgejo.sny.sh/sun/TRMNL/src/branch/main/recipes/10-print'
-    zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/10-print.zip'
+    zip_url: 'https://trmnl.com/api/plugin_settings/176517/archive'
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/z1g1ekh3vzu7f5cj5nmn8awhgk91'
@@ -5786,6 +5786,7 @@ sun-10-print:
       compatibility: true
       compatibility_note: null
       min_version: 0.25.0
+      renderer: null
   author:
     github: TheLastZombie
     name: Sunny
@@ -5802,7 +5803,7 @@ sun-danbooru-gallery:
   trmnlp:
     id: 151718
     repo: 'https://forgejo.sny.sh/sun/TRMNL/src/branch/main/recipes/danbooru-gallery'
-    zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/danbooru-gallery.zip'
+    zip_url: 'https://trmnl.com/api/plugin_settings/151718/archive'
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/uzv7xs4hxtwwoiir5v1zspyjby7p'
@@ -5813,6 +5814,7 @@ sun-danbooru-gallery:
       compatibility: true
       compatibility_note: null
       min_version: 0.25.0
+      renderer: null
   author:
     github: TheLastZombie
     name: Sunny
@@ -5830,7 +5832,7 @@ sun-defas-departures:
   trmnlp:
     id: 137663
     repo: 'https://forgejo.sny.sh/sun/TRMNL/src/branch/main/recipes/defas-departures'
-    zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/defas-departures.zip'
+    zip_url: 'https://trmnl.com/api/plugin_settings/137663/archive'
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/3ckfjxro0otxn4ssvdrvxstag4zv'
@@ -5841,6 +5843,7 @@ sun-defas-departures:
       compatibility: true
       compatibility_note: null
       min_version: 0.25.0
+      renderer: null
   author:
     github: TheLastZombie
     name: Sunny
@@ -5858,7 +5861,7 @@ sun-film-guide:
   trmnlp:
     id: 130454
     repo: 'https://forgejo.sny.sh/sun/TRMNL/src/branch/main/recipes/film-guide'
-    zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/film-guide.zip'
+    zip_url: 'https://trmnl.com/api/plugin_settings/130454/archive'
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/1l307xn4v255wn15gprypuv6wxy6'
@@ -5869,6 +5872,7 @@ sun-film-guide:
       compatibility: true
       compatibility_note: null
       min_version: 0.25.0
+      renderer: null
   author:
     github: TheLastZombie
     name: Sunny
@@ -5886,7 +5890,7 @@ sun-government-alerts:
   trmnlp:
     id: 217791
     repo: 'https://forgejo.sny.sh/sun/TRMNL/src/branch/main/recipes/government-alerts'
-    zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/government-alerts.zip'
+    zip_url: 'https://trmnl.com/api/plugin_settings/217791/archive'
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/rcl2cfhspykpri41psizkge9o2i9'
@@ -5897,6 +5901,7 @@ sun-government-alerts:
       compatibility: true
       compatibility_note: null
       min_version: 0.25.0
+      renderer: null
   author:
     github: TheLastZombie
     name: Sunny
@@ -5914,7 +5919,7 @@ sun-toki-pona:
   trmnlp:
     id: 137228
     repo: 'https://forgejo.sny.sh/sun/TRMNL/src/branch/main/recipes/toki-pona'
-    zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/toki-pona.zip'
+    zip_url: 'https://trmnl.com/api/plugin_settings/137228/archive'
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/7n86h1msiftd6joddi31r80yqqoz'
@@ -5925,6 +5930,7 @@ sun-toki-pona:
       compatibility: true
       compatibility_note: null
       min_version: 0.25.0
+      renderer: null
   author:
     github: TheLastZombie
     name: Sunny
@@ -5942,7 +5948,7 @@ sun-weather-graph:
   trmnlp:
     id: 141444
     repo: 'https://forgejo.sny.sh/sun/TRMNL/src/branch/main/recipes/weather-graph'
-    zip_url: 'https://forgejo.sny.sh/sun/TRMNL/archive/main:recipes/weather-graph.zip'
+    zip_url: 'https://trmnl.com/api/plugin_settings/141444/archive'
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/90lk3vad2tzx2vfnt3b6jqnpdsqr'
@@ -5953,6 +5959,7 @@ sun-weather-graph:
       compatibility: true
       compatibility_note: null
       min_version: 0.25.0
+      renderer: null
   author:
     github: TheLastZombie
     name: Sunny
