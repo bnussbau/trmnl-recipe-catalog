@@ -279,14 +279,14 @@ andremessier-trmnl-recipes-plex-watchlist-movies:
     description: 'Shows your Plex Watchlist movies, sorted by release date (newest first). Requires a personal Plex token.'
     github_url: 'https://github.com/AndreMessier/trmnl-recipes'
 andremessier-trmnl-recipes-wmata-bethesda-bus:
-  name: 'WMATA Bethesda Station Bus Board'
+  name: 'WMATA Bus'
   trmnlp:
-    repo: 'https://github.com/AndreMessier/trmnl-recipes'
-    zip_url: 'https://github.com/AndreMessier/trmnl-recipes/archive/refs/heads/main.zip'
-    zip_entry_path: trmnl-recipes-main/wmata-bethesda-bus
+    repo: 'https://github.com/AndreMessier/trmnl-wmata-bus'
+    zip_url: 'https://github.com/AndreMessier/trmnl-wmata-bus/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: null
-  screenshot_url: 'https://raw.githubusercontent.com/AndreMessier/trmnl-recipes/main/screenshots/wmata-bethesda-bus.png'
+  screenshot_url: 'https://raw.githubusercontent.com/AndreMessier/trmnl-wmata-bus/main/screenshots/wmata-bus.png'
   license: MIT
   byos:
     byos_laravel:
@@ -299,8 +299,8 @@ andremessier-trmnl-recipes-wmata-bethesda-bus:
   funding: {  }
   author_bio:
     category: 'travel,life'
-    description: 'Combined bus arrival board for all three Metrobus routes serving Bethesda Station (D96, M22, M70). Requires a free WMATA developer API key.'
-    github_url: 'https://github.com/AndreMessier/trmnl-recipes'
+    description: 'Combined bus arrival board for any set of WMATA bus stops, merged and sorted by arrival time. Configure a comma-separated list of StopIDs (any number, including just one). Originally built for the three Metrobus routes/bays at Bethesda Station (D96, M22, M70), which remains the default example. Requires a free WMATA developer API key.'
+    github_url: 'https://github.com/AndreMessier/trmnl-wmata-bus'
 andrzejskowron-steamsales:
   name: 'Steam Sales'
   trmnlp:
