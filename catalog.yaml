@@ -516,6 +516,31 @@ blueset-custom-next-holiday:
     description: 'Countdown to your custom holidays. Support absolute dates, date of month, and <b class="font-normal italic">n</b>-th weekday of month.'
     github_url: 'https://github.com/blueset/trmnl-recipes'
     category: 'calendar,personal'
+blueset-fda:
+  name: 'US FDA Recalls'
+  trmnlp:
+    id: 453276
+    repo: 'https://github.com/blueset/trmnl-recipes'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/fda
+    version: master
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/tm6lp5ljk4mrqejgqooun5otlmgp'
+  screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/refs/heads/master/fda/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: blueset
+  funding: {  }
+  author_bio:
+    description: 'Recent recalls, market withdrawals, and safety alerts of FDA-regulated products. Data courtesy of <a href="https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts">FDA</a>.'
+    learn_more_url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts'
+    category: 'life,news'
+    github_url: 'https://github.com/blueset/trmnl-recipes'
 blueset-framework-update:
   name: 'TRMNL Framework Updates'
   trmnlp:
@@ -4179,6 +4204,30 @@ mgeilich-planet-finder:
     description: 'Planet Finder displays a real-time planisphere/sky map.<br>Created by Michael Geilich. Please report any issues on GitHub.'
     github_url: 'https://github.com/mgeilich/planetfinder'
     category: 'discovery,education'
+michaelkurath-trmnl-built-broken:
+  name: 'Built & Broken'
+  trmnlp:
+    id: 457120
+    repo: 'https://github.com/michaelkurath/TRMNL-Built-Broken'
+    zip_url: 'https://github.com/michaelkurath/TRMNL-Built-Broken/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/n3ftmt55x3bv4cpzagyw61g0qfuo'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: michaelkurath
+  funding: {  }
+  author_bio:
+    category: 'custom,education'
+    description: 'Daily engineering breakthroughs and failures, each reduced to the decision, detail or assumption engineers can learn from.'
+    github_url: 'https://github.com/michaelkurath/TRMNL-Built-Broken'
 mironiasty-trmnl-bergfex-snow:
   name: 'Bergfex Snow Report'
   trmnlp:
@@ -4367,6 +4416,31 @@ pipwilson-trmnl-72-seasons:
     description: "Tells you which of Japan's traditional 72 seasons it currently is."
     github_url: 'https://github.com/pipwilson/trmnl-72-seasons'
     learn_more_url: 'https://philwilson.org/blog/2025/06/72-seasons-on-the-trmnl/'
+pradeepbbl-energy-pulse:
+  name: 'Energy Pulse'
+  trmnlp:
+    id: 453401
+    repo: 'https://github.com/pradeepbbl/trmnl_plugins'
+    zip_url: 'https://github.com/pradeepbbl/trmnl_plugins/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl_plugins-master/energy_pulse
+    version: master
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/w4t67m4tbw4la5mxvrdst5apl7u3'
+  screenshot_url: 'https://raw.githubusercontent.com/pradeepbbl/trmnl_plugins/master/energy_pulse/docs/full.png'
+  license: Apache-2.0
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'Cloudflare blocks API'
+      min_version: null
+      renderer: null
+  author:
+    github: pradeepbbl
+  funding: {  }
+  author_bio:
+    category: 'environment,finance'
+    description: 'Energy Pulse was built by Pradeep Mishra to surface European day-ahead electricity prices from ENTSO-E at a glance. Questions, bugs, or feature requests? Open an issue on GitHub or reach out by email.<br/>Source and docs live in the repo linked below.'
+    github_url: 'https://github.com/pradeepbbl/trmnl_plugins'
+    email_address: pradeepbbl@gmail.com
 pythcon-trmnl-plugin-grafana:
   name: 'Grafana Panel'
   trmnlp:
