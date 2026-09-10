@@ -4997,6 +4997,27 @@ robertpolmear-trmnl-nsw-traffic-cams:
   author_bio:
     description: 'Displays a live snapshot from NSW Traffic Cameras. For a full list of camera names, use the Learn More link.'
     learn_more_url: 'https://trmnl-rp.vercel.app/public/nsw-camera-names.html'
+robotter112-trmnl-netatmo-weather:
+  name: 'Netatmo Weather & Air Quality'
+  trmnlp:
+    id: null
+    repo: 'https://github.com/robotter112/TRMNL-Netatmo-Weather'
+    zip_url: 'https://github.com/robotter112/TRMNL-Netatmo-Weather/archive/refs/heads/main.zip'
+    version: main
+  logo_url: 'https://raw.githubusercontent.com/robotter112/TRMNL-Netatmo-Weather/main/assets/icon.png'
+  screenshot_url: 'https://raw.githubusercontent.com/robotter112/TRMNL-Netatmo-Weather/main/assets/preview-summer-en.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.41.0
+  author:
+    github: robotter112
+  funding: {  }
+  author_bio:
+    description: 'Netatmo weather station via Home Assistant: indoor and outdoor climate with trend arrows, a CO2 gauge based on German UBA guideline values, a window-open recommendation and 24 h charts for temperature and CO2. Labels in English or German.'
+    learn_more_url: 'https://github.com/robotter112/TRMNL-Netatmo-Weather/blob/main/README.md'
 saious119-trmnl-anime-of-the-day:
   name: 'Anime of the Day'
   trmnlp:
