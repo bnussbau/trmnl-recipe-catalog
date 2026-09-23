@@ -3223,6 +3223,32 @@ jortvd-trmnl-plausible:
     description: 'Plausible Analytics is a privacy-friendly web analytics platform, available through Plausible.io or via self-hosting the Community Edition.'
     github_url: 'https://github.com/jortvd'
     email_address: jortvd2002@gmail.com
+jshelley-trmnl-news-briefing:
+  name: 'News Briefing'
+  trmnlp:
+    id: 472511
+    repo: 'https://github.com/jshelley/trmnl-news-briefing'
+    zip_url: 'https://github.com/jshelley/trmnl-news-briefing/archive/ef0938c9ae99e70ca753e60d3453a111e4ad7410.zip'
+    zip_entry_path: null
+    version: 'ef0938c'
+  logo_url: 'https://raw.githubusercontent.com/jshelley/trmnl-news-briefing/main/icon.png'
+  screenshot_url: 'https://raw.githubusercontent.com/jshelley/trmnl-news-briefing/main/media/screenshot-og.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: 'Not tested on BYOS yet. Polls a free public JSON endpoint; uses Framework 3.3 overflow attributes and trmnl.user.utc_offset (falls back to UTC).'
+      min_version: null
+  author:
+    github: jshelley
+    name: 'Jordan Shelley'
+  funding: {  }
+  author_bio:
+    description: 'Hourly LLM-edited news briefings (AI, AI research, frontier labs, markets, US sports, European football, US and world news, crypto, plus two daily editions) with a QR code per story.'
+    homepage: 'https://wholemind.tech/briefing/'
+  categories:
+    - news
+
 jshiell-trmnl-national-rail-departures:
   name: 'National Rail Departures'
   trmnlp:
