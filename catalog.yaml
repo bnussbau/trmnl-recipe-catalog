@@ -3228,17 +3228,17 @@ jshelley-trmnl-news-briefing:
   trmnlp:
     id: 472511
     repo: 'https://github.com/jshelley/trmnl-news-briefing'
-    zip_url: 'https://github.com/jshelley/trmnl-news-briefing/archive/ef0938c9ae99e70ca753e60d3453a111e4ad7410.zip'
+    zip_url: 'https://github.com/jshelley/trmnl-news-briefing/archive/884f57e.zip'
     zip_entry_path: null
-    version: 'ef0938c'
+    version: '884f57e'
   logo_url: 'https://raw.githubusercontent.com/jshelley/trmnl-news-briefing/main/icon.png'
   screenshot_url: 'https://raw.githubusercontent.com/jshelley/trmnl-news-briefing/main/media/screenshot-og.png'
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
-      compatibility_note: 'Not tested on BYOS yet. Polls a free public JSON endpoint; uses Framework 3.3 overflow attributes and trmnl.user.utc_offset (falls back to UTC).'
-      min_version: null
+      compatibility: true
+      compatibility_note: 'Tested on LaraPaper 0.42.0 (recipe archive import, polling the free public JSON endpoint, full view rendered to PNG with the QR codes). Uses Framework 3.3 overflow attributes; the title bar falls back to UTC when trmnl.user.utc_offset is absent.'
+      min_version: 0.42.0
   author:
     github: jshelley
     name: 'Jordan Shelley'
