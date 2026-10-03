@@ -20,6 +20,57 @@ a-mnich-trmnl-monkey-island-quotes:
   author_bio:
     description: 'TRMNL Monkey Island Quotes Plugin'
     homepage: ''
+adechassey-trmnl-idfm-trains:
+  name: 'Île-de-France Next Trains'
+  trmnlp:
+    id: 474032
+    repo: 'https://github.com/adechassey/trmnl-idfm-trains'
+    zip_url: 'https://github.com/adechassey/trmnl-idfm-trains/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/lghbabp2fy0iuokx8w2p2mun6koi'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: adechassey
+  funding: {  }
+  author_bio:
+    category: 'travel,life'
+    description: "Next trains at any Île-de-France station (Transilien, RER, metro, tram), with line, destination, mission code, platform and delays, from the Île-de-France Mobilités PRIM API. You need a free PRIM API key and your station's stop area id (ZdAId), both explained below. Labels in English or French."
+    description-fr: "Prochains trains dans n'importe quelle gare d'Île-de-France (Transilien, RER, métro, tram), avec ligne, destination, code mission, voie et retards, depuis l'API PRIM d'Île-de-France Mobilités. Il vous faut une clé d'API PRIM gratuite et l'identifiant de zone d'arrêt de votre gare (ZdAId), expliqués ci-dessous. Libellés en anglais ou en français."
+    github_url: 'https://github.com/adechassey/trmnl-idfm-trains'
+    learn_more_url: 'https://prim.iledefrance-mobilites.fr'
+adechassey-trmnl-llm-leaderboards:
+  name: 'LLM Leaderboards'
+  trmnlp:
+    id: 474928
+    repo: 'https://github.com/adechassey/trmnl-llm-leaderboards'
+    zip_url: 'https://github.com/adechassey/trmnl-llm-leaderboards/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/d9iu9uryfvr2j9ct85tv2uxcw857'
+  screenshot_url: 'https://raw.githubusercontent.com/adechassey/trmnl-llm-leaderboards/main/docs/screenshots/full.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'Serverless is not yet compatible.'
+      min_version: null
+      renderer: null
+  author:
+    github: adechassey
+  funding: {  }
+  author_bio:
+    category: 'analytics,programming'
+    description: "Top models on the main LLM benchmark leaderboards, up to three side by side. Arena (LMArena) Elo, the Epoch Capabilities Index and Epoch AI's benchmark tables (GPQA Diamond, SWE-bench Verified, FrontierMath, Terminal-Bench, ARC-AGI-2...), LiveBench, and the Artificial Analysis indices with your free key. No server needed. Labels in English or French."
+    github_url: 'https://github.com/adechassey/trmnl-llm-leaderboards'
+    learn_more_url: 'https://epoch.ai/benchmarks'
 alisterscott-trmnl-bne-bin:
   name: 'Brisbane Bin Collection'
   trmnlp:
@@ -464,6 +515,32 @@ aziac-trmnl-ghibli-backgrounds:
     category: 'art,images'
     description: 'A simple plugin to randomly display images from various Studio Ghibli movies.'
     github_url: 'https://github.com/aziac/trmnl-ghibli-backgrounds'
+barrymichaeldoyle-appstrmnl:
+  name: 'Formula 1 Race Weekend'
+  trmnlp:
+    id: 485545
+    repo: 'https://github.com/barrymichaeldoyle/GrandPrixPicks'
+    zip_url: 'https://github.com/barrymichaeldoyle/GrandPrixPicks/archive/refs/heads/main.zip'
+    zip_entry_path: GrandPrixPicks-main/apps/trmnl
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/znix0hq9gaw8ehwyvy28ru2hm61z'
+  screenshot_url: null
+  license: NOASSERTION
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: barrymichaeldoyle
+  funding: {  }
+  author_bio:
+    category: sports
+    description: 'Made by GrandPrixPicks.com. Install rather than Fork to get future updates. <br/><br/>Questions or ideas? <a href="https://discord.gg/c7YHSNE4Te">Join the Discord</a>'
+    learn_more_url: 'https://grandprixpicks.com/trmnl'
+    github_url: 'https://github.com/barrymichaeldoyle/GrandPrixPicks/tree/main/apps/trmnl'
+    email_address: barry@barrymichaeldoyle.com
 bartschuurmans-trmnl-rolling-month-calendar:
   name: 'Rolling Month Calendar'
   trmnlp:
@@ -695,6 +772,34 @@ blueset-is-it-down:
     category: 'kpi,programming'
     github_url: 'https://github.com/blueset/trmnl-recipes'
     learn_more_url: 'https://isupmap.com/'
+blueset-killed-by-google:
+  name: 'Killed by Google'
+  trmnlp:
+    id: 482504
+    repo: 'https://github.com/blueset/trmnl-recipes'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/killed-by-google
+    version: master
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/x3my0pkxk7j0dyltert3p9rprtjx'
+  screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/master/killed-by-google/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: blueset
+  funding: {  }
+  author_bio:
+    description: |
+      Every service Google has shut down in history.
+
+      Data courtesy of <a href="https://killedbygoogle.com/">Killed by Google</a>.
+    learn_more_url: 'https://killedbygoogle.com/'
+    category: news
+    github_url: 'https://github.com/blueset/trmnl-recipes'
 blueset-lyricova-quote:
   name: 'Vocaloid Lyrics Quote'
   trmnlp:
@@ -722,6 +827,31 @@ blueset-lyricova-quote:
     github_url: 'https://github.com/blueset/trmnl-recipes'
     learn_more_url: 'https://lyricova.1a23.studio/'
     category: 'discovery,art'
+blueset-microsoft-rename:
+  name: 'What did Microsoft Rename?'
+  trmnlp:
+    id: 482364
+    repo: 'https://github.com/blueset/trmnl-recipes'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/microsoft-rename
+    version: master
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/agaeci5m75hoy95iiubql7q3lukj'
+  screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/master/microsoft-rename/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: blueset
+  funding: {  }
+  author_bio:
+    description: 'Every rename Microsoft has done in history. Data courtesy of <a href="https://www.msrebrandregistry.com/index.html">The Rebrand Registry</a>.'
+    learn_more_url: 'https://www.msrebrandregistry.com/index.html'
+    category: news
+    github_url: 'https://github.com/blueset/trmnl-recipes'
 blueset-one-headline:
   name: 'One Headline News'
   trmnlp:
@@ -1477,6 +1607,30 @@ bnussbau-trmnl-vienna-metro-departures:
     category: travel
     github_url: 'https://github.com/bnussbau/trmnl-vienna-metro-departures'
     email_address: trmnl@benjaminnussbaum.at
+brwoodside-trmnl-flight-tracker:
+  name: 'Overhead Flight Tracker'
+  trmnlp:
+    id: 456500
+    repo: 'https://github.com/brwoodside/trmnl-flight-tracker'
+    zip_url: 'https://github.com/brwoodside/trmnl-flight-tracker/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/x89f11m294a9wvqprlwhcufy62qt'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: brwoodside
+  funding: {  }
+  author_bio:
+    description: 'Built by Barrett in NorCal. Identifies overhead flying objects from public and paid data sources. For support, open an issue on <a href="https://github.com/brwoodside/trmnl-flight-tracker/issues" target="_blank" rel="noopener noreferrer">GitHub</a>. Follow <a href="https://x.com/exploreml" target="_blank" rel="noopener noreferrer">@exploreml on X</a>.'
+    category: travel
+    github_url: 'https://github.com/brwoodside/trmnl-flight-tracker'
 captainproton42-trmnl-home-assistant-todo-list:
   name: 'Home Assistant To-Do List'
   trmnlp:
@@ -1577,6 +1731,30 @@ caweis-victron:
     description: 'A Victron VRM dashboard for TRMNL. Battery, solar, load, grid, weather, temperatures, and tank levels, rendered from your own installation. Deploy the Worker and point it at your VRM (setup guide linked below).'
     github_url: 'https://github.com/caweis/victron-trmnl'
     email_address: chris@rigsense.app
+coffindeliveryservice-this-day-in-horror:
+  name: 'This Day in Horror'
+  trmnlp:
+    id: 444021
+    repo: 'https://github.com/CoffinDeliveryService/this-day-in-horror'
+    zip_url: 'https://github.com/CoffinDeliveryService/this-day-in-horror/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/n1nda9kq98d9t2edyi5sgoh1b7pf'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: CoffinDeliveryService
+  funding: {  }
+  author_bio:
+    category: entertainment
+    description: 'One notable horror fact for every day of the year — film premieres, births and deaths of genre icons, and dark trivia — each with a matching image. Nothing to set up; the full 366-day calendar ships inside the plugin and rolls over at your local midnight. Dates and images are compiled from Wikidata and Wikipedia, so a handful of entries use a festival premiere rather than the wide release everyone remembers. Fork it on GitHub to rewrite any day you’d like to change.'
+    github_url: 'https://github.com/CoffinDeliveryService/this-day-in-horror'
 ctorrao-trmnl-fuel-pricing-pt:
   name: 'Fuel Prices Portugal'
   trmnlp:
@@ -1663,6 +1841,58 @@ depau-trmnl-atm-milano:
   author_bio:
     description: 'Unofficial plugin, display the live time table for the selected ATM Milano bus/tram stops.'
     github_url: 'https://github.com/depau/trmnl-atm-milano/'
+dfloureiro-pluginsipma-weather:
+  name: 'IPMA Weather'
+  trmnlp:
+    id: 477615
+    repo: 'https://github.com/dfloureiro/TRMNL-plugins'
+    zip_url: 'https://github.com/dfloureiro/TRMNL-plugins/archive/refs/heads/main.zip'
+    zip_entry_path: TRMNL-plugins-main/plugins/ipma-weather
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/x6qd9j424quzzh5oabc1m8baz6yg'
+  screenshot_url: null
+  license: NOASSERTION
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: dfloureiro
+  funding: {  }
+  author_bio:
+    category: 'nature,environment'
+    description: 'Daily weather for Portugal via <a href="https://api.ipma.pt/">IPMA open data</a>, by Diogo Loureiro. Set an IPMA Location ID, language, and optionally a display name. Not every municipality has its own station — pick the nearest city (e.g. Lisbon for Loures). Questions or issues? Open a GitHub issue or email me.'
+    github_url: 'https://github.com/dfloureiro/TRMNL-plugins/tree/main/plugins/ipma-weather'
+    learn_more_url: 'https://api.ipma.pt/'
+    email_address: dfl.accounts+trmnl@mailbox.org
+dfloureiro-pluginstomtom-commute:
+  name: 'TomTom Commute'
+  trmnlp:
+    id: 477902
+    repo: 'https://github.com/dfloureiro/TRMNL-plugins'
+    zip_url: 'https://github.com/dfloureiro/TRMNL-plugins/archive/refs/heads/main.zip'
+    zip_entry_path: TRMNL-plugins-main/plugins/TomTom-Commute
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/2b2lv62jlpkzwsrfc8dmcywbienq'
+  screenshot_url: null
+  license: NOASSERTION
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: dfloureiro
+  funding: {  }
+  author_bio:
+    category: 'productivity,travel'
+    description: 'Car commute times via <a href="https://developer.tomtom.com/">TomTom Routing</a>, by Diogo Loureiro. Set origin and destination as <code>lat,lng</code>. Leave <code>Arrive by</code> empty for live travel time, or set a time to see when to leave. Turn on <code>Return Trip?</code> for the way home.'
+    github_url: 'https://github.com/dfloureiro/TRMNL-plugins/tree/main/plugins/TomTom-Commute'
+    email_address: dfl.accounts+trmnl@mailbox.org
+    learn_more_url: 'https://developer.tomtom.com/routing-api/documentation/tomtom-maps/v1/calculate-route'
 doekenorg-trmnl-buienradar:
   name: 'Buienradar Station'
   trmnlp:
@@ -1713,6 +1943,30 @@ dsdilpreet-google-health:
     category: 'personal,sports'
     description: "Displays your daily activity and recovery metrics from Google Health. Note because this is an open-source plugin and I do not own the trmnl.com domain, I haven't gone through the formal process of getting the app verified by Google. So you will see an 'Unverified App' warning when connecting your google account. This is normal and can be bypassed. The code for this plugin is on github. Hope you enjoy it!"
     github_url: 'https://github.com/dsdilpreet/trmnl-plugins'
+dsoklic-trmnl-lpp-timetable:
+  name: 'LPP Ljubljana Timetable'
+  trmnlp:
+    id: 482855
+    repo: 'https://github.com/dsoklic/TRMNL-LPP-timetable'
+    zip_url: 'https://github.com/dsoklic/TRMNL-LPP-timetable/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/uew0ehxxl8gvwuzep34br89sz1t5'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: dsoklic
+  funding: {  }
+  author_bio:
+    description: "Displays a station's timetable for LPP buses in Ljubljana, Slovenia."
+    github_url: 'https://github.com/dsoklic/TRMNL-LPP-timetable'
+    category: 'custom,travel'
 ericrogerstechnology-applytics-trmnl:
   name: Applytics
   trmnlp:
@@ -1834,6 +2088,32 @@ excusemi-movie-guesser:
       How it works: Each refresh shows a new random still from your filtered movie selection. Scan the QR code to reveal the answer and see full movie details. Powered by TheMovieDB
     github_url: 'https://github.com/ExcuseMi/trmnl-movie-guesser-plugin'
     category: 'art,entertainment'
+excusemi-plugin:
+  name: 'Metro Calendar'
+  trmnlp:
+    id: 471753
+    repo: 'https://github.com/ExcuseMi/trmnl-metro-calendar-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-metro-calendar-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-metro-calendar-plugin-main/plugin
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ufubd58b8l8i49vcz342vqv4jool'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: "Who is out, who is home, who is picking up the kids. One look at the wall and you know.<br /><br />A <strong>shared family calendar</strong> drawn as a metro map. Everyone in the household gets a <strong>line</strong>, their appointments are <strong>stops</strong> along it, and when two of you are at the same thing your lines meet at an <strong>interchange</strong> - so overlaps and clashes are something you see, rather than something you work out from a list.<br /><br />It shows today and rolls on into tomorrow as the evening runs out, with holidays and the weather in the header. It reads any calendar that gives you a link - Google, Apple, Outlook, Nextcloud - speaks eight languages, and fits every TRMNL screen and mashup.<br /><br /><strong>Try it before you set anything up.</strong> With no calendars added it draws a full example day, so you can see whether this is how you want your week to look.<br /><br />Then yes - it wants your calendars, and that is a cup of tea's worth of work. The <strong>setup helper</strong> does it with you rather than sending you off to find things alone: it asks who is in the house, shows you where the calendar link hides in Google, Apple, Outlook, Nextcloud or Proton, reads each one back to you in words to prove it works, and draws the finished board before you save anything. It can also write you a prompt for an AI assistant: paste it in, paste the answer back, and your own board reads like the examples, with the lines named, a mixed feed routed to the right people and the titles trimmed. Do it once and the wall looks after itself."
+    github_url: 'https://github.com/ExcuseMi/trmnl-metro-calendar-plugin'
+    learn_more_url: 'https://excusemi.github.io/trmnl-metro-calendar-plugin/tools/config-editor.html'
+    category: calendar
+    help_text: 'TRMNL X Ready · English, français, español, Deutsch, Nederlands, italiano, português, polski'
 excusemi-retroachievements:
   name: 'RetroAchievements: Recent Games'
   trmnlp:
@@ -2531,6 +2811,37 @@ frjo-smhi:
     github: frjo
   funding: {  }
   author_bio: {  }
+fugalgolf-trmnl-national-league:
+  name: 'National League (Hockey)'
+  trmnlp:
+    id: 482929
+    repo: 'https://github.com/FugalGolf/trmnl-National_league'
+    zip_url: 'https://github.com/FugalGolf/trmnl-National_league/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/u0fgjkthut6hlhn2l0yow62z8ztg'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: FugalGolf
+  funding: {  }
+  author_bio:
+    category: sports
+    github_url: 'https://github.com/FugalGolf/trmnl-National_league'
+    learn_more_url: 'https://www.nationalleague.ch'
+    description: |
+      Follow your Swiss National League club on TRMNL: league position, the score of the last game, and when and where the next one is played.<br><br> Pick your team from the 14 NL clubs, and the plugin does the rest. The full standings appear alongside on the full-screen layout, with your club highlighted. Kick-off times follow your TRMNL time zone, so the plugin still makes sense if you follow your club from abroad.<br><br> Available in the three national languages and English, or set to Automatic to follow your account language. Club names adapt too: SC Bern or CP Berne, EHC Biel or HC Bienne, EV Zug or EV Zoug.<br><br> Points follow the NL three-point rule: 3 for a win in regulation, 2 for an overtime or shootout win, 1 for an overtime or shootout loss. Teams level on points are separated by games played, then goal difference. Updated hourly from nationalleague.ch. Not affiliated with the National League or the Swiss Ice Hockey Federation.
+    description-fr: |
+      Suivez votre club de National League sur TRMNL : la place au classement, le score du dernier match, et la date, l'heure et l'adversaire du prochain.<br><br> Choisissez votre équipe parmi les 14 clubs de NL, le plugin fait le reste. Le classement complet s'affiche à côté en pleine largeur, votre club mis en évidence. Les heures de coup d'envoi suivent le fuseau de votre compte.<br><br> Disponible en français, allemand, italien et anglais, ou en mode Automatique pour suivre la langue de votre compte. Les noms de club s'adaptent aussi.<br><br> Points selon la règle NL : 3 pour une victoire, 2 en prolongation ou aux tirs au but, 1 pour une défaite en prolongation ou aux tirs au but. À égalité de points, départage au nombre de matchs joués puis à la différence de buts. Mise à jour toutes les heures depuis nationalleague.ch. Sans lien avec la National League ni la Fédération suisse de hockey sur glace.
+    description-de: |
+      Verfolgen Sie Ihren National-League-Club auf TRMNL: Tabellenplatz, Resultat des letzten Spiels sowie Datum, Zeit und Gegner des nächsten.<br><br> Wählen Sie Ihr Team aus den 14 NL-Clubs, den Rest übernimmt das Plugin. In der Vollansicht steht die komplette Tabelle daneben, Ihr Club hervorgehoben. Die Anspielzeiten richten sich nach der Zeitzone Ihres Kontos.<br><br> Verfügbar auf Deutsch, Französisch, Italienisch und Englisch, oder auf Automatisch für die Sprache Ihres Kontos. Auch die Clubnamen passen sich an.<br><br> Punkte nach der NL-Regel: 3 für einen Sieg, 2 nach Verlängerung oder Penaltyschiessen, 1 für eine Niederlage nach Verlängerung oder Penaltyschiessen. Bei Punktgleichheit entscheiden die Anzahl Spiele und danach die Tordifferenz. Stündlich aktualisiert über nationalleague.ch. Nicht mit der National League oder Swiss Ice Hockey verbunden.
+    description-it: "Seguite il vostro club di National League su TRMNL: posizione in classifica, risultato dell'ultima partita, data, ora e avversario della prossima.<br><br> Scegliete la vostra squadra fra i 14 club di NL, al resto pensa il plugin. A schermo intero la classifica completa appare a fianco, con il vostro club in evidenza. Gli orari seguono il fuso orario del vostro account.<br><br> Disponibile in italiano, francese, tedesco e inglese, oppure in modalità Automatico per seguire la lingua del vostro account. Anche i nomi dei club si adattano.<br><br> Punti secondo la regola NL: 3 per una vittoria, 2 ai supplementari o ai rigori, 1 per una sconfitta ai supplementari o ai rigori. A parità di punti contano le partite giocate e poi la differenza reti. Aggiornato ogni ora da nationalleague.ch. Non affiliato alla National League né a Swiss Ice Hockey."
 glyphic.com-marquee:
   name: Marquee
   trmnlp:
@@ -2906,6 +3217,57 @@ hrdkbhatnagar-garbage-calendar:
   funding: {  }
   author_bio:
     description: 'Garbage calendar for TRMNL'
+iler-trmnl-met-norway:
+  name: 'Forecast and Warnings'
+  trmnlp:
+    id: 460164
+    repo: 'https://github.com/iler/trmnl-met-norway'
+    zip_url: 'https://github.com/iler/trmnl-met-norway/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/kbecf7uvguqrq8khxbd4yve2v60y'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: iler
+  funding: {  }
+  author_bio:
+    category: 'environment,nature'
+    description: 'A forecast for one place, and the severe weather warnings that MET Norway issues for it: the weather now, the next 12 hours in steps of 2 hours, and the next 5 days. When MET Norway issues a warning for your place, a band across the top of the screen names it. Severity is a word, not a colour, because the screen has only black and white. <br><br> The warnings are the reason this recipe exists. MET Norway issues them for Norway only, so most places never show one. When there is no warning, the screen gives that space back to the forecast. <br><br> Set a latitude and a longitude with 4 decimals at most, because MET Norway refuses more than 4. A location name is optional: the forecast carries no place name, so without it the screen has nothing to call the place. <br><br> Keep the refresh rate at 60 minutes or slower. MET Norway counts requests for the whole recipe, across everyone who installs it, so a faster rate risks throttling for every installer and not only for you. <br><br> Built by Ilari Mäkelä. Data from MET Norway, licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Not an official MET Norway plugin, and not endorsed by MET Norway. Source and issues: <a href="https://github.com/iler/trmnl-met-norway">github.com/iler/trmnl-met-norway</a> &middot; MET Norway API: <a href="https://api.met.no/">api.met.no</a>'
+    help_text: "Your coordinates are stored by TRMNL. TRMNL's own servers send them to MET Norway once an hour and keep the answer until the next refresh; your display never contacts MET Norway itself. The plugin reads a public forecast, writes nothing, and sends nothing anywhere else."
+    github_url: 'https://github.com/iler/trmnl-met-norway'
+    learn_more_url: 'https://api.met.no/'
+iler-trmnl-ruuvitag:
+  name: 'Ruuvi Indoor Climate'
+  trmnlp:
+    id: 461530
+    repo: 'https://github.com/iler/trmnl-ruuvitag'
+    zip_url: 'https://github.com/iler/trmnl-ruuvitag/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/7feeaw3oya72shhn9qgqjdajnl7r'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: trmnl-liquid
+  author:
+    github: iler
+  funding: {  }
+  author_bio:
+    category: environment
+    github_url: 'https://github.com/iler/trmnl-ruuvitag'
+    learn_more_url: 'https://docs.ruuvi.com/communicate-with-ruuvi-cloud/cloud/user-api'
+    description: 'Every RuuviTag in your Ruuvi Cloud account on one screen: temperature, humidity, pressure, battery, and when each sensor was last heard from. Alarms come from Ruuvi''s own alert settings, so the thresholds, delay and hysteresis you configured in the Ruuvi app are what the screen shows. <br><br> Needs a read-only Ruuvi Cloud API token: call <code>/register</code> with your account email to be emailed a verification code, then <code>/verify</code> with that code to receive the bearer token. The token creator linked at the end does both steps in your browser. It belongs to this project rather than to Ruuvi, stores nothing, and a content security policy holds it to Ruuvi Cloud and nothing else. <br><br> "Priority sensors" decides which sensors the smaller layouts have room for; leave it blank to keep the order Ruuvi gives. <br><br> Your token is stored by TRMNL and sent from TRMNL''s servers to Ruuvi Cloud, and nowhere else. The plugin only reads your sensors; it never writes to your Ruuvi account. Because it polls with your own token against your own account, the refresh rate is yours to set and does not affect anyone else using this recipe. <br><br> Built by Ilari Mäkelä. Source and issues: <a href="https://github.com/iler/trmnl-ruuvitag">github.com/iler/trmnl-ruuvitag</a> <br> Token creator: <a href="https://ruuvi-api-token.ilari.dev/">ruuvi-api-token.ilari.dev</a> (<a href="https://github.com/iler/ruuvi-cloud-api-token-creator">source</a>)'
 ingm4r-trmnl-plugin-evcc:
   name: 'EVCC Dashboard'
   trmnlp:
@@ -3255,7 +3617,7 @@ jshelley-trmnl-news-briefing:
     repo: 'https://github.com/jshelley/trmnl-news-briefing'
     zip_url: 'https://github.com/jshelley/trmnl-news-briefing/archive/884f57e.zip'
     zip_entry_path: null
-    version: '884f57e'
+    version: 884f57e
   logo_url: 'https://raw.githubusercontent.com/jshelley/trmnl-news-briefing/main/icon.png'
   screenshot_url: 'https://raw.githubusercontent.com/jshelley/trmnl-news-briefing/main/media/screenshot-og.png'
   license: MIT
@@ -3271,9 +3633,6 @@ jshelley-trmnl-news-briefing:
   author_bio:
     description: 'Hourly LLM-edited news briefings (AI, AI research, frontier labs, markets, US sports, European football, US and world news, crypto, plus two daily editions) with a QR code per story.'
     homepage: 'https://wholemind.tech/briefing/'
-  categories:
-    - news
-
 jshiell-trmnl-national-rail-departures:
   name: 'National Rail Departures'
   trmnlp:
@@ -4231,6 +4590,57 @@ martinbelko-trmnl-plugin-tibber-norway:
   author_bio:
     description: 'Electricity price chart for today, for Norwegian homes using Tibber.'
     github_url: 'https://github.com/MartinBelko/TRMNL-Plugin-Tibber-Norway'
+mcduarte2000-trmnl-publico:
+  name: Público
+  trmnlp:
+    id: 459683
+    repo: 'https://github.com/mcduarte2000/trmnl-publico'
+    zip_url: 'https://github.com/mcduarte2000/trmnl-publico/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/rzxdqu2loyfc6g1wy1y54guxrsjq'
+  screenshot_url: null
+  license: GPL-3.0
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: mcduarte2000
+  funding: {  }
+  author_bio:
+    github_url: 'https://github.com/mcduarte2000/trmnl-publico'
+    email_address: home.publicotrmnlplugin@miguelduarte.net
+    category: news
+    learn_more_url: 'https://www.publico.pt/'
+    description: 'Latest news in Portuguese from Público, covering Portugal, World, Culture, Science, Technology, Business, and other key topics.'
+mgeilich-asteroids:
+  name: Asteroids
+  trmnlp:
+    id: 411563
+    repo: 'https://github.com/mgeilich/asteroids'
+    zip_url: 'https://github.com/mgeilich/asteroids/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/4nn4g5i12d1sk5yihtykypg0h1ro'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: mgeilich
+  funding: {  }
+  author_bio:
+    description: 'Tracking of near-Earth objects powered by the NASA NeoWS API.'
+    github_url: 'https://github.com/mgeilich/asteroids'
+    learn_more_url: 'https://api.nasa.gov/#neo'
+    category: 'discovery,education'
 mgeilich-planet-finder:
   name: 'Planet Finder'
   trmnlp:
@@ -4255,6 +4665,31 @@ mgeilich-planet-finder:
     description: 'Planet Finder displays a real-time planisphere/sky map.<br>Created by Michael Geilich. Please report any issues on GitHub.'
     github_url: 'https://github.com/mgeilich/planetfinder'
     category: 'discovery,education'
+michaelkurath-todays-repair-trmnl:
+  name: 'Todays Repair'
+  trmnlp:
+    id: 460880
+    repo: 'https://github.com/michaelkurath/todays-repair-trmnl'
+    zip_url: 'https://github.com/michaelkurath/todays-repair-trmnl/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/zjjk6g6hqlnkxb8f6eev7r60wly0'
+  screenshot_url: null
+  license: NOASSERTION
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: michaelkurath
+  funding: {  }
+  author_bio:
+    category: 'news,life'
+    description: "Today's Repair counters the doom feed with a random, source-backed example of something people repaired, reduced, or protected. Each entry adds context and an honest caveat: progress, not perfection."
+    github_url: 'https://github.com/michaelkurath/todays-repair-trmnl'
+    learn_more_url: 'https://michaelkurath.github.io/todays-repair-trmnl/'
 michaelkurath-trmnl-built-broken:
   name: 'Built & Broken'
   trmnlp:
@@ -4279,6 +4714,54 @@ michaelkurath-trmnl-built-broken:
     category: 'custom,education'
     description: 'Daily engineering breakthroughs and failures, each reduced to the decision, detail or assumption engineers can learn from.'
     github_url: 'https://github.com/michaelkurath/TRMNL-Built-Broken'
+michaelkurath-trmnl-goodbye:
+  name: GOODBYE
+  trmnlp:
+    id: 467205
+    repo: 'https://github.com/michaelkurath/TRMNL-Goodbye'
+    zip_url: 'https://github.com/michaelkurath/TRMNL-Goodbye/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/pthkh8fous9qdekc5cbh3bpb696g'
+  screenshot_url: null
+  license: NOASSERTION
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'Serverless is not yet compatible.'
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: michaelkurath
+  funding: {  }
+  author_bio:
+    category: 'custom,education'
+    description: 'A museum label for one randomly selected discontinued, retired, replaced, extinct, or nearly vanished thing.'
+    github_url: 'https://github.com/michaelkurath/TRMNL-Goodbye'
+michaelkurath-trmnl-lifeclock:
+  name: 'Life Clock'
+  trmnlp:
+    id: 487130
+    repo: 'https://github.com/michaelkurath/TRMNL-lifeclock'
+    zip_url: 'https://github.com/michaelkurath/TRMNL-lifeclock/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/2bw0bpyircwxtfpt8x7hw73fetfi'
+  screenshot_url: null
+  license: NOASSERTION
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: michaelkurath
+  funding: {  }
+  author_bio:
+    category: 'life,personal'
+    description: 'Your statistical lifetime on a 24-hour clock, using age-specific UN life expectancy data.'
+    github_url: 'https://github.com/michaelkurath/TRMNL-lifeclock'
 mironiasty-trmnl-bergfex-snow:
   name: 'Bergfex Snow Report'
   trmnlp:
@@ -4467,6 +4950,33 @@ pipwilson-trmnl-72-seasons:
     description: "Tells you which of Japan's traditional 72 seasons it currently is."
     github_url: 'https://github.com/pipwilson/trmnl-72-seasons'
     learn_more_url: 'https://philwilson.org/blog/2025/06/72-seasons-on-the-trmnl/'
+pradeepbbl-apple-health:
+  name: 'Apple Health'
+  trmnlp:
+    id: 486087
+    repo: 'https://github.com/pradeepbbl/trmnl_plugins'
+    zip_url: 'https://github.com/pradeepbbl/trmnl_plugins/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl_plugins-master/apple_health
+    version: master
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/pzb5ddlgj6l4a570n8l9lt11tno9'
+  screenshot_url: 'https://raw.githubusercontent.com/pradeepbbl/trmnl_plugins/master/apple_health/docs/full.png'
+  license: Apache-2.0
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: pradeepbbl
+  funding:
+    github: '[pradeepbbl]'
+    buy_me_a_coffee: pradeepbbl
+  author_bio:
+    category: 'life,kpi'
+    description: "Apple Health metrics — steps, active energy, sleep, and heart rate — plus today's workouts, synced from iPhone/Watch via the TRMNL Companion app. Data reaches TRMNL only through Companion's on-device HealthKit sync; there's no polling URL or API key. Questions, bugs, or feature requests? Open an issue on GitHub or reach out by email.<br/>Source and docs live in the repo linked below."
+    github_url: 'https://github.com/pradeepbbl/trmnl_plugins'
+    email_address: pradeepbbl@gmail.com
 pradeepbbl-energy-pulse:
   name: 'Energy Pulse'
   trmnlp:
@@ -4622,6 +5132,32 @@ rabbit-company-rabbitforexapi:
     description: 'Real time exchange rate data.'
     learn_more_url: 'https://rabbit-company.com'
     github_url: 'https://github.com/Rabbit-Company/RabbitForexAPI'
+    email_address: info@rabbit-company.com
+rabbit-company-trmnl:
+  name: BurrowGate
+  trmnlp:
+    id: 470764
+    repo: 'https://github.com/Rabbit-Company/BurrowGate'
+    zip_url: 'https://github.com/Rabbit-Company/BurrowGate/archive/refs/heads/main.zip'
+    zip_entry_path: BurrowGate-main/trmnl
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/hbcb52418mec08pui6exapdludq3'
+  screenshot_url: null
+  license: EUPL-1.2
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: trmnl-liquid
+  author:
+    github: Rabbit-Company
+  funding: {  }
+  author_bio:
+    category: 'analytics,programming'
+    description: 'Traffic, bandwidth, cache, protection, and system monitoring for your self-hosted BurrowGate reverse proxy.'
+    learn_more_url: 'https://burrowgate.org'
+    github_url: 'https://github.com/Rabbit-Company/BurrowGate'
     email_address: info@rabbit-company.com
 rishikeshsreehari-trmnl-goatcounter:
   name: GoatCounter
@@ -5069,6 +5605,30 @@ robotter112-trmnl-netatmo-weather:
   author_bio:
     description: 'Netatmo weather station via Home Assistant: indoor and outdoor climate with trend arrows, a CO2 gauge based on German UBA guideline values, a window-open recommendation and 24 h charts for temperature and CO2. Labels in English or German.'
     learn_more_url: 'https://github.com/robotter112/TRMNL-Netatmo-Weather/blob/main/README.md'
+ryanhanwu-next-mls-game:
+  name: 'Next MLS Game'
+  trmnlp:
+    id: 485679
+    repo: 'https://github.com/ryanhanwu/Next-MLS-Game'
+    zip_url: 'https://github.com/ryanhanwu/Next-MLS-Game/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/dtc63i739ds0or8qmv9txkygdyvn'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: ryanhanwu
+  funding: {  }
+  author_bio:
+    category: sports
+    description: "Track your favorite MLS team's standings, record, last match, and next 3 fixtures."
+    github_url: 'https://github.com/ryanhanwu/Next-MLS-Game'
 saious119-trmnl-anime-of-the-day:
   name: 'Anime of the Day'
   trmnlp:
@@ -6271,6 +6831,32 @@ taichikuji-trmnl-tmb-plugin:
     category: 'news,travel'
     learn_more_url: 'https://discordid.taichikuji.org/discord'
     github_url: 'https://github.com/taichikuji/trmnl-tmb-plugin'
+tanzeel159-design-drill-deck:
+  name: 'Design Drill Deck'
+  trmnlp:
+    id: 472554
+    repo: 'https://github.com/Tanzeel159/design-drill-deck'
+    zip_url: 'https://github.com/Tanzeel159/design-drill-deck/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/q00vs9gxh5javn0z38y6pcgagfyx'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: Tanzeel159
+  funding: {  }
+  author_bio:
+    category: 'education,productivity'
+    description: 'A focused product-design interview drill, refreshed once per day. Questions or issues? Email Tanzeel or open a GitHub issue.'
+    email_address: tanzeel.ahmed1306@gmail.com
+    github_url: 'https://github.com/Tanzeel159/design-drill-deck'
+    learn_more_url: 'https://tanzeelcrafts.tech'
 thecapypara-trmnl-lastfm:
   name: 'Last.fm Album Grid'
   trmnlp:
