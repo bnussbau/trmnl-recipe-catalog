@@ -586,7 +586,7 @@ bartschuurmans-trmnl-rolling-month-calendar-trmnl-calendars:
     github: BartSchuurmans
   funding: {  }
   author_bio:
-    description: 'For TRMNL.com. Rolling month calendar that starts at the current week, showing the events of up to four TRMNL calendar plugins (Google, Outlook, iCloud, CalDAV, ...) through Plugin Merge, with per-calendar prefixes and colours. Full, half and quadrant layouts. Built for the TRMNL X, also renders on the OG. Forked from the TRMNL native calendar plugin.'
+    description: 'For TRMNL.com. Rolling month calendar that starts at the current week, showing the events of up to eight TRMNL calendar plugins (Google, Outlook, iCloud, CalDAV, ...) through Plugin Merge, with per-calendar prefixes and colours. Full, half and quadrant layouts. Built for the TRMNL X, also renders on the OG. Forked from the TRMNL native calendar plugin.'
     category: 'calendar,productivity'
     github_url: 'https://github.com/BartSchuurmans/trmnl-rolling-month-calendar'
     learn_more_url: 'https://github.com/BartSchuurmans/trmnl-rolling-month-calendar#readme'
