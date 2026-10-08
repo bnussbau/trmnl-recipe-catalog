@@ -566,6 +566,30 @@ bartschuurmans-trmnl-rolling-month-calendar:
     category: 'calendar,productivity'
     github_url: 'https://github.com/BartSchuurmans/trmnl-rolling-month-calendar'
     learn_more_url: 'https://github.com/BartSchuurmans/trmnl-rolling-month-calendar#readme'
+bartschuurmans-trmnl-rolling-month-calendar-trmnl-calendars:
+  name: 'Rolling Month Calendar (TRMNL calendars)'
+  trmnlp:
+    id: 492440
+    repo: 'https://github.com/BartSchuurmans/trmnl-rolling-month-calendar'
+    zip_url: 'https://github.com/BartSchuurmans/trmnl-rolling-month-calendar/releases/latest/download/rolling-month-calendar-trmnl-com-merge.zip'
+    zip_entry_path: null
+    version: null
+  logo_url: 'https://raw.githubusercontent.com/BartSchuurmans/trmnl-rolling-month-calendar/main/docs/logo.png'
+  screenshot_url: 'https://raw.githubusercontent.com/BartSchuurmans/trmnl-rolling-month-calendar/main/docs/preview.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'Uses Plugin Merge with TRMNL.com calendar plugins. On LaraPaper, use Rolling Month Calendar (ICS feeds or Home Assistant).'
+      min_version: null
+  author:
+    github: BartSchuurmans
+  funding: {  }
+  author_bio:
+    description: 'Rolling month calendar that starts at the current week, showing the events of up to four TRMNL calendar plugins (Google, Outlook, iCloud, CalDAV, ...) through Plugin Merge, with per-calendar prefixes and colours. Full, half and quadrant layouts. Built for the TRMNL X, also renders on the OG. Forked from the TRMNL native calendar plugin.'
+    category: 'calendar,productivity'
+    github_url: 'https://github.com/BartSchuurmans/trmnl-rolling-month-calendar'
+    learn_more_url: 'https://github.com/BartSchuurmans/trmnl-rolling-month-calendar#readme'
 bastronautik-trmnl-triangles-art:
   name: 'Triangles - Generated Art'
   trmnlp:
