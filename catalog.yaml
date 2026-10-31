@@ -20,6 +20,32 @@ a-mnich-trmnl-monkey-island-quotes:
   author_bio:
     description: 'TRMNL Monkey Island Quotes Plugin'
     homepage: ''
+abaidan-trmnl-school-timetable:
+  name: 'School Timetable'
+  trmnlp:
+    id: 470872
+    repo: 'https://github.com/abaidan/trmnl-school-timetable'
+    zip_url: 'https://github.com/abaidan/trmnl-school-timetable/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/7eglz9fad6smq4npyudezjy08ub9'
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ly855v60sn8p96oq8oqe7on98tr0'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: trmnl-liquid
+  author:
+    github: abaidan
+  funding: {  }
+  author_bio:
+    category: 'education,personal'
+    github_url: 'https://github.com/abaidan/trmnl-school-timetable'
+    email_address: howtwizer@gmail.com
+    learn_more_url: 'https://baidan.website'
+    description: 'A weekly school timetable. Everything is typed in by hand — no API, no accounts. One line = one lesson. The full screen shows the whole week with today and the current lesson highlighted; the half and quadrant views show today (Monday on weekends). Optimized for TRMNL X and TRMNL OG.'
 adechassey-trmnl-idfm-trains:
   name: 'Île-de-France Next Trains'
   trmnlp:
@@ -89,12 +115,62 @@ aist-trmnl-khl:
       renderer: null
   author:
     github: Aist
-  funding: { }
+  funding: {  }
   author_bio:
     category: sports
     description: 'Russian-language KHL schedule in Moscow time, with the full current or next game day and readable Mashup layouts.'
     github_url: 'https://github.com/Aist/trmnl-khl'
     learn_more_url: 'https://github.com/Aist/trmnl-khl'
+albert7617-trmnl-visited-japanese-prefectures:
+  name: 'Visited Japanese Prefectures'
+  trmnlp:
+    id: 498631
+    repo: 'https://github.com/albert7617/trmnl-visited-japanese-prefectures'
+    zip_url: 'https://github.com/albert7617/trmnl-visited-japanese-prefectures/archive/refs/heads/master.zip'
+    zip_entry_path: null
+    version: master
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/lhfbu0vszhfezo2v5pd3fhxkgaad'
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/lkmrk85zxfy5s855ohmbmn78s7ri'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: albert7617
+  funding: {  }
+  author_bio:
+    description: |
+      Keep track of the prefectures you have visited. Shading deepens with recent visits.
+      (Contact @albert7617 on TRMNL Discord if experiencing issue)
+    category: 'life,travel'
+    github_url: 'https://github.com/albert7617/trmnl-visited-japanese-prefectures'
+alexjkay-trmnl-baby-growth-plugin:
+  name: 'Baby Growth'
+  trmnlp:
+    id: 496375
+    repo: 'https://github.com/alexjkay/trmnl-baby-growth-plugin'
+    zip_url: 'https://github.com/alexjkay/trmnl-baby-growth-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/emacqex91v9b8yuw34atps31fm9w'
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/r3svki6rxaz2va86yz2c8eglxyiv'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: alexjkay
+  funding: {  }
+  author_bio:
+    category: 'life,personal'
+    description: 'Baby Growth turns a due date into a glanceable daily update for a TRMNL display. It shows the days remaining, pregnancy week and trimester, estimated length and weight, a progress bar, and an illustrated everyday object representing the baby''s approximate size. Four layouts support full, half-horizontal, half-vertical, and quadrant screens. All calculations run in Liquid using a 280-day pregnancy timeline; the plugin does not call a server or external data API. The size illustrations are loaded from GitHub (raw.githubusercontent.com), so they may be missing if GitHub is unreachable. Size estimates are general averages for fun and are not medical advice. Configure a due date and optional parent''s name, then add the plugin to your playlist. Questions or issues? Visit <a href="https://github.com/alexjkay/trmnl-baby-growth-plugin" class="underline">GitHub</a>.'
+    github_url: 'https://github.com/alexjkay/trmnl-baby-growth-plugin'
 alisterscott-trmnl-bne-bin:
   name: 'Brisbane Bin Collection'
   trmnlp:
@@ -214,6 +290,31 @@ alisterscott-trmnl-simplenote:
     category: 'productivity,life'
     description: 'Easily display a published <a href="https://simplenote.com/">Simplenote</a> document on your TRMNL'
     github_url: 'https://github.com/alisterscott/trmnl-simplenote'
+alisterscott-trmnl-simpsons-quotes:
+  name: 'Simpsons Quotes'
+  trmnlp:
+    id: 502353
+    repo: 'https://github.com/alisterscott/trmnl-simpsons-quotes'
+    zip_url: 'https://github.com/alisterscott/trmnl-simpsons-quotes/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/4916c0omhdxcocpp2a44twl8rszy'
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/m3th9j6ge4gd21pd0kl8fbtj9th9'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: alisterscott
+  funding: {  }
+  author_bio:
+    category: 'art,humor'
+    description: "Displays a randomly selected quote from The Simpsons with the speaking character's name and artwork. Choose one or more characters in the plugin settings to limit the quotes, or leave the selection empty for a mix from everyone. The layout adapts to full, half, and quadrant views, including portrait screens."
+    github_url: 'https://github.com/alisterscott/trmnl-simpsons-quotes'
+    email_address: alister.scott@gmail.com
 alisterscott-trmnl-translink:
   name: 'Queensland Stop Timetable (Translink)'
   trmnlp:
@@ -539,6 +640,31 @@ aziac-trmnl-ghibli-backgrounds:
     category: 'art,images'
     description: 'A simple plugin to randomly display images from various Studio Ghibli movies.'
     github_url: 'https://github.com/aziac/trmnl-ghibli-backgrounds'
+barrymichaeldoyle-appsadmob-earnings:
+  name: 'AdMob Earnings'
+  trmnlp:
+    id: 499993
+    repo: 'https://github.com/barrymichaeldoyle/trmnl-plugins'
+    zip_url: 'https://github.com/barrymichaeldoyle/trmnl-plugins/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-plugins-main/apps/admob-earnings
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/j92cmc46ybuatogkvzo1er3zyj18'
+  screenshot_url: 'https://raw.githubusercontent.com/barrymichaeldoyle/trmnl-plugins/main/apps/admob-earnings/docs/screenshots/full.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: barrymichaeldoyle
+  funding: {  }
+  author_bio:
+    description: 'An independent TRMNL recipe for Google AdMob publishers. It reads estimated earnings with read-only access through your Google sign-in, which TRMNL stores and refreshes. Nothing is sent anywhere else. Not affiliated with or endorsed by Google.<br><br>AdMob Earnings puts your Google AdMob revenue on your TRMNL, so you can see how your apps are doing without opening the AdMob console or a phone app. Today&#39;s earnings so far take centre stage, with yesterday, this month so far and last month alongside. Each is compared with the period before it: yesterday with the same day last week, this month with the same day last month, and last month with the month before last. Choose percent change, amount change or both. Full screen also shows each figure&#39;s ad requests, impressions and clicks.<br><br>Amounts appear in your account&#39;s reporting currency, or a currency you choose, and follow its reporting time zone, the same way the AdMob console counts a day. Sign in with Google and pick your AdMob account from a list. There is no API key to copy, and access is read-only. TRMNL stores and refreshes the sign-in; the recipe sends your data nowhere else. Full-screen and all three mashup layouts are included, in light or dark.'
+    category: 'finance,kpi'
+    github_url: 'https://github.com/barrymichaeldoyle/trmnl-plugins'
+    learn_more_url: 'https://github.com/barrymichaeldoyle/trmnl-plugins/tree/main/apps/admob-earnings'
 barrymichaeldoyle-appstrmnl:
   name: 'Formula 1 Race Weekend'
   trmnlp:
@@ -639,6 +765,159 @@ bastronautik-trmnl-triangles-art:
     category: art
     email_address: trmnl@achtnegen.nl
     github_url: 'https://github.com/Bastronautik/trmnl-triangles-art'
+baszert-trmnl-daydial:
+  name: Daydial
+  trmnlp:
+    id: 502496
+    repo: 'https://github.com/Baszert/trmnl-daydial'
+    zip_url: 'https://github.com/Baszert/trmnl-daydial/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/30bmsw2etx3qb8deb7bdnle89j7s'
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/n3fldqivr9tmbfwxdqr3746a6y3z'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: Baszert
+  funding: {  }
+  author_bio:
+    category: 'environment,calendar'
+    github_url: 'https://github.com/Baszert/trmnl-daydial'
+    description: 'Your whole day on one dial. The next 24 hours around a clock face: night, twilight and daylight for your exact location, a petal per hour for temperature, and drops where rain will fall. Plus when it stays dry and tonight''s moon. Free data from <a href="https://open-meteo.com" target="_blank">Open-Meteo</a>, no API key needed.'
+    email_address: trmnl@achtnegen.nl
+    learn_more_url: 'https://open-meteo.com'
+baszert-trmnl-flyover:
+  name: 'Flyover - ISS live location'
+  trmnlp:
+    id: 513210
+    repo: 'https://github.com/Baszert/trmnl-flyover'
+    zip_url: 'https://github.com/Baszert/trmnl-flyover/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ribpwl9kxsezc2sczjrpj1hlccxk'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: Baszert
+  funding: {  }
+  author_bio:
+    category: 'environment,discovery'
+    github_url: 'https://github.com/Baszert/trmnl-flyover'
+    description: "The ISS, live, on a 3D Earth. Real day and night, with yesterday's clouds from NASA and the city lights on the dark side. Follow the station across the planet, and see what it flies over, how fast it goes, and how far away it is from you. In 12 languages."
+    email_address: trmnl@achtnegen.nl
+baszert-trmnl-nightclock:
+  name: Nightclock
+  trmnlp:
+    id: 503919
+    repo: 'https://github.com/Baszert/trmnl-nightclock'
+    zip_url: 'https://github.com/Baszert/trmnl-nightclock/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/oxykrbdc436aqk0ze3ueyuyfjs5y'
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/vgh47z9h90vrbpgs87upanluhrxq'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: Baszert
+  funding: {  }
+  author_bio:
+    category: 'environment,discovery'
+    github_url: 'https://github.com/Baszert/trmnl-nightclock'
+    description: "Tonight's sky as a window on your wall: the real stars, the Milky Way and the planets with their paths through the night. Plus when it gets dark, the moon, meteor showers and clouds. Anywhere on Earth, in 12 languages."
+    email_address: trmnl@achtnegen.nl
+    learn_more_url: 'https://open-meteo.com'
+baszert-trmnl-wild-this-week:
+  name: 'Wild This Week'
+  trmnlp:
+    id: 502660
+    repo: 'https://github.com/Baszert/trmnl-wild-this-week'
+    zip_url: 'https://github.com/Baszert/trmnl-wild-this-week/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/xwg3nyavvzir69d2fnieu30xim38'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: Baszert
+  funding: {  }
+  author_bio:
+    category: 'nature,discovery'
+    github_url: 'https://github.com/Baszert/trmnl-wild-this-week'
+    description: 'What is out there right now, near you. Every day one plant, mushroom, bird or insect that is in season around your home this week, with a photo, a short story and a strip that shows when in the year it appears. Plus more to look out for, marked as arriving, in season or fading. Works anywhere on Earth, in 12 languages. Sightings and photos from <a href="https://www.inaturalist.org" target="_blank">iNaturalist</a>, free, no API key.'
+    email_address: trmnl@achtnegen.nl
+    learn_more_url: 'https://www.inaturalist.org'
+beeb-trmnl-meteoswiss:
+  name: 'MeteoSwiss Charts'
+  trmnlp:
+    id: 62668
+    repo: 'https://github.com/beeb/trmnl-meteoswiss'
+    zip_url: 'https://github.com/beeb/trmnl-meteoswiss/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/phmqhq25rg8a8x53b6ue320up9yz'
+  screenshot_url: 'https://github.com/beeb/trmnl-meteoswiss/raw/main/screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: beeb
+  funding: {  }
+  author_bio:
+    category: 'environment,life'
+    description: 'Detailed MeteoSwiss forecast charts for a Swiss location. All layouts are supported, the quadrant shows temperature and precipitation only. Weather data provided by MeteoSwiss.'
+    github_url: 'https://github.com/beeb/trmnl-meteoswiss'
+    learn_more_url: 'https://www.meteoswiss.admin.ch/'
+benliong-trmnl-octopus-agile:
+  name: 'Octopus Agile 24h'
+  trmnlp:
+    id: 512180
+    repo: 'https://github.com/benliong/trmnl-octopus-agile'
+    zip_url: 'https://github.com/benliong/trmnl-octopus-agile/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/k4vv588f3bv668x7hdzvxy0t46pj'
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/fgbzsqeqizmzv6egl0nauev55n4w'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: benliong
+  funding: {  }
+  author_bio:
+    description: "The next 24 hours of Octopus Agile (UK) half-hourly electricity prices: the price now vs your Flexible rate, the best 2 hours, the 2 hours to avoid, and the cheapest third of the day in black. Redraws every half-hour. Uses Octopus Energy's public price API, so no account or API key is needed."
+    category: life
+    email_address: ben@forgerelay.uk
+    github_url: 'https://github.com/benliong/trmnl-octopus-agile'
 blueset-custom-next-holiday:
   name: 'Custom Next Holiday and Countdown'
   trmnlp:
@@ -928,6 +1207,31 @@ blueset-one-headline:
     category: 'news,discovery'
     github_url: 'https://github.com/blueset/trmnl-recipes'
     learn_more_url: 'https://news.kagi.com/'
+blueset-plugin-against-humanity:
+  name: 'Plugin Against Humanity'
+  trmnlp:
+    id: 495491
+    repo: 'https://github.com/blueset/trmnl-recipes'
+    zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-recipes-master/plugin-against-humanity
+    version: master
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/pt56qumxl8y6h9zxde24ew6s1wce'
+  screenshot_url: 'https://raw.githubusercontent.com/blueset/trmnl-recipes/master/plugin-against-humanity/images/f.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: blueset
+  funding: {  }
+  author_bio:
+    description: 'Random card draws from your chosen packs from <a href="https://www.cardsagainsthumanity.com/">Cards Against Humanity</a>. Card data provided by <a href="https://www.restagainsthumanity.com/2.x/">REST Against Humanity</a>, licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">🅭 🅯🄏🄎 4.0 Int’l</a>.'
+    github_url: 'https://github.com/blueset/trmnl-recipes'
+    learn_more_url: 'https://www.restagainsthumanity.com/2.x/'
+    category: games
 blueset-public-recipe-stats:
   name: 'Public Recipe Stats'
   trmnlp:
@@ -2111,32 +2415,7 @@ excusemi-comic-book-covers-plugin:
     learn_more_url: 'https://comicvine.gamespot.com/api/'
     github_url: 'https://github.com/ExcuseMi/trmnl-comic-book-covers-plugin'
     category: 'comics,art'
-excusemi-movie-guesser:
-  name: 'Movie Guesser'
-  trmnlp:
-    id: 178211
-    repo: 'https://github.com/ExcuseMi/trmnl-github-releases-plugin'
-    zip_url: 'https://github.com/ExcuseMi/trmnl-github-releases-plugin/archive/refs/heads/main.zip'
-    zip_entry_path: trmnl-github-releases-plugin-main/private_plugin_178211
-    version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/zdy8uggssdlr5tc6s37rsv9ltf08'
-  screenshot_url: 'https://raw.githubusercontent.com/ExcuseMi/trmnl-movie-guesser-plugin/refs/heads/main/assets/plugin-images/178211_screenshot.png'
-  license: MIT
-  byos:
-    byos_laravel:
-      compatibility: false
-      compatibility_note: null
-      min_version: null
-  author:
-    github: ExcuseMi
-  funding: {  }
-  author_bio:
-    description: |-
-      Movie Guesser - Test your film knowledge! This plugin displays random movie images from 2000 top-rated films. Challenge yourself to identify movies from a single frame. <b>Features:</b> ● Random backdrops from critically acclaimed films ● Customizable filters for genre, year, and popularity ● QR code reveals movie via TMDB link
-      How it works: Each refresh shows a new random still from your filtered movie selection. Scan the QR code to reveal the answer and see full movie details. Powered by TheMovieDB
-    github_url: 'https://github.com/ExcuseMi/trmnl-movie-guesser-plugin'
-    category: 'art,entertainment'
-excusemi-plugin:
+excusemi-metro-calendar:
   name: 'Metro Calendar'
   trmnlp:
     id: 471753
@@ -2162,6 +2441,55 @@ excusemi-plugin:
     learn_more_url: 'https://excusemi.github.io/trmnl-metro-calendar-plugin/tools/config-editor.html'
     category: calendar
     help_text: 'TRMNL X Ready · English, français, español, Deutsch, Nederlands, italiano, português, polski'
+excusemi-movie-guesser:
+  name: 'Movie Guesser'
+  trmnlp:
+    id: 178211
+    repo: 'https://github.com/ExcuseMi/trmnl-github-releases-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-github-releases-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-github-releases-plugin-main/private_plugin_178211
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/zdy8uggssdlr5tc6s37rsv9ltf08'
+  screenshot_url: 'https://raw.githubusercontent.com/ExcuseMi/trmnl-movie-guesser-plugin/refs/heads/main/assets/plugin-images/178211_screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: |-
+      Movie Guesser - Test your film knowledge! This plugin displays random movie images from 2000 top-rated films. Challenge yourself to identify movies from a single frame. <b>Features:</b> ● Random backdrops from critically acclaimed films ● Customizable filters for genre, year, and popularity ● QR code reveals movie via TMDB link
+      How it works: Each refresh shows a new random still from your filtered movie selection. Scan the QR code to reveal the answer and see full movie details. Powered by TheMovieDB
+    github_url: 'https://github.com/ExcuseMi/trmnl-movie-guesser-plugin'
+    category: 'art,entertainment'
+excusemi-payment-qr:
+  name: 'Payment QR Code'
+  trmnlp:
+    id: 494226
+    repo: 'https://github.com/ExcuseMi/trmnl-payment-qr-code-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-payment-qr-code-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-payment-qr-code-plugin-main/plugin
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/k1pzlf4qkqsq74q4etm74zbz9kw8'
+  screenshot_url: 'https://github.com/ExcuseMi/trmnl-payment-qr-code-plugin/raw/main/assets/screens/split-full.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    category: 'finance,personal'
+    description: "Made by ExcuseMi.<br /><br />Source code, issues and examples are on <a href='https://github.com/ExcuseMi/trmnl-payment-qr-code-plugin'>GitHub</a>. The <a href='https://excusemi.github.io/trmnl-payment-qr-code-plugin/'>web editor</a> updates the screen through the webhook.<br /><br />Learn more: <a href='https://github.com/ExcuseMi/trmnl-payment-qr-code-plugin#readme'>how it works</a>."
+    github_url: 'https://github.com/ExcuseMi/trmnl-payment-qr-code-plugin'
 excusemi-retroachievements:
   name: 'RetroAchievements: Recent Games'
   trmnlp:
@@ -2815,6 +3143,31 @@ excusemi-trmnl-word-search-plugin:
     description: 'Solve Word Searches directly on your TRMNL! Get stuck on a tricky word search puzzle? Simply scan the QR code to reveal the solution!'
     github_url: 'https://github.com/ExcuseMi/trmnl-word-search-plugin'
     category: games
+excusemi-wikimedia-potd:
+  name: 'Wikimedia Commons Picture of the Day'
+  trmnlp:
+    id: 507499
+    repo: 'https://github.com/ExcuseMi/trmnl-wikimedia-potd-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-wikimedia-potd-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-wikimedia-potd-plugin-main/plugin
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/cg2uwki018py9c5zxfj8xolcej26'
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/r4nmyzwf66fneecfwd3seav3lzbu'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: "Shows the Wikimedia Commons Picture of the Day with its caption on your TRMNL. Choose today's picture, the last ten days (in turn or at random), the same date in earlier years, or any day since 2004; the caption language follows your TRMNL account language.<br />Pictures are credited to Wikimedia Commons; each file has its own licence on its Commons page."
+    category: 'nature,art'
+    github_url: 'https://github.com/ExcuseMi/trmnl-wikimedia-potd-plugin'
+    learn_more_url: 'https://commons.wikimedia.org/wiki/Commons:Picture_of_the_day'
 frjo-elprisetjustnu:
   name: Elprisetjustnu
   trmnlp:
@@ -4474,6 +4827,33 @@ lucaspimentel-mbta-alerts:
     description: 'Shows service alerts from the Massachusetts Bay Transport Authority (MBTA)'
     github_url: 'https://github.com/lucaspimentel/trmnl-plugins'
     learn_more_url: 'https://github.com/lucaspimentel/trmnl-plugins/tree/main/plugins/mbta-alerts/README.md'
+lucianova-tweek:
+  name: Tweek
+  trmnlp:
+    id: 305419
+    repo: 'https://github.com/Lucianova/trmnl-tweek'
+    zip_url: 'https://github.com/Lucianova/trmnl-tweek/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-tweek-master/tweek
+    version: master
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/u5adq1pxgh15cg1llbdex8t478c9'
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/xd3n9zxztt3zw418d3s79d7knsiq'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: Lucianova
+  funding: {  }
+  author_bio:
+    category: 'productivity,calendar'
+    github_url: 'https://github.com/Lucianova/trmnl-tweek'
+    learn_more_url: 'https://tweek.so'
+    email_address: lucianova.1992@gmail.com
+    description: |
+      Shows your Tweek calendar as a 7-day week grid on your e-ink display, mirroring your Tweek web app — Google Calendar events included. Configure it with your Tweek API key and Calendar ID. Open source; issues and PRs welcome at the GitHub link. Unofficial; not affiliated with Tweek or TRMNL.
 macusercom-trmnl-pollen-information-austria:
   name: 'Pollen Information Austria'
   trmnlp:
@@ -4713,6 +5093,30 @@ mgeilich-planet-finder:
     description: 'Planet Finder displays a real-time planisphere/sky map.<br>Created by Michael Geilich. Please report any issues on GitHub.'
     github_url: 'https://github.com/mgeilich/planetfinder'
     category: 'discovery,education'
+michaelkurath-never-built:
+  name: 'NEVER BUILT'
+  trmnlp:
+    id: 498879
+    repo: 'https://github.com/michaelkurath/Never-Built'
+    zip_url: 'https://github.com/michaelkurath/Never-Built/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/til3i5oypckmirvios8qdirg1a1u'
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/wvs4aea4uel86shpodeyzrh48b3l'
+  license: NOASSERTION
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'Transform is not yet supported'
+      min_version: null
+      renderer: null
+  author:
+    github: michaelkurath
+  funding: {  }
+  author_bio:
+    category: 'custom,education'
+    description: 'A rotating museum of real proposals for buildings, vehicles, and inventions that never became reality.'
+    github_url: 'https://github.com/michaelkurath/Never-Built'
 michaelkurath-todays-repair-trmnl:
   name: 'Todays Repair'
   trmnlp:
@@ -4810,6 +5214,55 @@ michaelkurath-trmnl-lifeclock:
     category: 'life,personal'
     description: 'Your statistical lifetime on a 24-hour clock, using age-specific UN life expectancy data.'
     github_url: 'https://github.com/michaelkurath/TRMNL-lifeclock'
+michaelkurath-trmnl-still-here:
+  name: 'STILL HERE'
+  trmnlp:
+    id: 498915
+    repo: 'https://github.com/michaelkurath/TRMNL-Still-Here'
+    zip_url: 'https://github.com/michaelkurath/TRMNL-Still-Here/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/igm1bly00o4osc6256zxslkm92oj'
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/hdepeqiv2uyzu985uuquxl9bbzea'
+  license: NOASSERTION
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'Transform is not yet supported'
+      min_version: null
+      renderer: null
+  author:
+    github: michaelkurath
+  funding: {  }
+  author_bio:
+    category: 'custom,education'
+    description: 'A museum of species, technologies, and places that unexpectedly survive.'
+    github_url: 'https://github.com/michaelkurath/TRMNL-Still-Here'
+mikim83-cerdanyola-trmnl-forecast:
+  name: 'Cerdanyola del Vallès Forecast'
+  trmnlp:
+    id: 498717
+    repo: 'https://github.com/mikim83/cerdanyola-trmnl-forecast'
+    zip_url: 'https://github.com/mikim83/cerdanyola-trmnl-forecast/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/v2xlpkyatwx8q3fvmq5gjdk961t1'
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/isa1zav0yp6ulr04le836kct6y09'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: mikim83
+  funding: {  }
+  author_bio:
+    category: 'environment,life'
+    description: 'Weather forecast for Cerdanyola del Vallès (Barcelona) from meteo.dob-world.com, a home weather station. Combines AEMET with the AROME, ECMWF and ICON models. Shows the current hour, a 24 h temperature chart with hourly rain bars, rain windows and the next 5 days. Languages - Catalan, Spanish and English. Unofficial personal project.'
+    github_url: 'https://github.com/mikim83/cerdanyola-trmnl-forecast'
+    learn_more_url: 'https://meteo.dob-world.com'
 mironiasty-trmnl-bergfex-snow:
   name: 'Bergfex Snow Report'
   trmnlp:
@@ -4876,6 +5329,34 @@ monsieurm-trmnl-yearinprogress:
   funding: {  }
   author_bio:
     description: 'This plug-in shows the progress of the year (dots or bar) on TRMNL device'
+nbbou81000-trmnl-creator-stats:
+  name: 'TRMNL Creator Stats'
+  trmnlp:
+    id: 500496
+    repo: 'https://github.com/nbbou81000/trmnl-creator-stats'
+    zip_url: 'https://github.com/nbbou81000/trmnl-creator-stats/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/55tccuwb8y31330haufuqnwt9hb8'
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/k3awc42ghpchpe1lqoj3rzidjziq'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: nbbou81000
+  funding: {  }
+  author_bio:
+    category: 'kpi,programming'
+    description: |-
+      Track your own TRMNL recipes on your TRMNL: total connections (installs + forks), your rank among all recipe creators and how it moved this week, a 30-day curve, new connections per day, and every recipe's progress toward its next milestone, including the 50 connections of the Creator Fund.<br><br>
+      Three displays: Overview, My recipes (one card per recipe with its screenshot, showing your top 8 on OG and top 9 on X) and All recipes (a compact list of every recipe you published).<br><br>
+      Data comes from the <a href="https://nbbou81000.github.io/trmnl-leaderboard/">TRMNL Creator Leaderboard</a> and refreshes every hour. Available in English, French, German and Spanish, in every layout, on TRMNL OG and TRMNL X.
+    github_url: 'https://github.com/nbbou81000/trmnl-creator-stats'
+    learn_more_url: 'https://nbbou81000.github.io/trmnl-leaderboard/'
 nickspaghetti-trmnl-osrs-ge-price-trend:
   name: 'OSRS GE Price Trend'
   trmnlp:
@@ -4901,6 +5382,30 @@ nickspaghetti-trmnl-osrs-ge-price-trend:
     description: 'Show the price trends of an item from the Grand Exchange in OSRS.'
     github_url: 'https://github.com/NickSpaghetti'
     learn_more_url: 'https://github.com/NickSpaghetti/trmnl-osrs-ge-price-trend'
+nikokoren-downstream:
+  name: 'Downstream: Watershed Explorer'
+  trmnlp:
+    id: 490492
+    repo: 'https://github.com/nikokoren/downstream'
+    zip_url: 'https://github.com/nikokoren/downstream/archive/refs/heads/main.zip'
+    zip_entry_path: downstream-main/recipe
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/wagif4xbmm0xuqy56bj5f21vqng7'
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/o7k96hbichyntv3tg8d1lpcco2m2'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: nikokoren
+  funding: {  }
+  author_bio:
+    category: 'nature,education'
+    github_url: 'https://github.com/nikokoren/downstream'
+    description: 'Discover where water flows from towns around the world with Downstream, a constantly changing river and water flow map for your TRMNL.<br><br>Every 15 minutes, Downstream picks a different town and follows the path a raindrop would take from there, stream by stream and river by river. See the entire route on a map, from the starting stream to its final destination: a sea, lake, or sometimes somewhere underground.<br><br>The map shows every named stream, river, and lake along the journey, together with the total distance and a rough estimate of how long the water takes to travel. Some routes are only a few kilometres long. Others cross entire countries and travel thousands of kilometres before reaching the sea.<br><br> River network: <a href="https://www.hydrosheds.org/hydroatlas">HydroATLAS</a> (Linke et al. 2019; Lehner &amp; Grill 2013) and lake residence times: <a href="https://www.hydrosheds.org/products/hydrolakes">HydroLAKES</a> (Messager et al. 2016), both <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, simplified. Towns: <a href="https://www.geonames.org/">GeoNames</a> (CC BY 4.0). Stream, river and lake names and the map: © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> (ODbL). Seas: Natural Earth. Dams, canals and city drains are not modelled.'
 njclarke1-trmnl-anylist:
   name: 'AnyList Shopping List'
   trmnlp:
@@ -4926,6 +5431,31 @@ njclarke1-trmnl-anylist:
     category: 'productivity,life'
     github_url: 'https://github.com/njclarke1/trmnl-anylist'
     learn_more_url: 'https://github.com/njclarke1/trmnl-anylist/blob/main/README.md'
+njyjn-trmnl-have-haze-not:
+  name: 'Have Haze Not'
+  trmnlp:
+    id: 482229
+    repo: 'https://github.com/njyjn/trmnl-have-haze-not'
+    zip_url: 'https://github.com/njyjn/trmnl-have-haze-not/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/s8ymw9v6cu9qh0z6ry4glgr36eg9'
+  screenshot_url: 'https://raw.githubusercontent.com/njyjn/trmnl-have-haze-not/main/docs/screenshot-full.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: trmnl-liquid
+  author:
+    github: njyjn
+  funding: {  }
+  author_bio:
+    category: 'environment,life'
+    description: 'Air quality for all five of Singapore''s NEA reporting regions, drawn as a halftone map of the island. Shows the reading for your region with the pollutant driving it, a 24-hour PM2.5 forecast, and where Singapore sits among neighbouring cities (on the TRMNL X, including the Sumatran and Bornean haze sources). Pick your scale: US AQI, NEA PSI, or raw PM2.5. Measurements from <a href="https://data.gov.sg/datasets/d_fe37906a0182569d891506e815e819b7/view" class="underline" target="_blank">NEA via data.gov.sg</a>, forecast from <a href="https://open-meteo.com/en/docs/air-quality-api" class="underline" target="_blank">Open-Meteo</a>. Works with no account at all; add a free <a href="https://aqicn.org/data-platform/token/" class="underline" target="_blank">aqicn.org token</a> and the US AQI matches their site exactly. Questions or bugs: <a href="https://github.com/njyjn/trmnl-have-haze-not/issues" class="underline" target="_blank">open an issue on GitHub</a>.'
+    github_url: 'https://github.com/njyjn/trmnl-have-haze-not'
+    learn_more_url: 'https://www.haze.gov.sg/'
 oneill9-trmnl-in-season:
   name: 'In Season'
   trmnlp:
@@ -5050,6 +5580,31 @@ pradeepbbl-energy-pulse:
     description: 'Energy Pulse was built by Pradeep Mishra to surface European day-ahead electricity prices from ENTSO-E at a glance. Questions, bugs, or feature requests? Open an issue on GitHub or reach out by email.<br/>Source and docs live in the repo linked below.'
     github_url: 'https://github.com/pradeepbbl/trmnl_plugins'
     email_address: pradeepbbl@gmail.com
+pythcon-plugin:
+  name: 'Pinball Showcase'
+  trmnlp:
+    id: 497284
+    repo: 'https://github.com/pythcon/trmnl-plugin-pinball-showcase'
+    zip_url: 'https://github.com/pythcon/trmnl-plugin-pinball-showcase/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-plugin-pinball-showcase-master/plugin
+    version: master
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/v3ekw2yz1orytz8m6x72ckwcoog7'
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/9lvxqhr7mgr5snuzbvy98wp8cmqp'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: pythcon
+  funding: {  }
+  author_bio:
+    category: 'games,entertainment'
+    github_url: 'https://github.com/pythcon/trmnl-plugin-pinball-showcase'
+    learn_more_url: 'https://trmnlplugins.com'
+    description: 'A different pinball machine every day, with backglass and playfield art, release details, designers, editions and trivia from the Open Pinball Database (OPDB). Filter by era, decade, manufacturer, designer, theme and more, or rotate through your own favorites. Every setting below is optional: with none set you get a new machine from the whole catalogue on every refresh.'
 pythcon-trmnl-plugin-grafana:
   name: 'Grafana Panel'
   trmnlp:
@@ -5207,6 +5762,31 @@ rabbit-company-trmnl:
     learn_more_url: 'https://burrowgate.org'
     github_url: 'https://github.com/Rabbit-Company/BurrowGate'
     email_address: info@rabbit-company.com
+resend-resend-trmnl-plugin:
+  name: Resend
+  trmnlp:
+    id: 521360
+    repo: 'https://github.com/resend/resend-trmnl-plugin'
+    zip_url: 'https://github.com/resend/resend-trmnl-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/euimihxrvdvjpto5sxmdog16tgwq'
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/y906lnba3oumrnno13f9aznazy3o'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: resend
+  funding: {  }
+  author_bio:
+    category: analytics
+    description: 'Email volume and deliverability rate from your Resend account, on your TRMNL.'
+    github_url: 'https://github.com/resend/resend-trmnl-plugin'
+    learn_more_url: 'https://resend.com'
 rishikeshsreehari-trmnl-goatcounter:
   name: GoatCounter
   trmnlp:
@@ -5718,6 +6298,30 @@ saious119-trmnl-manga-of-the-day:
     github: Saious119
   funding: {  }
   author_bio: {  }
+samumatic-trmnl-weather-curve:
+  name: 'Weather Curve'
+  trmnlp:
+    id: 500572
+    repo: 'https://github.com/samumatic/trmnl-weather-curve'
+    zip_url: 'https://github.com/samumatic/trmnl-weather-curve/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/wqdh7v2tvisqag2z3kgctoii97qz'
+  screenshot_url: 'https://github.com/samumatic/trmnl-weather-curve/raw/main/docs/full.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: samumatic
+  funding: {  }
+  author_bio:
+    category: 'environment,life'
+    github_url: 'https://github.com/samumatic/trmnl-weather-curve'
+    description: 'Shows a 7-day forecast as one temperature curve for daily highs and lows, with a weather icon per day and the chance of rain along the bottom. Today and tomorrow are shown on the left. Available in German or English, in °C or °F, with an optional UV index.<br><br>In Europe the forecast comes from the <a href="https://www.dwd.de" class="underline" target="_blank">Deutscher Wetterdienst (DWD)</a> via <a href="https://brightsky.dev" class="underline" target="_blank">Bright Sky</a>, elsewhere from <a href="https://open-meteo.com/" class="underline" target="_blank">Open-Meteo</a>. No account or API key needed.<br><br>Data: DWD (CC BY 4.0) via Bright Sky, and <a href="https://open-meteo.com/" class="underline" target="_blank">Weather data by Open-Meteo.com</a> (CC BY 4.0). Not affiliated with the DWD or Open-Meteo.<br><br>Source code, feedback and bug reports: <a href="https://github.com/samumatic/trmnl-weather-curve" class="underline" target="_blank">GitHub</a>'
 schrockwell-trmnl-dsn:
   name: 'NASA Deep Space Network'
   trmnlp:
@@ -5873,6 +6477,32 @@ shaztechio-trmnl-yt-subscriber-count:
     category: analytics
     description: "YouTube Subscribe Count was created because the current ones don't have a simple counter, and this recipe can display the numbers for any channel."
     github_url: 'https://github.com/shaztechio/trmnl-yt-subscriber-count'
+smaniktahla-linkedin-madlibs-trmnl:
+  name: LinkedInMadLibs
+  trmnlp:
+    id: 497991
+    repo: 'https://github.com/smaniktahla/linkedin-madlibs-trmnl'
+    zip_url: 'https://github.com/smaniktahla/linkedin-madlibs-trmnl/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ffv738cz7xfzggdv0ladt5fod90z'
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/a6m0o4srrxn61p6ebr8cjy52094s'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: smaniktahla
+  funding: {  }
+  author_bio:
+    description: 'A freshly generated, completely unhinged LinkedIn post on your TRMNL every refresh, with a QR code to linkedinmadlibs.com so you can write your own.'
+    category: 'humor,entertainment'
+    github_url: 'https://github.com/smaniktahla/linkedin-madlibs-trmnl'
+    email_address: salil@ninjamonkey.dev
+    learn_more_url: 'https://linkedinmadlibs.com'
 snarfulsolutionsgroup-xkcd:
   name: XKCD
   trmnlp:
@@ -6804,6 +7434,31 @@ sun-weather-graph:
     github_url: 'https://forgejo.sny.sh/sun/TRMNL'
     learn_more_url: 'https://sny.sh/'
     email_address: sunny@sny.sh
+taichikuji-trmnl-atmosphere:
+  name: Atmosphere
+  trmnlp:
+    id: 495797
+    repo: 'https://github.com/taichikuji/trmnl-xiaomi-weather-plugin'
+    zip_url: 'https://github.com/taichikuji/trmnl-xiaomi-weather-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-xiaomi-weather-plugin-main/TRMNL
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/5gst9htbex76sbzppg4zoz7t0p20'
+  screenshot_url: 'https://raw.githubusercontent.com/taichikuji/trmnl-xiaomi-weather-plugin/main/TRMNL/media/preview_full.webp'
+  license: NOASSERTION
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: taichikuji
+  funding: {  }
+  author_bio:
+    description: 'Atmosphere, formerly Xiaomi Weather, brings current conditions and weather forecasts to your TRMNL using the same endpoint as Xiaomi phones. Choose a city, address, postal code or coordinates with the searchable Location picker, then select Celsius or Fahrenheit. See the current temperature, feels-like temperature, hourly trend and daily outlook, plus precipitation chances, wind, humidity, sunrise, sunset and UV when the provider supplies them. All four layouts support TRMNL OG and TRMNL X, including portrait. Observations older than three hours are marked, missing values remain visible as unavailable, and alerts are reported as supplied by the provider. No personal weather API key or separate server is required. Created by Ivan Perez; use the GitHub link for support and setup instructions.'
+    category: environment
+    github_url: 'https://github.com/taichikuji/trmnl-xiaomi-weather-plugin'
+    learn_more_url: 'https://github.com/taichikuji/trmnl-xiaomi-weather-plugin/tree/main/TRMNL#setup'
 taichikuji-trmnl-frank-energie-plugin:
   name: 'Frank Energie'
   trmnlp:
@@ -6829,6 +7484,31 @@ taichikuji-trmnl-frank-energie-plugin:
     category: 'environment,finance'
     learn_more_url: 'https://discordid.taichikuji.org/discord'
     github_url: 'https://github.com/taichikuji/trmnl-frank-energie-plugin'
+taichikuji-trmnl-gotchi:
+  name: TRMNLGotchi
+  trmnlp:
+    id: 510825
+    repo: 'https://github.com/taichikuji/trmnl-tamagotchi-plugin'
+    zip_url: 'https://github.com/taichikuji/trmnl-tamagotchi-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-tamagotchi-plugin-main/TRMNL
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/8qvn4puhggffmzljh3w8zw5yo38g'
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ldusukevxedqz6af257jep76m2py'
+  license: NOASSERTION
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'Transform is not yet supported'
+      min_version: null
+      renderer: null
+  author:
+    github: taichikuji
+  funding: {  }
+  author_bio:
+    category: life
+    description: 'TRMNLGotchi is a low-maintenance virtual pet for your TRMNL, created by Ivan Perez!<br/>Unofficial fan project, unaffiliated with BANDAI or Bandai Namco; Tamagotchi is a BANDAI trademark.'
+    github_url: 'https://github.com/taichikuji/trmnl-tamagotchi-plugin'
+    learn_more_url: 'https://github.com/taichikuji/trmnl-tamagotchi-plugin/tree/main/TRMNL#setup'
 taichikuji-trmnl-laliga-plugin:
   name: '¿Hay ahora fútbol?'
   trmnlp:
@@ -7279,6 +7959,32 @@ wasauce-hanzi:
     category: 'education,life'
     description: 'A new random Chinese word every refresh - large character, pinyin, and English. Pick Simplified or Traditional characters. Great for passive daily vocabulary review.'
     github_url: 'https://github.com/wasauce/trmnltrmnl/tree/main/hanzi'
+wedgietracker-appstrmnl:
+  name: WedgieTracker
+  trmnlp:
+    id: 501111
+    repo: 'https://github.com/WedgieTracker/wedgietracker'
+    zip_url: 'https://github.com/WedgieTracker/wedgietracker/archive/refs/heads/main.zip'
+    zip_entry_path: wedgietracker-main/apps/trmnl
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ng6t60z5ykt8qpanq9cf5d4j1vu5'
+  screenshot_url: 'https://raw.githubusercontent.com/WedgieTracker/wedgietracker/refs/heads/main/apps/trmnl/previews/full.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: WedgieTracker
+  funding: {  }
+  author_bio:
+    category: 'sports,entertainment'
+    description: 'WedgieTracker counts every time an NBA basketball gets stuck between the rim and the backboard. This plugin brings the count to your TRMNL with the current season total against the all-time record, the projected pace for the season, the days since the last wedgie, and the three latest wedgies with the player, the teams and the play. The data comes straight from wedgietracker.com and refreshes on its own, so there is nothing to set up. Install it and wait for the next ball to get stuck.'
+    learn_more_url: 'https://www.wedgietracker.com'
+    github_url: 'https://github.com/WedgieTracker/wedgietracker'
+    email_address: help@zokeggltd.com
 who-would-know-trml-plugin-jeopardy:
   name: Jeopardy!
   trmnlp:
