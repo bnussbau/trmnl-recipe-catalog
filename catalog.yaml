@@ -71,6 +71,30 @@ adechassey-trmnl-llm-leaderboards:
     description: "Top models on the main LLM benchmark leaderboards, up to three side by side. Arena (LMArena) Elo, the Epoch Capabilities Index and Epoch AI's benchmark tables (GPQA Diamond, SWE-bench Verified, FrontierMath, Terminal-Bench, ARC-AGI-2...), LiveBench, and the Artificial Analysis indices with your free key. No server needed. Labels in English or French."
     github_url: 'https://github.com/adechassey/trmnl-llm-leaderboards'
     learn_more_url: 'https://epoch.ai/benchmarks'
+aist-trmnl-khl:
+  name: 'Расписание КХЛ'
+  trmnlp:
+    repo: 'https://github.com/Aist/trmnl-khl'
+    zip_url: 'https://github.com/Aist/trmnl-khl/releases/download/v1.0.1/trmnl-khl-v1.0.1.zip'
+    zip_entry_path: null
+    version: v1.0.1
+  logo_url: 'https://raw.githubusercontent.com/Aist/trmnl-khl/main/src/assets/catalog-logo.png'
+  screenshot_url: 'https://raw.githubusercontent.com/Aist/trmnl-khl/main/previews/full-800x480.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: Aist
+  funding: { }
+  author_bio:
+    category: sports
+    description: 'Russian-language KHL schedule in Moscow time, with the full current or next game day and readable Mashup layouts.'
+    github_url: 'https://github.com/Aist/trmnl-khl'
+    learn_more_url: 'https://github.com/Aist/trmnl-khl'
 alisterscott-trmnl-bne-bin:
   name: 'Brisbane Bin Collection'
   trmnlp:
