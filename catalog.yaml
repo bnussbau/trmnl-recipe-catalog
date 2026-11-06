@@ -825,8 +825,8 @@ baszert-trmnl-flyover:
     zip_url: 'https://github.com/Baszert/trmnl-flyover/archive/refs/heads/main.zip'
     zip_entry_path: null
     version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ribpwl9kxsezc2sczjrpj1hlccxk'
-  screenshot_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/jnmzg23bcxib0gw2uz3lahwu1221'
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/kchbi8om4sp7qk6psp4exvi51fey'
   license: MIT
   byos:
     byos_laravel:
