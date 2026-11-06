@@ -121,6 +121,31 @@ aist-trmnl-khl:
     description: 'Russian-language KHL schedule in Moscow time, with the full current or next game day and readable Mashup layouts.'
     github_url: 'https://github.com/Aist/trmnl-khl'
     learn_more_url: 'https://github.com/Aist/trmnl-khl'
+albert7617-trmnl-satellite-trajectory:
+  name: 'Satellite Trajectory'
+  trmnlp:
+    id: 509898
+    repo: 'https://github.com/albert7617/trmnl-satellite-trajectory'
+    zip_url: 'https://github.com/albert7617/trmnl-satellite-trajectory/archive/refs/heads/master.zip'
+    zip_entry_path: null
+    version: master
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/obqea52uddz4fcovq06xz3dp4774'
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/i825eaxqkrfj35a6jqmg3j772l67'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: albert7617
+  funding: {  }
+  author_bio:
+    description: 'Instead of tracking only ISS like other plugin, this plugin track any satellite via NORAD ID. Features past/future trajectory paths, using KeepTrack API integration.(Contact @albert7617 on TRMNL Discord if experiencing issue)'
+    category: 'discovery,images'
+    learn_more_url: 'https://keeptrack.space/'
+    github_url: 'https://github.com/albert7617/trmnl-satellite-trajectory'
 albert7617-trmnl-visited-japanese-prefectures:
   name: 'Visited Japanese Prefectures'
   trmnlp:
@@ -2514,6 +2539,30 @@ excusemi-retroachievements:
     description: 'Unofficial RetroAchievements plugin displaying a users recent games'
     github_url: 'https://github.com/ExcuseMi/trmnl-retroachievements-plugins'
     learn_more_url: 'https://retroachievements.org/'
+excusemi-tech-emails:
+  name: 'Tech Emails'
+  trmnlp:
+    id: 509355
+    repo: 'https://github.com/ExcuseMi/trmnl-tech-emails-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-tech-emails-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-tech-emails-plugin-main/plugin
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/wk3lf9kac5rc2bxigkk1qen5uqv4'
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/3mvrcv8x5wo29lu96tq344piss7c'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: 'Shows one email or chat message exchange at a time from the public record of tech companies, as an email. Each one is credited to its source document.'
+    category: 'news,email'
+    github_url: 'https://github.com/ExcuseMi/trmnl-tech-emails-plugin'
 excusemi-trmnl-air-quality-plugin:
   name: 'Air Quality'
   trmnlp:
@@ -3243,6 +3292,31 @@ fugalgolf-trmnl-national-league:
     description-de: |
       Verfolgen Sie Ihren National-League-Club auf TRMNL: Tabellenplatz, Resultat des letzten Spiels sowie Datum, Zeit und Gegner des nächsten.<br><br> Wählen Sie Ihr Team aus den 14 NL-Clubs, den Rest übernimmt das Plugin. In der Vollansicht steht die komplette Tabelle daneben, Ihr Club hervorgehoben. Die Anspielzeiten richten sich nach der Zeitzone Ihres Kontos.<br><br> Verfügbar auf Deutsch, Französisch, Italienisch und Englisch, oder auf Automatisch für die Sprache Ihres Kontos. Auch die Clubnamen passen sich an.<br><br> Punkte nach der NL-Regel: 3 für einen Sieg, 2 nach Verlängerung oder Penaltyschiessen, 1 für eine Niederlage nach Verlängerung oder Penaltyschiessen. Bei Punktgleichheit entscheiden die Anzahl Spiele und danach die Tordifferenz. Stündlich aktualisiert über nationalleague.ch. Nicht mit der National League oder Swiss Ice Hockey verbunden.
     description-it: "Seguite il vostro club di National League su TRMNL: posizione in classifica, risultato dell'ultima partita, data, ora e avversario della prossima.<br><br> Scegliete la vostra squadra fra i 14 club di NL, al resto pensa il plugin. A schermo intero la classifica completa appare a fianco, con il vostro club in evidenza. Gli orari seguono il fuso orario del vostro account.<br><br> Disponibile in italiano, francese, tedesco e inglese, oppure in modalità Automatico per seguire la lingua del vostro account. Anche i nomi dei club si adattano.<br><br> Punti secondo la regola NL: 3 per una vittoria, 2 ai supplementari o ai rigori, 1 per una sconfitta ai supplementari o ai rigori. A parità di punti contano le partite giocate e poi la differenza reti. Aggiornato ogni ora da nationalleague.ch. Non affiliato alla National League né a Swiss Ice Hockey."
+gluu-design-trmnl-geography-trivia:
+  name: 'Geo Loop'
+  trmnlp:
+    id: 383627
+    repo: 'https://github.com/gluu-design/trmnl-geography-trivia'
+    zip_url: 'https://github.com/gluu-design/trmnl-geography-trivia/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/a0orn0xzacvibyjkef0ogpaxpnt3'
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/7avoc1oan0nce043keqn86msdnza'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: gluu-design
+  funding: {  }
+  author_bio:
+    category: education
+    description: 'Geo Loop delivers a hand-crafted geographical trivia challenge to your screen every single day. A new question every morning; the answer is revealed at 6 PM in your timezone. Created by GuiL'
+    github_url: 'https://github.com/gluu-design/trmnl-geography-trivia'
+    learn_more_url: 'https://github.com/gluu-design/trmnl-geography-trivia'
 glyphic.com-marquee:
   name: Marquee
   trmnlp:
@@ -3669,6 +3743,30 @@ iler-trmnl-ruuvitag:
     github_url: 'https://github.com/iler/trmnl-ruuvitag'
     learn_more_url: 'https://docs.ruuvi.com/communicate-with-ruuvi-cloud/cloud/user-api'
     description: 'Every RuuviTag in your Ruuvi Cloud account on one screen: temperature, humidity, pressure, battery, and when each sensor was last heard from. Alarms come from Ruuvi''s own alert settings, so the thresholds, delay and hysteresis you configured in the Ruuvi app are what the screen shows. <br><br> Needs a read-only Ruuvi Cloud API token: call <code>/register</code> with your account email to be emailed a verification code, then <code>/verify</code> with that code to receive the bearer token. The token creator linked at the end does both steps in your browser. It belongs to this project rather than to Ruuvi, stores nothing, and a content security policy holds it to Ruuvi Cloud and nothing else. <br><br> "Priority sensors" decides which sensors the smaller layouts have room for; leave it blank to keep the order Ruuvi gives. <br><br> Your token is stored by TRMNL and sent from TRMNL''s servers to Ruuvi Cloud, and nowhere else. The plugin only reads your sensors; it never writes to your Ruuvi account. Because it polls with your own token against your own account, the refresh rate is yours to set and does not affect anyone else using this recipe. <br><br> Built by Ilari Mäkelä. Source and issues: <a href="https://github.com/iler/trmnl-ruuvitag">github.com/iler/trmnl-ruuvitag</a> <br> Token creator: <a href="https://ruuvi-api-token.ilari.dev/">ruuvi-api-token.ilari.dev</a> (<a href="https://github.com/iler/ruuvi-cloud-api-token-creator">source</a>)'
+indiebrain-trmnl-appsignal:
+  name: AppSignal
+  trmnlp:
+    id: 518240
+    repo: 'https://github.com/indiebrain/trmnl-appsignal'
+    zip_url: 'https://github.com/indiebrain/trmnl-appsignal/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/d2q13peyjef4fc3rcdr0fxwvknam'
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/511g8v969oj9e7m1pqwgwhxefd03'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'OAuth not yet supported'
+      min_version: null
+      renderer: null
+  author:
+    github: indiebrain
+  funding: {  }
+  author_bio:
+    category: 'analytics,programming'
+    description: "Shows the open errors, slow actions, and uptime and check-in monitors of every app in an AppSignal organization, or of one app.<br/> <br/> <strong>Setup</strong><br/> 1. Click the OAuth <strong>Connect</strong> button and sign in to AppSignal. AppSignal asks you to pick an app, but the plugin can read every app in the organization either way. The plugin only asks for read access, which you can revoke in AppSignal at any time.<br/> 2. Fill in your organization name: the part after appsignal.com/ in the address bar when you open AppSignal. Leave App blank to see every app, or enter one app's name.<br/> 3. Save, and add the plugin to a playlist.<br/> <br/> To see example data without connecting, enter <strong>demo</strong> as the organization."
+    github_url: 'https://github.com/indiebrain/trmnl-appsignal'
 ingm4r-trmnl-plugin-evcc:
   name: 'EVCC Dashboard'
   trmnlp:
@@ -5214,6 +5312,33 @@ michaelkurath-trmnl-lifeclock:
     category: 'life,personal'
     description: 'Your statistical lifetime on a 24-hour clock, using age-specific UN life expectancy data.'
     github_url: 'https://github.com/michaelkurath/TRMNL-lifeclock'
+michaelkurath-trmnl-low-expectations:
+  name: 'Low Expectations'
+  trmnlp:
+    id: 510794
+    repo: 'https://github.com/michaelkurath/TRMNL-Low-Expectations'
+    zip_url: 'https://github.com/michaelkurath/TRMNL-Low-Expectations/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/4di8hlimnf8p71yh0p0i4w4953i8'
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/3r3s3v399xicbofautkp2l4028f9'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: michaelkurath
+  funding: {  }
+  author_bio:
+    category: 'humor,calendar'
+    description: |-
+      Low Expectations is a daily tear-off calendar for anyone who has had enough encouragement. Each page pairs the date with a short piece of dry, demotivating advice: a small reminder that tomorrow can bring the same problems in a fresh arrangement.
+      Choose English or German. The calendar includes 365 paired entries and shows the same entry throughout your local day, even if you refresh it again. The sequence continues through New Year and leap days, then repeats after 365 days.
+      The design adapts to Full, Half Horizontal, Half Vertical, and Quadrant layouts on TRMNL OG and X, including portrait. Everything is included in the plugin: no quote service, API key, or external account is needed. Created by Michael Kurath.
+    github_url: 'https://github.com/michaelkurath/TRMNL-Low-Expectations'
 michaelkurath-trmnl-still-here:
   name: 'STILL HERE'
   trmnlp:
@@ -5238,6 +5363,30 @@ michaelkurath-trmnl-still-here:
     category: 'custom,education'
     description: 'A museum of species, technologies, and places that unexpectedly survive.'
     github_url: 'https://github.com/michaelkurath/TRMNL-Still-Here'
+michaelkurath-trmnl-unseen:
+  name: Unseen
+  trmnlp:
+    id: 510793
+    repo: 'https://github.com/michaelkurath/TRMNL-Unseen'
+    zip_url: 'https://github.com/michaelkurath/TRMNL-Unseen/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/wmzk183eq5m0o6zu3x52kwufkett'
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/23zag6i15sjt7hmqu6dwzjqbu5se'
+  license: NOASSERTION
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: michaelkurath
+  funding: {  }
+  author_bio:
+    category: 'images,education'
+    github_url: 'https://github.com/michaelkurath/TRMNL-Unseen'
+    description: 'Discover 60 real scanning electron micrographs of familiar materials, natural structures and tiny engineered worlds. Choose one picture per local calendar day or a new picture on every plugin refresh.<br/><br/> No API key or separate hosting is needed. Leave Public collection URL at its default, choose a picture mode, then save. Replaying a cached playlist screen does not advance the collection. Photo credits remain visible with captions off.<br/><br/> Photography from MUSE and University of Tartu contributors; individual CC BY and CC BY-SA credits appear on every plate. <a href="https://github.com/michaelkurath/TRMNL-Unseen#readme">Setup and source credits</a> · <a href="https://github.com/michaelkurath/TRMNL-Unseen/issues">Support and feedback</a>.'
 mikim83-cerdanyola-trmnl-forecast:
   name: 'Cerdanyola del Vallès Forecast'
   trmnlp:
@@ -7913,6 +8062,30 @@ vimwtf-trmnl-lumon-wellness:
     description: 'Welcome to the Lumon Industries Wellness Center. Please try to enjoy each fact equally, and not show preference for any over the others.'
     github_url: 'https://github.com/vimwtf/trmnl-lumon-wellness'
     learn_more_url: 'https://buffer.vim.wtf/lumon-wellness-plugin-for-trmnl/'
+vischm-trmnl-cinema-plugin:
+  name: 'Now in Theaters'
+  trmnlp:
+    id: 511825
+    repo: 'https://github.com/vischm/TRMNL-Cinema-Plugin'
+    zip_url: 'https://github.com/vischm/TRMNL-Cinema-Plugin/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ehv1n7ls70n96s2ijntl62aeou9s'
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/2xbpai75fsx6njw30q5fwoxyi3uz'
+  license: NOASSERTION
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: vischm
+  funding: {  }
+  author_bio:
+    category: 'entertainment,discovery'
+    description: 'Shows the highest-rated movies currently screening in your city''s cinemas in Germany, ranked by their Letterboxd rating. Programme data comes from <a href="https://www.cinema.de/kino/kinoprogramm">cinema.de</a>, ratings and posters from <a href="https://letterboxd.com/">Letterboxd</a>.'
+    github_url: 'https://github.com/vischm/TRMNL-Cinema-Plugin'
 wandmalfarbe-trmnl-goodreads:
   name: Goodreads
   trmnlp:
