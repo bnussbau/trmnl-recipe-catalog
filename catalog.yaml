@@ -529,18 +529,19 @@ argoroots-borsihind:
   name: Börsihind.ee
   trmnlp:
     id: 122983
-    repo: 'https://github.com/argoroots/trmnl/blob/main/borsihind'
-    zip_url: 'https://github.com/argoroots/trmnl/archive/refs/heads/main.zip'
-    zip_entry_path: trmnl-main/borsihind
+    repo: 'https://github.com/argoroots/borsihind'
+    zip_url: 'https://github.com/argoroots/borsihind/archive/refs/heads/main.zip'
+    zip_entry_path: borsihind-main/trmnl
     version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/p6alv8wqed1xjd5l49api5290689'
-  screenshot_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/qtt7dbx4zk7x63n2aay15kztw4z1'
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/gnwkx10co83sktdw862ix50qrq83'
   license: MIT
   byos:
     byos_laravel:
       compatibility: true
       compatibility_note: null
       min_version: 0.17.0
+      renderer: null
   author:
     github: argoroots
   funding: {  }
@@ -1570,30 +1571,28 @@ blueset-visa-bulletin:
     liberapay: blueset
     ko_fi: blueset
   author_bio: {  }
-blueset-wikipedia-article-of-the-day:
+blueset-wikipedia-feed:
   name: 'Wikipedia Feeds'
   trmnlp:
     id: 148054
-    repo: 'https://github.com/blueset/trmnl-recipes/tree/master/wikipedia-article-of-the-day'
+    repo: 'https://github.com/blueset/trmnl-recipes'
     zip_url: 'https://github.com/blueset/trmnl-recipes/archive/refs/heads/master.zip'
-    zip_entry_path: trmnl-recipes-master/wikipedia-article-of-the-day
-    version: main
+    zip_entry_path: trmnl-recipes-master/wikipedia-feed
+    version: master
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/qqb4k5wgsfsypa2d3wmbm4f73mzs'
-  screenshot_url: 'https://github.com/blueset/trmnl-recipes/raw/master/wikipedia-article-of-the-day/images/en-f.png'
+  screenshot_url: 'https://github.com/blueset/trmnl-recipes/raw/master/wikipedia-feed/images/en-f.png'
   license: MIT
   byos:
     byos_laravel:
       compatibility: true
       compatibility_note: null
       min_version: 0.17.0
+      renderer: null
   author:
     github: blueset
-  funding:
-    github: blueset
-    liberapay: blueset
-    ko_fi: blueset
+  funding: {  }
   author_bio:
-    description: 'Multilingual Wikipedia feed recipe, supports Article of the Day, On this day, and Did you know, for multiple languages.'
+    description: 'Multilingual Wikipedia feed recipe, supports <b class="italic font-normal">Article of the Day</b>, <b class="italic font-normal">On this day</b>, and <b class="italic font-normal">Did you know</b>, for multiple languages.'
     github_url: 'https://github.com/blueset/trmnl-recipes'
     category: 'discovery,news'
 blueset-world-clock:
@@ -4641,28 +4640,6 @@ lanrat-foxtrot-classics-comic:
     description: 'Displays the daily FoxTrot comic by Bill Amend'
     github_url: 'https://github.com/lanrat/trmnl_plugins'
     learn_more_url: 'https://github.com/lanrat/trmnl_plugins/tree/main/FoxTrot%20Classics%20Comic'
-lanrat-github-workflow-actions:
-  name: 'GitHub Workflow Actions'
-  trmnlp:
-    id: null
-    repo: 'https://github.com/lanrat/trmnl_plugins/tree/main/GitHub%20Workflow%20Actions'
-    zip_url: 'https://github.com/lanrat/trmnl_plugins/archive/refs/heads/main.zip'
-    zip_entry_path: 'trmnl_plugins-main/GitHub Workflow Actions'
-    version: main
-  logo_url: null
-  screenshot_url: 'https://raw.githubusercontent.com/lanrat/trmnl_plugins/refs/heads/main/GitHub%20Workflow%20Actions/screenshot.png'
-  license: Unknown
-  byos:
-    byos_laravel:
-      compatibility: true
-      compatibility_note: null
-      min_version: 0.21.0
-      renderer: trmnl-liquid
-  author:
-    github: lanrat
-  funding: {  }
-  author_bio:
-    description: 'A TRMNL plugin that displays the status of GitHub Actions workflows on your e-ink display.'
 lanrat-litterbox-comics:
   name: 'Litterbox Comics'
   trmnlp:
@@ -5413,15 +5390,15 @@ mikim83-cerdanyola-trmnl-forecast:
     github_url: 'https://github.com/mikim83/cerdanyola-trmnl-forecast'
     learn_more_url: 'https://meteo.dob-world.com'
 mironiasty-trmnl-bergfex-snow:
-  name: 'Bergfex Snow Report'
+  name: 'Ski Resort Snow Report (Europe)'
   trmnlp:
     id: 219253
     repo: 'https://github.com/mironiasty/trmnl_bergfex_snow'
     zip_url: 'https://github.com/mironiasty/trmnl_bergfex_snow/archive/refs/heads/main.zip'
     zip_entry_path: null
     version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/y3ibeq1wi8t3lniuqz6e547yr3sp'
-  screenshot_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/8lokw1z17ywkudjcl4ov4gtocc9f'
+  screenshot_url: 'https://raw.githubusercontent.com/mironiasty/trmnl_snow_conditions/main/docs/trmnl_soelden.png'
   license: MIT
   byos:
     byos_laravel:
@@ -5434,8 +5411,8 @@ mironiasty-trmnl-bergfex-snow:
   funding: {  }
   author_bio:
     category: 'travel,custom'
-    description: 'Show snow report for your favourite ski resort. This plugin requires Home Assistant with Bergfex Snow Report Integration to get Snow reports. When adding ski resort in integration, you can also add webhook URL from pluign page. See GitHub page for more information.'
-    github_url: 'https://github.com/mironiasty/trmnl_bergfex_snow'
+    description: 'Show opened lifts, slopes and snow report for your favourite ski resort in Europe. This plugin uses data from https://liftradar.eu. Visit that website, find your desired ski resort, copy link to JSON file and put into pulling url in plugin config'
+    github_url: 'https://github.com/mironiasty/trmnl_snow_conditions'
 monsieurm-trmnl-lastfm:
   name: LastFM
   trmnlp:
@@ -7320,8 +7297,9 @@ stephenyeargin-trmnl-uptimerobot:
     id: 98765
     repo: 'https://github.com/stephenyeargin/trmnl-uptimerobot'
     zip_url: 'https://github.com/stephenyeargin/trmnl-uptimerobot/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/9q826ix4lp55v54fc6x1m6103yc8'
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/lw94uoeeat6h06zn3c5o51qpwkmo'
   screenshot_url: 'https://github.com/stephenyeargin/trmnl-uptimerobot/raw/main/assets/screenshot.png'
   license: MIT
   byos:
@@ -7334,6 +7312,7 @@ stephenyeargin-trmnl-uptimerobot:
     github: stephenyeargin
   funding: {  }
   author_bio:
+    category: productivity
     description: 'Displays the status of UptimeRobot monitors'
     github_url: 'https://github.com/stephenyeargin/trmnl-uptimerobot'
     learn_more_url: 'https://uptimerobot.com/'
