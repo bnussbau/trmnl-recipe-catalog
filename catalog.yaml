@@ -799,8 +799,8 @@ baszert-trmnl-daydial:
     zip_url: 'https://github.com/Baszert/trmnl-daydial/archive/refs/heads/main.zip'
     zip_entry_path: null
     version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/30bmsw2etx3qb8deb7bdnle89j7s'
-  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/n3fldqivr9tmbfwxdqr3746a6y3z'
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/0uo0u4eeyq6dp0n0p5clxfnjw53x'
+  screenshot_url: null
   license: MIT
   byos:
     byos_laravel:
