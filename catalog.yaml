@@ -324,7 +324,7 @@ alisterscott-trmnl-simpsons-quotes:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/4916c0omhdxcocpp2a44twl8rszy'
-  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/m3th9j6ge4gd21pd0kl8fbtj9th9'
+  screenshot_url: null
   license: MIT
   byos:
     byos_laravel:
@@ -767,14 +767,14 @@ bartschuurmans-trmnl-rolling-month-calendar-trmnl-calendars:
     github_url: 'https://github.com/BartSchuurmans/trmnl-rolling-month-calendar'
     learn_more_url: 'https://github.com/BartSchuurmans/trmnl-rolling-month-calendar#readme'
 bastronautik-trmnl-triangles-art:
-  name: 'Triangles - Generated Art'
+  name: Triangles
   trmnlp:
     id: 220720
     repo: 'https://github.com/Bastronautik/trmnl-triangles-art'
     zip_url: 'https://github.com/Bastronautik/trmnl-triangles-art/archive/refs/heads/main.zip'
     zip_entry_path: null
     version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/4tdnol3nm65jssn7div7ykidyb3w'
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/y2s63f8nm1ctvly0xecy9fqg4bmq'
   screenshot_url: null
   license: Unknown
   byos:
@@ -790,7 +790,7 @@ bastronautik-trmnl-triangles-art:
     description: 'Let your TRMNL show a random generated artwork with triangles. Based on the Kumiko styled artwork from Japan, but more random. With every refresh the generated artwork gets a new look.'
     category: art
     email_address: trmnl@achtnegen.nl
-    github_url: 'https://github.com/Bastronautik/trmnl-triangles-art'
+    github_url: 'https://github.com/Baszert/trmnl-triangles-art'
 baszert-trmnl-daydial:
   name: Daydial
   trmnlp:
@@ -876,7 +876,7 @@ baszert-trmnl-wild-this-week:
     zip_url: 'https://github.com/Baszert/trmnl-wild-this-week/archive/refs/heads/main.zip'
     zip_entry_path: null
     version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/xwg3nyavvzir69d2fnieu30xim38'
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/494zmfsgv9o2ocw4b5cbi03yz5ow'
   screenshot_url: null
   license: MIT
   byos:
@@ -2163,13 +2163,14 @@ danmunoz-trmnl-bvg-transit:
     zip_entry_path: null
     version: main
   logo_url: null
-  screenshot_url: null
+  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/6ej1ofbi3tkh9mfmsr8k0g3f579c'
   license: MIT
   byos:
     byos_laravel:
       compatibility: true
       compatibility_note: null
       min_version: 0.17.0
+      renderer: null
   author:
     github: danmunoz
   funding: {  }
@@ -3797,9 +3798,10 @@ itsjustthomas-trmnl-anki:
     id: null
     repo: 'https://github.com/ItsJustThomas/trmnl-anki'
     zip_url: 'https://github.com/ItsJustThomas/trmnl-anki/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: null
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/ItsJustThomas/trmnl-anki/refs/heads/main/example.jpg'
   license: AGPL-3.0
   byos:
     byos_laravel:
@@ -5443,13 +5445,14 @@ monsieurm-trmnl-yearinprogress:
     zip_entry_path: null
     version: main
   logo_url: null
-  screenshot_url: 'https://raw.githubusercontent.com/monsieurm/trmnl-yearinprogress/refs/heads/main/trmnl-yearinprogress-dots.jpeg'
+  screenshot_url: 'https://raw.githubusercontent.com/monsieurm/trmnl-yearinprogress/main/trmnl-yearinprogress-dots-light.png'
   license: Unknown
   byos:
     byos_laravel:
       compatibility: true
       compatibility_note: null
       min_version: 0.17.3
+      renderer: null
   author:
     github: monsieurm
   funding: {  }
