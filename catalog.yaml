@@ -791,6 +791,31 @@ bastronautik-trmnl-triangles-art:
     category: art
     email_address: trmnl@achtnegen.nl
     github_url: 'https://github.com/Baszert/trmnl-triangles-art'
+baszert-trmnl-daycast:
+  name: Daycast
+  trmnlp:
+    id: 506012
+    repo: 'https://github.com/Baszert/trmnl-daycast'
+    zip_url: 'https://github.com/Baszert/trmnl-daycast/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/pebgdhnbbq4iavlynfgxyvub2qlh'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: Baszert
+  funding: {  }
+  author_bio:
+    category: 'environment,life'
+    github_url: 'https://github.com/Baszert/trmnl-daycast'
+    description: "Today's weather, at a glance. How warm it is now, when the rain comes, and how the day unfolds hour by hour in one clean chart. Anywhere on Earth, in 12 languages."
+    email_address: trmnl@achtnegen.nl
 baszert-trmnl-daydial:
   name: Daydial
   trmnlp:
@@ -841,6 +866,31 @@ baszert-trmnl-flyover:
     category: 'environment,discovery'
     github_url: 'https://github.com/Baszert/trmnl-flyover'
     description: "The ISS, live, on a 3D Earth. Real day and night, with yesterday's clouds from NASA and the city lights on the dark side. Follow the station across the planet, and see what it flies over, how fast it goes, and how far away it is from you. In 12 languages."
+    email_address: trmnl@achtnegen.nl
+baszert-trmnl-moonface:
+  name: Moonface
+  trmnlp:
+    id: 511001
+    repo: 'https://github.com/Baszert/trmnl-moonface'
+    zip_url: 'https://github.com/Baszert/trmnl-moonface/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/qebyddqy6q5j7tudlpr665lms8ts'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: Baszert
+  funding: {  }
+  author_bio:
+    category: 'environment,discovery'
+    github_url: 'https://github.com/Baszert/trmnl-moonface'
+    description: "Look up. Then look at this. A 3D Moon built from NASA's lunar maps, lit by the real Sun and turned the way you see it from where you stand. See what's on the terminator tonight, when it rises, and when the next full moon comes. In 12 languages."
     email_address: trmnl@achtnegen.nl
 baszert-trmnl-nightclock:
   name: Nightclock
@@ -5170,6 +5220,33 @@ mgeilich-planet-finder:
     description: 'Planet Finder displays a real-time planisphere/sky map.<br>Created by Michael Geilich. Please report any issues on GitHub.'
     github_url: 'https://github.com/mgeilich/planetfinder'
     category: 'discovery,education'
+mgeilich-trmnl-home-value:
+  name: Topsfield
+  trmnlp:
+    id: 348725
+    repo: 'https://github.com/mgeilich/trmnl-home-value'
+    zip_url: 'https://github.com/mgeilich/trmnl-home-value/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/rtwcxnrwk6yod6amceqklggc3okb'
+  screenshot_url: null
+  license: NOASSERTION
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: mgeilich
+  funding: {  }
+  author_bio:
+    category: 'finance,personal'
+    description: |-
+      Estimates your home's value from what you paid and how typical home values in your ZIP code have changed since, using the <a href="https://www.zillow.com/research/data/" class="underline">Zillow Home Value Index</a> (updated monthly).<br/><br/>
+      Enter your ZIP code, and optionally your purchase price and the month you bought. The plugin shows today's estimated value, your gain in dollars and percent, the typical home value in your ZIP, and how much values there have changed over the last 12 months. Leave the purchase fields blank to show the typical home value for any ZIP code. You can also show your street address or a nickname as the heading; it stays in your plugin settings and is never sent to the data server.<br/><br/>
+      There is no sign-up or API key. The estimate follows typical homes in your ZIP, not your specific house, so it is not a Zestimate or an appraisal. Data: Zillow Research. Questions and issues are welcome on <a href="https://github.com/mgeilich/trmnl-home-value" class="underline">GitHub</a>.
+    github_url: 'https://github.com/mgeilich/trmnl-home-value'
 michaelkurath-never-built:
   name: 'NEVER BUILT'
   trmnlp:
