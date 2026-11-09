@@ -7767,6 +7767,31 @@ taichikuji-trmnl-tmb-plugin:
     category: 'news,travel'
     learn_more_url: 'https://discordid.taichikuji.org/discord'
     github_url: 'https://github.com/taichikuji/trmnl-tmb-plugin'
+taichikuji-trmnl-yahoo-finances-plugin:
+  name: STONKS
+  trmnlp:
+    id: 522884
+    repo: 'https://github.com/taichikuji/trmnl-yahoo-finances-plugin'
+    zip_url: 'https://github.com/taichikuji/trmnl-yahoo-finances-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ze5dz66kce3crdkj4m14ms8ivnlt'
+  screenshot_url: 'https://raw.githubusercontent.com/taichikuji/trmnl-yahoo-finances-plugin/main/TRMNL/media/preview_full.webp'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: false
+      compatibility_note: 'Transform is not yet supported'
+      min_version: null
+      renderer: null
+  author:
+    github: taichikuji
+  funding: {  }
+  author_bio:
+    category: finance
+    github_url: 'https://github.com/taichikuji/trmnl-yahoo-finances-plugin'
+    learn_more_url: 'https://github.com/taichikuji/trmnl-yahoo-finances-plugin/tree/main/TRMNL#setup'
+    description: 'STONKS brings Yahoo Finance charts to your TRMNL. Track stocks, ETFs, indices, forex and crypto with customizable charts and rotating symbols. No market-data API key required; quotes may be delayed.'
 tanzeel159-design-drill-deck:
   name: 'Design Drill Deck'
   trmnlp:
