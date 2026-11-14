@@ -1060,7 +1060,7 @@ blueset-framework-update:
   byos:
     byos_laravel:
       compatibility: false
-      compatibility_note: 'Transform is not yet supported'
+      compatibility_note: 'Transform with require is not yet supported'
       min_version: null
       renderer: null
   author:
@@ -1138,9 +1138,9 @@ blueset-ipv6-adoption:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: false
-      compatibility_note: 'Transform is not yet supported'
-      min_version: null
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: blueset
@@ -5260,9 +5260,9 @@ michaelkurath-never-built:
   license: NOASSERTION
   byos:
     byos_laravel:
-      compatibility: false
-      compatibility_note: 'Transform is not yet supported'
-      min_version: null
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: michaelkurath
@@ -5333,9 +5333,9 @@ michaelkurath-trmnl-goodbye:
   license: NOASSERTION
   byos:
     byos_laravel:
-      compatibility: false
-      compatibility_note: 'Serverless is not yet compatible.'
-      min_version: 0.29.0
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: michaelkurath
@@ -5408,9 +5408,9 @@ michaelkurath-trmnl-still-here:
   license: NOASSERTION
   byos:
     byos_laravel:
-      compatibility: false
-      compatibility_note: 'Transform is not yet supported'
-      min_version: null
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: michaelkurath
@@ -5675,9 +5675,9 @@ oneill9-trmnl-in-season:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: false
-      compatibility_note: 'Transform is not yet supported'
-      min_version: null
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: oneill9
@@ -7705,9 +7705,9 @@ taichikuji-trmnl-gotchi:
   license: NOASSERTION
   byos:
     byos_laravel:
-      compatibility: false
-      compatibility_note: 'Transform is not yet supported'
-      min_version: null
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: taichikuji
@@ -7780,9 +7780,9 @@ taichikuji-trmnl-yahoo-finances-plugin:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: false
-      compatibility_note: 'Transform is not yet supported'
-      min_version: null
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: taichikuji
