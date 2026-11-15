@@ -11,9 +11,10 @@ a-mnich-trmnl-monkey-island-quotes:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
+      renderer: null
   author:
     github: a-mnich
   funding: {  }
@@ -1268,10 +1269,10 @@ blueset-one-headline:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
-      renderer: null
+      min_version: 0.47.0
+      renderer: trmnl-liquid
   author:
     github: blueset
   funding:
@@ -2626,9 +2627,10 @@ excusemi-trmnl-air-quality-plugin:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: 'Polling URL needs to be adapted'
-      min_version: 0.22.0
+      min_version: 0.47.0
+      renderer: trmnl-liquid
   author:
     github: ExcuseMi
   funding: {  }
@@ -2727,13 +2729,14 @@ excusemi-trmnl-databreaches-plugin:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/lk39903tfwr3ej5pg33snrjl5b98'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/ExcuseMi/trmnl-databreaches-plugin/main/assets/plugin-images/183668_screenshot.png'
   license: MIT
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
+      renderer: trmnl-liquid
   author:
     github: ExcuseMi
   funding: {  }
@@ -2862,9 +2865,10 @@ excusemi-trmnl-github-releases-plugin:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
+      renderer: null
   author:
     github: ExcuseMi
   funding: {  }
@@ -4682,9 +4686,10 @@ lanrat-foxtrot-classics-comic:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: false
-      compatibility_note: 'XML not supported yet.'
-      min_version: null
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.47.0
+      renderer: trmnl-liquid
   author:
     github: lanrat
   funding: {  }
@@ -4824,9 +4829,10 @@ lanrat-pickles-comic:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
+      renderer: null
   author:
     github: lanrat
   funding: {  }
@@ -5786,7 +5792,7 @@ pradeepbbl-energy-pulse:
     description: 'Energy Pulse was built by Pradeep Mishra to surface European day-ahead electricity prices from ENTSO-E at a glance. Questions, bugs, or feature requests? Open an issue on GitHub or reach out by email.<br/>Source and docs live in the repo linked below.'
     github_url: 'https://github.com/pradeepbbl/trmnl_plugins'
     email_address: pradeepbbl@gmail.com
-pythcon-plugin:
+pythcon-pinball:
   name: 'Pinball Showcase'
   trmnlp:
     id: 497284
@@ -5799,9 +5805,9 @@ pythcon-plugin:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: pythcon
@@ -6964,9 +6970,10 @@ stephenyeargin-trmnl-mealviewer:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
+      renderer: null
   author:
     github: stephenyeargin
   funding: {  }
@@ -8088,9 +8095,10 @@ tkilaker-sydsvenskan-news:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
+      renderer: null
   author:
     github: tkilaker
   funding: {  }
