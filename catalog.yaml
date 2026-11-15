@@ -1008,9 +1008,9 @@ blueset-custom-next-holiday:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: blueset
@@ -2707,9 +2707,9 @@ excusemi-trmnl-daily-excuse-plugin:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: ExcuseMi
@@ -2783,9 +2783,9 @@ excusemi-trmnl-earth-observatory-plugin:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: ExcuseMi
@@ -2838,10 +2838,10 @@ excusemi-trmnl-esthio-schoolmenu-plugin:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
-      renderer: null
+      min_version: 0.47.0
+      renderer: trmnl-liquid
   author:
     github: ExcuseMi
   funding: {  }
@@ -2914,9 +2914,9 @@ excusemi-trmnl-its5oclock-somewhere-plugin:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: ExcuseMi
@@ -3834,9 +3834,9 @@ ingm4r-trmnl-plugin-evcc:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: ingm4r
@@ -4520,9 +4520,9 @@ lanrat-bc-comic:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: lanrat
@@ -4733,9 +4733,9 @@ lanrat-luann-comic:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: lanrat
@@ -6210,9 +6210,10 @@ rknightuk-trmnl-gamecube-title-screens:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
+      renderer: null
   author:
     github: rknightuk
   funding: {  }
@@ -7662,9 +7663,9 @@ taichikuji-trmnl-atmosphere:
   license: NOASSERTION
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: taichikuji
