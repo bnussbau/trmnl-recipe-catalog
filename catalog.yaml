@@ -745,30 +745,6 @@ bartschuurmans-trmnl-rolling-month-calendar:
     category: 'calendar,productivity'
     github_url: 'https://github.com/BartSchuurmans/trmnl-rolling-month-calendar'
     learn_more_url: 'https://github.com/BartSchuurmans/trmnl-rolling-month-calendar#readme'
-bartschuurmans-trmnl-rolling-month-calendar-trmnl-calendars:
-  name: 'Rolling Month Calendar'
-  trmnlp:
-    id: 492440
-    repo: 'https://github.com/BartSchuurmans/trmnl-rolling-month-calendar'
-    zip_url: 'https://github.com/BartSchuurmans/trmnl-rolling-month-calendar/releases/latest/download/rolling-month-calendar-trmnl-com-merge.zip'
-    zip_entry_path: null
-    version: null
-  logo_url: 'https://raw.githubusercontent.com/BartSchuurmans/trmnl-rolling-month-calendar/main/docs/logo.png'
-  screenshot_url: 'https://raw.githubusercontent.com/BartSchuurmans/trmnl-rolling-month-calendar/main/docs/preview.png'
-  license: MIT
-  byos:
-    byos_laravel:
-      compatibility: false
-      compatibility_note: 'Uses Plugin Merge with TRMNL.com calendar plugins. On LaraPaper, use the other Rolling Month Calendar entry (ICS feeds or Home Assistant).'
-      min_version: null
-  author:
-    github: BartSchuurmans
-  funding: {  }
-  author_bio:
-    description: 'For TRMNL.com. Rolling month calendar that starts at the current week, showing the events of up to eight TRMNL calendar plugins (Google, Outlook, iCloud, CalDAV, ...) through Plugin Merge, with per-calendar prefixes and colours. Full, half and quadrant layouts. Built for the TRMNL X, also renders on the OG. Forked from the TRMNL native calendar plugin.'
-    category: 'calendar,productivity'
-    github_url: 'https://github.com/BartSchuurmans/trmnl-rolling-month-calendar'
-    learn_more_url: 'https://github.com/BartSchuurmans/trmnl-rolling-month-calendar#readme'
 bastronautik-trmnl-triangles-art:
   name: Triangles
   trmnlp:
@@ -1070,7 +1046,7 @@ blueset-framework-update:
     github: blueset
   funding: {  }
   author_bio:
-    description: 'Latest releases of <a href="https://trmnl.com/framework/releases" target="_blank">TRMNL Framework</a>.'
+    description: 'Latest releases of TRMNL Framework.'
     github_url: 'https://github.com/blueset/trmnl-recipes'
     learn_more_url: 'https://trmnl.com/framework/releases'
     category: 'discovery,programming'
@@ -6158,7 +6134,7 @@ rishikeshsreehari-trmnl-webmention:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/m3ofmx8p1k0w01eywdl4jdksa4m6'
-  screenshot_url: 'https://private-user-images.githubusercontent.com/14956650/530986061-4c6b2a74-ee38-4aa5-803a-3b6b332eb3d8.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTQ4NDgyMzYsIm5iZiI6MTc5NDg0NzkzNiwicGF0aCI6Ii8xNDk1NjY1MC81MzA5ODYwNjEtNGM2YjJhNzQtZWUzOC00YWE1LTgwM2EtM2I2YjMzMmViM2Q4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTE2VDE2NTIxNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE1YjU4ZTU1NzIzYThlZWFjZGVhMGMzZDc5MmUyMzAxNTg1ZmUwZmE2NzMwNzBmYzViZTNiMDY1ZTBlMWMyMTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.Qi1iVGtsHD18S_pylDbR6WO8CYv9nm0VUCvGlcDXorY'
+  screenshot_url: null
   license: Unknown
   byos:
     byos_laravel:
