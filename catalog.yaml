@@ -60,9 +60,9 @@ adechassey-trmnl-idfm-trains:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
-      compatibility_note: null
-      min_version: null
+      compatibility: true
+      compatibility_note: 'Requires fransformation provider: Python'
+      min_version: 0.47.0
       renderer: null
   author:
     github: adechassey
@@ -101,6 +101,7 @@ adechassey-trmnl-llm-leaderboards:
 aist-trmnl-khl:
   name: 'Расписание КХЛ'
   trmnlp:
+    id: null
     repo: 'https://github.com/Aist/trmnl-khl'
     zip_url: 'https://github.com/Aist/trmnl-khl/releases/download/v1.0.1/trmnl-khl-v1.0.1.zip'
     zip_entry_path: null
@@ -110,9 +111,9 @@ aist-trmnl-khl:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: Aist
@@ -258,9 +259,9 @@ alisterscott-trmnl-flip-date:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
-      compatibility_note: null
-      min_version: null
+      compatibility: true
+      compatibility_note: 'Change `view--{{ size }}` to `view--full` in Markup'
+      min_version: 0.47.0
       renderer: null
   author:
     github: alisterscott
@@ -305,9 +306,9 @@ alisterscott-trmnl-simplenote:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: alisterscott
@@ -634,9 +635,9 @@ asmurphy-monero-p2pool-payouts:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
       renderer: null
   author: {  }
   funding: {  }
@@ -1189,9 +1190,9 @@ blueset-killed-by-google:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: blueset
@@ -1297,9 +1298,9 @@ blueset-plugin-against-humanity:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: blueset
@@ -2047,9 +2048,9 @@ brwoodside-trmnl-flight-tracker:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
-      compatibility_note: null
-      min_version: null
+      compatibility: true
+      compatibility_note: 'Requires transform provider: Python'
+      min_version: 0.47.0
       renderer: null
   author:
     github: brwoodside
@@ -2171,9 +2172,9 @@ coffindeliveryservice-this-day-in-horror:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
-      compatibility_note: null
-      min_version: null
+      compatibility: true
+      compatibility_note: 'Requires setup, see GitHub README'
+      min_version: 0.47.0
       renderer: null
   author:
     github: CoffinDeliveryService
@@ -2603,9 +2604,9 @@ excusemi-tech-emails:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: ExcuseMi
@@ -3082,13 +3083,13 @@ excusemi-trmnl-skywatch-plugin:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/le84pp45axmx1j1o4xw0qsmlx92o'
-  screenshot_url: null
+  screenshot_url: 'https://github.com/ExcuseMi/trmnl-skywatch-plugin/raw/main/assets/plugin-images/286469_screenshot.png'
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
-      compatibility_note: null
-      min_version: null
+      compatibility: true
+      compatibility_note: 'Access denied to polling url; you need to self-host the backend'
+      min_version: 0.47.0
       renderer: null
   author:
     github: ExcuseMi
@@ -3118,9 +3119,10 @@ excusemi-trmnl-sleepy-time-plugin:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
+      renderer: null
   author:
     github: ExcuseMi
   funding: {  }
@@ -3141,8 +3143,8 @@ excusemi-trmnl-trakt-tv-plugin:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
-      compatibility_note: null
+      compatibility: false
+      compatibility_note: 'OAuth not yet supported'
       min_version: null
       renderer: null
   author:
@@ -3259,9 +3261,9 @@ excusemi-wikimedia-potd:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: ExcuseMi
@@ -3421,18 +3423,20 @@ gnitsua-artemis2-trmnl:
 guilhermemorais-trmnl-github-pull-requests:
   name: 'GitHub Pull Requests'
   trmnlp:
-    id: '221833'
+    id: 221833
     repo: 'https://github.com/GuilhermeMorais/trmnl-github-pull-requests'
     zip_url: 'https://github.com/GuilhermeMorais/trmnl-github-pull-requests/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/cxq14r3l46pxm4z0c3eao2lahfqo'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/GuilhermeMorais/trmnl-github-pull-requests/main/Full-LightMode.png'
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
+      renderer: null
   author:
     github: GuilhermeMorais
   funding: {  }
@@ -3478,9 +3482,9 @@ hacdias-trmnl-miniflux:
   license: CC-BY-4.0
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: hacdias
@@ -4047,25 +4051,29 @@ jbelien-trmnl-plugin-updownio:
     github_url: 'https://github.com/jbelien/trmnl-plugin-updownio'
     learn_more_url: 'https://jbelien.be/'
     email_address: dev@jbelien.mozmail.com
-jerremyng-sg-bus:
+jerremyng-trmnl-sg-bus:
   name: 'SG bus'
   trmnlp:
+    id: null
     repo: 'https://github.com/jerremyng/trmnl-sg-bus'
-    zip_url: 'https://github.com/jerremyng/trmnl-sg-bus/releases/tag/v1.0'
-    byos_laravel:
-      compatibility: true
-      compatibility_note: null
-      min_version: 0.25.1
+    zip_url: 'https://github.com/jerremyng/trmnl-sg-bus/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
   logo_url: null
   screenshot_url: null
-  license: ''
-  byos: {  }
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
   author:
     github: jerremyng
   funding: {  }
   author_bio:
-    description: 'Always missing buses? I gotchu. This plugin shows departure times of buses in Singapore. Specific stops/buses and names can be configured.'
-    github_url: 'https://github.com/jerremyng/trmnl-sg-bus'
+    description: 'A TRMNL recipe for Singapore bus departure times'
+    homepage: ''
 jetsharklambo-acstop:
   name: 'ACTransit Stop'
   trmnlp:
@@ -4220,18 +4228,20 @@ jshiell-trmnl-national-rail-departures:
 jshiell-trmnl-stalbans-refuse-collections:
   name: 'St Albans Refuse Collections'
   trmnlp:
-    id: '203404'
+    id: 203404
     repo: 'https://github.com/jshiell/trmnl-stalbans-refuse-collections'
     zip_url: 'https://github.com/jshiell/trmnl-stalbans-refuse-collections/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/cdjp7e4blcrfitxttf4wmknz822o'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/jshiell/trmnl-stalbans-refuse-collections/main/screenshot.jpg'
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
+      renderer: null
   author:
     github: jshiell
   funding: {  }
@@ -4853,9 +4863,9 @@ lanrat-twonks:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: lanrat
@@ -4877,9 +4887,9 @@ lanrat-xkcd-hover:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: lanrat
@@ -4902,9 +4912,9 @@ laurens94-trmnl-umami-stats:
   license: NOASSERTION
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: laurens94
@@ -4945,13 +4955,13 @@ lucaspimentel-mbta-alerts:
     zip_entry_path: trmnl-plugins-main/plugins/mbta-alerts
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/4djpjgf9wy2bs3jcg033s75tatn0'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/lucaspimentel/trmnl-plugins/main/plugins/mbta-alerts/screenshot.png'
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: lucaspimentel
@@ -4973,9 +4983,9 @@ lucianova-tweek:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: Lucianova
@@ -5025,9 +5035,9 @@ macusercom-trmnl-vienna-public-transport-disruptions:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: Macusercom
@@ -5078,9 +5088,9 @@ martin2097-trmnl-is-this-weather-normal:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
-      compatibility_note: null
-      min_version: null
+      compatibility: true
+      compatibility_note: 'Requires Python transform provider'
+      min_version: 0.47.0
       renderer: null
   author:
     github: martin2097
@@ -5363,9 +5373,9 @@ michaelkurath-trmnl-lifeclock:
   license: NOASSERTION
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: michaelkurath
@@ -5569,6 +5579,29 @@ nbbou81000-trmnl-creator-stats:
       Data comes from the <a href="https://nbbou81000.github.io/trmnl-leaderboard/">TRMNL Creator Leaderboard</a> and refreshes every hour. Available in English, French, German and Spanish, in every layout, on TRMNL OG and TRMNL X.
     github_url: 'https://github.com/nbbou81000/trmnl-creator-stats'
     learn_more_url: 'https://nbbou81000.github.io/trmnl-leaderboard/'
+nickspaghetti-pluginscursor-member-usage:
+  name: 'Cursor Member Usage'
+  trmnlp:
+    id: null
+    repo: 'https://github.com/NickSpaghetti/trmnl-cursor-usage'
+    zip_url: 'https://github.com/NickSpaghetti/trmnl-cursor-usage/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-cursor-usage-main/plugins/cursor-member-usage
+    version: main
+  logo_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/NickSpaghetti/trmnl-cursor-usage/main/plugins/cursor-member-usage/docs/full.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: NickSpaghetti
+  funding: {  }
+  author_bio:
+    description: 'A dashboard for your cursor usage for the trmnl'
+    homepage: null
 nickspaghetti-trmnl-osrs-ge-price-trend:
   name: 'OSRS GE Price Trend'
   trmnlp:
@@ -5582,17 +5615,17 @@ nickspaghetti-trmnl-osrs-ge-price-trend:
   license: Apache-2.0
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
-      renderer: null
+      min_version: 0.47.0
+      renderer: trmnl-liquid
   author:
     github: NickSpaghetti
   funding: {  }
   author_bio:
     category: 'games,ecommerce'
     description: 'Show the price trends of an item from the Grand Exchange in OSRS.'
-    github_url: 'https://github.com/NickSpaghetti'
+    github_url: 'https://github.com/NickSpaghetti/trmnl-osrs-ge-price-trend'
     learn_more_url: 'https://github.com/NickSpaghetti/trmnl-osrs-ge-price-trend'
 nikokoren-downstream:
   name: 'Downstream: Watershed Explorer'
@@ -5987,9 +6020,9 @@ resend-resend-trmnl-plugin:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
-      compatibility_note: null
-      min_version: null
+      compatibility: true
+      compatibility_note: 'You need to hardcode {{ trmnl.user.time_zone_iana }} in Polling URL'
+      min_version: 0.47.0
       renderer: null
   author:
     github: resend
@@ -6080,18 +6113,20 @@ rishikeshsreehari-trmnl-pihole:
 rishikeshsreehari-trmnl-solana:
   name: 'Solana Wallet'
   trmnlp:
-    id: '229540'
+    id: 229540
     repo: 'https://github.com/rishikeshsreehari/trmnl-solana'
     zip_url: 'https://github.com/rishikeshsreehari/trmnl-solana/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/lpwqui58bquwgsyzcfze94qjfclo'
-  screenshot_url: null
+  screenshot_url: 'https://private-user-images.githubusercontent.com/14956650/539417259-11b36128-c4eb-4868-b8e2-d2a536d301a1.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTQ4MzU4ODQsIm5iZiI6MTc5NDgzNTU4NCwicGF0aCI6Ii8xNDk1NjY1MC81Mzk0MTcyNTktMTFiMzYxMjgtYzRlYi00ODY4LWI4ZTItZDJhNTM2ZDMwMWExLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTE2VDEzMjYyNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU2ZTNhMzhiOTM5YTU2M2Q2MjljMmM5MWVjOTgwZWRjNzQ4Nzk5MTc0YThiYjNhZTE0ZjQzYzgzOGUyNmJkODAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.YSU0tXqhcb7xXVkDTgApcKiq5rXJ_sGKbmLt5hgmz14'
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
+      renderer: null
   author:
     github: rishikeshsreehari
   funding: {  }
@@ -6524,9 +6559,9 @@ samumatic-trmnl-weather-curve:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
-      compatibility_note: null
-      min_version: null
+      compatibility: true
+      compatibility_note: 'Requires transform provider: Python'
+      min_version: 0.47.0
       renderer: null
   author:
     github: samumatic
@@ -6606,18 +6641,20 @@ sgardoll-nightscout-plugin:
 shackless-trmnl-mtg-check:
   name: 'Magic: The Gathering (MtG) Card Show'
   trmnlp:
-    id: '389435'
+    id: 389435
     repo: 'https://github.com/Shackless/trmnl-mtg-check'
     zip_url: 'https://github.com/Shackless/trmnl-mtg-check/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/1z0ll5tk1kmirn3f05mz6huj3yrz'
   screenshot_url: null
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
-      compatibility_note: null
-      min_version: null
+      compatibility: true
+      compatibility_note: 'Requires Python Transform Provider'
+      min_version: 0.47.0
+      renderer: null
   author:
     github: Shackless
   funding: {  }
@@ -6945,10 +6982,10 @@ stephenyeargin-trmnl-matomo:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
-      renderer: null
+      min_version: 0.47.0
+      renderer: trmnl-liquid
   author:
     github: stephenyeargin
   funding: {  }
@@ -7334,18 +7371,20 @@ stephenyeargin-trmnl-tailscale:
 stephenyeargin-trmnl-tdot-smartway:
   name: 'TDOT SmartWay'
   trmnlp:
-    id: '302448'
+    id: 302448
     repo: 'https://github.com/stephenyeargin/trmnl-tdot-smartway'
     zip_url: 'https://github.com/stephenyeargin/trmnl-tdot-smartway/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/823lhk99i4wh7f1fdk184ajgwl4s'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/stephenyeargin/trmnl-tdot-smartway/main/assets/screenshot.png'
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
+      renderer: trmnl-liquid
   author:
     github: stephenyeargin
   funding: {  }
@@ -7751,7 +7790,7 @@ taichikuji-trmnl-laliga-plugin:
     learn_more_url: 'https://discordid.taichikuji.org/discord'
     github_url: 'https://github.com/taichikuji/trmnl-laliga-plugin'
 taichikuji-trmnl-tmb-plugin:
-  name: 'TMB Alerts'
+  name: 'TMB Metro Alerts'
   trmnlp:
     id: 247650
     repo: 'https://github.com/taichikuji/trmnl-tmb-plugin'
@@ -7759,13 +7798,13 @@ taichikuji-trmnl-tmb-plugin:
     zip_entry_path: trmnl-tmb-plugin/TRMNL
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/engtjh2leelmcvszzga4uqscsywz'
-  screenshot_url: null
+  screenshot_url: 'https://github.com/taichikuji/trmnl-tmb-plugin/raw/main/TRMNL/media/preview_full.webp'
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: taichikuji
@@ -7773,7 +7812,7 @@ taichikuji-trmnl-tmb-plugin:
   author_bio:
     description: 'Created by Ivan Perez. This plugin is for monitoring real-time metro outages in Barcelona on your TRMNL device.'
     category: 'news,travel'
-    learn_more_url: 'https://discordid.taichikuji.org/discord'
+    learn_more_url: 'https://github.com/taichikuji/trmnl-tmb-plugin/tree/main/TRMNL#setup'
     github_url: 'https://github.com/taichikuji/trmnl-tmb-plugin'
 taichikuji-trmnl-yahoo-finances-plugin:
   name: STONKS
@@ -7864,8 +7903,8 @@ thecapypara-trmnl-wakatime-stats:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
-      compatibility_note: null
+      compatibility: false
+      compatibility_note: 'OAuth is not yet supported'
       min_version: null
       renderer: null
   author:
@@ -8168,9 +8207,9 @@ vischm-trmnl-cinema-plugin:
   license: NOASSERTION
   byos:
     byos_laravel:
-      compatibility: null
-      compatibility_note: null
-      min_version: null
+      compatibility: true
+      compatibility_note: 'Requires transform provider: Python'
+      min_version: 0.47.0
       renderer: null
   author:
     github: vischm
@@ -8238,9 +8277,9 @@ wedgietracker-appstrmnl:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.47.0
       renderer: null
   author:
     github: WedgieTracker
