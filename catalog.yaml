@@ -375,13 +375,14 @@ andi4000-trmnl-open-meteo-weather-forecast:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/wx59zioxxv1lq74m9bz1msjrmvqi'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/andi4000/trmnl-open-meteo-weather-forecast/main/assets/preview_full.png'
   license: Unknown
   byos:
     byos_laravel:
       compatibility: true
       compatibility_note: 'You need to adapt the Data Format and remove the % chars'
       min_version: 0.17.0
+      renderer: null
   author:
     github: andi4000
   funding: {  }
@@ -902,7 +903,7 @@ baszert-trmnl-nightclock:
     zip_url: 'https://github.com/Baszert/trmnl-nightclock/archive/refs/heads/main.zip'
     zip_entry_path: null
     version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/oxykrbdc436aqk0ze3ueyuyfjs5y'
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/hz41ebo90v3obaz3yf9wmj5vl4dk'
   screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/vgh47z9h90vrbpgs87upanluhrxq'
   license: MIT
   byos:
@@ -2044,7 +2045,7 @@ brwoodside-trmnl-flight-tracker:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/x89f11m294a9wvqprlwhcufy62qt'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/brwoodside/trmnl-flight-tracker/main/docs/screenshots/radar-north-up.png'
   license: MIT
   byos:
     byos_laravel:
@@ -2119,7 +2120,7 @@ carterpape-trmnl-sports:
     zip_entry_path: trmnl-sports-main/src
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/pmpqsnktawpgjir701wn0bm8rflo'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/CarterPape/trmnl-sports/main/preview.png'
   license: GPL-3.0
   byos:
     byos_laravel:
@@ -2331,7 +2332,7 @@ doekenorg-trmnl-buienradar:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/lmgkurszzfgx3jqasnft8ac4bq6f'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/doekenorg/trmnl-buienradar/main/assets/preview-full.jpg'
   license: Unknown
   byos:
     byos_laravel:
@@ -2477,13 +2478,14 @@ excusemi-comic-book-covers-plugin:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/bvhgsggye11ineh2gv0wsygg2wjq'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/ExcuseMi/trmnl-comic-book-covers-plugin/main/assets/plugin-images/186430_screenshot.png'
   license: MIT
   byos:
     byos_laravel:
       compatibility: false
       compatibility_note: null
       min_version: null
+      renderer: null
   author:
     github: ExcuseMi
   funding: {  }
@@ -2501,7 +2503,7 @@ excusemi-metro-calendar:
     zip_entry_path: trmnl-metro-calendar-plugin-main/plugin
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ufubd58b8l8i49vcz342vqv4jool'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/ExcuseMi/trmnl-metro-calendar-plugin/main/docs/trmnl-x-landscape.png'
   license: MIT
   byos:
     byos_laravel:
@@ -2576,7 +2578,7 @@ excusemi-retroachievements:
     zip_entry_path: 'trmnl-retroachievements-plugins-main/recent_games /private_plugin_176378'
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/l44wsfighvr7ddkzkshrxotmrzb5'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/ExcuseMi/trmnl-retroachievements-plugins/main/assets/plugin-images/176378_screenshot.png'
   license: Unknown
   byos:
     byos_laravel:
@@ -2649,7 +2651,7 @@ excusemi-trmnl-comic-library-plugin:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/t1tjkuee1qnjp0tolhx4jxz83w73'
-  screenshot_url: 'https://github.com/ExcuseMi/trmnl-comic-library-plugin/blob/main/assets/plugin-images/180935_screenshot.png?raw=true'
+  screenshot_url: 'https://raw.githubusercontent.com/ExcuseMi/trmnl-comic-library-plugin/refs/heads/main/assets/plugin-images/180935_screenshot.png'
   license: MIT
   byos:
     byos_laravel:
@@ -2704,7 +2706,7 @@ excusemi-trmnl-daily-excuse-plugin:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/x9buhhazuots801ycy3np9p5uph2'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/ExcuseMi/trmnl-daily-excuse-plugin/main/assets/plugin-images/286320_screenshot.png'
   license: MIT
   byos:
     byos_laravel:
@@ -2911,7 +2913,7 @@ excusemi-trmnl-its5oclock-somewhere-plugin:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/5urs5ineegga47ve14he9bhbn7pf'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/ExcuseMi/trmnl-its5oclock-somewhere-plugin/main/assets/plugin-images/253752_screenshot.png'
   license: MIT
   byos:
     byos_laravel:
@@ -2936,13 +2938,14 @@ excusemi-trmnl-lego-plugin:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/s6u6k9fxgvtwsig8pqy1siydk828'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/main/assets/plugin-images/184371_screenshot.png'
   license: MIT
   byos:
     byos_laravel:
       compatibility: null
       compatibility_note: null
       min_version: null
+      renderer: null
   author:
     github: ExcuseMi
   funding: {  }
@@ -2959,7 +2962,7 @@ excusemi-trmnl-lorcana-cards-plugin:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/5hnhr90vumtnhweh5l8i7y14fspt'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/ExcuseMi/trmnl-lorcana-cards-plugin/main/assets/plugin-images/298482_screenshot.png'
   license: Unknown
   byos:
     byos_laravel:
@@ -3058,7 +3061,7 @@ excusemi-trmnl-pokemon-cards-plugin:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/pkklyp60lz9ktf45xw0uyzd3k8ey'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/ExcuseMi/trmnl-pokemon-cards-plugin/main/assets/plugin-images/297288_screenshot.png'
   license: Unknown
   byos:
     byos_laravel:
@@ -3454,13 +3457,14 @@ guilhermemorais-trmnl-weeksofyear:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/i8uf1juee3orkmg8fdwkc6f58klm'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/GuilhermeMorais/trmnl-weeksOfYear/main/full-with-icon.png'
   license: Unknown
   byos:
     byos_laravel:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
+      renderer: null
   author:
     github: GuilhermeMorais
   funding: {  }
@@ -3478,7 +3482,7 @@ hacdias-trmnl-miniflux:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/qqf4cgv7o2jlzofnvugtz3cddbpl'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/hacdias/trmnl-miniflux/main/screenshot.png'
   license: CC-BY-4.0
   byos:
     byos_laravel:
@@ -3503,7 +3507,7 @@ hacdias-trmnl-ns-station:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/qqcsu2acr35rw38v1f4hf6dnrsij'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/hacdias/trmnl-ns-station/main/screenshot.png'
   license: CC-BY-4.0
   byos:
     byos_laravel:
@@ -3525,9 +3529,10 @@ heroheman-trmnl-advanced-rss:
     id: 79118
     repo: 'https://github.com/heroheman/trmnl_advanced_rss'
     zip_url: 'https://github.com/heroheman/trmnl_advanced_rss/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/92ql5lvo17p3csl37bp5sh2udl5w'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/heroheman/trmnl_advanced_rss/main/screenshots/full_list_col_1.jpg'
   license: Unknown
   byos:
     byos_laravel:
@@ -3623,7 +3628,7 @@ hossain-khan-trmnl-elements-plugin:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/lnh3i6y972h4nrrv2t7r0jcwu14n'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/hossain-khan/trmnl-elements-plugin/main/assets/demo/plugin-demo-full.png'
   license: MIT
   byos:
     byos_laravel:
@@ -3699,7 +3704,7 @@ hossain-khan-trmnl-max-payne-quotes-plugin:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/8zzyovftdgvenuqqolm7ro64yy5u'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/hossain-khan/trmnl-max-payne-quotes-plugin/main/assets/demo/plugin-demo-max-payne-full.png'
   license: MIT
   byos:
     byos_laravel:
@@ -3738,13 +3743,14 @@ hrdkbhatnagar-garbage-calendar:
     zip_entry_path: trml-garbage-calendar-main/plugin_data
     version: main
   logo_url: null
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/hrdkbhatnagar/trml-garbage-calendar/main/previews/full.png'
   license: Unknown
   byos:
     byos_laravel:
       compatibility: true
       compatibility_note: null
       min_version: 0.18.0
+      renderer: null
   author:
     github: hrdkbhatnagar
   funding: {  }
@@ -4011,7 +4017,7 @@ jbarreiros-trmnl-noaa-tides:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/mk9wh4kpml0v7ah2ylwkw5aug72u'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/jbarreiros/trmnl_noaa_tides/main/assets/screenshot.png'
   license: MIT
   byos:
     byos_laravel:
@@ -4036,13 +4042,14 @@ jbelien-trmnl-plugin-updownio:
     zip_entry_path: null
     version: master
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/cx9kqqy4pdp276pso5tvxccvknjg'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/jbelien/trmnl-plugin-updownio/master/screenshot.png'
   license: MIT
   byos:
     byos_laravel:
       compatibility: true
       compatibility_note: null
       min_version: 0.18.0
+      renderer: null
   author:
     github: jbelien
   funding: {  }
@@ -4060,7 +4067,7 @@ jerremyng-trmnl-sg-bus:
     zip_entry_path: null
     version: main
   logo_url: null
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/jerremyng/trmnl-sg-bus/main/imgs/preview.png'
   license: Unknown
   byos:
     byos_laravel:
@@ -4083,13 +4090,14 @@ jetsharklambo-acstop:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/uiw4s1s6pvjcd7k1c5qwsiux1dcm'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/jetsharklambo/ACstop/main/ACstop.png'
   license: Unknown
   byos:
     byos_laravel:
       compatibility: true
       compatibility_note: null
       min_version: 0.20.0
+      renderer: null
   author:
     github: jetsharklambo
   funding: {  }
@@ -4107,7 +4115,7 @@ jetsharklambo-bartstop:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/mpvzf3ii0hhwab7ulbheht9sfp6x'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/jetsharklambo/BARTstop/main/BARTstop_full.png'
   license: Unknown
   byos:
     byos_laravel:
@@ -4204,13 +4212,14 @@ jshiell-trmnl-national-rail-departures:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/nxnuh0dvz847q487wupwgu8x51j6'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/jshiell/trmnl-national-rail-departures/main/screenshot.jpg'
   license: Unknown
   byos:
     byos_laravel:
       compatibility: true
       compatibility_note: null
       min_version: 0.21.0
+      renderer: null
   author:
     github: jshiell
   funding: {  }
@@ -4261,7 +4270,7 @@ jshiell-trmnl-weather-byos:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/rgwo8q0210wb26p3khszi91pyow7'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/jshiell/trmnl-weather-byos/main/screenshot.png'
   license: Unknown
   byos:
     byos_laravel:
@@ -4501,7 +4510,7 @@ lanrat-adhdinos-comic:
     zip_entry_path: 'trmnl_plugins-main/ADHDinos Comic'
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ez4kl0qixoifl13k0dfsp23mg71a'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/lanrat/trmnl_plugins/main/ADHDinos%20Comic/screenshot.png'
   license: Unknown
   byos:
     byos_laravel:
@@ -4526,7 +4535,7 @@ lanrat-bc-comic:
     zip_entry_path: 'trmnl_plugins-main/B.C. Comic'
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/coeweiksh83vv9s2xesmnd6cdpxo'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/lanrat/trmnl_plugins/main/B.C.%20Comic/screenshot.png'
   license: Unknown
   byos:
     byos_laravel:
@@ -4739,7 +4748,7 @@ lanrat-luann-comic:
     zip_entry_path: 'trmnl_plugins-main/Luann Comic'
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/dv59ptstep4d697fgbnsniguq956'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/lanrat/trmnl_plugins/main/Luann%20Comic/screenshot.png'
   license: Unknown
   byos:
     byos_laravel:
@@ -4932,7 +4941,7 @@ lucaspimentel-lp-weather:
     zip_entry_path: trmnl-plugins-main/plugins/weather
     version: main
   logo_url: null
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/lucaspimentel/trmnl-plugins/main/plugins/weather/screenshot.png'
   license: MIT
   byos:
     byos_laravel:
@@ -5147,7 +5156,7 @@ martinbelko-trmnl-plugin-tibber-norway:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/pajszdpu1y8xuycv1lvgs7au8yz4'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/MartinBelko/TRMNL-Plugin-Tibber-Norway/main/assets/full.png'
   license: Unknown
   byos:
     byos_laravel:
@@ -5834,7 +5843,7 @@ pythcon-pinball:
     zip_entry_path: trmnl-plugin-pinball-showcase-master/plugin
     version: master
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/v3ekw2yz1orytz8m6x72ckwcoog7'
-  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/9lvxqhr7mgr5snuzbvy98wp8cmqp'
+  screenshot_url: null
   license: MIT
   byos:
     byos_laravel:
@@ -5928,13 +5937,14 @@ rabbit-company-rabbitassets:
     zip_entry_path: RabbitAssets-main/trmnl
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/jsw6ypatutf9wxyzvp43fyn93syv'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/Rabbit-Company/RabbitAssets/main/screenshots/TRMNL.png'
   license: GPL-3.0
   byos:
     byos_laravel:
       compatibility: true
       compatibility_note: null
       min_version: 0.22.0
+      renderer: null
   author:
     github: Rabbit-Company
   funding:
@@ -6119,7 +6129,7 @@ rishikeshsreehari-trmnl-solana:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/lpwqui58bquwgsyzcfze94qjfclo'
-  screenshot_url: 'https://private-user-images.githubusercontent.com/14956650/539417259-11b36128-c4eb-4868-b8e2-d2a536d301a1.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTQ4MzU4ODQsIm5iZiI6MTc5NDgzNTU4NCwicGF0aCI6Ii8xNDk1NjY1MC81Mzk0MTcyNTktMTFiMzYxMjgtYzRlYi00ODY4LWI4ZTItZDJhNTM2ZDMwMWExLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTE2VDEzMjYyNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU2ZTNhMzhiOTM5YTU2M2Q2MjljMmM5MWVjOTgwZWRjNzQ4Nzk5MTc0YThiYjNhZTE0ZjQzYzgzOGUyNmJkODAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.YSU0tXqhcb7xXVkDTgApcKiq5rXJ_sGKbmLt5hgmz14'
+  screenshot_url: null
   license: Unknown
   byos:
     byos_laravel:
@@ -6148,13 +6158,14 @@ rishikeshsreehari-trmnl-webmention:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/m3ofmx8p1k0w01eywdl4jdksa4m6'
-  screenshot_url: null
+  screenshot_url: 'https://private-user-images.githubusercontent.com/14956650/530986061-4c6b2a74-ee38-4aa5-803a-3b6b332eb3d8.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTQ4NDgyMzYsIm5iZiI6MTc5NDg0NzkzNiwicGF0aCI6Ii8xNDk1NjY1MC81MzA5ODYwNjEtNGM2YjJhNzQtZWUzOC00YWE1LTgwM2EtM2I2YjMzMmViM2Q4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTE2VDE2NTIxNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE1YjU4ZTU1NzIzYThlZWFjZGVhMGMzZDc5MmUyMzAxNTg1ZmUwZmE2NzMwNzBmYzViZTNiMDY1ZTBlMWMyMTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.Qi1iVGtsHD18S_pylDbR6WO8CYv9nm0VUCvGlcDXorY'
   license: Unknown
   byos:
     byos_laravel:
       compatibility: null
       compatibility_note: null
       min_version: null
+      renderer: null
   author:
     github: rishikeshsreehari
   funding: {  }
@@ -6173,13 +6184,14 @@ rknightuk-trmnl-dreamcast-title-screens:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/cgcs7t3cltjbfs47qj8wlf2oa0cu'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/rknightuk/trmnl-dreamcast-title-screens/main/screenshot.jpg'
   license: Unknown
   byos:
     byos_laravel:
       compatibility: true
       compatibility_note: null
       min_version: 0.20.0
+      renderer: null
   author:
     github: rknightuk
   funding: {  }
@@ -6193,15 +6205,17 @@ rknightuk-trmnl-fathom-analytics:
     id: 89064
     repo: 'https://github.com/rknightuk/trmnl-fathom-analytics'
     zip_url: 'https://github.com/rknightuk/trmnl-fathom-analytics/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/8ut3bpibgu113s71kgg83zqi8znv'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/rknightuk/trmnl-fathom-analytics/main/screenshot.jpg'
   license: Unknown
   byos:
     byos_laravel:
       compatibility: true
       compatibility_note: null
       min_version: 0.13.0
+      renderer: null
   author:
     github: rknightuk
   funding: {  }
@@ -6284,9 +6298,10 @@ rknightuk-trmnl-mario-kart:
     id: 101176
     repo: 'https://github.com/rknightuk/trmnl-mario-kart'
     zip_url: 'https://github.com/rknightuk/trmnl-mario-kart/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/5rgogj8vp3unc8wj5qd9hxsh7bxk'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/rknightuk/trmnl-mario-kart/main/screenshot.jpg'
   license: Unknown
   byos:
     byos_laravel:
@@ -6307,9 +6322,10 @@ rknightuk-trmnl-mastodon-profile:
     id: 89880
     repo: 'https://github.com/rknightuk/trmnl-mastodon-profile'
     zip_url: 'https://github.com/rknightuk/trmnl-mastodon-profile/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/xon5tojvrwty5mu2bdxpxkdkbqbv'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/rknightuk/trmnl-mastodon-profile/main/screenshot.jpg'
   license: Unknown
   byos:
     byos_laravel:
@@ -6333,7 +6349,7 @@ rknightuk-trmnl-playstation-title-screens:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/r6gtrs4kp4b0adneitjogr9s7jcd'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/rknightuk/trmnl-playstation-title-screens/main/screenshot.jpg'
   license: Unknown
   byos:
     byos_laravel:
@@ -6351,18 +6367,20 @@ rknightuk-trmnl-playstation-title-screens:
 rknightuk-trmnl-ps2-title-screens:
   name: 'PS2 Title Screens'
   trmnlp:
-    id: '130437'
+    id: 130437
     repo: 'https://github.com/rknightuk/trmnl-ps2-title-screens'
     zip_url: 'https://github.com/rknightuk/trmnl-ps2-title-screens/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/2ovqzlkbw1lhwjsny8qz5td8gebs'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/rknightuk/trmnl-ps2-title-screens/main/screenshot.jpg'
   license: Unknown
   byos:
     byos_laravel:
       compatibility: null
       compatibility_note: null
       min_version: null
+      renderer: null
   author:
     github: rknightuk
   funding: {  }
@@ -6399,15 +6417,17 @@ rknightuk-trmnl-stripe:
     id: 89809
     repo: 'https://github.com/rknightuk/trmnl-stripe'
     zip_url: 'https://github.com/rknightuk/trmnl-stripe/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/kvl324oczeip7lcujsjeofg73z72'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/rknightuk/trmnl-stripe/main/screenshot.jpg'
   license: Unknown
   byos:
     byos_laravel:
       compatibility: true
       compatibility_note: null
       min_version: 0.13.0
+      renderer: null
   author:
     github: rknightuk
   funding: {  }
@@ -6424,7 +6444,7 @@ rknightuk-trmnl-the-rickies:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/hwxj4kjv5my54jw85te4tm5umbpq'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/rknightuk/trmnl-the-rickies/main/screenshot.jpg'
   license: Unknown
   byos:
     byos_laravel:
@@ -6535,13 +6555,14 @@ saious119-trmnl-manga-of-the-day:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/9wimvlirnort2pg7k3ecul87webs'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/Saious119/trmnl-manga-of-the-day/main/docs/fullscreen_preview.png'
   license: MIT
   byos:
     byos_laravel:
       compatibility: true
       compatibility_note: null
       min_version: 0.17.1
+      renderer: null
   author:
     github: Saious119
   funding: {  }
@@ -6833,7 +6854,7 @@ spravodaj-trmnl-when-is-keynote:
     zip_entry_path: TRMNL-When-Is-Keynote-main/sources
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/pu3g7ry0rm3oipw6lj1jsi31fdij'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/spravodaj/TRMNL-When-Is-Keynote/main/screenshot.png'
   license: Unknown
   byos:
     byos_laravel:
@@ -6926,7 +6947,7 @@ stephenyeargin-trmnl-gh-copilot-usage:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/b4mirw53dmf7gitzlxo5shzcddpq'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/stephenyeargin/trmnl-gh-copilot-usage/main/assets/screenshot.png'
   license: MIT
   byos:
     byos_laravel:
@@ -7299,7 +7320,7 @@ stephenyeargin-trmnl-plugin-analytics:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/qcantoch164papdwjz8ueczi9msr'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/stephenyeargin/trmnl-plugin-analytics/main/assets/screenshot.png'
   license: MIT
   byos:
     byos_laravel:
@@ -7723,7 +7744,7 @@ taichikuji-trmnl-frank-energie-plugin:
     zip_entry_path: trmnl-frank-energie-plugin-main/TRMNL/src
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/6s6apzw3f7iny7m3betk4j9r436q'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/taichikuji/trmnl-frank-energie-plugin/main/TRMNL/media/preview_full.webp'
   license: MIT
   byos:
     byos_laravel:
@@ -7748,7 +7769,7 @@ taichikuji-trmnl-gotchi:
     zip_entry_path: trmnl-tamagotchi-plugin-main/TRMNL
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/8qvn4puhggffmzljh3w8zw5yo38g'
-  screenshot_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ldusukevxedqz6af257jep76m2py'
+  screenshot_url: 'https://raw.githubusercontent.com/taichikuji/trmnl-tamagotchi-plugin/main/TRMNL/media/preview_full.webp'
   license: NOASSERTION
   byos:
     byos_laravel:
@@ -7760,7 +7781,7 @@ taichikuji-trmnl-gotchi:
     github: taichikuji
   funding: {  }
   author_bio:
-    category: life
+    category: 'games,life'
     description: 'TRMNLGotchi is a low-maintenance virtual pet for your TRMNL, created by Ivan Perez!<br/>Unofficial fan project, unaffiliated with BANDAI or Bandai Namco; Tamagotchi is a BANDAI trademark.'
     github_url: 'https://github.com/taichikuji/trmnl-tamagotchi-plugin'
     learn_more_url: 'https://github.com/taichikuji/trmnl-tamagotchi-plugin/tree/main/TRMNL#setup'
@@ -7773,7 +7794,7 @@ taichikuji-trmnl-laliga-plugin:
     zip_entry_path: null
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/5co0wz1pgqjvepu04bl81wihbh2c'
-  screenshot_url: null
+  screenshot_url: 'https://github.com/taichikuji/trmnl-laliga-plugin/raw/main/TRMNL/media/preview_full.webp'
   license: MIT
   byos:
     byos_laravel:
@@ -7923,7 +7944,7 @@ thecapypara-trmnl-wingspan:
     zip_entry_path: trmnl-wingspan-main/plugin
     version: main
   logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/ynu7sbha5m4o5k0l88p6274t9hhs'
-  screenshot_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/theCapypara/trmnl-wingspan/main/preview.png'
   license: MIT
   byos:
     byos_laravel:
