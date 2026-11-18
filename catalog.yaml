@@ -6950,6 +6950,27 @@ sourcediver42-trmnl-mobiliteit:
     description: 'This recipe can be used to show a timetable of a bus stop using the Mobiliteit.lu API.'
     github_url: 'https://github.com/SourceDiver42/trmnl-mobiliteit'
     email_address: sourcediver42@pm.me
+spark-hpi-oskar-days-since-last-x:
+  name: 'Days Since Last X'
+  trmnlp:
+    id: null
+    repo: 'https://github.com/spark-hpi/trmnl-plugins'
+    zip_url: 'https://github.com/spark-hpi/trmnl-plugins/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-plugins-main/oskar-days-since-last-x
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: EUPL-1.2
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.47.0
+      renderer: null
+  author:
+    github: spark-hpi
+  funding: {  }
+  author_bio: {  }
 spravodaj-trmnl-when-is-keynote:
   name: 'When is the next Apple Keynote?'
   trmnlp:
