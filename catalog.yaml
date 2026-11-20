@@ -1798,7 +1798,7 @@ bnussbau-trmnl-alpine-skiing:
     zip_url: 'https://github.com/bnussbau/trmnl-alpine-skiing/archive/refs/heads/main.zip'
     zip_entry_path: null
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/letfgdtta61agultauarrhj80q87'
   screenshot_url: 'https://raw.githubusercontent.com/bnussbau/trmnl-alpine-skiing/main/screenshot.png'
   license: Unknown
   byos:
@@ -1809,10 +1809,15 @@ bnussbau-trmnl-alpine-skiing:
       renderer: null
   author:
     github: bnussbau
-  funding: {  }
+  funding:
+    custom: 'https://usetrmnl.com/?ref=laravel-trmnl'
+    buy_me_a_coffee: bnussbau
+    github: bnussbau
   author_bio:
-    description: null
-    homepage: null
+    description: 'FIS Alpine Skiing Standings'
+    category: sports
+    github_url: 'https://github.com/bnussbau/trmnl-alpine-skiing'
+    learn_more_url: 'https://github.com/bnussbau/trmnl-alpine-skiing/tree/main/README.md'
 bnussbau-trmnl-austrian-train-departures:
   name: 'Austrian Train Departures (OEBB)'
   trmnlp:
@@ -6672,6 +6677,30 @@ saious119-trmnl-manga-of-the-day:
     github: Saious119
   funding: {  }
   author_bio: {  }
+samumatic-trmnl-vikunja:
+  name: 'Vikunja Tasks'
+  trmnlp:
+    id: 537779
+    repo: 'https://github.com/samumatic/trmnl-vikunja'
+    zip_url: 'https://github.com/samumatic/trmnl-vikunja/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/fpad7minx9kwv2a6pa839lg64kek'
+  screenshot_url: 'https://raw.githubusercontent.com/samumatic/trmnl-vikunja/main/docs/full.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: 'Requires Transform Provider: Python'
+      min_version: 0.47.0
+      renderer: null
+  author:
+    github: samumatic
+  funding: {  }
+  author_bio:
+    category: productivity
+    github_url: 'https://github.com/samumatic/trmnl-vikunja'
+    description: 'Your open Vikunja tasks as a calm checklist, the most pressing first.<br><br><b>What it shows</b><br>• Due dates in plain words: Today, Tomorrow, 3 days late<br>• Priority marks, people and labels<br>• Tasks grouped by project<br>• Works with Vikunja Cloud and your own server<br><br><b>Setup</b><br>1. In Vikunja, open Settings, then API Tokens, and create a token with these permissions:<br>&nbsp;&nbsp;&nbsp;• Projects: Read All<br>&nbsp;&nbsp;&nbsp;• Tasks: Read All<br>2. Paste the token below.<br><br>Without a token you see sample tasks. The plugin only reads from Vikunja and never changes anything.<br><br>Code and bug reports: <a href="https://github.com/samumatic/trmnl-vikunja" class="underline" target="_blank">GitHub</a>'
 samumatic-trmnl-weather-curve:
   name: 'Weather Curve'
   trmnlp:
