@@ -874,6 +874,29 @@ baszert-trmnl-flyover:
     github_url: 'https://github.com/Baszert/trmnl-flyover'
     description: "The ISS, live, on a 3D Earth. Real day and night, with yesterday's clouds from NASA and the city lights on the dark side. Follow the station across the planet, and see what it flies over, how fast it goes, and how far away it is from you. In 12 languages."
     email_address: trmnl@achtnegen.nl
+baszert-trmnl-loot-drop:
+  name: 'Loot Drop'
+  trmnlp:
+    id: 520374
+    repo: 'https://github.com/Baszert/trmnl-loot-drop'
+    zip_url: 'https://github.com/Baszert/trmnl-loot-drop/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.47.0
+      renderer: null
+  author:
+    github: Baszert
+  funding: {  }
+  author_bio:
+    description: 'Loot Drop: every game that is free to keep right now, as an RPG inventory with a draining HP bar. A TRMNL plugin.'
+    homepage: null
 baszert-trmnl-moonface:
   name: Moonface
   trmnlp:
@@ -925,6 +948,29 @@ baszert-trmnl-nightclock:
     description: "Tonight's sky as a window on your wall: the real stars, the Milky Way and the planets with their paths through the night. Plus when it gets dark, the moon, meteor showers and clouds. Anywhere on Earth, in 12 languages."
     email_address: trmnl@achtnegen.nl
     learn_more_url: 'https://open-meteo.com'
+baszert-trmnl-theme-park-wait-times:
+  name: 'Theme Park Wait Times'
+  trmnlp:
+    id: 520725
+    repo: 'https://github.com/Baszert/trmnl-theme-park-wait-times'
+    zip_url: 'https://github.com/Baszert/trmnl-theme-park-wait-times/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.47.0
+      renderer: null
+  author:
+    github: Baszert
+  funding: {  }
+  author_bio:
+    description: 'Theme Park Wait Times: live queue times for 140 parks, drawn as a pixel roller coaster. A TRMNL plugin.'
+    homepage: null
 baszert-trmnl-wild-this-week:
   name: 'Wild This Week'
   trmnlp:
@@ -4567,6 +4613,29 @@ kenken64-promptink:
     learn_more_url: 'https://promptink-production.up.railway.app/'
     email_address: bunnyppl@gmail.com
     youtube_url: 'https://www.youtube.com/@PromptInk-SG'
+kiliankoe-trmnl-dvb:
+  name: 'DVB Departures'
+  trmnlp:
+    id: 498573
+    repo: 'https://github.com/kiliankoe/trmnl-dvb'
+    zip_url: 'https://github.com/kiliankoe/trmnl-dvb/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/kiliankoe/trmnl-dvb/main/media/pic.jpeg'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: kiliankoe
+  funding: {  }
+  author_bio:
+    description: 'Show DVB/VVO departures on a TRMNL'
+    homepage: ''
 kraynel-trmnl-nyt-connections:
   name: 'NYT Games: Connections'
   trmnlp:
@@ -5116,6 +5185,29 @@ lucianova-tweek:
     email_address: lucianova.1992@gmail.com
     description: |
       Shows your Tweek calendar as a 7-day week grid on your e-ink display, mirroring your Tweek web app — Google Calendar events included. Configure it with your Tweek API key and Calendar ID. Open source; issues and PRs welcome at the GitHub link. Unofficial; not affiliated with Tweek or TRMNL.
+macusercom-trmnl-evo-fitness-occupancy:
+  name: 'EVO Fitness Occupancy'
+  trmnlp:
+    id: 538821
+    repo: 'https://github.com/Macusercom/TRMNL-EVO-Fitness-Occupancy'
+    zip_url: 'https://github.com/Macusercom/TRMNL-EVO-Fitness-Occupancy/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: null
+  screenshot_url: 'https://raw.githubusercontent.com/Macusercom/TRMNL-EVO-Fitness-Occupancy/main/images/image1.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: Macusercom
+  funding: {  }
+  author_bio:
+    description: "TRMNL plugin showing the live occupancy of your EVO Fitness gym in Austria, Germany or Switzerland: headcount, today's time slots, the quietest slot ahead and tomorrow's forecast. Unofficial, not affiliated with EVO Fitness."
+    homepage: ''
 macusercom-trmnl-pollen-information-austria:
   name: 'Pollen Information Austria'
   trmnlp:
@@ -5191,6 +5283,32 @@ martin2097-trmnl-beautiful-rss-news:
       Beautiful RSS News turns your favorite publications into a beautiful news briefing made for TRMNL. Start with our curated selections or add publications you already love. Follow one source or combine several in a single feed.
       <br/><br/>
       No technical setup is needed. Pick your sources, save the plugin, and enjoy your favorite news in one beautiful feed.
+    github_url: 'https://github.com/martin2097'
+    learn_more_url: 'https://www.rapavy.cz/'
+    email_address: rapavy.mato@gmail.com
+martin2097-trmnl-holidays-multiplied:
+  name: 'Holidays, Multiplied: Which day should I take off?'
+  trmnlp:
+    id: 510395
+    repo: 'https://github.com/martin2097/trmnl-holidays-multiplied'
+    zip_url: 'https://github.com/martin2097/trmnl-holidays-multiplied/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/axhigu4xo2u847o3ipn64mvizxac'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: martin2097
+  funding: {  }
+  author_bio:
+    category: 'calendar,productivity'
+    description: 'A public holiday on Thursday is nice. Take Friday off, and it’s a four-day weekend. Holidays, Multiplied keeps track of upcoming opportunities for longer breaks, so you always know which days are worth taking off.'
     github_url: 'https://github.com/martin2097'
     learn_more_url: 'https://www.rapavy.cz/'
     email_address: rapavy.mato@gmail.com
@@ -5698,6 +5816,31 @@ nbbou81000-trmnl-creator-stats:
       Data comes from the <a href="https://nbbou81000.github.io/trmnl-leaderboard/">TRMNL Creator Leaderboard</a> and refreshes every hour. Available in English, French, German and Spanish, in every layout, on TRMNL OG and TRMNL X.
     github_url: 'https://github.com/nbbou81000/trmnl-creator-stats'
     learn_more_url: 'https://nbbou81000.github.io/trmnl-leaderboard/'
+nicholaswilde-trmnl-google-sheet-quote:
+  name: 'Sheet Quote'
+  trmnlp:
+    id: 121258
+    repo: 'https://github.com/nicholaswilde/trmnl-google-sheet-quote'
+    zip_url: 'https://github.com/nicholaswilde/trmnl-google-sheet-quote/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/5fw02hv39xx1mdwa128khsf9uau6'
+  screenshot_url: 'https://raw.githubusercontent.com/nicholaswilde/trmnl-sheet-quote/refs/heads/main/src/img/screenshot.png'
+  license: Apache-2.0
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: nicholaswilde
+  funding:
+    github: nicholaswilde
+  author_bio:
+    description: 'Display a daily quote synced from a Google Sheet.'
+    github_url: 'https://github.com/nicholaswilde/trmnl-google-sheet-quote'
+    learn_more_url: 'https://github.com/nicholaswilde/trmnl-google-sheet-quote#readme'
 nickspaghetti-pluginscursor-member-usage:
   name: 'Cursor Member Usage'
   trmnlp:
@@ -5969,6 +6112,29 @@ pythcon-pinball:
     github_url: 'https://github.com/pythcon/trmnl-plugin-pinball-showcase'
     learn_more_url: 'https://trmnlplugins.com'
     description: 'A different pinball machine every day, with backglass and playfield art, release details, designers, editions and trivia from the Open Pinball Database (OPDB). Filter by era, decade, manufacturer, designer, theme and more, or rotate through your own favorites. Every setting below is optional: with none set you get a new machine from the whole catalogue on every refresh.'
+pythcon-pinball-showcase:
+  name: 'Pinball Showcase'
+  trmnlp:
+    id: 497284
+    repo: 'https://github.com/pythcon/trmnl-plugin-pinball-showcase'
+    zip_url: 'https://github.com/pythcon/trmnl-plugin-pinball-showcase/archive/refs/heads/master.zip'
+    zip_entry_path: trmnl-plugin-pinball-showcase-master/plugin
+    version: master
+  logo_url: null
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.47.0
+      renderer: null
+  author:
+    github: pythcon
+  funding: {  }
+  author_bio:
+    description: 'A new pinball machine on your TRMNL every day: backglass and playfield art, credits and trivia from the Open Pinball Database. Self-hostable API included.'
+    homepage: 'https://trmnlplugins.com'
 pythcon-trmnl-plugin-grafana:
   name: 'Grafana Panel'
   trmnlp:
@@ -6677,6 +6843,27 @@ saious119-trmnl-manga-of-the-day:
     github: Saious119
   funding: {  }
   author_bio: {  }
+samumatic-trmnl-moonrise:
+  name: 'Moonrise & Moonset'
+  trmnlp:
+    id: '535892'
+    repo: 'https://github.com/samumatic/trmnl-moonrise'
+    zip_url: 'https://github.com/samumatic/trmnl-moonrise/archive/refs/heads/main.zip'
+    version: main
+  logo_url: null
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+  author:
+    github: samumatic
+  funding: {  }
+  author_bio:
+    description: 'Moonrise & Moonset: moon phase, moonrise and moonset for your location on TRMNL e-paper displays'
+    homepage: null
 samumatic-trmnl-vikunja:
   name: 'Vikunja Tasks'
   trmnlp:
@@ -7865,6 +8052,31 @@ sun-weather-graph:
     github_url: 'https://forgejo.sny.sh/sun/TRMNL'
     learn_more_url: 'https://sny.sh/'
     email_address: sunny@sny.sh
+taichikuji-trmnl:
+  name: 'HTTP Pets'
+  trmnlp:
+    id: 323180
+    repo: 'https://github.com/taichikuji/trmnl-http-pets-plugin'
+    zip_url: 'https://github.com/taichikuji/trmnl-http-pets-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: trmnl-http-pets-plugin-main/TRMNL
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/lqqvu9921xhc9l8wll93f8r0rl5y'
+  screenshot_url: 'https://raw.githubusercontent.com/taichikuji/trmnl-http-pets-plugin/main/TRMNL/media/preview_full.webp'
+  license: NOASSERTION
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: taichikuji
+  funding: {  }
+  author_bio:
+    category: 'programming,humor'
+    description: 'Turn HTTP status codes into a small surprise on your TRMNL. HTTP Pets pairs a randomly selected status code with an animal image, making familiar messages such as 200 OK, 404 Not Found or 502 Bad Gateway a little more fun to see. <br/><br/> Pick cats, dogs, ducks, goats or fish, or choose All to mix the available animal sources. Images come from HTTP Cats, httpcats.com, HTTP Dogs, HTTP Goats, HTTP Ducks and HTTP Fish. <br/><br/> The plugin chooses a new image on refresh, approximately every 15 minutes, and supports all four TRMNL layout sizes. <br/><br/> No account, login or API key is required. A playful desk display for developers, people learning HTTP and anyone who likes animals. Created by Ivan Perez.'
+    github_url: 'https://github.com/taichikuji/trmnl-http-pets-plugin'
+    learn_more_url: 'https://github.com/taichikuji/trmnl-http-pets-plugin/tree/main/TRMNL#setup'
 taichikuji-trmnl-atmosphere:
   name: Atmosphere
   trmnlp:
