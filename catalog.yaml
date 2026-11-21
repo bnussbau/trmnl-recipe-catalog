@@ -136,9 +136,9 @@ albert7617-trmnl-climate-spiral:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
-      compatibility_note: null
-      min_version: 0.47.0
+      compatibility: true
+      compatibility_note: 'Requires Transform Provider: python'
+      min_version: 0.49.0
       renderer: null
   author:
     github: albert7617
@@ -164,9 +164,9 @@ albert7617-trmnl-satellite-trajectory:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.49.0
       renderer: null
   author:
     github: albert7617
@@ -263,9 +263,9 @@ alisterscott-trmnl-countdown-countup:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.49.0
       renderer: null
   author:
     github: alisterscott
@@ -984,9 +984,9 @@ baszert-trmnl-wild-this-week:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
-      compatibility_note: null
-      min_version: null
+      compatibility: true
+      compatibility_note: 'Requires HTTP Transform Provider'
+      min_version: 0.49.0
       renderer: null
   author:
     github: Baszert
@@ -1189,9 +1189,9 @@ blueset-http-dogs:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: false
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.49.0
       renderer: null
   author:
     github: blueset
@@ -1321,9 +1321,9 @@ blueset-microsoft-rename:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.49.0
       renderer: null
   author:
     github: blueset
@@ -2180,10 +2180,10 @@ captainproton42-trmnl-home-assistant-todo-list:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
-      renderer: null
+      min_version: 0.49.0
+      renderer: trmnl-liquid
   author:
     github: CaptainProton42
   funding: {  }
@@ -3049,9 +3049,9 @@ excusemi-trmnl-lego-plugin:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.49.0
       renderer: null
   author:
     github: ExcuseMi
@@ -4024,10 +4024,10 @@ jaredcat-personal-steam-deals:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
-      renderer: null
+      min_version: 0.49.0
+      renderer: trmnl-liquid
   author:
     github: jaredcat
   funding: {  }
@@ -4766,9 +4766,9 @@ lanrat-currency-index:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.49.0
       renderer: null
   author:
     github: lanrat
@@ -4836,9 +4836,9 @@ lanrat-environment-sensor-graph:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.49.0
       renderer: null
   author:
     github: lanrat
@@ -5685,9 +5685,9 @@ michaelkurath-trmnl-unseen:
   license: NOASSERTION
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.49.0
       renderer: null
   author:
     github: michaelkurath
@@ -5854,9 +5854,9 @@ nickspaghetti-pluginscursor-member-usage:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.49.0
       renderer: null
   author:
     github: NickSpaghetti
@@ -6035,33 +6035,6 @@ pipwilson-trmnl-72-seasons:
     description: "Tells you which of Japan's traditional 72 seasons it currently is."
     github_url: 'https://github.com/pipwilson/trmnl-72-seasons'
     learn_more_url: 'https://philwilson.org/blog/2025/06/72-seasons-on-the-trmnl/'
-pradeepbbl-apple-health:
-  name: 'Apple Health'
-  trmnlp:
-    id: 486087
-    repo: 'https://github.com/pradeepbbl/trmnl_plugins'
-    zip_url: 'https://github.com/pradeepbbl/trmnl_plugins/archive/refs/heads/master.zip'
-    zip_entry_path: trmnl_plugins-master/apple_health
-    version: master
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/pzb5ddlgj6l4a570n8l9lt11tno9'
-  screenshot_url: 'https://raw.githubusercontent.com/pradeepbbl/trmnl_plugins/master/apple_health/docs/full.png'
-  license: Apache-2.0
-  byos:
-    byos_laravel:
-      compatibility: null
-      compatibility_note: null
-      min_version: null
-      renderer: null
-  author:
-    github: pradeepbbl
-  funding:
-    github: '[pradeepbbl]'
-    buy_me_a_coffee: pradeepbbl
-  author_bio:
-    category: 'life,kpi'
-    description: "Apple Health metrics — steps, active energy, sleep, and heart rate — plus today's workouts, synced from iPhone/Watch via the TRMNL Companion app. Data reaches TRMNL only through Companion's on-device HealthKit sync; there's no polling URL or API key. Questions, bugs, or feature requests? Open an issue on GitHub or reach out by email.<br/>Source and docs live in the repo linked below."
-    github_url: 'https://github.com/pradeepbbl/trmnl_plugins'
-    email_address: pradeepbbl@gmail.com
 pradeepbbl-energy-pulse:
   name: 'Energy Pulse'
   trmnlp:
@@ -6846,18 +6819,20 @@ saious119-trmnl-manga-of-the-day:
 samumatic-trmnl-moonrise:
   name: 'Moonrise & Moonset'
   trmnlp:
-    id: '535892'
+    id: 535892
     repo: 'https://github.com/samumatic/trmnl-moonrise'
     zip_url: 'https://github.com/samumatic/trmnl-moonrise/archive/refs/heads/main.zip'
+    zip_entry_path: null
     version: main
   logo_url: null
   screenshot_url: null
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
-      compatibility_note: null
+      compatibility: false
+      compatibility_note: 'Python transform is incompatible.'
       min_version: null
+      renderer: null
   author:
     github: samumatic
   funding: {  }
@@ -8065,9 +8040,9 @@ taichikuji-trmnl:
   license: NOASSERTION
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.49.0
       renderer: null
   author:
     github: taichikuji
@@ -8628,30 +8603,6 @@ wandmalfarbe-trmnl-goodreads:
   author_bio:
     description: 'Show your Goodreads shelves with a large book cover on the left and metadata on the right.'
     github_url: 'https://github.com/Wandmalfarbe/trmnl-goodreads'
-wasauce-hanzi:
-  name: 'Chinese Hanzi'
-  trmnlp:
-    id: 352027
-    repo: 'https://github.com/wasauce/trmnltrmnl'
-    zip_url: 'https://github.com/wasauce/trmnltrmnl/archive/refs/heads/main.zip'
-    zip_entry_path: trmnltrmnl-main/hanzi/trmnl
-    version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/z4qmmkfcmmqb1a090436agxgrs5k'
-  screenshot_url: null
-  license: Unknown
-  byos:
-    byos_laravel:
-      compatibility: null
-      compatibility_note: null
-      min_version: null
-      renderer: null
-  author:
-    github: wasauce
-  funding: {  }
-  author_bio:
-    category: 'education,life'
-    description: 'A new random Chinese word every refresh - large character, pinyin, and English. Pick Simplified or Traditional characters. Great for passive daily vocabulary review.'
-    github_url: 'https://github.com/wasauce/trmnltrmnl/tree/main/hanzi'
 wedgietracker-appstrmnl:
   name: WedgieTracker
   trmnlp:
