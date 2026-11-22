@@ -4682,6 +4682,31 @@ kraynel-trmnl-sentry:
   author_bio:
     description: 'Monitor your applications health and performance with Sentry, display up to date issue count and key performance metrics.'
     github_url: 'https://github.com/kraynel/trmnl-sentry'
+kskwarek-trmnl-pkp-departures:
+  name: 'PKP PLK Departures (Polish trains)'
+  trmnlp:
+    id: null
+    repo: 'https://github.com/kskwarek/trmnl-pkp-departures'
+    zip_url: 'https://github.com/kskwarek/trmnl-pkp-departures/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://raw.githubusercontent.com/kskwarek/trmnl-pkp-departures/refs/heads/main/docs/logo.png'
+  screenshot_url: 'https://raw.githubusercontent.com/kskwarek/trmnl-pkp-departures/refs/heads/main/docs/preview-full.png'
+  license: MIT-0
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: 'Requires a free PKP PLK Open Data API key. The busiest stations (e.g. Kraków Główny) exceed the 5 MB polling limit; use the Carriers filter there.'
+      min_version: null
+      renderer: null
+  author:
+    github: kskwarek
+  funding: {  }
+  author_bio:
+    category: travel
+    description: 'Live train departures for any Polish railway station: time, destination, delay, train and platform. Data source: PKP Polskie Linie Kolejowe S.A.'
+    github_url: 'https://github.com/kskwarek/trmnl-pkp-departures'
+    learn_more_url: 'https://github.com/kskwarek/trmnl-pkp-departures/blob/main/README.md'
 lanrat-adhdinos-comic:
   name: ADHDinos
   trmnlp:
