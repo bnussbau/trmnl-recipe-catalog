@@ -8137,14 +8137,14 @@ taichikuji-trmnl:
     github_url: 'https://github.com/taichikuji/trmnl-http-pets-plugin'
     learn_more_url: 'https://github.com/taichikuji/trmnl-http-pets-plugin/tree/main/TRMNL#setup'
 taichikuji-trmnl-atmosphere:
-  name: Atmosphere
+  name: 'Atmosphere Weather'
   trmnlp:
     id: 495797
     repo: 'https://github.com/taichikuji/trmnl-xiaomi-weather-plugin'
     zip_url: 'https://github.com/taichikuji/trmnl-xiaomi-weather-plugin/archive/refs/heads/main.zip'
     zip_entry_path: trmnl-xiaomi-weather-plugin-main/TRMNL
     version: main
-  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/5gst9htbex76sbzppg4zoz7t0p20'
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/f7lwmmoiarntldtdhmkb00fx6l8f'
   screenshot_url: 'https://raw.githubusercontent.com/taichikuji/trmnl-xiaomi-weather-plugin/main/TRMNL/media/preview_full.webp'
   license: NOASSERTION
   byos:
@@ -8157,7 +8157,7 @@ taichikuji-trmnl-atmosphere:
     github: taichikuji
   funding: {  }
   author_bio:
-    description: 'Atmosphere, formerly Xiaomi Weather, brings current conditions and weather forecasts to your TRMNL using the same endpoint as Xiaomi phones. Choose a city, address, postal code or coordinates with the searchable Location picker, then select Celsius or Fahrenheit. See the current temperature, feels-like temperature, hourly trend and daily outlook, plus precipitation chances, wind, humidity, sunrise, sunset and UV when the provider supplies them. All four layouts support TRMNL OG and TRMNL X, including portrait. Observations older than three hours are marked, missing values remain visible as unavailable, and alerts are reported as supplied by the provider. No personal weather API key or separate server is required. Created by Ivan Perez; use the GitHub link for support and setup instructions.'
+    description: "Plan around the hours and days ahead with Atmosphere on your TRMNL. The Full view combines an hourly outlook with a five-day forecast, so you can see temperature changes, rain chances and upcoming conditions in one place. Current weather remains available at a glance. <br/><br/> Choose a location by city, address, postal code or coordinates, and switch between Celsius and Fahrenheit. The Full view also shows wind, humidity, sunrise, sunset, UV and provider-reported alerts when available. Half layouts show three daily forecasts, while Quadrant keeps the essentials. <br/><br/> Forecasts come from Xiaomi Weather's public endpoint, which returned AccuWeather data in our tested locations. No personal API key or separate server is required. Created by Ivan Perez."
     category: environment
     github_url: 'https://github.com/taichikuji/trmnl-xiaomi-weather-plugin'
     learn_more_url: 'https://github.com/taichikuji/trmnl-xiaomi-weather-plugin/tree/main/TRMNL#setup'
