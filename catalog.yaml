@@ -189,9 +189,9 @@ albert7617-trmnl-visited-japanese-prefectures:
   license: Unknown
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.49.0
       renderer: null
   author:
     github: albert7617
@@ -882,7 +882,7 @@ baszert-trmnl-loot-drop:
     zip_url: 'https://github.com/Baszert/trmnl-loot-drop/archive/refs/heads/main.zip'
     zip_entry_path: null
     version: main
-  logo_url: null
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/0k2h0u1ohb93zqldneqjekhogxmo'
   screenshot_url: null
   license: MIT
   byos:
@@ -895,8 +895,10 @@ baszert-trmnl-loot-drop:
     github: Baszert
   funding: {  }
   author_bio:
-    description: 'Loot Drop: every game that is free to keep right now, as an RPG inventory with a draining HP bar. A TRMNL plugin.'
-    homepage: null
+    category: 'games,discovery'
+    github_url: 'https://github.com/Baszert/trmnl-loot-drop'
+    description: 'Free games, looted straight to your wall. Every game that is free to keep right now on Epic, Steam, GOG and itch.io, as an RPG inventory with an HP bar that drains until it despawns. Scan the QR, claim it, done.<br><br>No account. No keys. No grinding.<br><br>Data: Epic Games Store and <a href="https://www.gamerpower.com">GamerPower</a>.'
+    email_address: trmnl@achtnegen.nl
 baszert-trmnl-moonface:
   name: Moonface
   trmnlp:
@@ -1766,9 +1768,10 @@ blueset-world-clock-ja:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.49.0
+      renderer: null
   author:
     github: blueset
   funding:
@@ -1793,9 +1796,10 @@ blueset-world-clock-zh:
   license: MIT
   byos:
     byos_laravel:
-      compatibility: null
+      compatibility: true
       compatibility_note: null
-      min_version: null
+      min_version: 0.49.0
+      renderer: null
   author:
     github: blueset
   funding:
@@ -5600,6 +5604,33 @@ michaelkurath-trmnl-built-broken:
     category: 'custom,education'
     description: 'Daily engineering breakthroughs and failures, each reduced to the decision, detail or assumption engineers can learn from.'
     github_url: 'https://github.com/michaelkurath/TRMNL-Built-Broken'
+michaelkurath-trmnl-esperanto:
+  name: Esperanto
+  trmnlp:
+    id: 531807
+    repo: 'https://github.com/michaelkurath/TRMNL-Esperanto'
+    zip_url: 'https://github.com/michaelkurath/TRMNL-Esperanto/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/wajqqy1g8xa68o92iq4s25w7ll39'
+  screenshot_url: null
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: 'Requires Transform Provider: Python'
+      min_version: 0.49.0
+      renderer: null
+  author:
+    github: michaelkurath
+  funding: {  }
+  author_bio:
+    category: 'education,discovery'
+    description: |-
+      Esperanto is an international language created by L. L. Zamenhof and first published in 1887. It was designed to make communication easier between people who speak different languages.
+      On TRMNL, learn a word or expression with an example sentence and a short note. Choose Learn for vocabulary and grammar, Discover for idioms and culture, or Mixed for both. Lessons are available at three levels, with translations in English, German, Spanish and French.
+    github_url: 'https://github.com/michaelkurath/TRMNL-Esperanto'
+    learn_more_url: 'https://en.wikipedia.org/wiki/Esperanto'
 michaelkurath-trmnl-goodbye:
   name: GOODBYE
   trmnlp:
@@ -5675,6 +5706,31 @@ michaelkurath-trmnl-low-expectations:
       Choose English or German. The calendar includes 365 paired entries and shows the same entry throughout your local day, even if you refresh it again. The sequence continues through New Year and leap days, then repeats after 365 days.
       The design adapts to Full, Half Horizontal, Half Vertical, and Quadrant layouts on TRMNL OG and X, including portrait. Everything is included in the plugin: no quote service, API key, or external account is needed. Created by Michael Kurath.
     github_url: 'https://github.com/michaelkurath/TRMNL-Low-Expectations'
+michaelkurath-trmnl-no:
+  name: NO.
+  trmnlp:
+    id: 545082
+    repo: 'https://github.com/michaelkurath/TRMNL-NO'
+    zip_url: 'https://github.com/michaelkurath/TRMNL-NO/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/02sc8rl041mc0tpqk06e5vmxr418'
+  screenshot_url: null
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.29.0
+      renderer: null
+  author:
+    github: michaelkurath
+  funding: {  }
+  author_bio:
+    category: humor
+    description: 'One deadpan refusal at a time. Powered by noasaservice.lol.'
+    github_url: 'https://github.com/michaelkurath/TRMNL-NO'
+    learn_more_url: 'https://noasaservice.lol/'
 michaelkurath-trmnl-still-here:
   name: 'STILL HERE'
   trmnlp:
