@@ -674,6 +674,30 @@ asmurphy-monero-p2pool-payouts:
     category: 'finance,analytics'
     description: 'Shows most recent payouts for P2pool mining of Monero. Includes all three current sidechains (Main, Mini, and Nano). For more info take a look at the <a href="https://www.monero.how/p2pool-monero">Monero P2Pool Wiki Page</a> and the P2Pool Observer Pages for the Sidechains (<a href="https://p2pool.observer/">Main</a>, <a href="https://mini.p2pool.observer/">Mini</a>, <a href="https://nano.p2pool.observer/">Nano</a>).'
     github_url: 'https://gitlab.com/asmurphy/monero-p2pool-payouts'
+awanoodle-trmnl-ed-community-goals:
+  name: 'ED Community Goals'
+  trmnlp:
+    id: 327741
+    repo: 'https://github.com/AwaNoodle/trmnl-ed-community-goals'
+    zip_url: 'https://github.com/AwaNoodle/trmnl-ed-community-goals/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/c8n6bx0htpdbd1ve3n26rfc55h3q'
+  screenshot_url: 'https://raw.githubusercontent.com/AwaNoodle/trmnl-ed-community-goals/main/docs/preview.png'
+  license: Unknown
+  byos:
+    byos_laravel:
+      compatibility: null
+      compatibility_note: null
+      min_version: null
+      renderer: null
+  author:
+    github: AwaNoodle
+  funding: {  }
+  author_bio:
+    category: games
+    description: 'Shows progress on the current Elite Dangerous community goal.'
+    github_url: 'https://github.com/AwaNoodle/trmnl-ed-community-goals'
 aziac-trmnl-ghibli-backgrounds:
   name: 'Ghibli Backgrounds'
   trmnlp:
@@ -2991,6 +3015,36 @@ excusemi-trmnl-github-releases-plugin:
   author_bio:
     description: 'Display the latest GitHub releases from your monitored repositories with powerful filtering options. Features: ● Filter by time period (show releases from last N days) ● Include or exclude pre-releases ● Include or exclude draft releases ● Show only the latest release per repository ● Show time since previous release for a project ● Multi-language support ● Dynamic spacing (TRMNL X Ready)'
     github_url: 'https://github.com/ExcuseMi/trmnl-github-releases-plugin'
+excusemi-trmnl-hifi-weather-plugin:
+  name: 'Hi-Fi Weather'
+  trmnlp:
+    id: 535432
+    repo: 'https://github.com/ExcuseMi/trmnl-hifi-weather-plugin'
+    zip_url: 'https://github.com/ExcuseMi/trmnl-hifi-weather-plugin/archive/refs/heads/main.zip'
+    zip_entry_path: null
+    version: main
+  logo_url: 'https://trmnl-public.s3.us-east-2.amazonaws.com/gngi1fzes3j2eeyu4edhkmxc78jw'
+  screenshot_url: 'https://raw.githubusercontent.com/ExcuseMi/trmnl-hifi-weather-plugin/main/assets/screenshot.png'
+  license: MIT
+  byos:
+    byos_laravel:
+      compatibility: true
+      compatibility_note: null
+      min_version: 0.49.0
+      renderer: null
+  author:
+    github: ExcuseMi
+  funding: {  }
+  author_bio:
+    description: '<strong>The weather as a calm early-80s hi-fi receiver.</strong> Big segment digits for the temperature, meters for what matters, and the coming days or hours as a strip.<br /><br /><strong>Dials</strong> (TRMNL X): a barometer with the pressure trend and a temperature dial with today''s low and high.<br /><strong>Console</strong>: the temperature with what to wear: clothing and an umbrella.<br /><strong>Meters</strong>: wind and gusts, UV, air quality, humidity, pollen and pressure, only when they matter.<br /><strong>Rain or sun</strong>: an hour calendar when rain is coming, otherwise sunrise, sunset and the moon.<br /><strong>Bottom strip</strong>: the coming days (a week as day rows with blocks, or as segment digits) or hours.<br /><strong>Indoor sensor</strong>: a TRMNL sensor on this screen or on another TRMNL, with an optional label and CO2 meter.<br /><strong>Everywhere</strong>: every view, 1-bit, greyscale and colour screens, dark mode, 24 or 12 hour time, six languages.<br /><br /><strong>Reading the meters</strong>: yellow is a warning, red is alarming (colour screens). Warning / alarming from: wind 30 / 50 km/h, UV 3 / 8, AQI 40 / 60, pollen 10 / 50 grains, CO2 1000 / 1400 ppm. Light grey blocks: the highest still to come today; an outline: the strongest gust. <a href="https://excusemi.github.io/trmnl-hifi-weather-plugin/#guide" target="_blank">Full guide</a><br /><br /><a href="https://excusemi.github.io/trmnl-hifi-weather-plugin/" target="_blank">Try it in your browser</a>, with live weather.<br /><br /><strong>Credits</strong>: weather and air quality from <a href="https://open-meteo.com" target="_blank">Open-Meteo</a>; texts in your language from TRMNL''s translations.'
+    description-de: '<strong>Das Wetter als ruhiger Hi-Fi-Receiver der frühen 80er.</strong> Große Segmentziffern für die Temperatur, Messer für das, was zählt, und die nächsten Tage oder Stunden als Leiste.<br /><br /><strong>Zifferblätter</strong> (TRMNL X): ein Barometer mit Luftdrucktendenz und ein Thermometer mit Tiefst- und Höchstwert von heute.<br /><strong>Konsole</strong>: die Temperatur mit passender Kleidung oder Schirm.<br /><strong>Messer</strong>: Wind mit Böen, UV, Luftqualität, Luftfeuchte, Pollen und Luftdruck, nur wenn sie wichtig sind.<br /><strong>Regen oder Sonne</strong>: ein Stundenkalender, wenn Regen kommt, sonst Sonnenaufgang, Sonnenuntergang und Mond.<br /><strong>Untere Leiste</strong>: die nächsten Tage (eine Woche als Tageszeilen mit Blöcken oder als Segmentziffern) oder Stunden.<br /><strong>Innensensor</strong>: ein TRMNL-Sensor an diesem Bildschirm oder an einem anderen TRMNL, mit eigenem Namen und CO2-Messer.<br /><strong>Überall</strong>: alle Ansichten, 1-Bit-, Graustufen- und Farbbildschirme, Dunkelmodus, 24- oder 12-Stunden-Zeit, sechs Sprachen.<br /><br /><strong>Die Messer lesen</strong>: Gelb ist eine Warnung, Rot ist Alarm (Farbbildschirme). Warnung / Alarm ab: Wind 30 / 50 km/h, UV 3 / 8, AQI 40 / 60, Pollen 10 / 50 Körner, CO2 1000 / 1400 ppm. Hellgraue Blöcke: der höchste Wert, der heute noch kommt; ein Rahmen: die stärkste Böe. <a href="https://excusemi.github.io/trmnl-hifi-weather-plugin/#guide" target="_blank">Ganze Anleitung</a><br /><br /><a href="https://excusemi.github.io/trmnl-hifi-weather-plugin/" target="_blank">Im Browser ausprobieren</a>, auch mit dem echten Wetter.<br /><br /><strong>Quellen</strong>: Wetter und Luftqualität von <a href="https://open-meteo.com" target="_blank">Open-Meteo</a>; Texte in deiner Sprache aus den Übersetzungen von TRMNL.'
+    description-fr: '<strong>La météo comme un ampli hi-fi apaisé du début des années 80.</strong> De grands chiffres à segments pour la température, des jauges pour ce qui compte, et les prochains jours ou heures en bande.<br /><br /><strong>Cadrans</strong> (TRMNL X) : un baromètre avec la tendance de la pression et un cadran de température avec le minimum et le maximum du jour.<br /><strong>Console</strong> : la température et quoi porter : vêtements, parapluie.<br /><strong>Jauges</strong> : vent et rafales, UV, qualité de l''air, humidité, pollen et pression, seulement quand elles comptent.<br /><strong>Pluie ou soleil</strong> : un calendrier des heures quand la pluie arrive, sinon lever et coucher du soleil et la lune.<br /><strong>Bande du bas</strong> : les prochains jours (une semaine en lignes de blocs ou en chiffres à segments) ou les prochaines heures.<br /><strong>Capteur intérieur</strong> : un capteur TRMNL sur cet écran ou sur un autre TRMNL, avec un nom facultatif et une jauge de CO2.<br /><strong>Partout</strong> : toutes les vues, écrans 1 bit, niveaux de gris et couleur, mode sombre, heure sur 24 ou 12 heures, six langues.<br /><br /><strong>Lire les jauges</strong> : le jaune est un avertissement, le rouge une alerte (écrans couleur). Avertissement / alerte dès : vent 30 / 50 km/h, UV 3 / 8, AQI 40 / 60, pollen 10 / 50 grains, CO2 1000 / 1400 ppm. Blocs gris clair : le maximum encore à venir aujourd''hui ; un contour : la rafale la plus forte. <a href="https://excusemi.github.io/trmnl-hifi-weather-plugin/#guide" target="_blank">Guide complet</a><br /><br /><a href="https://excusemi.github.io/trmnl-hifi-weather-plugin/" target="_blank">Essayer dans le navigateur</a>, avec la météo en direct.<br /><br /><strong>Sources</strong> : météo et qualité de l''air par <a href="https://open-meteo.com" target="_blank">Open-Meteo</a> ; textes dans votre langue d''après les traductions de TRMNL.'
+    description-es-ES: '<strong>El tiempo como un receptor hi-fi tranquilo de principios de los 80.</strong> Grandes dígitos de segmentos para la temperatura, medidores para lo que importa y los próximos días u horas como franja.<br /><br /><strong>Diales</strong> (TRMNL X): un barómetro con la tendencia de la presión y un dial de temperatura con la mínima y la máxima de hoy.<br /><strong>Consola</strong>: la temperatura y qué ponerse: ropa, paraguas.<br /><strong>Medidores</strong>: viento y rachas, UV, calidad del aire, humedad, polen y presión, solo cuando importan.<br /><strong>Lluvia o sol</strong>: un calendario de horas cuando viene lluvia; si no, salida y puesta del sol y la luna.<br /><strong>Franja inferior</strong>: los próximos días (una semana en filas de bloques o en dígitos de segmentos) o las próximas horas.<br /><strong>Sensor interior</strong>: un sensor TRMNL en esta pantalla o en otro TRMNL, con nombre opcional y medidor de CO2.<br /><strong>En todas partes</strong>: todas las vistas, pantallas de 1 bit, escala de grises y color, modo oscuro, hora de 24 o 12 horas, seis idiomas.<br /><br /><strong>Leer los medidores</strong>: el amarillo es un aviso, el rojo una alarma (pantallas en color). Aviso / alarma desde: viento 30 / 50 km/h, UV 3 / 8, AQI 40 / 60, polen 10 / 50 granos, CO2 1000 / 1400 ppm. Bloques gris claro: el máximo que aún falta hoy; un contorno: la racha más fuerte. <a href="https://excusemi.github.io/trmnl-hifi-weather-plugin/#guide" target="_blank">Guía completa</a><br /><br /><a href="https://excusemi.github.io/trmnl-hifi-weather-plugin/" target="_blank">Pruébalo en el navegador</a>, también con el tiempo en directo.<br /><br /><strong>Créditos</strong>: tiempo y calidad del aire de <a href="https://open-meteo.com" target="_blank">Open-Meteo</a>; textos en tu idioma de las traducciones de TRMNL.'
+    description-nl: '<strong>Het weer als een rustige hifi-receiver uit de vroege jaren 80.</strong> Grote segmentcijfers voor de temperatuur, meters voor wat telt en de komende dagen of uren als strook.<br /><br /><strong>Wijzers</strong> (TRMNL X): een barometer met de drukverandering en een temperatuurwijzer met de laagste en hoogste temperatuur van vandaag.<br /><strong>Console</strong>: de temperatuur met wat je aantrekt: kleding, paraplu.<br /><strong>Meters</strong>: wind met windstoten, UV, luchtkwaliteit, luchtvochtigheid, pollen en luchtdruk, alleen als ze ertoe doen.<br /><strong>Regen of zon</strong>: een uurkalender als er regen aankomt, anders zonsopgang, zonsondergang en de maan.<br /><strong>Onderste strook</strong>: de komende dagen (een week als dagrijen met blokken of als segmentcijfers) of uren.<br /><strong>Binnensensor</strong>: een TRMNL-sensor op dit scherm of op een andere TRMNL, met een optionele naam en CO2-meter.<br /><strong>Overal</strong>: alle weergaven, 1-bit-, grijstinten- en kleurenschermen, donkere modus, 24- of 12-uurs tijd, zes talen.<br /><br /><strong>De meters lezen</strong>: geel is een waarschuwing, rood is alarm (kleurenschermen). Waarschuwing / alarm vanaf: wind 30 / 50 km/u, UV 3 / 8, AQI 40 / 60, pollen 10 / 50 korrels, CO2 1000 / 1400 ppm. Lichtgrijze blokjes: het hoogste dat vandaag nog komt; een rand: de hardste windstoot. <a href="https://excusemi.github.io/trmnl-hifi-weather-plugin/#guide" target="_blank">Volledige gids</a><br /><br /><a href="https://excusemi.github.io/trmnl-hifi-weather-plugin/" target="_blank">Probeer het in je browser</a>, ook met het weer van nu.<br /><br /><strong>Bronnen</strong>: weer en luchtkwaliteit van <a href="https://open-meteo.com" target="_blank">Open-Meteo</a>; teksten in jouw taal uit de vertalingen van TRMNL.'
+    description-ja: '<strong>80年代初頭のハイファイ・レシーバーのような、落ち着いた天気表示。</strong>気温は大きなセグメント数字、大切な情報はメーター、これからの数日または数時間は下のバーで表示します。<br /><br /><strong>ダイヤル</strong>（TRMNL X）：気圧の傾向つきの気圧計と、今日の最低・最高気温つきの温度ダイヤル。<br /><strong>コンソール</strong>：気温と服装のヒント（服、傘）。<br /><strong>メーター</strong>：風と突風、UV、大気質、湿度、花粉、気圧。必要なときだけ表示します。<br /><strong>雨または太陽</strong>：雨が近いときは時間カレンダー、それ以外は日の出、日の入り、月。<br /><strong>下部バー</strong>：これからの数日（ブロックの日別行、またはセグメント数字の週表示）または数時間。<br /><strong>室内センサー</strong>：この画面または別のTRMNLに付けたTRMNLセンサー。名前とCO2メーターも使えます。<br /><strong>どこでも</strong>：すべての表示サイズ、1ビット・グレースケール・カラー画面、ダークモード、24時間または12時間表示、6言語。<br /><br /><strong>メーターの読み方</strong>：黄色は注意、赤は警戒です（カラー画面）。注意 / 警戒の始まり：風 30 / 50 km/h、UV 3 / 8、AQI 40 / 60、花粉 10 / 50 粒、CO2 1000 / 1400 ppm。薄いグレーのブロックは今日これから来る最大値、枠は最大瞬間風速です。 <a href="https://excusemi.github.io/trmnl-hifi-weather-plugin/#guide" target="_blank">詳しいガイド</a><br /><br /><a href="https://excusemi.github.io/trmnl-hifi-weather-plugin/" target="_blank">ブラウザで試す</a>（実際の天気も表示できます）。<br /><br /><strong>クレジット</strong>：天気と大気質は <a href="https://open-meteo.com" target="_blank">Open-Meteo</a>、各言語の文言は TRMNL の翻訳を使用。'
+    github_url: 'https://github.com/ExcuseMi/trmnl-hifi-weather-plugin'
+    learn_more_url: 'https://excusemi.github.io/trmnl-hifi-weather-plugin/'
+    category: environment
 excusemi-trmnl-inaturalist-plugin:
   name: 'Wildlife Observations by iNaturalist'
   trmnlp:
@@ -4699,7 +4753,7 @@ kskwarek-trmnl-pkp-departures:
   license: MIT-0
   byos:
     byos_laravel:
-      compatibility: true
+      compatibility: false
       compatibility_note: 'Requires a free PKP PLK Open Data API key. The busiest stations (e.g. Kraków Główny) exceed the 5 MB polling limit; use the Carriers filter there.'
       min_version: null
       renderer: null
